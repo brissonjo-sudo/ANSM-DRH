@@ -23,6 +23,12 @@
 > médicale dans la FPE) ; page « Notre politique RH » de l'ANSM ; bilan
 > social 2014 (historique).
 
+## Repérage rapide
+
+- Périmètre, questions et variables : §§1–4
+- Santé, sécurité et prévention : §5
+- Vérifications, livrables et limites : §§6–11
+
 ## 1. Périmètre
 
 Qualité de vie au travail, prévention des risques professionnels et

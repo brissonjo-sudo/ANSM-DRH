@@ -19,6 +19,26 @@ Format d'entrée suggéré :
 
 ---
 
+## 2026-08-25 — publication v0.6.0 : corrections de traçabilité et de droit
+
+**Cas** : revue de publication du dépôt avant réutilisation du skill.
+
+**Ce qui a manqué / ce qui était incertain** : l'arborescence annoncée
+n'existait pas, les sources n'étaient pas reliées à leurs URL officielles,
+et deux formulations confondaient une règle FPT avec le régime FPE et
+une réserve interne ANSM avec l'article 432-12 du code pénal.
+
+**Source qui a permis de trancher** : registre
+`references/sources-principales.md`, notamment décret n° 2025-1430,
+arrêté du 2 juillet 2025, articles 432-12 et 432-13 du code pénal.
+
+**Action** : fichiers rangés, registre créé, textes corrigés, validateur,
+cas de régression et contrôle CI ajoutés. Toute correction de fond doit
+désormais modifier simultanément la branche, le registre, le changelog et
+le journal.
+
+---
+
 ## 2026-08-24 — audit interne du skill (v0.5.1)
 
 **Cas** : audit complet demandé par l'utilisateur, conduit comme sur le
@@ -151,12 +171,13 @@ texte publié ou sur un document que l'agence publie elle-même.**
 **Découverte à forte valeur opérationnelle — échéance électorale.**
 L'arrêté du 2 juillet 2025 fixe les élections professionnelles des trois
 versants au **10 décembre 2026**. À la date de cette entrée, il reste
-moins de quatre mois. Le vote électronique est **obligatoire en FPE**,
-les effectifs de référence se calculent au 1er janvier 2026, et la
-décision relative aux formations spécialisées relevait d'une échéance à
-six mois du scrutin (début juin 2026), **vraisemblablement dépassée**.
-Un encadré d'urgence a été placé en tête de la branche instances. C'est
-le point le plus immédiatement actionnable de tout le skill.
+moins de quatre mois. La modalité de vote, les effectifs de référence et
+le calendrier local doivent être vérifiés. **Correction v0.6** : ne pas
+transposer à la FPE le délai FPT de six mois relatif aux formations
+spécialisées ; le dossier reste urgent, sans que cette échéance puisse
+être affirmée pour l'ANSM. Un encadré d'urgence a été placé en tête de la
+branche instances. C'est le point le plus immédiatement actionnable de
+tout le skill.
 
 **Autres apports notables** :
 - **Formation spécialisée SSCT obligatoire** à l'ANSM (seuil de 200
@@ -289,7 +310,9 @@ archivés) et les sources primaires :
    présentait les trois ans comme un délai interdisant de recruter un
    candidat issu de l'industrie. Faux : c'est la durée des **réserves
    d'abstention sur les dossiers de l'ancien employeur**, notifiées via
-   la promesse d'embauche (art. 432-12 CP). L'embauche elle-même reste
+   la promesse d'embauche. **Correction v0.6** : ces réserves sont
+   internes et individualisées ; l'art. 432-12 CP ne fonde pas un délai
+   de trois ans pour un candidat entrant. L'embauche elle-même reste
    possible. Erreur à fort impact opérationnel : elle aurait conduit à
    écarter à tort des candidats dans une agence en tension de
    recrutement.

@@ -16,6 +16,12 @@
 > Sources : organigramme de l'ANSM du 7 janvier 2026 ; charte de
 > déontologie de février 2026 ; page « Notre politique RH ».
 
+## Repérage rapide
+
+- Périmètre et questions : §§1–2
+- Circuit et règles opérationnelles : §§3–5
+- Vérifications, livrables et limites : §§6–11
+
 ## 1. Périmètre
 
 Communication interne, information des agents, animation de la vie

@@ -1,5 +1,23 @@
 # Audit du skill drh-ansm
 
+> **Addendum v0.6.0 — 25 août 2026.** Une revue de publication a relevé
+> une arborescence incohérente (renvois `references/` et `assets/` non
+> matérialisés), l'absence de contrôle automatisé et deux corrections
+> juridiques nécessaires. Les correctifs sont appliqués : registre de
+> sources primaires, tests de structure, évaluations de régression et
+> CI. Le constat « aucun de droit » ci-dessous est donc un constat
+> historique de la revue v0.5.1, non le verdict de la version courante.
+
+## 0. Correctifs v0.6.0
+
+- Les élections FPE 2026 intègrent le décret n° 2025-1430 ; aucun délai
+  FPT de six mois n'est désormais présenté comme applicable à l'ANSM.
+- L'article 432-12 est distingué de l'article 432-13 : les restrictions
+  d'un candidat entrant sont des mesures internes à confirmer, non un
+  délai légal automatique de trois ans.
+- La structure réelle, les liens officiels, le validateur et les cas de
+  régression rendent la prochaine revue vérifiable.
+
 **Date** : 24 août 2026 · **Version auditée** : v0.5.0 · **Version
 corrigée livrée** : v0.5.1
 

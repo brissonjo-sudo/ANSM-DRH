@@ -12,6 +12,12 @@
 > **Reste à obtenir en interne** : effectifs actuels par corps ;
 > modalités locales de gestion de la position normale d'activité.
 
+## Repérage rapide
+
+- Périmètre, questions et variables : §§1–4
+- Corps, positions et règles métier : §5
+- Vérifications et livrables : §§6–11
+
 ## 1. Périmètre
 
 Gestion des **fonctionnaires** et des **praticiens hospitaliers**

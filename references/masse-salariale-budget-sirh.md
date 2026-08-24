@@ -16,6 +16,12 @@
 > **Reste non documenté** : le volet **SI RH** (outils de gestion
 > administrative et de paie).
 
+## Repérage rapide
+
+- Périmètre, questions et variables : §§1–4
+- Budget et règles métier : §5
+- Calculs, vérifications et livrables : §§6–11
+
 ## 1. Périmètre
 
 Financement de l'agence et de sa masse salariale, plafond d'emplois,

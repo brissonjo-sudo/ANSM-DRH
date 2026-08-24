@@ -1,6 +1,6 @@
 # Branche — Déontologie, DPI & prévention des conflits d'intérêts
 
-> ✅ **Fiabilisée** (v0.2.0, vérification du 24 août 2026).
+> ✅ **Fiabilisée** (v0.6.0, vérification du 25 août 2026).
 >
 > Sources primaires consultées directement :
 > - **Charte de déontologie de l'ANSM**, version **février 2026** (mise en
@@ -21,7 +21,18 @@
 > personnel de l'Agence », auxquels les fiches renvoient sans les
 > reproduire.
 
+> Registre des textes et liens de contrôle →
+> `references/sources-principales.md` (`PENAL-PENDANT`, `PENAL-APRES`).
+
 ---
+
+## Repérage rapide
+
+- Périmètre, questions et qualification : §§1–4
+- Recrutement et réserves internes : §5.3
+- Déport pendant les fonctions : §5.4
+- Départ vers le privé : §5.5
+- Vérifications, livrables et contrôles : §§6–11
 
 ## 1. Périmètre
 
@@ -67,7 +78,7 @@ mesure fragile.
 - **Population** : agent / membre d'instance consultative ou de
   gouvernance / expert ponctuel / candidat.
 - **Temps** : avant prise de fonction / en cours d'exercice / après
-  cessation (les trois ans qui suivent).
+  cessation (régime spécifique de l'art. 432-13 du code pénal).
 - **Nature du lien** : emploi ou ancien employeur, intérêt financier,
   exercice libéral dans le secteur, participation à un organe
   décisionnel, activité de conseil ou de rédaction, investigateur
@@ -153,16 +164,25 @@ C'est le point où DRH et déontologie s'articulent directement.
 
 **Nature des réserves** : elles consistent essentiellement en
 l'**abstention de traiter les dossiers de l'ancien employeur** et
-l'**absence de toute relation professionnelle** avec lui, pour une durée
-correspondant en général au délai de trois ans de la prise illégale
-d'intérêts (art. **432-12 du code pénal**), décompté **à compter de la
-cessation des fonctions de l'agent auprès de cette entreprise**.
+l'**absence de toute relation professionnelle** avec lui. Ce sont des
+mesures préventives internes à individualiser selon le poste, les liens
+déclarés et la procédure ANSM en vigueur. Une durée de trois ans peut
+servir de repère de gestion, mais elle doit être confirmée dans le
+document interne applicable.
+
+Cette réserve interne **ne constitue pas un délai légal automatique**.
+L'article **432-12** du code pénal, dans sa version en vigueur depuis le
+24 décembre 2025, vise la prise illégale d'intérêts pendant l'exercice
+des fonctions et ne fixe pas de période de trois ans. L'article
+**432-13** prévoit, lui, un régime de trois ans après la cessation des
+fonctions pour les situations qu'il définit ; il ne fonde pas, à lui seul,
+une restriction imposée à un candidat entrant.
 
 > ⚠️ **Correction d'une erreur fréquente** : ces trois ans ne sont **pas
 > un délai de viduité interdisant l'embauche**. Un candidat issu de
-> l'industrie **peut être recruté** ; ce sont ses **dossiers** qui sont
-> restreints pendant trois ans, via des réserves écrites. Confondre les
-> deux conduit à écarter à tort des candidats — problème réel dans une
+> l'industrie **peut être recruté** ; des réserves écrites, adaptées au
+> risque identifié, peuvent encadrer ses dossiers. Confondre les deux
+> conduit à écarter à tort des candidats — problème réel dans une
 > agence qui peine déjà à recruter des profils scientifiques seniors.
 
 **En cas de doute sérieux** sur la compatibilité de l'emploi envisagé

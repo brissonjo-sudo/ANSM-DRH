@@ -15,6 +15,12 @@
 > **décret n° 2003-224** (art. 11, 12, 29, 33 et s.) ; bilan social 2014
 > (historique).
 
+## Repérage rapide
+
+- Périmètre, questions et variables : §§1–4
+- Règles métier et leviers : §5
+- Vérifications, livrables et limites : §§6–11
+
 ## 1. Périmètre
 
 Formation professionnelle, parcours de professionnalisation, gestion

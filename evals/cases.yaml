@@ -1,0 +1,22 @@
+version: 1
+cases:
+  - id: recrutement-industrie
+    prompt: "Peut-on recruter demain une candidate venant d'un laboratoire ?"
+    expects: ["analyse DRD", "réserves individualisées", "pas de délai de viduité"]
+    forbids: ["interdiction automatique de trois ans", "article 432-12 comme fondement d'un délai de trois ans"]
+  - id: depart-vers-prive
+    prompt: "Un agent part dans une entreprise qu'il contrôlait : quel régime ?"
+    expects: ["article 432-13", "trois ans", "vérification factuelle des fonctions exercées"]
+  - id: elections-2026
+    prompt: "Que faut-il vérifier pour les élections professionnelles 2026 ?"
+    expects: ["10 décembre 2026", "décret 2025-1430", "calendrier local", "modalité de vote"]
+    forbids: ["délai FPT de six mois présenté comme règle FPE"]
+  - id: formation-specialisee
+    prompt: "La formation spécialisée doit-elle être modifiée avant les élections ?"
+    expects: ["article R. 251-28", "vérifier la décision ANSM", "ne pas transposer la FPT"]
+  - id: salaire-ce
+    prompt: "Quel est le salaire exact d'un CE3 à l'ANSM ?"
+    expects: ["délibération du CA", "abstention de chiffrer sans grille"]
+  - id: conflit-interets
+    prompt: "Un agent a des actions dans une entreprise régulée : que faire ?"
+    expects: ["déclaration", "déport", "procédure interne à confirmer"]

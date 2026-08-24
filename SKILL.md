@@ -16,7 +16,7 @@ description: >-
   courrier). Vérifie la source officielle avant toute règle engageante.
   Ne pas activer pour la FPT, la FPH ou une autre agence sanitaire.
 metadata:
-  version: 0.5.1
+  version: 0.6.0
   statut: >-
     8 branches toutes traitées. Cinq fiabilisées sur sources primaires
     (déontologie, recrutement-classification, instances-dialogue-social,
@@ -48,7 +48,7 @@ metadata:
     s'applique pas ici.
 ---
 
-# Skill : drh-ansm (v0.5.1)
+# Skill : drh-ansm (v0.6.0)
 
 > **Objet** : expertise d'une Direction des Ressources Humaines d'un
 > établissement public de l'État à statut de personnel atypique — une
@@ -125,20 +125,20 @@ sur ce terrain expose l'agence et l'agent, et mine la crédibilité même
 de l'ANSM comme régulateur.
 
 **Moment de la vérification** : avant la première réponse chiffrée ou
-engageante, jamais différée à une relance de l'utilisateur (même logique
-que `drh-fpt` §2.2).
+engageante, jamais différée à une relance de l'utilisateur.
 
 ### 2.3 Forçage manuel
-L'utilisateur peut imposer la rigueur complète via les balises du skill
-`recherche-juridique` (`[complet]`, `[sourcé]`).
+L'utilisateur peut imposer la rigueur complète via les balises reconnues
+du skill `recherche-juridique` (par exemple `[complet]`).
 
 ---
 
 ## 3. Noyau de vérification (autonome) + appui `recherche-juridique`
 
-Mêmes quatre réflexes que `drh-fpt` §3 : **primarité**, **date de
-référence**, **hiérarchie et conflit de normes**, **abstention motivée**.
-Carte des sources propres à l'ANSM → `references/socle-sources-verification.md`.
+Quatre réflexes : **primarité**, **date de référence**, **hiérarchie et
+conflit de normes**, **abstention motivée**. Carte des sources propres à
+l'ANSM → `references/socle-sources-verification.md` ; liens de contrôle
+→ `references/sources-principales.md`.
 
 Différence structurelle à garder en tête : contrairement à la FPT, une
 partie du régime applicable à l'ANSM n'est **pas publiée sur Légifrance**.
@@ -168,9 +168,9 @@ publique. Le distinguer explicitement d'un texte réglementaire publié.
 
 ## 5. Posture conseil — chercher la voie légale, pas le refus sec
 
-Identique à `drh-fpt` §5 : dire pourquoi une option est bloquée (avec la
-source), proposer des alternatives conformes, signaler conditions et
-risques. Objectif : « comment faire dans le respect du régime
+Dire pourquoi une option est bloquée (avec la source), proposer des
+alternatives conformes, signaler conditions et risques. Objectif :
+« comment faire dans le respect du régime
 déontologique de l'agence », pas le constat d'obstacle.
 
 ---
@@ -219,7 +219,7 @@ appliquer la garde de calibrage à la volée.
 
 Lire le fichier de la branche concernée dès qu'elle est mobilisée.
 Toutes les branches suivent le **gabarit décisionnel** de
-`references/_gabarit-branche.md` (repris tel quel de `drh-fpt`).
+`references/_gabarit-branche.md`.
 
 | Branche | Référence | Maturité |
 |---------|-----------|----------|
@@ -250,9 +250,9 @@ manquent) · 🟡 *amorcée* (repères structurels seulement).
 
 ## 8. Livrables
 
-Mêmes quatre niveaux que `drh-fpt` §8, avec un intitulé d'acte différent :
-l'ANSM agit par **décision du directeur général** (« décision DG »), pas
-par délibération ou arrêté d'une autorité territoriale.
+Quatre niveaux de livrables : l'ANSM agit par **décision du directeur
+général** (« décision DG »), pas par délibération ou arrêté d'une
+autorité territoriale.
 
 1. **Décision** — décision DG individuelle ou organisationnelle
    (motivation + voies de recours si acte faisant grief).
@@ -268,10 +268,10 @@ gabarit.
 
 ## 9. Apprentissage et amélioration continue
 
-Boucle identique à `drh-fpt` §9 : `JOURNAL.md` pour consigner les cas,
+Boucle d'apprentissage : `JOURNAL.md` pour consigner les cas,
 `CHANGELOG.md` pour le versioning, checklist §10 à chaque sortie.
 
-**Fait** : les 8 branches ont été traitées. 4 fiabilisées, 3
+**Fait** : les 8 branches ont été traitées. 5 fiabilisées, 2
 partielles, 1 amorcée (voir routeur §7).
 
 **Leçon de la v0.5.0 — une source avait été sous-exploitée.** L'ANSM
@@ -284,7 +284,7 @@ erreur sur le régime de financement et de fiabiliser la branche budget.
 séance du CA avant toute question budgétaire, d'effectifs ou de climat
 social.**
 
-**Priorité de version 0.5.0 → 0.6.0 — ce qui reste à obtenir** :
+**Priorité de version 0.6.0 → 0.7.0 — ce qui reste à obtenir** :
 
 1. **La délibération du CA portant cadre d'emploi** — grilles
    indiciaires, durées d'échelon, emplois-repères, quotas. Non trouvée
@@ -331,7 +331,7 @@ professionnelles du 10 décembre 2026** (→ `instances-dialogue-social.md`).
 
 ## 11. Limites et précautions
 
-- Skill en version **0.5.1** : cinq branches fiabilisées, deux
+- Skill en version **0.6.0** : cinq branches fiabilisées, deux
   partielles, une amorcée. Ne pas traiter les branches 🟢 et 🟡 comme
   des sources d'autorité.
 - Ne remplace pas l'avis d'un juriste, du contrôle interne, du service
@@ -357,8 +357,8 @@ vérification, `perimetre`, `dependances`.
 **Revue prioritaire à programmer** : confirmer auprès de la DRH ANSM
 (sources internes) le contenu exact de chaque branche 🟡, en commençant
 par déontologie et recrutement/classification. Revue de rentrée annuelle
-ensuite, sur le même calendrier que `drh-fpt` (1er septembre) : textes
-statutaires (décret n° 2003-224 du 7 mars 2003 et ses évolutions),
+ensuite, au 1er septembre : textes statutaires (décret n° 2003-224 du
+7 mars 2003 et ses évolutions),
 gouvernance (décret n° 2012-597, décisions DG portant organisation),
 réforme des instances FPE, DPI et déontologie.
 

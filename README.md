@@ -15,7 +15,8 @@ fonction publique de l'État (CSA, CAP, CCP).
 
 ## État
 
-**v0.5.1 — les huit branches sont traitées, audit interne passé (voir `AUDIT.md`).**
+**v0.6.0 — les huit branches sont traitées ; structure, sources et
+contrôles de publication renforcés (voir `AUDIT.md`).**
 
 | Branche | Maturité |
 |---------|----------|
@@ -35,10 +36,10 @@ assertif · 🟢 mécanisme établi, valeurs ou dispositif interne manquants ·
 ## 🔴 À traiter en priorité
 
 Les **élections professionnelles** se tiennent le **10 décembre 2026**
-(arrêté du 2 juillet 2025). Vote électronique obligatoire en fonction
-publique de l'État, effectifs de référence arrêtés au 1er janvier 2026,
-et échéance de juin 2026 sur les formations spécialisées
-vraisemblablement dépassée. Voir l'encadré en tête de
+(arrêté du 2 juillet 2025). Le calendrier local, la modalité de vote et
+la décision ANSM relative aux formations spécialisées doivent être
+vérifiés sans délai à partir des textes FPE en vigueur ; aucun délai FPT
+ne doit être transposé. Voir l'encadré en tête de
 `references/instances-dialogue-social.md`.
 
 ## Réserve transversale
@@ -54,17 +55,18 @@ réponse chiffrée n'est possible sans ce document.
 ```
 drh-ansm/
 ├── SKILL.md                    — routeur et méthodologie
-├── CHANGELOG.md                — historique des versions
-├── JOURNAL.md                  — cas rencontrés, à journaliser
+├── CONTRIBUTING.md             — règles de contribution
+├── LICENSE / LICENSE-CODE      — licences du contenu et des scripts
+├── AUDIT.md, CHANGELOG.md, JOURNAL.md
+├── scripts/validate_skill.py   — contrôle de structure
+├── evals/                      — cas de régression métier
 ├── references/
-│   ├── _gabarit-branche.md             — méta-gabarit de branche
-│   ├── socle-sources-verification.md   — carte des sources ANSM
+│   ├── _gabarit-branche.md
+│   ├── socle-sources-verification.md
+│   ├── sources-principales.md  — textes et liens officiels
 │   └── [8 branches métier]
-└── assets/
-    ├── decision-dg-modele.md   — acte ANSM type (décision DG)
-    ├── note-modele.md
-    ├── courrier-modele.md
-    └── fiche-profil-poste.md
+├── assets/                     — modèles d'actes et de profils
+└── .github/workflows/validate.yml
 ```
 
 ## Prochaine étape
@@ -77,8 +79,8 @@ qui manque :
    quotas. Débloque toutes les réponses chiffrées.
 2. Le **règlement intérieur** de l'agence (articles 11 à 14) — fonde la
    déontologie et le régime disciplinaire.
-3. Les **documents budgétaires de l'année** — plafond d'emplois voté et
-   subvention pour charges de service public.
+3. Les **documents budgétaires de l'année** — plafond d'emplois voté,
+   dotation de l'Assurance maladie et délibérations du CA.
 
 ## Méthode — trois leçons des fiabilisations successives
 
@@ -92,3 +94,15 @@ qui manque :
    l'information**. Si elle ne vit ni dans un texte publié ni dans un
    document institutionnel, mieux vaut formuler les bonnes questions à
    poser en interne que produire du contenu générique.
+
+## Vérifier avant publication
+
+Exécuter `python scripts/validate_skill.py`. Le contrôle vérifie le
+frontmatter, les renvois locaux, les sommaires des branches longues et
+les garde-fous juridiques introduits en v0.6. Les cas métier à rejouer
+sont dans `evals/cases.yaml`.
+
+## Licence
+
+Le contenu est sous [CC BY 4.0](LICENSE) ; les scripts sont sous licence
+[MIT](LICENSE-CODE).

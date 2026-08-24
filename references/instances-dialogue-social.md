@@ -1,40 +1,45 @@
 # Branche — Instances & dialogue social
 
-> ✅ **Fiabilisée** (v0.4.0, vérification du 24 août 2026).
+> ✅ **Fiabilisée** (v0.6.0, vérification du 25 août 2026).
 >
 > Sources primaires : **décret n° 2020-1427 du 20 novembre 2020**
 > (CSA dans les administrations et EPA de l'État) ; **décret n° 86-83 du
 > 17 janvier 1986**, art. 1-2 (CCP) ; **arrêté du 2 juillet 2025**
-> fixant la date des élections professionnelles ; **décret n° 2024-1038
-> du 6 novembre 2024** (partie réglementaire des livres I et II du CGFP,
-> en vigueur au 1er février 2025) ; **art. L. 5322-1 CSP** et **décret
-> n° 2012-597** (conseil d'administration de l'ANSM).
+> fixant la date des élections professionnelles ; **décrets n° 2024-1038
+> du 6 novembre 2024 et n° 2025-1430 du 30 décembre 2025** (règles
+> électorales à lire dans leur version en vigueur) ; **art. L. 5322-1
+> CSP** et **décret n° 2012-597** (conseil d'administration de l'ANSM).
 >
 > **Reste à obtenir en interne** : décision instituant le CSA et la CCP
 > de l'ANSM (composition, nombre de sièges), et calendrier électoral
 > local.
+
+> Registre des textes et liens de contrôle →
+> `references/sources-principales.md` (`ELECTION-DATE-2026`,
+> `ELECTION-VOTE-2026`, `ELECTION-REGLES-2025`).
 
 > ## 🔴 URGENCE CALENDAIRE — élections professionnelles le 10 décembre 2026
 >
 > L'**arrêté du 2 juillet 2025** fixe le renouvellement général des
 > instances de dialogue social des trois versants de la fonction
 > publique au **jeudi 10 décembre 2026**. À la date de rédaction de
-> cette branche (24 août 2026), il reste **moins de quatre mois**.
+> cette branche (25 août 2026), il reste **moins de quatre mois**.
 >
 > Conséquences immédiates pour une DRH prenant ses fonctions :
-> - Le **vote électronique est obligatoire dans la fonction publique de
->   l'État** (urne et correspondance sont dérogatoires) — une solution
->   technique et un marché doivent être en place.
+> - Le **vote électronique par internet est la modalité de principe dans
+>   la fonction publique de l'État** ; les éventuelles dérogations et le
+>   dispositif retenu doivent être vérifiés dans les textes et le
+>   calendrier local. Une solution technique et un marché doivent être en
+>   place.
 > - Les **effectifs de référence** se calculent au **1er janvier de
 >   l'année des élections**, soit le 1er janvier 2026 : la donnée doit
 >   être stabilisée.
 > - La décision de **créer ou modifier une formation spécialisée** doit
->   intervenir très en amont du scrutin — le délai de **six mois** (soit
->   début juin 2026) est celui expressément fixé pour la FPT
->   (art. R. 251-35 CGFP) ; **vérifier la règle exacte applicable à la
->   FPE**, mais dans tous les cas l'échéance utile est
->   vraisemblablement dépassée. Vérifier d'urgence ce qui a été décidé
->   avant l'été.
+>   être instruite sans délai. L'article R. 251-28 du CGFP encadre la
+>   création des formations spécialisées en FPE, mais la source ne fixe
+>   pas un délai général de six mois. **Ne pas transposer** l'échéance FPT
+>   à l'ANSM : vérifier la décision instituant l'instance et le calendrier
+>   local avant de conclure qu'un délai est dépassé.
 > - Listes électorales, dépôt des candidatures, professions de foi :
 >   calendrier contraint, dont les irrégularités sont sanctionnées par
 >   le juge.
@@ -44,6 +49,14 @@
 > local) avant toute autre chose.
 
 ---
+
+## Repérage rapide
+
+- Périmètre, questions et variables : §§1–4
+- CSA et formations spécialisées : §§5.1–5.3
+- CAP, CCP et conseil d'administration : §§5.4–5.6
+- Élections 2026 : §5.7 et encadré d'urgence
+- Contrôles et livrables : §§6–11
 
 ## 1. Périmètre
 
@@ -219,16 +232,16 @@ que les parlementaires et les membres de droit.
 
 ### 5.7 Cadre rénové des élections 2026
 
-Le **décret n° 2024-1038 du 6 novembre 2024**, relatif aux dispositions
-réglementaires des livres I et II du CGFP, **en vigueur au 1er février
-2025**, est présenté par les acteurs du secteur comme le texte de
-référence pour les élections de 2026 — **à confirmer au texte lui-même
-avant de fonder un acte** (information relayée à ce stade par des
-sources secondaires). Il
-harmonise notamment : durée minimale et maximale du scrutin
-électronique, entités de supervision, rôle de l'expertise indépendante
-et rapports attendus, modes d'authentification des électeurs et sécurité
-du vote.
+Le **décret n° 2024-1038 du 6 novembre 2024** a intégré les dispositions
+réglementaires des livres I et II du CGFP. Le **décret n° 2025-1430 du
+30 décembre 2025**, entré en vigueur en janvier 2026, a ensuite
+harmonisé et simplifié plusieurs règles électorales. Ces deux textes sont
+des sources primaires : les consulter dans leur version en vigueur avant
+de fonder un acte ou un calendrier local.
+
+Ils encadrent notamment la durée du scrutin électronique, les instances
+de supervision, l'expertise indépendante, l'authentification des
+électeurs et la sécurité du vote.
 
 **Ne pas rejouer le dispositif de 2022 à l'identique** : le cadre
 réglementaire a changé.

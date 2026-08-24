@@ -1,5 +1,25 @@
 # Changelog — drh-ansm
 
+## v0.6.0 — 2026-08-25
+
+**Fiabilisation externe et publication reproductible.** Les fichiers de
+branche et les modèles sont désormais rangés dans `references/` et
+`assets/`, conformément aux renvois du skill.
+
+**Corrections de fond** :
+- élections 2026 : ajout du décret n° 2025-1430 ; suppression de
+  l'inférence d'un délai FPT de six mois pour les formations spécialisées
+  FPE ;
+- déontologie : distinction explicite entre réserves internes ANSM et
+  les articles 432-12 (pendant les fonctions) et 432-13 (trois ans après
+  les fonctions) du code pénal ;
+- création d'un registre de sources primaires traçables, avec liens et
+  règle de mise à jour.
+
+**Ajouté** : contrôle `scripts/validate_skill.py`, évaluations de
+régression, automatisation GitHub Actions, guide de contribution et
+licences du contenu et des scripts.
+
 ## v0.5.1 — 2026-08-24
 
 **Version d'audit.** Audit interne complet du skill (voir `AUDIT.md`) :

@@ -8,6 +8,13 @@
 
 ---
 
+## Repérage rapide
+
+- Hiérarchie des sources : §1
+- Sources à ouvrir selon le sujet : §2
+- Méthode de vérification : §§3–5
+- Liens officiels et maintenance : `sources-principales.md`
+
 ## 1. Hiérarchie et nature des sources
 
 Particularité ANSM à garder en tête en permanence : une partie du régime
@@ -69,7 +76,8 @@ Distinguer trois strates.
    du 21 mai 2013** portant approbation de la charte de l'expertise
    sanitaire.
 10. **Art. 432-12 et 432-13 du code pénal** (prise illégale d'intérêts
-    pendant et après les fonctions) ; **art. L. 121-1, L. 121-5,
+    pendant les fonctions, puis régime de trois ans après les fonctions
+    pour les cas définis par l'art. 432-13) ; **art. L. 121-1, L. 121-5,
     L. 122-1 et L. 122-3 du CGFP** (impartialité, déport).
 
 ### 1.3 Sources publiées par l'agence (site institutionnel)

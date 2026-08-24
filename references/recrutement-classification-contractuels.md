@@ -46,6 +46,12 @@
 
 ---
 
+## Repérage rapide
+
+- Périmètre, questions et variables : §§1–4
+- Recrutement, classement et rémunération : §5
+- Calculs, vérifications et livrables : §§6–11
+
 ## 1. Périmètre
 
 Recrutement, classification et déroulement de carrière des **agents
@@ -308,8 +314,9 @@ l'intéressé **via la promesse d'embauche**. Détail →
 `deontologie-conflits-interets.md` §5.3.
 
 > Rappel : un candidat issu de l'industrie **peut être recruté**. Les
-> trois ans encadrent l'abstention de traiter les dossiers de son ancien
-> employeur, **pas l'embauche elle-même**.
+> réserves d'abstention sont des mesures internes individualisées ; elles
+> n'emportent pas une interdiction d'embauche. Détail →
+> `deontologie-conflits-interets.md` §5.3.
 
 ## 6. Calculs
 
