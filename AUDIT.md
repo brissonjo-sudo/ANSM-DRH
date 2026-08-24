@@ -1,5 +1,11 @@
 # Audit du skill drh-ansm
 
+> **Addendum v0.9.0 — 25 août 2026.** Les huit branches sont couvertes
+> par vingt scénarios comportementaux. Les réponses sensibles disposent
+> d'un filtre local d'identifiants et d'une règle de pseudonymisation.
+> La maintenance reçoit un préavis à J-7 et les besoins internes sont
+> suivis sans stocker leur contenu dans Git.
+
 > **Addendum v0.8.0 — 25 août 2026.** La barrière contrôle désormais la
 > fraîcheur des affirmations (30/90 jours) et huit scénarios de panne
 > sont rejoués dans la CI. La configuration de protection de `main` est
