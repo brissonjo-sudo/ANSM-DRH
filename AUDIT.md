@@ -1,5 +1,12 @@
 # Audit du skill drh-ansm
 
+> **Addendum v0.6.1 — 25 août 2026.** La copie locale a été synchronisée
+> avec la v0.6.0 du dépôt, puis revue à nouveau. Deux branches étaient
+> classées ✅ alors que leurs documents ANSM 2026 n'étaient pas reliés à
+> une URL officielle vérifiable. Déontologie et budget sont donc ramenés
+> à 🟢 ; la dotation 2026 est désormais reliée à la LFSS et le champ de
+> l'article L. 124-7 du CGFP est explicitement borné.
+
 > **Addendum v0.6.0 — 25 août 2026.** Une revue de publication a relevé
 > une arborescence incohérente (renvois `references/` et `assets/` non
 > matérialisés), l'absence de contrôle automatisé et deux corrections

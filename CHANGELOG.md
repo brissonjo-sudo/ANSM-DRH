@@ -1,5 +1,19 @@
 # Changelog — drh-ansm
 
+## v0.6.1 — 2026-08-25
+
+**Traçabilité renforcée sans surévaluer la maturité.** Les branches
+déontologie et budget passent de ✅ à 🟢 tant que les documents ANSM 2026
+mentionnés dans la copie de travail ne disposent pas d'un lien officiel
+direct ou d'une copie interne contrôlée.
+
+**Corrigé** : champ de l'article L. 124-7 du CGFP limité aux emplois
+mentionnés à l'article L. 124-5 ; ajout du rapport public 2023 du
+déontologue ANSM ; dotation 2026 de 143,69 M€ reliée à l'article 107 IV de
+la LFSS 2026 ; autres chiffres budgétaires explicitement à confirmer.
+
+**Bilan de maturité** : 3 branches ✅, 4 🟢, 1 🟡.
+
 ## v0.6.0 — 2026-08-25
 
 **Fiabilisation externe et publication reproductible.** Les fichiers de

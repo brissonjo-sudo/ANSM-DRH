@@ -19,6 +19,25 @@ Format d'entrée suggéré :
 
 ---
 
+## 2026-08-25 — v0.6.1 : recalage de la maturité sur la preuve disponible
+
+**Cas** : audit externe à partir d'une copie locale synchronisée avec la
+version v0.6.0 du dépôt.
+
+**Ce qui a manqué / ce qui était incertain** : les versions ANSM 2026 de
+la charte de déontologie et du retour d'information budgétaire étaient
+décrites comme directement vérifiées, sans URL officielle retrouvable.
+L'article L. 124-7 du CGFP était aussi formulé trop largement.
+
+**Source qui a permis de trancher** : art. L. 124-7 du CGFP ; art. 107 IV
+de la LFSS 2026 ; rapport public 2023 du déontologue de l'ANSM.
+
+**Action** : déontologie et budget reclassés 🟢 ; sources ajoutées au
+registre ; données non traçables marquées à confirmer ; tests de
+régression étendus.
+
+---
+
 ## 2026-08-25 — publication v0.6.0 : corrections de traçabilité et de droit
 
 **Cas** : revue de publication du dépôt avant réutilisation du skill.

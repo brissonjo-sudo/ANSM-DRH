@@ -49,12 +49,18 @@ for markdown in (ROOT / "references").glob("*.md"):
 registry = ROOT / "references" / "sources-principales.md"
 require(registry.is_file(), "Registre des sources principales manquant")
 if registry.is_file():
-    require("https://" in registry.read_text(encoding="utf-8"), "Registre des sources sans lien officiel")
+    registry_content = registry.read_text(encoding="utf-8")
+    require("https://" in registry_content, "Registre des sources sans lien officiel")
+    require("CGFP-ENTRANT" in registry_content, "Registre : contrôle déontologique entrant manquant")
+    require("LFSS-DOTATION-2026" in registry_content, "Registre : source légale de la dotation 2026 manquante")
+    require("ANSM-DEONTO-2023" in registry_content, "Registre : rapport public ANSM 2023 manquant")
 
 instances = (ROOT / "references" / "instances-dialogue-social.md").read_text(encoding="utf-8")
 deontology = (ROOT / "references" / "deontologie-conflits-interets.md").read_text(encoding="utf-8")
 require("2025-1430" in instances, "Instances : décret n° 2025-1430 non référencé")
 require("ne constitue pas un délai légal automatique" in deontology, "Déontologie : réserve interne / délai légal non distingués")
+require("emplois mentionnés à l'article L. 124-5" in deontology, "Déontologie : champ de L. 124-7 insuffisamment borné")
+require("3 fiabilisées, 4" in skill, "SKILL.md : bilan de maturité v0.6.1 incohérent")
 
 if errors:
     print("ÉCHEC")

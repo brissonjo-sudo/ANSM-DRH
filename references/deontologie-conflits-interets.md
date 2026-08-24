@@ -1,28 +1,27 @@
 # Branche — Déontologie, DPI & prévention des conflits d'intérêts
 
-> ✅ **Fiabilisée** (v0.6.0, vérification du 25 août 2026).
+> 🟢 **Partiellement fiabilisée** (v0.6.1, vérification du 25 août 2026).
 >
-> Sources primaires consultées directement :
-> - **Charte de déontologie de l'ANSM**, version **février 2026** (mise en
->   ligne le 24/04/2026) — *annexée au règlement intérieur de l'Agence*,
->   ce qui lui donne une portée disciplinaire.
-> - **Dispositif de prévention et de gestion des conflits d'intérêts**,
->   septembre 2018, mise à jour **février 2026**.
-> - **Fiches « Les atteintes à la probité »** n° 1, 1bis, 3, mises à jour
->   février 2026 (14 fiches + annexe de références textuelles).
+> Sources primaires directement traçables :
+> - **rapport public 2023 du déontologue de l'ANSM**, daté du 31 mars
+>   2024 ;
 > - **Articles L. 5323-4, L. 1451-1, L. 1452-2, L. 1452-3, L. 1454-2 et
 >   L. 1454-4 du code de la santé publique** ; **article 432-12 et
->   432-13 du code pénal** ; **articles L. 121-1, L. 121-5, L. 122-1 et
->   L. 122-3 du CGFP**.
+>   432-13 du code pénal** ; **articles L. 121-1, L. 121-5, L. 122-1,
+>   L. 122-3, L. 124-4 à L. 124-7 du CGFP**.
 >
-> **Reste à confirmer en interne** (non publié) : le contenu exact des
+> **Reste à confirmer** : les versions de février 2026 de la charte, du
+> dispositif de prévention et des fiches de probité sont mentionnées dans
+> la copie de travail mais leur URL officielle n'a pas été retrouvée.
+> Confirmer également le contenu exact des
 > **articles 11 à 14 du règlement intérieur de l'ANSM** et de la
 > procédure interne « Prévention et gestion des conflits d'intérêts du
 > personnel de l'Agence », auxquels les fiches renvoient sans les
 > reproduire.
 
 > Registre des textes et liens de contrôle →
-> `references/sources-principales.md` (`PENAL-PENDANT`, `PENAL-APRES`).
+> `references/sources-principales.md` (`PENAL-PENDANT`, `PENAL-APRES`,
+> `CGFP-ENTRANT`, `CGFP-SORTANT`, `ANSM-DEONTO-2023`).
 
 ---
 
@@ -185,11 +184,14 @@ une restriction imposée à un candidat entrant.
 > conduit à écarter à tort des candidats — problème réel dans une
 > agence qui peine déjà à recruter des profils scientifiques seniors.
 
-**En cas de doute sérieux** sur la compatibilité de l'emploi envisagé
-avec les fonctions exercées au cours des trois années précédentes :
-l'Agence saisit d'abord le **référent déontologue** ; si son avis ne lève
-pas le doute, elle saisit la **Haute Autorité pour la transparence de la
-vie publique (HATVP)** avant de décider.
+Pour une nomination à **l'un des emplois mentionnés à l'article L. 124-5
+du CGFP**, l'article **L. 124-7** impose à l'autorité hiérarchique
+d'apprécier la compatibilité avec une activité privée lucrative exercée
+au cours des trois années précédentes. En cas de doute sérieux, elle
+saisit le **référent déontologue**, puis la **HATVP** si le doute subsiste.
+La procédure interne ANSM peut couvrir un périmètre plus large : ne pas
+présenter le circuit légal de L. 124-7 comme applicable automatiquement à
+tous les recrutements.
 
 ### 5.4 Pendant l'exercice des fonctions
 
@@ -474,20 +476,19 @@ avant tout acte :
 
 ## 10. Niveau de confiance
 
-- **Stable** : l'ensemble du §5, adossé à des sources primaires
-  directement consultées et à des textes publiés, à jour de février 2026.
-- **À vérifier** : contenu du règlement intérieur (articles 11 à 14) et
-  de la procédure interne, non publiés ; évolutions postérieures à la
-  date de vérification.
+- **Stable** : textes publiés cités au §5 et organisation décrite dans le
+  rapport public 2023 du déontologue de l'ANSM.
+- **À vérifier** : versions de février 2026 de la charte, du dispositif et
+  des fiches de probité ; contenu du règlement intérieur (articles 11 à
+  14) et de la procédure interne ; évolutions postérieures au rapport
+  public 2023.
 - **Point d'attention** : les **fiches pratiques** emploient encore
   l'expression « service de déontologie de l'expertise », tandis que la
-  charte de février 2026 et l'organigramme retiennent « **service
-  déontologie, éthique et probité** ». Même service, dénomination
-  actualisée — ne pas conclure à l'existence de deux structures.
+  rapport public 2023 retient « **service déontologie, éthique et
+  probité** ». Vérifier la dénomination actuelle avant un acte formel.
 - **Écart signalé** : un **comité de déontologie** consultatif figurait
-  dans des pages archivées de l'agence ; il **n'apparaît pas** dans la
-  charte de février 2026. Ne pas s'y référer sans confirmation de son
-  maintien.
+  dans des pages archivées de l'agence. Ne pas s'y référer sans
+  confirmation de son maintien.
 
 ## 11. Checklist de branche
 

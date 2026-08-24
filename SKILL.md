@@ -7,7 +7,7 @@ description: >-
   de droit public (catégories CE1-CE4, décret n° 2003-224),
   fonctionnaires affectés (PHISP) et praticiens hospitaliers détachés,
   déontologie et conflits d'intérêts (DPI, incompatibilités industrie
-  pharmaceutique, réserves de trois ans sur les dossiers de l'ancien
+  pharmaceutique, réserves individualisées sur les dossiers de l'ancien
   employeur, départs vers le privé), instances FPE (CSA, CAP, CCP,
   élections professionnelles), budget et masse salariale sur dotation de
   l'Assurance Maladie, plafond d'emplois, QVT, formation, experts
@@ -16,18 +16,18 @@ description: >-
   courrier). Vérifie la source officielle avant toute règle engageante.
   Ne pas activer pour la FPT, la FPH ou une autre agence sanitaire.
 metadata:
-  version: 0.6.0
+  version: 0.6.1
   statut: >-
-    8 branches toutes traitées. Cinq fiabilisées sur sources primaires
-    (déontologie, recrutement-classification, instances-dialogue-social,
-    fonctionnaires-corps-spécifiques, masse-salariale-budget — données
-    2026 confirmées au CA du 27/11/2025). Deux partiellement fiabilisées
-    (qvt-santé, formation). Une amorcée (communication interne). Réserve
+    8 branches toutes traitées. Trois fiabilisées sur sources primaires
+    (recrutement-classification, instances-dialogue-social,
+    fonctionnaires-corps-spécifiques). Quatre partiellement fiabilisées
+    (déontologie, masse-salariale-budget, qvt-santé, formation). Une
+    amorcée (communication interne). Réserve
     transversale : grilles indiciaires, durées d'échelon, emplois-repères
     et quotas relèvent de la délibération du CA portant cadre d'emploi,
     non publiée. Audit interne passé le 2026-08-24 (voir AUDIT.md).
-  date_derniere_revue_methodologique: 2026-08-24
-  date_derniere_verification_sources: 2026-08-24
+  date_derniere_revue_methodologique: 2026-08-25
+  date_derniere_verification_sources: 2026-08-25
   perimetre: >-
     Agence nationale de sécurité du médicament et des produits de santé
     (ANSM) — établissement public administratif de l'État, environ 1000
@@ -48,7 +48,7 @@ metadata:
     s'applique pas ici.
 ---
 
-# Skill : drh-ansm (v0.6.0)
+# Skill : drh-ansm (v0.6.1)
 
 > **Objet** : expertise d'une Direction des Ressources Humaines d'un
 > établissement public de l'État à statut de personnel atypique — une
@@ -63,12 +63,12 @@ metadata:
 >
 > **⚠️ Maturité — trois régimes selon la branche.** Voir le routeur §7.
 >
-> - **5 branches ✅ fiabilisées** : déontologie, recrutement-
->   classification, instances-dialogue-social, fonctionnaires-corps-
->   spécifiques, masse-salariale-budget. Adossées à des sources
->   primaires, utilisables en mode assertif.
-> - **2 branches 🟢 partielles** : qvt-santé, formation. Le mécanisme
->   est établi ; les **dispositifs internes** manquent en partie.
+> - **3 branches ✅ fiabilisées** : recrutement-classification,
+>   instances-dialogue-social, fonctionnaires-corps-spécifiques.
+>   Adossées à des sources primaires, utilisables en mode assertif.
+> - **4 branches 🟢 partielles** : déontologie, masse-salariale-budget,
+>   qvt-santé, formation. Le mécanisme est établi ; certains documents
+>   internes ou chiffres détaillés ne sont pas directement traçables.
 > - **1 branche 🟡 amorcée** : communication interne — sujet sans trace
 >   publique, ne progressera qu'avec un apport interne.
 >
@@ -223,11 +223,11 @@ Toutes les branches suivent le **gabarit décisionnel** de
 
 | Branche | Référence | Maturité |
 |---------|-----------|----------|
-| **Déontologie, DPI & prévention des conflits d'intérêts** | `references/deontologie-conflits-interets.md` | ✅ **fiabilisée** — charte fév. 2026, CSP, code pénal, CGFP |
+| **Déontologie, DPI & prévention des conflits d'intérêts** | `references/deontologie-conflits-interets.md` | 🟢 partielle — droit publié vérifié ; documents internes 2026 à obtenir |
 | **Recrutement, classification & rémunération des contractuels** (CE1-CE4) | `references/recrutement-classification-contractuels.md` | ✅ **fiabilisée** — décret n° 2003-224 ; valeurs à obtenir du CA |
 | **Instances & dialogue social** (CSA, CAP, CCP, CA) | `references/instances-dialogue-social.md` | ✅ **fiabilisée** — 🔴 élections le 10 décembre 2026 |
 | **Fonctionnaires & corps spécifiques** (PHISP, techniciens sanitaires) | `references/fonctionnaires-corps-specifiques.md` | ✅ **fiabilisée** — L. 5323-1 CSP, décret n° 92-1432 |
-| **Masse salariale, budget & SI RH** | `references/masse-salariale-budget-sirh.md` | ✅ **fiabilisée** — budget 2026 confirmé ; SI RH non documenté |
+| **Masse salariale, budget & SI RH** | `references/masse-salariale-budget-sirh.md` | 🟢 partielle — dotation 2026 vérifiée ; autres chiffres et SI RH à confirmer |
 | **QVT, santé au travail & RPS** | `references/qvt-sante-travail.md` | 🟢 partielle — cadre obligatoire solide, dispositif interne manquant |
 | **Formation & développement des compétences** | `references/formation-developpement-competences.md` | 🟢 partielle — axes et GPEC connus, plan actuel manquant |
 | **Communication interne & vie de l'agence** | `references/communication-interne.md` | 🟡 amorcée — sujet interne, sans trace publique |
@@ -271,7 +271,7 @@ gabarit.
 Boucle d'apprentissage : `JOURNAL.md` pour consigner les cas,
 `CHANGELOG.md` pour le versioning, checklist §10 à chaque sortie.
 
-**Fait** : les 8 branches ont été traitées. 5 fiabilisées, 2
+**Fait** : les 8 branches ont été traitées. 3 fiabilisées, 4
 partielles, 1 amorcée (voir routeur §7).
 
 **Leçon de la v0.5.0 — une source avait été sous-exploitée.** L'ANSM
@@ -284,7 +284,7 @@ erreur sur le régime de financement et de fiabiliser la branche budget.
 séance du CA avant toute question budgétaire, d'effectifs ou de climat
 social.**
 
-**Priorité de version 0.6.0 → 0.7.0 — ce qui reste à obtenir** :
+**Priorité de version 0.6.1 → 0.7.0 — ce qui reste à obtenir** :
 
 1. **La délibération du CA portant cadre d'emploi** — grilles
    indiciaires, durées d'échelon, emplois-repères, quotas. Non trouvée
@@ -331,7 +331,7 @@ professionnelles du 10 décembre 2026** (→ `instances-dialogue-social.md`).
 
 ## 11. Limites et précautions
 
-- Skill en version **0.6.0** : cinq branches fiabilisées, deux
+- Skill en version **0.6.1** : trois branches fiabilisées, quatre
   partielles, une amorcée. Ne pas traiter les branches 🟢 et 🟡 comme
   des sources d'autorité.
 - Ne remplace pas l'avis d'un juriste, du contrôle interne, du service

@@ -2,7 +2,7 @@ version: 1
 cases:
   - id: recrutement-industrie
     prompt: "Peut-on recruter demain une candidate venant d'un laboratoire ?"
-    expects: ["analyse DRD", "réserves individualisées", "pas de délai de viduité"]
+    expects: ["analyse DRD", "réserves individualisées", "pas de délai de viduité", "L. 124-7 limité aux emplois mentionnés à L. 124-5"]
     forbids: ["interdiction automatique de trois ans", "article 432-12 comme fondement d'un délai de trois ans"]
   - id: depart-vers-prive
     prompt: "Un agent part dans une entreprise qu'il contrôlait : quel régime ?"
@@ -20,3 +20,6 @@ cases:
   - id: conflit-interets
     prompt: "Un agent a des actions dans une entreprise régulée : que faire ?"
     expects: ["déclaration", "déport", "procédure interne à confirmer"]
+  - id: budget-2026
+    prompt: "Quels chiffres du budget ANSM 2026 puis-je reprendre sans réserve ?"
+    expects: ["143,69 M€ vérifiés dans la LFSS 2026", "autres chiffres à confirmer sur le retour du CA"]

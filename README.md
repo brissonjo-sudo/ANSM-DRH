@@ -15,16 +15,16 @@ fonction publique de l'État (CSA, CAP, CCP).
 
 ## État
 
-**v0.6.0 — les huit branches sont traitées ; structure, sources et
-contrôles de publication renforcés (voir `AUDIT.md`).**
+**v0.6.1 — les huit branches sont traitées ; les niveaux de confiance
+sont réalignés sur la traçabilité effective des sources (voir `AUDIT.md`).**
 
 | Branche | Maturité |
 |---------|----------|
-| Déontologie, DPI & conflits d'intérêts | ✅ fiabilisée |
+| Déontologie, DPI & conflits d'intérêts | 🟢 partielle (droit vérifié ; documents internes 2026 à obtenir) |
 | Recrutement, classification & rémunération (CE1-CE4) | ✅ fiabilisée |
 | Instances & dialogue social | ✅ fiabilisée — 🔴 échéance électorale |
 | Fonctionnaires & corps spécifiques | ✅ fiabilisée |
-| Masse salariale, budget & SI RH | ✅ fiabilisée (budget 2026 confirmé) |
+| Masse salariale, budget & SI RH | 🟢 partielle (dotation 2026 vérifiée ; détail budgétaire à confirmer) |
 | QVT, santé au travail & RPS | 🟢 partielle |
 | Formation & développement des compétences | 🟢 partielle |
 | Communication interne | 🟡 amorcée |

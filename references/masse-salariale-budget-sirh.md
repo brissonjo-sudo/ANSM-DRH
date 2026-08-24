@@ -1,15 +1,17 @@
 # Branche — Masse salariale, budget & SI RH
 
-> ✅ **Fiabilisée** (v0.5.0, vérification du 24 août 2026).
+> 🟢 **Partiellement fiabilisée** (v0.6.1, vérification du 25 août 2026).
 >
-> Les **données budgétaires 2026 ont été retrouvées** dans le « Retour
-> d'information » du **conseil d'administration du 27 novembre 2025**,
-> publié sur le site de l'agence. L'ANSM publie systématiquement, pour
-> chaque séance de son CA, un retour d'information et ses délibérations.
-> **C'est la source de référence de cette branche.**
+> La **dotation 2026 de 143,69 M€** est vérifiée dans l'article 107 IV de
+> la LFSS pour 2026. Les autres chiffres détaillés ci-dessous sont issus
+> d'un « Retour d'information » attribué au **conseil d'administration du
+> 27 novembre 2025**, mais son URL officielle directe n'a pas été
+> retrouvée lors de la revue : les confirmer sur le document source avant
+> tout usage assertif.
 >
-> Sources : **retour d'information du CA du 27 novembre 2025** (budget
-> initial 2026) ; **décret n° 2012-1246 du 7 novembre 2012** (GBCP) ;
+> Sources : **LFSS 2026, art. 107 IV** ; retour d'information du CA du
+> 27 novembre 2025 à obtenir (budget initial 2026) ; **décret n° 2012-1246
+> du 7 novembre 2012** (GBCP) ;
 > **art. R. 5322-11 et R. 5322-13 CSP** ; **COP 2024-2028** ; rapport du
 > Sénat n° 22-877 sur les dotations de la sécurité sociale.
 >
@@ -88,10 +90,12 @@ l'industrie** qui a motivé la sortie du modèle de 2012. Elle reste le
 fondement commun du modèle de financement et du dispositif
 déontologique.
 
-### 5.1 bis Budget initial 2026 — données confirmées
+### 5.1 bis Budget initial 2026 — dotation vérifiée, détail à confirmer
 
-Source : retour d'information du CA du 27 novembre 2025. **Confirmer sur
-le budget rectificatif éventuel en cours d'exercice.**
+Source vérifiée pour la dotation : `LFSS-DOTATION-2026`. Source à obtenir
+pour les autres montants : retour d'information du CA du 27 novembre
+2025. **Confirmer le document et le budget rectificatif éventuel avant
+usage.**
 
 **Recettes**
 | Ressource | Montant 2026 | Évolution |
@@ -305,15 +309,14 @@ n° 2025-04 pour le BR n° 1 de 2025).
 
 ## 11. Niveau de confiance
 
-- **Stable** : régime de financement actuel (dotation de l'Assurance
-  Maladie) et son historique en trois étapes ; données du budget
-  initial 2026 (dotation, ressources propres, quatre enveloppes,
-  plafond d'emplois, déficit et prélèvement sur fonds de roulement) ;
-  distinction ETP/ETPT et sous/hors plafond ; cadre GBCP ; COP
-  2024-2028 ; inclusion des processus RH dans le contrôle interne.
-- **À vérifier** : existence d'un **budget rectificatif** en cours
-  d'exercice modifiant les données ci-dessus (l'agence en vote
-  régulièrement) ; étendue exacte des délégations du CA au DG.
+- **Stable** : régime de financement actuel et dotation 2026 de
+  **143,69 M€**, vérifiée dans la LFSS 2026 ; distinction ETP/ETPT et
+  sous/hors plafond ; cadre GBCP.
+- **À vérifier** : ressources propres, quatre enveloppes, plafond
+  d'emplois, déficit, prélèvement sur fonds de roulement et vote du CSA,
+  en retrouvant le retour d'information du CA du 27 novembre 2025 ;
+  existence d'un budget rectificatif ; étendue exacte des délégations du
+  CA au DG ; actualité du COP 2024-2028 et du contrôle interne décrit.
 - **Non documenté** : le volet **SI RH**.
 
 > **Où trouver les données à jour** : le site de l'ANSM publie, pour
