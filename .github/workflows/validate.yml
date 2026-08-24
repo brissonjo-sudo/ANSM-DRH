@@ -7,6 +7,9 @@ on:
     - cron: '17 5 * * 1'
   workflow_dispatch:
 
+env:
+  TZ: Europe/Paris
+
 jobs:
   validate:
     runs-on: ubuntu-latest
