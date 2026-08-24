@@ -116,10 +116,12 @@ bloquer une publication si une URL du registre ne répond plus. Le statut
 403 est accepté uniquement pour `www.legifrance.gouv.fr`, qui protège ses
 pages contre les robots ; tout autre échec reste bloquant.
 
-La branche `main` est protégée : pull request obligatoire, branche à
-jour, contrôle `validate` réussi, conversations résolues, historique
-linéaire, suppressions et force-pushs interdits. Configuration de
-référence : `.github/branch-protection.json`.
+La configuration cible de `main` impose : pull request, branche à jour,
+contrôle `validate` réussi, conversations résolues, historique linéaire,
+suppressions et force-pushs interdits. Elle est prête dans
+`.github/branch-protection.json`, mais GitHub ne l'applique pas au dépôt
+privé avec l'offre actuelle (réponse API 403). Son activation exige une
+offre compatible ou le passage volontaire du dépôt en public.
 
 ## Licence
 
