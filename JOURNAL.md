@@ -19,6 +19,22 @@ Format d'entrée suggéré :
 
 ---
 
+## 2026-08-25 — v0.7.0 : barrière de fiabilisation automatique
+
+**Cas** : empêcher qu'une branche soit classée ✅ sans preuve complète
+de ses affirmations importantes.
+
+**Ce qui a manqué / ce qui était incertain** : le validateur contrôlait
+quelques garde-fous ponctuels, mais pas la cohérence systématique entre
+maturité, date, affirmations, registre et URL officielles.
+
+**Action** : ajout du manifeste `evals/source-gates.json` et d'un
+contrôle bloquant sans dépendance externe. Les trois branches ✅ sont
+reliées à des identifiants de sources officielles complétés dans le
+registre.
+
+---
+
 ## 2026-08-25 — v0.6.1 : recalage de la maturité sur la preuve disponible
 
 **Cas** : audit externe à partir d'une copie locale synchronisée avec la

@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "branches": {
+    "references/deontologie-conflits-interets.md": {
+      "maturity": "partial",
+      "verified_on": "2026-08-25",
+      "claims": [
+        {
+          "id": "distinction-entree-pendant-sortie",
+          "statement": "Les contrôles à l'entrée, pendant les fonctions et après leur cessation relèvent de fondements distincts.",
+          "status": "verified",
+          "source_ids": ["CGFP-ENTRANT", "CGFP-SORTANT", "PENAL-PENDANT", "PENAL-APRES"]
+        }
+      ],
+      "unresolved_claims": [
+        "Versions ANSM de février 2026 et procédure interne à obtenir."
+      ],
+      "known_limits": []
+    },
+    "references/recrutement-classification-contractuels.md": {
+      "maturity": "verified",
+      "verified_on": "2026-08-25",
+      "claims": [
+        {
+          "id": "regime-contractuels-ansm",
+          "statement": "Le décret n° 2003-224 fixe l'architecture propre aux contractuels de l'ANSM.",
+          "status": "verified",
+          "source_ids": ["CONTRACTUELS-ANSM", "CONTRACTUELS-ANSM-2005"]
+        },
+        {
+          "id": "droit-commun-suppletif",
+          "statement": "Le décret n° 86-83 complète le régime propre sous réserve de ses dispositions spéciales.",
+          "status": "verified",
+          "source_ids": ["CONTRACTUELS-ETAT", "CONTRACTUELS-ANSM"]
+        }
+      ],
+      "unresolved_claims": [],
+      "known_limits": [
+        "Les valeurs de rémunération et les emplois-repères dépendent de délibérations internes non publiées."
+      ]
+    },
+    "references/instances-dialogue-social.md": {
+      "maturity": "verified",
+      "verified_on": "2026-08-25",
+      "claims": [
+        {
+          "id": "regime-csa-fpe",
+          "statement": "Le CSA de l'ANSM relève du régime des administrations et établissements publics de l'État.",
+          "status": "verified",
+          "source_ids": ["CSA-ETAT", "ANSM-STATUT"]
+        },
+        {
+          "id": "elections-2026",
+          "statement": "Le scrutin est fixé au 10 décembre 2026 et les règles électorales FPE en vigueur doivent être appliquées.",
+          "status": "verified",
+          "source_ids": ["ELECTION-DATE-2026", "ELECTION-VOTE-2026", "ELECTION-REGLES-2025", "ELECTION-CODIFICATION-2024"]
+        }
+      ],
+      "unresolved_claims": [],
+      "known_limits": [
+        "La composition locale et le calendrier opérationnel ANSM doivent être obtenus en interne."
+      ]
+    },
+    "references/fonctionnaires-corps-specifiques.md": {
+      "maturity": "verified",
+      "verified_on": "2026-08-25",
+      "claims": [
+        {
+          "id": "personnels-fonctionnaires-ansm",
+          "statement": "L'ANSM peut employer les catégories de personnels prévues par l'article L. 5323-1 du code de la santé publique.",
+          "status": "verified",
+          "source_ids": ["ANSM-PERSONNELS"]
+        },
+        {
+          "id": "statut-phisp",
+          "statement": "Le statut et l'avancement des pharmaciens inspecteurs de santé publique relèvent du décret n° 92-1432 modifié en 2025.",
+          "status": "verified",
+          "source_ids": ["PHISP-STATUT", "PHISP-AVANCEMENT-2025"]
+        }
+      ],
+      "unresolved_claims": [],
+      "known_limits": [
+        "Les effectifs actuels et certaines modalités locales de gestion doivent être obtenus en interne."
+      ]
+    },
+    "references/masse-salariale-budget-sirh.md": {
+      "maturity": "partial",
+      "verified_on": "2026-08-25",
+      "claims": [
+        {
+          "id": "dotation-2026",
+          "statement": "La dotation des régimes obligatoires d'assurance maladie à l'ANSM est fixée à 143,69 M€ pour 2026.",
+          "status": "verified",
+          "source_ids": ["LFSS-DOTATION-2026"]
+        }
+      ],
+      "unresolved_claims": [
+        "Détail du budget initial 2026 et volet SI RH à confirmer sur les documents ANSM."
+      ],
+      "known_limits": []
+    },
+    "references/qvt-sante-travail.md": {
+      "maturity": "partial",
+      "verified_on": "2026-08-24",
+      "claims": [],
+      "unresolved_claims": [
+        "Dispositifs internes QVT, RPS, télétravail et DUERP à obtenir."
+      ],
+      "known_limits": []
+    },
+    "references/formation-developpement-competences.md": {
+      "maturity": "partial",
+      "verified_on": "2026-08-24",
+      "claims": [],
+      "unresolved_claims": [
+        "Plan et budget de formation actuels à obtenir."
+      ],
+      "known_limits": []
+    },
+    "references/communication-interne.md": {
+      "maturity": "draft",
+      "verified_on": null,
+      "claims": [],
+      "unresolved_claims": [
+        "Organisation, canaux et doctrine de communication interne à documenter."
+      ],
+      "known_limits": []
+    }
+  }
+}

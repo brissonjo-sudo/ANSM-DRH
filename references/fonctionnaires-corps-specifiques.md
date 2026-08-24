@@ -1,6 +1,6 @@
 # Branche — Fonctionnaires & corps spécifiques
 
-> ✅ **Fiabilisée** (v0.4.0, vérification du 24 août 2026).
+> ✅ **Fiabilisée** (v0.7.0, vérification du 25 août 2026).
 >
 > Sources primaires : **art. L. 5323-1 à L. 5323-4 CSP** ; **décret
 > n° 92-1432 du 30 décembre 1992** (statut particulier des pharmaciens
@@ -11,6 +11,10 @@
 >
 > **Reste à obtenir en interne** : effectifs actuels par corps ;
 > modalités locales de gestion de la position normale d'activité.
+
+> Registre des textes et liens de contrôle →
+> `references/sources-principales.md` (`ANSM-PERSONNELS`,
+> `PHISP-STATUT`, `PHISP-AVANCEMENT-2025`).
 
 ## Repérage rapide
 

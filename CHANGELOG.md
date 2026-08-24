@@ -1,5 +1,18 @@
 # Changelog — drh-ansm
 
+## v0.7.0 — 2026-08-25
+
+**Barrière automatique de fiabilisation.** Ajout de
+`evals/source-gates.json`, qui inventorie les huit branches, leurs
+affirmations importantes, leurs sources et leurs incertitudes
+bloquantes.
+
+Le validateur refuse désormais une branche ✅ si sa maturité diverge du
+manifeste, si sa date manque, si une affirmation n'est pas vérifiée, si
+elle n'a pas de source officielle reliée au registre ou si une
+incertitude importante demeure. Le registre gagne les sources
+contractuels, CSA, personnels ANSM et PHISP nécessaires au contrôle.
+
 ## v0.6.1 — 2026-08-25
 
 **Traçabilité renforcée sans surévaluer la maturité.** Les branches

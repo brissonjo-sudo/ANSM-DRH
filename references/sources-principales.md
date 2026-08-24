@@ -21,6 +21,10 @@
 | `ANSM-STATUT` | Décret n° 2012-597 du 27 avril 2012 relatif à l'ANSM (NOR ETSP1206945D) | <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000025757625> | Statut et gouvernance de l'agence. |
 | `CONTRACTUELS-ETAT` | Décret n° 86-83 du 17 janvier 1986 | <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000699956> | Droit commun des contractuels de l'État. |
 | `CONTRACTUELS-ANSM` | Décret n° 2003-224 du 7 mars 2003, art. 13 notamment | <https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006564345> | Règles propres aux agents contractuels de l'ANSM ; relire le décret complet pour tout cas individuel. |
+| `CONTRACTUELS-ANSM-2005` | Décret n° 2005-1162 du 8 septembre 2005 modifiant le décret n° 2003-224 | <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000451952> | Modification du cadre propre aux contractuels des établissements sanitaires. |
+| `ANSM-PERSONNELS` | Code de la santé publique, art. L. 5323-1 | <https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006690378> | Catégories de personnels que l'agence peut employer et positions correspondantes. |
+| `PHISP-STATUT` | Décret n° 92-1432 du 30 décembre 1992, version consolidée | <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000726011> | Statut particulier des pharmaciens inspecteurs de santé publique. |
+| `PHISP-AVANCEMENT-2025` | Décret n° 2025-697 du 25 juillet 2025 | <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051986094> | Modification de l'avancement des pharmaciens inspecteurs de santé publique, entrée en vigueur le 1er août 2025. |
 
 ## 2. Élections et dialogue social
 
@@ -30,6 +34,8 @@
 | `ELECTION-VOTE-2026` | Article 2 de l'arrêté du 2 juillet 2025 | <https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000051844349> | Fenêtre du vote électronique FPE : 3 au 10 décembre 2026, sous réserves prévues par les textes. |
 | `ELECTION-REGLES-2025` | Décret n° 2025-1430 du 30 décembre 2025 (NOR CPPF2529967D) | <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000053229755/2026-02-10> | Harmonisation des règles électorales applicables depuis janvier 2026. |
 | `DGAFP-ELECTIONS-2026` | Direction générale de l'administration et de la fonction publique | <https://www.fonction-publique.gouv.fr/dialogue-social-et-representation/les-elections-professionnelles-2026> | Point d'entrée administratif et calendrier à contrôler. |
+| `CSA-ETAT` | Décret n° 2020-1427 du 20 novembre 2020, version consolidée | <https://www.legifrance.gouv.fr/loda/id/LEGISCTA000042546927> | Organisation, composition, attributions et fonctionnement des CSA de l'État et de ses EPA. |
+| `ELECTION-CODIFICATION-2024` | Décret n° 2024-1038 du 6 novembre 2024, art. 32 | <https://www.legifrance.gouv.fr/affichTexteArticle.do?categorieLien=cid&cidTexte=JORFTEXT000050510977&idArticle=JORFARTI000050512471> | Entrée en vigueur des règles codifiées de vote électronique pour le renouvellement général 2026. |
 
 ## 3. Déontologie et probité
 

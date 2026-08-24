@@ -15,7 +15,7 @@ fonction publique de l'État (CSA, CAP, CCP).
 
 ## État
 
-**v0.6.1 — les huit branches sont traitées ; les niveaux de confiance
+**v0.7.0 — les huit branches sont traitées ; les niveaux de confiance
 sont réalignés sur la traçabilité effective des sources (voir `AUDIT.md`).**
 
 | Branche | Maturité |
@@ -59,7 +59,7 @@ drh-ansm/
 ├── LICENSE / LICENSE-CODE      — licences du contenu et des scripts
 ├── AUDIT.md, CHANGELOG.md, JOURNAL.md
 ├── scripts/validate_skill.py   — contrôle de structure
-├── evals/                      — cas de régression métier
+├── evals/                      — cas de régression et barrière de sources
 ├── references/
 │   ├── _gabarit-branche.md
 │   ├── socle-sources-verification.md
@@ -98,9 +98,12 @@ qui manque :
 ## Vérifier avant publication
 
 Exécuter `python scripts/validate_skill.py`. Le contrôle vérifie le
-frontmatter, les renvois locaux, les sommaires des branches longues et
-les garde-fous juridiques introduits en v0.6. Les cas métier à rejouer
-sont dans `evals/cases.yaml`.
+frontmatter, les renvois locaux, les sommaires, les garde-fous juridiques
+et `evals/source-gates.json`. Une branche ✅ est refusée si une
+affirmation importante n'a pas d'identifiant, si la date diverge, si une
+source officielle n'est pas reliée et citée dans la branche, ou si une
+incertitude importante reste non résolue. Les cas métier à rejouer sont
+dans `evals/cases.yaml`.
 
 ## Licence
 

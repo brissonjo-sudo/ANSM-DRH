@@ -1,6 +1,6 @@
 # Branche — Recrutement, classification & rémunération des contractuels
 
-> ✅ **Fiabilisée** (v0.3.0, vérification du 24 août 2026) — **sous une
+> ✅ **Fiabilisée** (v0.7.0, vérification du 25 août 2026) — **sous une
 > réserve structurelle majeure**, voir encadré ci-dessous.
 >
 > Sources primaires consultées :
@@ -20,6 +20,10 @@
 > - **Cadre d'emploi de Santé publique France** pris en application du
 >   même décret — utilisé uniquement comme **analogue de structure**,
 >   jamais comme source du droit applicable à l'ANSM.
+
+> Registre des textes et liens de contrôle →
+> `references/sources-principales.md` (`CONTRACTUELS-ANSM`,
+> `CONTRACTUELS-ANSM-2005`, `CONTRACTUELS-ETAT`).
 
 > ### ⚠️ Réserve structurelle — ce que le décret ne dit pas
 >

@@ -1,6 +1,6 @@
 # Branche — Instances & dialogue social
 
-> ✅ **Fiabilisée** (v0.6.0, vérification du 25 août 2026).
+> ✅ **Fiabilisée** (v0.7.0, vérification du 25 août 2026).
 >
 > Sources primaires : **décret n° 2020-1427 du 20 novembre 2020**
 > (CSA dans les administrations et EPA de l'État) ; **décret n° 86-83 du
@@ -16,7 +16,8 @@
 
 > Registre des textes et liens de contrôle →
 > `references/sources-principales.md` (`ELECTION-DATE-2026`,
-> `ELECTION-VOTE-2026`, `ELECTION-REGLES-2025`).
+> `ELECTION-VOTE-2026`, `ELECTION-REGLES-2025`,
+> `ELECTION-CODIFICATION-2024`, `CSA-ETAT`, `ANSM-STATUT`).
 
 > ## 🔴 URGENCE CALENDAIRE — élections professionnelles le 10 décembre 2026
 >

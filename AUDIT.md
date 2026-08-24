@@ -1,5 +1,11 @@
 # Audit du skill drh-ansm
 
+> **Addendum v0.7.0 — 25 août 2026.** Le niveau ✅ est désormais protégé
+> par une barrière automatique : manifeste exhaustif des huit branches,
+> affirmations importantes identifiées, date obligatoire, sources
+> officielles reliées au registre et absence d'incertitude bloquante.
+> La CI exécute ce contrôle à chaque push et pull request.
+
 > **Addendum v0.6.1 — 25 août 2026.** La copie locale a été synchronisée
 > avec la v0.6.0 du dépôt, puis revue à nouveau. Deux branches étaient
 > classées ✅ alors que leurs documents ANSM 2026 n'étaient pas reliés à
