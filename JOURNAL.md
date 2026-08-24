@@ -31,7 +31,8 @@ maturité, date, affirmations, registre et URL officielles.
 **Action** : ajout du manifeste `evals/source-gates.json` et d'un
 contrôle bloquant sans dépendance externe. Les trois branches ✅ sont
 reliées à des identifiants de sources officielles complétés dans le
-registre.
+registre. Un second contrôle réseau, exécuté par la CI, vérifie que ces
+URL répondent effectivement.
 
 ---
 

@@ -4,7 +4,9 @@
 > par une barrière automatique : manifeste exhaustif des huit branches,
 > affirmations importantes identifiées, date obligatoire, sources
 > officielles reliées au registre et absence d'incertitude bloquante.
-> La CI exécute ce contrôle à chaque push et pull request.
+> La CI exécute ce contrôle ainsi qu'un test HTTP de toutes les URL à
+> chaque push et pull request. Un 403 est toléré uniquement pour le
+> domaine officiel Légifrance, qui bloque les robots.
 
 > **Addendum v0.6.1 — 25 août 2026.** La copie locale a été synchronisée
 > avec la v0.6.0 du dépôt, puis revue à nouveau. Deux branches étaient

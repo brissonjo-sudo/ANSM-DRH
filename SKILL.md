@@ -156,6 +156,11 @@ réserve, au moins une source du registre avec URL officielle et une date
 de vérification. Une affirmation non résolue interdit automatiquement le
 statut ✅. Exécuter `python scripts/validate_skill.py` après toute
 modification d'une branche, de sa maturité ou du registre des sources.
+La CI complète ce contrôle hors ligne avec
+`python scripts/check_source_urls.py`, qui vérifie l'accessibilité HTTP
+de chaque URL officielle du registre. Le statut 403 n'est toléré que sur
+le domaine officiel Légifrance, dont la protection anti-robot bloque les
+clients automatisés ; les autres erreurs HTTP restent bloquantes.
 
 ---
 

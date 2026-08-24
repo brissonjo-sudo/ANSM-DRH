@@ -12,6 +12,9 @@ manifeste, si sa date manque, si une affirmation n'est pas vérifiée, si
 elle n'a pas de source officielle reliée au registre ou si une
 incertitude importante demeure. Le registre gagne les sources
 contractuels, CSA, personnels ANSM et PHISP nécessaires au contrôle.
+La CI vérifie en outre la réponse HTTP de toutes les URL du registre avec
+`scripts/check_source_urls.py`, avec traitement explicite de la
+protection anti-robot 403 de Légifrance.
 
 ## v0.6.1 — 2026-08-25
 

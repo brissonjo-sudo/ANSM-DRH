@@ -58,7 +58,8 @@ drh-ansm/
 ├── CONTRIBUTING.md             — règles de contribution
 ├── LICENSE / LICENSE-CODE      — licences du contenu et des scripts
 ├── AUDIT.md, CHANGELOG.md, JOURNAL.md
-├── scripts/validate_skill.py   — contrôle de structure
+├── scripts/validate_skill.py   — contrôle de structure et de fiabilité
+├── scripts/check_source_urls.py — accessibilité réelle des URL officielles
 ├── evals/                      — cas de régression et barrière de sources
 ├── references/
 │   ├── _gabarit-branche.md
@@ -104,6 +105,11 @@ affirmation importante n'a pas d'identifiant, si la date diverge, si une
 source officielle n'est pas reliée et citée dans la branche, ou si une
 incertitude importante reste non résolue. Les cas métier à rejouer sont
 dans `evals/cases.yaml`.
+
+La CI exécute également `python scripts/check_source_urls.py` afin de
+bloquer une publication si une URL du registre ne répond plus. Le statut
+403 est accepté uniquement pour `www.legifrance.gouv.fr`, qui protège ses
+pages contre les robots ; tout autre échec reste bloquant.
 
 ## Licence
 

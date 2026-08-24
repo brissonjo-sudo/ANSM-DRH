@@ -14,3 +14,4 @@ jobs:
         with:
           python-version: '3.x'
       - run: python scripts/validate_skill.py
+      - run: python scripts/check_source_urls.py
