@@ -19,6 +19,17 @@ Format d'entrée suggéré :
 
 ---
 
+## 2026-08-25 — v0.8.0 : expiration, tests et protection de main
+
+**Cas** : rendre la barrière de fiabilisation durable et impossible à
+contourner par un push direct.
+
+**Action** : ajout de délais de fraîcheur par affirmation, de huit tests
+de régression, de leur exécution dans la CI et d'une configuration de
+protection de branche imposant pull request et statut `validate` réussi.
+
+---
+
 ## 2026-08-25 — v0.7.0 : barrière de fiabilisation automatique
 
 **Cas** : empêcher qu'une branche soit classée ✅ sans preuve complète

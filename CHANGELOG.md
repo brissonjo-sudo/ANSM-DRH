@@ -1,5 +1,19 @@
 # Changelog — drh-ansm
 
+## v0.8.0 — 2026-08-25
+
+**Fraîcheur, tests et protection de branche.** Chaque affirmation
+vérifiée porte désormais `checked_on` et `max_age_days` : 30 jours pour
+les élections, le budget et la déontologie ; 90 jours pour les autres
+règles. Une source expirée bloque la validation.
+
+Ajout de huit tests automatiques couvrant le projet valide, la source
+absente, le domaine non officiel, la date incohérente, l'incertitude sur
+une branche ✅, la branche absente, l'expiration et la date future.
+
+La configuration reproductible de protection de `main` impose PR, CI à
+jour, historique linéaire et interdit suppression et force-push.
+
 ## v0.7.0 — 2026-08-25
 
 **Barrière automatique de fiabilisation.** Ajout de

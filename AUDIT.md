@@ -1,5 +1,10 @@
 # Audit du skill drh-ansm
 
+> **Addendum v0.8.0 — 25 août 2026.** La barrière contrôle désormais la
+> fraîcheur des affirmations (30/90 jours), huit scénarios de panne sont
+> rejoués dans la CI et `main` est protégée par PR obligatoire, contrôle
+> `validate`, historique linéaire et interdiction des force-pushs.
+
 > **Addendum v0.7.0 — 25 août 2026.** Le niveau ✅ est désormais protégé
 > par une barrière automatique : manifeste exhaustif des huit branches,
 > affirmations importantes identifiées, date obligatoire, sources

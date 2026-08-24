@@ -9,6 +9,8 @@
           "id": "distinction-entree-pendant-sortie",
           "statement": "Les contrôles à l'entrée, pendant les fonctions et après leur cessation relèvent de fondements distincts.",
           "status": "verified",
+          "checked_on": "2026-08-25",
+          "max_age_days": 30,
           "source_ids": ["CGFP-ENTRANT", "CGFP-SORTANT", "PENAL-PENDANT", "PENAL-APRES"]
         }
       ],
@@ -25,12 +27,16 @@
           "id": "regime-contractuels-ansm",
           "statement": "Le décret n° 2003-224 fixe l'architecture propre aux contractuels de l'ANSM.",
           "status": "verified",
+          "checked_on": "2026-08-25",
+          "max_age_days": 90,
           "source_ids": ["CONTRACTUELS-ANSM", "CONTRACTUELS-ANSM-2005"]
         },
         {
           "id": "droit-commun-suppletif",
           "statement": "Le décret n° 86-83 complète le régime propre sous réserve de ses dispositions spéciales.",
           "status": "verified",
+          "checked_on": "2026-08-25",
+          "max_age_days": 90,
           "source_ids": ["CONTRACTUELS-ETAT", "CONTRACTUELS-ANSM"]
         }
       ],
@@ -47,12 +53,16 @@
           "id": "regime-csa-fpe",
           "statement": "Le CSA de l'ANSM relève du régime des administrations et établissements publics de l'État.",
           "status": "verified",
+          "checked_on": "2026-08-25",
+          "max_age_days": 90,
           "source_ids": ["CSA-ETAT", "ANSM-STATUT"]
         },
         {
           "id": "elections-2026",
           "statement": "Le scrutin est fixé au 10 décembre 2026 et les règles électorales FPE en vigueur doivent être appliquées.",
           "status": "verified",
+          "checked_on": "2026-08-25",
+          "max_age_days": 30,
           "source_ids": ["ELECTION-DATE-2026", "ELECTION-VOTE-2026", "ELECTION-REGLES-2025", "ELECTION-CODIFICATION-2024"]
         }
       ],
@@ -69,12 +79,16 @@
           "id": "personnels-fonctionnaires-ansm",
           "statement": "L'ANSM peut employer les catégories de personnels prévues par l'article L. 5323-1 du code de la santé publique.",
           "status": "verified",
+          "checked_on": "2026-08-25",
+          "max_age_days": 90,
           "source_ids": ["ANSM-PERSONNELS"]
         },
         {
           "id": "statut-phisp",
           "statement": "Le statut et l'avancement des pharmaciens inspecteurs de santé publique relèvent du décret n° 92-1432 modifié en 2025.",
           "status": "verified",
+          "checked_on": "2026-08-25",
+          "max_age_days": 90,
           "source_ids": ["PHISP-STATUT", "PHISP-AVANCEMENT-2025"]
         }
       ],
@@ -91,6 +105,8 @@
           "id": "dotation-2026",
           "statement": "La dotation des régimes obligatoires d'assurance maladie à l'ANSM est fixée à 143,69 M€ pour 2026.",
           "status": "verified",
+          "checked_on": "2026-08-25",
+          "max_age_days": 30,
           "source_ids": ["LFSS-DOTATION-2026"]
         }
       ],

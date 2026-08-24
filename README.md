@@ -15,7 +15,7 @@ fonction publique de l'État (CSA, CAP, CCP).
 
 ## État
 
-**v0.7.0 — les huit branches sont traitées ; les niveaux de confiance
+**v0.8.0 — les huit branches sont traitées ; les niveaux de confiance
 sont réalignés sur la traçabilité effective des sources (voir `AUDIT.md`).**
 
 | Branche | Maturité |
@@ -60,6 +60,7 @@ drh-ansm/
 ├── AUDIT.md, CHANGELOG.md, JOURNAL.md
 ├── scripts/validate_skill.py   — contrôle de structure et de fiabilité
 ├── scripts/check_source_urls.py — accessibilité réelle des URL officielles
+├── tests/                      — régressions de la barrière de fiabilisation
 ├── evals/                      — cas de régression et barrière de sources
 ├── references/
 │   ├── _gabarit-branche.md
@@ -106,10 +107,19 @@ source officielle n'est pas reliée et citée dans la branche, ou si une
 incertitude importante reste non résolue. Les cas métier à rejouer sont
 dans `evals/cases.yaml`.
 
+Les affirmations relatives aux élections, au budget et à la déontologie
+expirent après **30 jours** ; les autres après **90 jours**. La CI exécute
+également huit scénarios de panne du validateur.
+
 La CI exécute également `python scripts/check_source_urls.py` afin de
 bloquer une publication si une URL du registre ne répond plus. Le statut
 403 est accepté uniquement pour `www.legifrance.gouv.fr`, qui protège ses
 pages contre les robots ; tout autre échec reste bloquant.
+
+La branche `main` est protégée : pull request obligatoire, branche à
+jour, contrôle `validate` réussi, conversations résolues, historique
+linéaire, suppressions et force-pushs interdits. Configuration de
+référence : `.github/branch-protection.json`.
 
 ## Licence
 

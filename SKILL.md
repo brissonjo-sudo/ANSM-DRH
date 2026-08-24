@@ -16,7 +16,7 @@ description: >-
   courrier). Vérifie la source officielle avant toute règle engageante.
   Ne pas activer pour la FPT, la FPH ou une autre agence sanitaire.
 metadata:
-  version: 0.7.0
+  version: 0.8.0
   statut: >-
     8 branches toutes traitées. Trois fiabilisées sur sources primaires
     (recrutement-classification, instances-dialogue-social,
@@ -48,7 +48,7 @@ metadata:
     s'applique pas ici.
 ---
 
-# Skill : drh-ansm (v0.7.0)
+# Skill : drh-ansm (v0.8.0)
 
 > **Objet** : expertise d'une Direction des Ressources Humaines d'un
 > établissement public de l'État à statut de personnel atypique — une
@@ -153,7 +153,9 @@ publique. Le distinguer explicitement d'un texte réglementaire publié.
 Le statut ✅ est contrôlé par `evals/source-gates.json`. Chaque
 affirmation importante doit y avoir un identifiant, une formulation sans
 réserve, au moins une source du registre avec URL officielle et une date
-de vérification. Une affirmation non résolue interdit automatiquement le
+de vérification. Les affirmations sensibles (élections, budget,
+déontologie) expirent après **30 jours** ; les autres après **90 jours**.
+Une affirmation expirée ou non résolue interdit automatiquement le
 statut ✅. Exécuter `python scripts/validate_skill.py` après toute
 modification d'une branche, de sa maturité ou du registre des sources.
 La CI complète ce contrôle hors ligne avec
@@ -298,7 +300,7 @@ erreur sur le régime de financement et de fiabiliser la branche budget.
 séance du CA avant toute question budgétaire, d'effectifs ou de climat
 social.**
 
-**Priorité de version 0.7.0 → 0.8.0 — ce qui reste à obtenir** :
+**Priorité de version 0.8.0 → 0.9.0 — ce qui reste à obtenir** :
 
 1. **La délibération du CA portant cadre d'emploi** — grilles
    indiciaires, durées d'échelon, emplois-repères, quotas. Non trouvée
@@ -345,7 +347,7 @@ professionnelles du 10 décembre 2026** (→ `instances-dialogue-social.md`).
 
 ## 11. Limites et précautions
 
-- Skill en version **0.7.0** : trois branches fiabilisées, quatre
+- Skill en version **0.8.0** : trois branches fiabilisées, quatre
   partielles, une amorcée. Ne pas traiter les branches 🟢 et 🟡 comme
   des sources d'autorité.
 - Ne remplace pas l'avis d'un juriste, du contrôle interne, du service
