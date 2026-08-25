@@ -19,6 +19,18 @@ Format d'entrée suggéré :
 
 ---
 
+## 2026-08-25 — v0.9.0 : comportement, données RH et préavis
+
+**Cas** : vérifier la qualité réelle des réponses et anticiper la
+maintenance sans exposer de dossiers d'agents.
+
+**Action** : vingt scénarios métier, grille de revue, filtre local des
+identifiants, demande structurée anonymisée, préavis automatique à J-7,
+modèles de sortie et registre sans contenu confidentiel pour les pièces
+internes manquantes.
+
+---
+
 ## 2026-08-25 — v0.8.0 : expiration, tests et protection de main
 
 **Cas** : rendre la barrière de fiabilisation durable et impossible à

@@ -15,8 +15,9 @@ fonction publique de l'État (CSA, CAP, CCP).
 
 ## État
 
-**v0.8.0 — les huit branches sont traitées ; les niveaux de confiance
-sont réalignés sur la traçabilité effective des sources (voir `AUDIT.md`).**
+**v0.9.0 — les huit branches sont couvertes par des scénarios métier ;
+les sources expirent, les données sensibles sont filtrées et les cinq
+branches incomplètes disposent d'un plan d'acquisition.**
 
 | Branche | Maturité |
 |---------|----------|
@@ -60,8 +61,11 @@ drh-ansm/
 ├── AUDIT.md, CHANGELOG.md, JOURNAL.md
 ├── scripts/validate_skill.py   — contrôle de structure et de fiabilité
 ├── scripts/check_source_urls.py — accessibilité réelle des URL officielles
+├── scripts/behavior_eval.py    — grille de revue de 20 scénarios métier
+├── scripts/privacy_scan.py     — détection locale d'identifiants RH
+├── scripts/freshness_report.py — préavis d'expiration à J-7
 ├── tests/                      — régressions de la barrière de fiabilisation
-├── evals/                      — cas de régression et barrière de sources
+├── evals/                      — scénarios, sources et besoins internes
 ├── references/
 │   ├── _gabarit-branche.md
 │   ├── socle-sources-verification.md
@@ -73,8 +77,9 @@ drh-ansm/
 
 ## Prochaine étape
 
-**Trois documents à obtenir en interne** débloquent l'essentiel de ce
-qui manque :
+Les documents internes restent à obtenir, mais leur acquisition est
+désormais suivie dans `evals/internal-source-requirements.json`. Les
+trois ensembles les plus structurants sont :
 
 1. La **délibération du conseil d'administration portant cadre
    d'emploi** — grilles indiciaires, durées d'échelon, emplois-repères,
@@ -105,11 +110,20 @@ et `evals/source-gates.json`. Une branche ✅ est refusée si une
 affirmation importante n'a pas d'identifiant, si la date diverge, si une
 source officielle n'est pas reliée et citée dans la branche, ou si une
 incertitude importante reste non résolue. Les cas métier à rejouer sont
-dans `evals/cases.yaml`.
+dans `evals/behavior-cases.json`.
 
 Les affirmations relatives aux élections, au budget et à la déontologie
 expirent après **30 jours** ; les autres après **90 jours**. La CI exécute
-également huit scénarios de panne du validateur.
+également les tests du validateur, de la suite comportementale, du filtre
+de confidentialité et du préavis d'expiration. Une tâche quotidienne
+ouvre une issue de maintenance sept jours avant une échéance.
+
+Pour préparer une demande complexe, utiliser
+`assets/demande-rh-structuree.md`. Pour analyser un texte anonymisé :
+
+```text
+python scripts/privacy_scan.py demande.txt
+```
 
 La CI exécute également `python scripts/check_source_urls.py` afin de
 bloquer une publication si une URL du registre ne répond plus. Le statut

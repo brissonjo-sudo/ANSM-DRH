@@ -1,5 +1,20 @@
 # Changelog — drh-ansm
 
+## v0.9.0 — 2026-08-25
+
+**Évaluation métier, confidentialité et maintenance préventive.** Ajout
+de vingt scénarios réalistes couvrant les huit branches, d'une grille de
+revue sémantique et d'un signalement lexical des affirmations critiques.
+
+Ajout d'un filtre local pour les identifiants RH, d'un formulaire de
+demande anonymisée, d'un contrat de sortie et de nouveaux gabarits de
+tableau comparatif et FAQ interne.
+
+Une tâche quotidienne ouvre une issue sept jours avant expiration des
+sources. Les documents internes manquants sont désormais suivis par
+métadonnées seulement, avec un plan de fiabilisation des cinq branches
+incomplètes.
+
 ## v0.8.0 — 2026-08-25
 
 **Fraîcheur, tests et protection de branche.** Chaque affirmation

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "repository_policy": "metadata-only-no-confidential-content",
+  "requirements": [
+    {"id": "deonto-reglement-interieur", "branch": "references/deontologie-conflits-interets.md", "title": "Règlement intérieur ANSM en vigueur", "owner": "DRH/DRD", "status": "missing"},
+    {"id": "deonto-procedure-conflits", "branch": "references/deontologie-conflits-interets.md", "title": "Procédure interne de prévention et gestion des conflits d'intérêts", "owner": "Service déontologie", "status": "missing"},
+    {"id": "budget-documents-2026", "branch": "references/masse-salariale-budget-sirh.md", "title": "Budget initial, rectificatifs et plafond d'emplois 2026", "owner": "Direction finances", "status": "missing"},
+    {"id": "sirh-cartographie", "branch": "references/masse-salariale-budget-sirh.md", "title": "Cartographie fonctionnelle et gouvernance du SI RH", "owner": "DRH/DSI", "status": "missing"},
+    {"id": "qvt-dispositif-2026", "branch": "references/qvt-sante-travail.md", "title": "Accord télétravail, DUERP et plan QVT/RPS en vigueur", "owner": "Pôle QVT", "status": "missing"},
+    {"id": "qvt-medecine-prevention", "branch": "references/qvt-sante-travail.md", "title": "Organisation et canaux de la médecine de prévention", "owner": "DRH", "status": "missing"},
+    {"id": "formation-plan-2026", "branch": "references/formation-developpement-competences.md", "title": "Plan, budget et bilan de formation 2026", "owner": "DRH", "status": "missing"},
+    {"id": "formation-referentiel-metiers", "branch": "references/formation-developpement-competences.md", "title": "Référentiel métiers et règles internes d'entretien professionnel", "owner": "DRH", "status": "missing"},
+    {"id": "communication-circuit", "branch": "references/communication-interne.md", "title": "Circuit de validation DIRCOM, DRH et direction générale", "owner": "DIRCOM/DRH", "status": "missing"},
+    {"id": "communication-canaux", "branch": "references/communication-interne.md", "title": "Inventaire des canaux, audiences et rythmes multi-site", "owner": "DIRCOM", "status": "missing"}
+  ]
+}

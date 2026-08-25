@@ -16,7 +16,7 @@ description: >-
   courrier). Vérifie la source officielle avant toute règle engageante.
   Ne pas activer pour la FPT, la FPH ou une autre agence sanitaire.
 metadata:
-  version: 0.8.0
+  version: 0.9.0
   statut: >-
     8 branches toutes traitées. Trois fiabilisées sur sources primaires
     (recrutement-classification, instances-dialogue-social,
@@ -48,7 +48,7 @@ metadata:
     s'applique pas ici.
 ---
 
-# Skill : drh-ansm (v0.8.0)
+# Skill : drh-ansm (v0.9.0)
 
 > **Objet** : expertise d'une Direction des Ressources Humaines d'un
 > établissement public de l'État à statut de personnel atypique — une
@@ -163,6 +163,8 @@ La CI complète ce contrôle hors ligne avec
 de chaque URL officielle du registre. Le statut 403 n'est toléré que sur
 le domaine officiel Légifrance, dont la protection anti-robot bloque les
 clients automatisés ; les autres erreurs HTTP restent bloquantes.
+Une tâche quotidienne ouvre ou actualise une alerte GitHub sept jours
+avant expiration, puis la ferme lorsque toutes les sources sont à jour.
 
 ---
 
@@ -226,8 +228,22 @@ redemander les mêmes éléments. »
 Si accepté, restituer une fiche profil (gabarit
 `assets/fiche-profil-poste.md`).
 
+Pour un dossier plus complexe, proposer le formulaire anonymisé
+`assets/demande-rh-structuree.md` afin de lever en une fois décision
+attendue, catégorie, site, exposition déontologique, échéance et pièces.
+
 **Filet de sécurité** : si l'utilisateur décline, ne pas insister —
 appliquer la garde de calibrage à la volée.
+
+### 6.2 Protection des données RH
+
+Pour tout cas individuel, médical, disciplinaire, d'alerte ou de
+déontologie, lire `references/protection-donnees-rh.md`. Demander une
+version pseudonymisée, ne conserver que les faits utiles et ne jamais
+reproduire un dossier complet. Le filtre local
+`python scripts/privacy_scan.py <fichier>` aide à repérer les
+identifiants structurés, sans remplacer la vigilance sur la
+réidentification indirecte.
 
 ---
 
@@ -278,7 +294,10 @@ autorité territoriale.
 4. **Communication** — courrier, note de service, FAQ.
 
 Gabarits → `assets/`. Quand un livrable revient, proposer d'en créer le
-gabarit.
+gabarit. Pour une réponse engageante, appliquer le contrat de sortie de
+`references/contrat-sortie.md`. Utiliser notamment
+`assets/tableau-comparatif.md` pour comparer des options et
+`assets/faq-interne.md` pour une communication récurrente validée.
 
 ---
 
@@ -286,6 +305,13 @@ gabarit.
 
 Boucle d'apprentissage : `JOURNAL.md` pour consigner les cas,
 `CHANGELOG.md` pour le versioning, checklist §10 à chaque sortie.
+
+La suite `evals/behavior-cases.json` contient vingt demandes réalistes
+couvrant les huit branches. Après toute modification de fond, exécuter
+`python scripts/behavior_eval.py`, puis rejouer les cas concernés. Le
+contrôle automatique signale les formulations critiques à examiner ; il
+ne les juge pas hors contexte, notamment en présence d'une négation. Les
+critères métier restent à évaluer sémantiquement.
 
 **Fait** : les 8 branches ont été traitées. 3 fiabilisées, 4
 partielles, 1 amorcée (voir routeur §7).
@@ -300,7 +326,7 @@ erreur sur le régime de financement et de fiabiliser la branche budget.
 séance du CA avant toute question budgétaire, d'effectifs ou de climat
 social.**
 
-**Priorité de version 0.8.0 → 0.9.0 — ce qui reste à obtenir** :
+**Priorité de version 0.9.0 → 1.0.0 — ce qui reste à obtenir** :
 
 1. **La délibération du CA portant cadre d'emploi** — grilles
    indiciaires, durées d'échelon, emplois-repères, quotas. Non trouvée
@@ -318,6 +344,9 @@ social.**
 
 **Chantier à échéance courte** : le dossier des **élections
 professionnelles du 10 décembre 2026** (→ `instances-dialogue-social.md`).
+Le plan d'acquisition et les critères de passage sont détaillés dans
+`references/plan-fiabilisation-branches.md` ; le registre ne doit
+contenir que des métadonnées non sensibles.
 
 ---
 
@@ -347,7 +376,7 @@ professionnelles du 10 décembre 2026** (→ `instances-dialogue-social.md`).
 
 ## 11. Limites et précautions
 
-- Skill en version **0.8.0** : trois branches fiabilisées, quatre
+- Skill en version **0.9.0** : trois branches fiabilisées, quatre
   partielles, une amorcée. Ne pas traiter les branches 🟢 et 🟡 comme
   des sources d'autorité.
 - Ne remplace pas l'avis d'un juriste, du contrôle interne, du service
@@ -377,5 +406,9 @@ ensuite, au 1er septembre : textes statutaires (décret n° 2003-224 du
 7 mars 2003 et ses évolutions),
 gouvernance (décret n° 2012-597, décisions DG portant organisation),
 réforme des instances FPE, DPI et déontologie.
+
+La tâche `.github/workflows/source-freshness.yml` assure le préavis à
+J-7. Une alerte ne se ferme qu'après revue de la source officielle et
+mise à jour cohérente du manifeste et de la branche.
 
 > Historique → `CHANGELOG.md`

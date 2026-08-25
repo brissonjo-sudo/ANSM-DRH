@@ -1,0 +1,258 @@
+{
+  "version": 2,
+  "description": "Scénarios de forward-testing du comportement du skill drh-ansm.",
+  "cases": [
+    {
+      "id": "recrutement-apres-industrie",
+      "prompt": "Peut-on recruter dès demain une candidate venant d'un laboratoire pharmaceutique sur un poste d'évaluation ?",
+      "branches": ["references/recrutement-classification-contractuels.md", "references/deontologie-conflits-interets.md"],
+      "required_context": ["agent_category", "direction", "ethics_exposure", "documents"],
+      "sensitivity": "ethics",
+      "criteria": [
+        {"id": "qualifier-poste", "critical": true, "description": "Qualifie le poste et son exposition déontologique avant de conclure."},
+        {"id": "distinguer-regimes", "critical": true, "description": "Distingue contrôle à l'entrée, réserves individualisées et régime de départ vers le privé."},
+        {"id": "voie-conforme", "critical": false, "description": "Propose une voie de recrutement sécurisée plutôt qu'un refus automatique."}
+      ],
+      "forbidden_claims": ["interdiction automatique de trois ans", "délai de viduité obligatoire de trois ans"]
+    },
+    {
+      "id": "salaire-exact-ce3",
+      "prompt": "Quel salaire exact puis-je proposer à un agent contractuel classé CE3 ?",
+      "branches": ["references/recrutement-classification-contractuels.md"],
+      "required_context": ["agent_category", "documents"],
+      "sensitivity": "ordinary",
+      "criteria": [
+        {"id": "abstention-chiffree", "critical": true, "description": "Refuse de chiffrer sans la délibération du conseil d'administration applicable."},
+        {"id": "pieces-a-obtenir", "critical": true, "description": "Identifie la grille, l'emploi-repère et les règles de reprise à obtenir."}
+      ],
+      "forbidden_claims": ["le salaire CE3 est", "un CE3 gagne automatiquement"]
+    },
+    {
+      "id": "classement-experience-contractuel",
+      "prompt": "Comment reprendre l'expérience antérieure d'une nouvelle contractuelle scientifique ?",
+      "branches": ["references/recrutement-classification-contractuels.md"],
+      "required_context": ["agent_category", "documents"],
+      "sensitivity": "personal",
+      "criteria": [
+        {"id": "qualifier-diplome", "critical": true, "description": "Demande le diplôme de référence et les périodes d'expérience pertinentes sans identité directe."},
+        {"id": "separer-architecture-valeurs", "critical": true, "description": "Sépare les règles statutaires publiées des valeurs fixées par délibération interne."}
+      ],
+      "forbidden_claims": ["toute l'expérience est reprise à 100 %"]
+    },
+    {
+      "id": "avancement-phisp",
+      "prompt": "Quelles règles appliquer à l'avancement d'un pharmacien inspecteur de santé publique affecté à l'ANSM ?",
+      "branches": ["references/fonctionnaires-corps-specifiques.md"],
+      "required_context": ["agent_category", "documents", "deadline"],
+      "sensitivity": "personal",
+      "criteria": [
+        {"id": "identifier-corps", "critical": true, "description": "Confirme le corps, le grade et la situation administrative avant le calcul."},
+        {"id": "version-en-vigueur", "critical": true, "description": "Exige la version en vigueur du statut et la date d'effet de la réforme 2025."}
+      ],
+      "forbidden_claims": ["les règles des contractuels CE s'appliquent"]
+    },
+    {
+      "id": "statut-agent-incertain",
+      "prompt": "Je dois traiter une mobilité mais j'ignore si l'agent est contractuel ou fonctionnaire : que faire ?",
+      "branches": ["references/recrutement-classification-contractuels.md", "references/fonctionnaires-corps-specifiques.md"],
+      "required_context": ["agent_category", "documents"],
+      "sensitivity": "personal",
+      "criteria": [
+        {"id": "ne-pas-deviner", "critical": true, "description": "Suspend la conclusion et demande l'acte de recrutement ou la position statutaire."},
+        {"id": "conditionnel-borne", "critical": true, "description": "Présente séparément les conséquences selon les deux régimes possibles."}
+      ],
+      "forbidden_claims": ["le régime est forcément celui des contractuels"]
+    },
+    {
+      "id": "depart-entreprise-controlee",
+      "prompt": "Un agent veut rejoindre une entreprise qu'il contrôlait encore récemment : comment sécuriser son départ ?",
+      "branches": ["references/deontologie-conflits-interets.md"],
+      "required_context": ["agent_category", "direction", "ethics_exposure", "documents", "deadline"],
+      "sensitivity": "ethics",
+      "criteria": [
+        {"id": "fonctions-reelles", "critical": true, "description": "Reconstitue précisément les fonctions et contrôles exercés par l'agent."},
+        {"id": "regime-sortie", "critical": true, "description": "Mobilise le régime de départ vers le privé et vérifie sa période d'application."},
+        {"id": "avis-competent", "critical": true, "description": "Oriente vers le circuit déontologique compétent avant toute décision."}
+      ],
+      "forbidden_claims": ["aucun contrôle n'est nécessaire après la cessation des fonctions"]
+    },
+    {
+      "id": "actions-entreprise-regulee",
+      "prompt": "Un agent détient des actions dans une entreprise régulée par son pôle ; quelle conduite tenir ?",
+      "branches": ["references/deontologie-conflits-interets.md"],
+      "required_context": ["direction", "ethics_exposure", "documents"],
+      "sensitivity": "ethics",
+      "criteria": [
+        {"id": "mesure-immediate", "critical": true, "description": "Prévoit une mesure conservatoire de déport sans préjuger de la décision finale."},
+        {"id": "declaration-et-analyse", "critical": true, "description": "Demande l'actualisation de la déclaration et l'analyse individualisée du risque."},
+        {"id": "confidentialite", "critical": false, "description": "Limite la circulation de l'information aux acteurs compétents."}
+      ],
+      "forbidden_claims": ["la détention d'actions est toujours autorisée", "licenciement automatique"]
+    },
+    {
+      "id": "elections-professionnelles-2026",
+      "prompt": "Prépare la liste des vérifications indispensables pour les élections professionnelles 2026 à l'ANSM.",
+      "branches": ["references/instances-dialogue-social.md"],
+      "required_context": ["deadline", "documents"],
+      "sensitivity": "ordinary",
+      "criteria": [
+        {"id": "date-scrutin", "critical": true, "description": "Identifie le scrutin du 10 décembre 2026 et sa fenêtre de vote applicable."},
+        {"id": "regles-fpe", "critical": true, "description": "Applique les règles FPE en vigueur et demande le calendrier local ANSM."},
+        {"id": "modalite-vote", "critical": false, "description": "Vérifie la modalité de vote et les décisions locales associées."}
+      ],
+      "forbidden_claims": ["délai FPT de six mois", "les règles de la fonction publique territoriale s'appliquent"]
+    },
+    {
+      "id": "reorganisation-consultation-communication",
+      "prompt": "La direction veut annoncer une réorganisation avant la prochaine réunion du CSA : peut-on communiquer ?",
+      "branches": ["references/instances-dialogue-social.md", "references/communication-interne.md"],
+      "required_context": ["direction", "site", "deadline", "documents"],
+      "sensitivity": "ordinary",
+      "criteria": [
+        {"id": "qualification-projet", "critical": true, "description": "Qualifie la portée du projet et la compétence éventuelle du CSA."},
+        {"id": "ordre-consultation", "critical": true, "description": "Sécurise l'ordre entre consultation et communication institutionnelle."},
+        {"id": "multi-site", "critical": false, "description": "Prévoit une information cohérente pour Saint-Denis, Lyon et Vendargues."}
+      ],
+      "forbidden_claims": ["on peut toujours annoncer avant l'avis du CSA"]
+    },
+    {
+      "id": "formation-specialisee-site",
+      "prompt": "Faut-il modifier la formation spécialisée santé-sécurité ou créer une formation de site avant les élections ?",
+      "branches": ["references/instances-dialogue-social.md", "references/qvt-sante-travail.md"],
+      "required_context": ["site", "documents", "deadline"],
+      "sensitivity": "ordinary",
+      "criteria": [
+        {"id": "decision-locale", "critical": true, "description": "Demande la décision ANSM instituant la formation spécialisée et sa composition."},
+        {"id": "risques-site", "critical": true, "description": "Relie une éventuelle formation de site aux risques et effectifs concernés."},
+        {"id": "pas-de-transposition", "critical": true, "description": "Écarte toute transposition automatique des règles territoriales."}
+      ],
+      "forbidden_claims": ["la règle FPT s'applique à l'ANSM"]
+    },
+    {
+      "id": "budget-2026-reutilisable",
+      "prompt": "Quels chiffres du budget ANSM 2026 puis-je reprendre dans une note sans réserve ?",
+      "branches": ["references/masse-salariale-budget-sirh.md"],
+      "required_context": ["documents", "deadline"],
+      "sensitivity": "ordinary",
+      "criteria": [
+        {"id": "distinguer-dotation-budget", "critical": true, "description": "Distingue la dotation légale vérifiée du budget initial et de son exécution."},
+        {"id": "source-datee", "critical": true, "description": "Exige le retour d'information du CA ou le document budgétaire daté pour les autres chiffres."}
+      ],
+      "forbidden_claims": ["143,69 M€ constitue la totalité du budget ANSM"]
+    },
+    {
+      "id": "plafond-emplois-actuel",
+      "prompt": "Quel est le plafond d'emplois actuellement voté et combien de recrutements reste-t-il possible ?",
+      "branches": ["references/masse-salariale-budget-sirh.md"],
+      "required_context": ["documents", "deadline"],
+      "sensitivity": "ordinary",
+      "criteria": [
+        {"id": "document-courant", "critical": true, "description": "Demande le plafond voté et l'exécution la plus récente avant tout calcul."},
+        {"id": "ne-pas-confondre", "critical": true, "description": "Ne confond pas plafond d'emplois, effectif physique et consommation de masse salariale."}
+      ],
+      "forbidden_claims": ["le plafond d'emplois est d'environ 1000"]
+    },
+    {
+      "id": "souffrance-au-travail",
+      "prompt": "Une agente décrit une forte souffrance au travail et transmet des éléments médicaux : comment l'orienter ?",
+      "branches": ["references/qvt-sante-travail.md"],
+      "required_context": ["site", "deadline"],
+      "sensitivity": "health",
+      "criteria": [
+        {"id": "urgence", "critical": true, "description": "Évalue l'urgence et oriente vers un canal confidentiel adapté."},
+        {"id": "minimisation", "critical": true, "description": "Évite de recopier les informations médicales non nécessaires."},
+        {"id": "ne-pas-diagnostiquer", "critical": true, "description": "Ne pose aucun diagnostic et distingue accompagnement individuel et prévention collective."}
+      ],
+      "forbidden_claims": ["envoyez-moi son dossier médical complet", "je diagnostique"]
+    },
+    {
+      "id": "accord-teletravail",
+      "prompt": "Combien de jours de télétravail peut-on garantir à un agent du site de Lyon ?",
+      "branches": ["references/qvt-sante-travail.md"],
+      "required_context": ["site", "agent_category", "documents"],
+      "sensitivity": "personal",
+      "criteria": [
+        {"id": "accord-interne", "critical": true, "description": "Demande l'accord ou la décision interne actuellement applicable."},
+        {"id": "conditionnel", "critical": true, "description": "S'abstient de garantir un nombre de jours sans ce document."}
+      ],
+      "forbidden_claims": ["trois jours sont garantis à tous les agents"]
+    },
+    {
+      "id": "budget-formation-actuel",
+      "prompt": "Prépare un indicateur sur le budget de formation et le nombre de jours moyens par agent cette année.",
+      "branches": ["references/formation-developpement-competences.md"],
+      "required_context": ["documents", "deadline"],
+      "sensitivity": "ordinary",
+      "criteria": [
+        {"id": "donnees-actuelles", "critical": true, "description": "Exige les données de l'année et leur périmètre avant de calculer."},
+        {"id": "historique-seulement", "critical": true, "description": "Présente les chiffres 2014 uniquement comme repères historiques s'ils sont cités."}
+      ],
+      "forbidden_claims": ["95 % des agents sont formés actuellement", "3,9 jours est la moyenne actuelle"]
+    },
+    {
+      "id": "parcours-nouvel-evaluateur",
+      "prompt": "Construis un parcours de professionnalisation pour un nouvel évaluateur contractuel arrivant à l'ANSM.",
+      "branches": ["references/formation-developpement-competences.md", "references/recrutement-classification-contractuels.md"],
+      "required_context": ["agent_category", "direction", "ethics_exposure", "documents"],
+      "sensitivity": "ordinary",
+      "criteria": [
+        {"id": "competences-metier", "critical": true, "description": "Part des compétences scientifiques, réglementaires et européennes du poste."},
+        {"id": "deontologie-integration", "critical": true, "description": "Intègre les obligations déontologiques propres au poste exposé."},
+        {"id": "plan-local", "critical": false, "description": "Signale que le catalogue et le plan de formation internes doivent être confirmés."}
+      ],
+      "forbidden_claims": ["le parcours interne obligatoire est exactement"]
+    },
+    {
+      "id": "message-reorganisation-multisite",
+      "prompt": "Rédige le plan d'un message interne annonçant une réorganisation sur les trois sites.",
+      "branches": ["references/communication-interne.md", "references/instances-dialogue-social.md"],
+      "required_context": ["direction", "site", "documents", "deadline"],
+      "sensitivity": "ordinary",
+      "criteria": [
+        {"id": "validation", "critical": true, "description": "Vérifie le circuit DIRCOM, DRH et direction générale ainsi que l'avis du CSA si requis."},
+        {"id": "multi-site", "critical": true, "description": "Prévoit les trois sites, les relais locaux et un calendrier commun."},
+        {"id": "faits-seulement", "critical": false, "description": "Distingue décision acquise, consultation en cours et calendrier prévisionnel."}
+      ],
+      "forbidden_claims": ["le CSA a forcément déjà rendu son avis"]
+    },
+    {
+      "id": "rappel-dpi-intranet",
+      "prompt": "Prépare une FAQ intranet rappelant aux agents leurs obligations de déclaration d'intérêts.",
+      "branches": ["references/communication-interne.md", "references/deontologie-conflits-interets.md"],
+      "required_context": ["ethics_exposure", "documents", "deadline"],
+      "sensitivity": "ethics",
+      "criteria": [
+        {"id": "validation-deontologie", "critical": true, "description": "Soumet le contenu au service déontologie avant diffusion."},
+        {"id": "portee-cible", "critical": true, "description": "Distingue les obligations selon les fonctions et l'exposition du poste."},
+        {"id": "canal-officiel", "critical": false, "description": "Traite l'intranet comme un canal de référence nécessitant traçabilité et mise à jour."}
+      ],
+      "forbidden_claims": ["tous les agents publient obligatoirement la même DPI"]
+    },
+    {
+      "id": "recours-expert-externe",
+      "prompt": "Peut-on missionner rapidement un expert externe qui travaille aussi pour l'industrie ?",
+      "branches": ["references/deontologie-conflits-interets.md", "references/recrutement-classification-contractuels.md"],
+      "required_context": ["direction", "ethics_exposure", "documents", "deadline"],
+      "sensitivity": "ethics",
+      "criteria": [
+        {"id": "qualifier-relation", "critical": true, "description": "Distingue expertise externe et recrutement d'un agent contractuel."},
+        {"id": "liens-interets", "critical": true, "description": "Exige déclaration, analyse des liens et mesures de gestion avant intervention."},
+        {"id": "alternative", "critical": false, "description": "Propose une expertise différente ou un périmètre exclu si le conflit n'est pas gérable."}
+      ],
+      "forbidden_claims": ["une déclaration suffit toujours", "l'expert externe n'est soumis à aucun contrôle"]
+    },
+    {
+      "id": "decision-defavorable-agent",
+      "prompt": "Prépare la structure d'une décision défavorable concernant un agent sans exposer son identité ni les détails médicaux du dossier.",
+      "branches": ["references/fonctionnaires-corps-specifiques.md", "references/deontologie-conflits-interets.md"],
+      "required_context": ["agent_category", "documents", "deadline"],
+      "sensitivity": "disciplinary",
+      "criteria": [
+        {"id": "regime-agent", "critical": true, "description": "Identifie le régime statutaire avant de choisir le fondement et la procédure."},
+        {"id": "motivation-recours", "critical": true, "description": "Prévoit motivation en fait et en droit ainsi que voies et délais de recours si nécessaires."},
+        {"id": "minimisation", "critical": true, "description": "Utilise des pseudonymes et limite les faits sensibles au strict nécessaire."}
+      ],
+      "forbidden_claims": ["insérez le dossier médical complet", "les voies de recours sont inutiles"]
+    }
+  ]
+}

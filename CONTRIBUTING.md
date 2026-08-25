@@ -6,9 +6,12 @@
    inventer une valeur, un délai ou une procédure locale.
 3. Mettre à jour la branche, le registre des sources, `CHANGELOG.md` et
    `JOURNAL.md` ensemble lorsqu'une correction de fond est apportée.
-4. Ajouter ou ajuster un cas dans `evals/cases.yaml` si la modification
+4. Ajouter ou ajuster un cas dans `evals/behavior-cases.json` si la modification
    corrige une erreur susceptible de revenir.
-5. Exécuter `python scripts/validate_skill.py` avant de proposer une
+5. Ne jamais déposer de document RH interne : renseigner uniquement ses
+   métadonnées dans `evals/internal-source-requirements.json`.
+6. Exécuter `python scripts/validate_skill.py` et les tests avant de proposer une
    modification.
 
-Les demandes qui portent sur un cas d'agent doivent rester anonymisées.
+Les demandes qui portent sur un cas d'agent doivent rester anonymisées ;
+utiliser `scripts/privacy_scan.py` comme filet de sécurité local.

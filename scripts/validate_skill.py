@@ -8,6 +8,8 @@ import re
 import sys
 
 from source_gate import BRANCH_FILES, parse_registry, validate_source_gates
+from behavior_eval import validate_suite
+from internal_sources import validate_requirements
 
 
 parser = argparse.ArgumentParser(description="Valide la structure et les sources du skill.")
@@ -84,12 +86,31 @@ if source_gates_path.is_file():
     }
     errors.extend(validate_source_gates(source_gates, registry_sources, branch_contents, TODAY))
 
+behavior_path = ROOT / "evals" / "behavior-cases.json"
+require(behavior_path.is_file(), "Suite comportementale evals/behavior-cases.json manquante")
+if behavior_path.is_file():
+    try:
+        behavior_suite = json.loads(behavior_path.read_text(encoding="utf-8"))
+        errors.extend(validate_suite(behavior_suite))
+    except (json.JSONDecodeError, OSError) as exc:
+        errors.append(f"Suite comportementale illisible : {exc}")
+
+internal_sources_path = ROOT / "evals" / "internal-source-requirements.json"
+require(internal_sources_path.is_file(), "Registre des besoins internes manquant")
+if internal_sources_path.is_file():
+    try:
+        internal_sources = json.loads(internal_sources_path.read_text(encoding="utf-8"))
+        errors.extend(validate_requirements(internal_sources))
+    except (json.JSONDecodeError, OSError) as exc:
+        errors.append(f"Registre des besoins internes illisible : {exc}")
+
 instances = (ROOT / "references" / "instances-dialogue-social.md").read_text(encoding="utf-8")
 deontology = (ROOT / "references" / "deontologie-conflits-interets.md").read_text(encoding="utf-8")
 require("2025-1430" in instances, "Instances : décret n° 2025-1430 non référencé")
 require("ne constitue pas un délai légal automatique" in deontology, "Déontologie : réserve interne / délai légal non distingués")
 require("emplois mentionnés à l'article L. 124-5" in deontology, "Déontologie : champ de L. 124-7 insuffisamment borné")
-require("3 fiabilisées, 4" in skill, "SKILL.md : bilan de maturité v0.8.0 incohérent")
+require("3 fiabilisées, 4" in skill, "SKILL.md : bilan de maturité v0.9.0 incohérent")
+require("version: 0.9.0" in skill, "SKILL.md : version 0.9.0 attendue")
 
 if errors:
     print("ÉCHEC")
