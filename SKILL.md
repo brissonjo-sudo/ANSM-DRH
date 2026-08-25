@@ -309,9 +309,9 @@ Boucle d'apprentissage : `JOURNAL.md` pour consigner les cas,
 La suite `evals/behavior-cases.json` contient vingt demandes réalistes
 couvrant les huit branches. Après toute modification de fond, exécuter
 `python scripts/behavior_eval.py`, puis rejouer les cas concernés. Le
-contrôle automatique bloque les formulations critiques interdites ; les
-critères métier restent à évaluer sémantiquement, sans se limiter à la
-présence de mots-clés.
+contrôle automatique signale les formulations critiques à examiner ; il
+ne les juge pas hors contexte, notamment en présence d'une négation. Les
+critères métier restent à évaluer sémantiquement.
 
 **Fait** : les 8 branches ont été traitées. 3 fiabilisées, 4
 partielles, 1 amorcée (voir routeur §7).

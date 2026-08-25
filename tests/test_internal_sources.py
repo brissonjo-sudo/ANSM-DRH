@@ -40,6 +40,11 @@ class InternalSourcesTests(unittest.TestCase):
         errors = validate_requirements(registry)
         self.assertTrue(any("secure_reference" in item for item in errors))
 
+    def test_received_source_requires_secure_reference(self) -> None:
+        registry = deepcopy(self.registry)
+        registry["requirements"][0]["status"] = "received"
+        self.assertTrue(any("secure_reference" in item for item in validate_requirements(registry)))
+
 
 if __name__ == "__main__":
     unittest.main()

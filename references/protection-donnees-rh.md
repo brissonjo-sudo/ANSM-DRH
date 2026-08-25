@@ -21,6 +21,10 @@ IBAN, NIR et matricules structurés. Il s'agit d'un filet de sécurité : il
 ne détecte pas de façon fiable les noms, adresses libres ou situations
 permettant une réidentification indirecte.
 
+Le script renvoie le code `1` lorsqu'un identifiant direct est détecté
+et `2` pour un risque élevé ; un simple contexte sensible non identifié
+reste un avertissement de code `0`.
+
 ## 2. Données à retirer
 
 - nom, prénom, initiales rares ou photographie ;

@@ -119,7 +119,7 @@ def validate_suite(suite: object) -> list[str]:
 
 
 def find_forbidden_claims(case: dict, response: str) -> list[str]:
-    """Détecte seulement les formulations critiques explicitement interdites."""
+    """Repère lexicalement les formulations critiques à examiner."""
     normalized = " ".join(response.casefold().split())
     return [
         claim
@@ -133,7 +133,7 @@ def build_review(case: dict, response: str) -> dict:
     forbidden = find_forbidden_claims(case, response)
     return {
         "case_id": case["id"],
-        "automatic_gate": "fail" if forbidden else "pass",
+        "automatic_gate": "review" if forbidden else "clear",
         "forbidden_claims_found": forbidden,
         "manual_criteria": [
             {
@@ -145,8 +145,9 @@ def build_review(case: dict, response: str) -> dict:
             for criterion in case["criteria"]
         ],
         "review_note": (
-            "Le contrôle lexical ne remplace pas l'évaluation sémantique "
-            "des critères métier."
+            "Une alerte lexicale doit être interprétée dans son contexte, "
+            "notamment en présence d'une négation. Elle ne remplace pas "
+            "l'évaluation sémantique des critères métier."
         ),
     }
 
@@ -181,7 +182,7 @@ def main() -> int:
         args.output.write_text(rendered, encoding="utf-8")
     else:
         print(rendered, end="")
-    return 2 if review["automatic_gate"] == "fail" else 0
+    return 2 if review["automatic_gate"] == "review" else 0
 
 
 if __name__ == "__main__":

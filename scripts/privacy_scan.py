@@ -58,6 +58,15 @@ def redact_text(content: str) -> str:
     return redacted
 
 
+def exit_code_for_findings(findings: list[dict]) -> int:
+    """0 sans identifiant, 1 avec identifiant, 2 avec risque élevé."""
+    if any(item["severity"] == "high" for item in findings):
+        return 2
+    if any(item["kind"] in IDENTIFIER_PATTERNS for item in findings):
+        return 1
+    return 0
+
+
 def main() -> int:
     parser = ArgumentParser(description="Repère les données RH à pseudonymiser.")
     parser.add_argument("input", type=Path)
@@ -74,7 +83,7 @@ def main() -> int:
         args.output.write_text(rendered, encoding="utf-8")
     else:
         print(rendered, end="")
-    return 2 if any(item["severity"] == "high" for item in findings) else 0
+    return exit_code_for_findings(findings)
 
 
 if __name__ == "__main__":

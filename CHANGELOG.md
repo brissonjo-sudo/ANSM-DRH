@@ -4,7 +4,7 @@
 
 **Évaluation métier, confidentialité et maintenance préventive.** Ajout
 de vingt scénarios réalistes couvrant les huit branches, d'une grille de
-revue sémantique et d'un blocage lexical des affirmations critiques.
+revue sémantique et d'un signalement lexical des affirmations critiques.
 
 Ajout d'un filtre local pour les identifiants RH, d'un formulaire de
 demande anonymisée, d'un contrat de sortie et de nouveaux gabarits de

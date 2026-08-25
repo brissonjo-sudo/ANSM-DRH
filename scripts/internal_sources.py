@@ -60,8 +60,11 @@ def validate_requirements(registry: object) -> list[str]:
         status = item.get("status")
         if status not in VALID_STATUS:
             errors.append(f"{prefix} : statut invalide.")
+        if status in {"received", "reviewed", "integrated"}:
+            if not isinstance(item.get("secure_reference"), str) or not item["secure_reference"].strip():
+                errors.append(f"{prefix} : secure_reference requis au statut {status}.")
         if status in {"reviewed", "integrated"}:
-            for key in ("version_label", "reviewed_on", "secure_reference"):
+            for key in ("version_label", "reviewed_on"):
                 if not isinstance(item.get(key), str) or not item[key].strip():
                     errors.append(f"{prefix} : {key} requis au statut {status}.")
             if isinstance(item.get("reviewed_on"), str):

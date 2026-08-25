@@ -3,8 +3,9 @@
 `behavior-cases.json` regroupe vingt cas à rejouer après toute
 modification de fond. Chaque cas indique les branches, le contexte à
 lever, la sensibilité, les critères sémantiques et les affirmations
-critiques interdites. Le contrôle lexical est seulement une barrière :
-une revue métier reste obligatoire.
+critiques interdites. Le contrôle lexical les signale sans décider de
+leur sens : une revue métier reste obligatoire, notamment pour les
+formulations négatives.
 
 `source-gates.json` suit les affirmations vérifiées et leur expiration.
 `internal-source-requirements.json` suit uniquement les métadonnées des
