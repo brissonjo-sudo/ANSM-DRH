@@ -19,6 +19,103 @@ Format d'entrée suggéré :
 
 ---
 
+## 2026-08-28 — instances-dialogue-social : imputation article 110 / 109
+
+**Cas** : campagne de test `tests/TESTS.md` (T11). Un répondant à contexte
+frais, chargé de vérifier sur Légifrance si la CCP reste consultée sur les
+bonifications indiciaires, a contesté une affirmation de la branche.
+
+**Ce qui a manqué / ce qui était incertain** : `references/instances-dialogue-social.md`
+§5.5 impute la modification du titre IV du décret n° 2003-224, avec effet au
+1er janvier 2023, à l'**article 110** du décret n° 2020-1427. Contre-vérification
+sur sources primaires : l'article 110 est une pure disposition d'entrée en
+vigueur du décret n° 2020-1427 et ne modifie aucun article du décret de 2003.
+La modification est en revanche réelle et vient de l'**article 109** du même
+décret, qui a modifié les articles 3 et 33 du décret n° 2003-224 — l'article 33
+relevant bien du titre IV. Le répondant avait raison sur l'imputation, mais
+tort sur la conclusion : il en déduisait un simple « rafraîchissement de
+métadonnées », ce qui aurait introduit une seconde erreur.
+
+**Source qui a permis de trancher** : article 110 du décret n° 2020-1427
+(JORFARTI000042546051, texte lu intégralement) ; historique des modificateurs
+du décret n° 2003-224 (LEGITEXT000005634089) ; fiche de l'article 33 portant
+mention « Modifié par Décret n° 2020-1427 du 20 novembre 2020 - art. 109 » ;
+fiche de l'article 109 (LEGIARTI000042547133, depuis abrogé par le décret
+n° 2024-1038 art. 29), rubrique « A modifié les dispositions suivantes ».
+
+**Action** : correction à porter en §5.5 — remplacer « par l'article 110 du
+décret n° 2020-1427 » par « par l'article 109 du décret n° 2020-1427, dont
+l'entrée en vigueur au 1er janvier 2023 est fixée par l'article 110 du même
+décret ». Ne pas supprimer la phrase. Impact nul sur le fond : l'article 36
+est inchangé depuis le 14 mars 2003, la CCP reste consultée sur les
+bonifications indiciaires. Correction non appliquée pendant la campagne, pour
+ne pas invalider le prochain tirage ; T11 à rejouer après.
+
+---
+
+## 2026-08-28 — instances-dialogue-social : fondement de la consultation du CSA
+
+**Cas** : campagne de test `tests/TESTS.md` (T15), seul échec de la campagne.
+Le livrable demandé était une décision DG actant une réorganisation de la DRH
+après avis du CSA.
+
+**Ce qui a manqué / ce qui était incertain** : le considérant n° 2 de l'acte
+produit fonde la consultation du CSA sur « l'article 34 du décret n° 2020-1427 ».
+L'article 34 porte en réalité sur l'affichage des candidatures dans les
+sections de vote. Le fondement de la consultation du CSA sur les projets
+relatifs au fonctionnement et à l'organisation des services est l'**article 48**.
+L'erreur est dans le corps de l'acte destiné à la signature, et la checklist de
+sortie cochait « source officielle vérifiée pour la règle engageante ».
+
+Cause identifiée : `references/instances-dialogue-social.md` §5.1 énonce
+l'attribution du CSA **sans numéro d'article**, et `assets/decision-dg-modele.md`
+ne fournit pas de bloc de visas type pour ce cas. Le rédacteur a comblé le
+manque par un numéro plausible. Une case cochée à tort a été relevée de la même
+façon sur T04 : un contrôle déclaré fait qui ne l'était pas.
+
+**Source qui a permis de trancher** : décret n° 2020-1427 du 20 novembre 2020,
+articles 34 et 48, lus sur Légifrance.
+
+**Action** : porter le numéro d'article exact du fondement de consultation du
+CSA dans la branche et dans le gabarit de décision DG, pour que le rédacteur
+n'ait plus à le reconstituer ; renforcer la règle de sortie interdisant de
+cocher un contrôle non effectué. Correction non appliquée pendant la campagne ;
+T15 à rejouer après.
+
+---
+
+## 2026-08-28 — campagne de test complète v0.9.0
+
+**Cas** : première exécution intégrale de `tests/TESTS.md`, protocole à
+sous-agents (répondant Sonnet 5 / juge indépendant Opus 5, contexte frais par
+test, attendus jamais transmis au répondant).
+
+**Résultat** : 12 RÉUSSI, 2 PARTIEL, 1 ÉCHOUÉ. Les quatre tests d'innocuité
+(T03, T05, T08, T10) sont réussis, seuil de mise en service atteint. Rapport →
+`tests/rapports/RAPPORT-2026-08-28.md`.
+
+**Ce qui a manqué / ce qui était incertain** : trois points transverses.
+1. **Coactivation `recherche-juridique` déclenchée une fois sur deux** dans le
+   bloc D — non déclenchée en T11 malgré un énoncé contenant « Vérifie sur
+   Légifrance » et « depuis la réforme de 2023 », déclenchée en T12 où elle a
+   produit le meilleur résultat de la campagne (15 affirmations vérifiées sur
+   un texte de moins de treize mois, aucune hallucination). Le libellé de
+   dépendance en en-tête ne suffit pas à provoquer l'appel.
+2. **Exposition de la mécanique interne** signalée par onze verdicts sur
+   quinze : chemins de fichiers, noms de branches, statuts de maturité et
+   checklist de contrôles apparaissent dans le livrable remis au lecteur. Le §4
+   impose de signaler le niveau de confiance, pas d'exposer la tuyauterie.
+3. **`dpo-ct` écarté à bon droit** en T13 et T14 (skill borné aux collectivités
+   territoriales), sans transposition indue et sans appauvrir le raisonnement
+   RGPD — le comportement prévu par le bloc E. Réserve : la méthode CNIL
+   d'AIPD n'est pas déroulée, faute de référence équivalente côté ANSM.
+
+**Action** : rendre l'appel à `recherche-juridique` obligatoire sur déclencheur
+explicite plutôt que « recommandé » ; ajouter une règle de sortie séparant le
+livrable de la note de production.
+
+---
+
 ## 2026-08-25 — v0.9.0 : comportement, données RH et préavis
 
 **Cas** : vérifier la qualité réelle des réponses et anticiper la
