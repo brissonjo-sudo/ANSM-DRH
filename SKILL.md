@@ -16,7 +16,7 @@ description: >-
   courrier). Vérifie la source officielle avant toute règle engageante.
   Ne pas activer pour la FPT, la FPH ou une autre agence sanitaire.
 metadata:
-  version: 0.9.2
+  version: 0.9.3
   statut: >-
     8 branches toutes traitées. Trois fiabilisées sur sources primaires
     (recrutement-classification, instances-dialogue-social,
@@ -27,7 +27,7 @@ metadata:
     et quotas relèvent de la délibération du CA portant cadre d'emploi,
     non publiée. Audit interne passé le 2026-08-24 (voir AUDIT.md).
   date_derniere_revue_methodologique: 2026-08-28
-  date_derniere_verification_sources: 2026-08-25
+  date_derniere_verification_sources: 2026-08-28
   perimetre: >-
     Agence nationale de sécurité du médicament et des produits de santé
     (ANSM) — établissement public administratif de l'État, environ 1000
@@ -48,7 +48,7 @@ metadata:
     s'applique pas ici.
 ---
 
-# Skill : drh-ansm (v0.9.2)
+# Skill : drh-ansm (v0.9.3)
 
 > **Objet** : expertise d'une Direction des Ressources Humaines d'un
 > établissement public de l'État à statut de personnel atypique — une
@@ -413,7 +413,7 @@ contenir que des métadonnées non sensibles.
 
 ## 11. Limites et précautions
 
-- Skill en version **0.9.2** : trois branches fiabilisées, quatre
+- Skill en version **0.9.3** : trois branches fiabilisées, quatre
   partielles, une amorcée. Ne pas traiter les branches 🟢 et 🟡 comme
   des sources d'autorité.
 - Ne remplace pas l'avis d'un juriste, du contrôle interne, du service

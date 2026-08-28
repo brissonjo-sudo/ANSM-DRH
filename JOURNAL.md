@@ -116,6 +116,64 @@ livrable de la note de production.
 
 ---
 
+## 2026-08-28 — v0.9.3 : deux textes abrogés, un garde-fou plutôt que deux rustines
+
+**Cas** : la v0.9.2 avait corrigé un visa reposant sur le décret
+n° 2020-1427, abrogé au 1er février 2025, mais seulement là où il
+produisait un acte fautif. Les autres mentions restaient. Leur reprise a
+fait apparaître que le problème n'était pas isolé.
+
+**Ce qui a manqué / ce qui était incertain** :
+
+1. **Une seconde abrogation, même décret de codification.** L'**article
+   1-2 du décret n° 86-83**, qui portait les règles de la CCP, est abrogé
+   depuis le 1er février 2025 par l'**article 10 du décret n° 2024-1038**
+   — quand le décret n° 2020-1427 l'était par l'article 29 du même texte.
+   La règle des trois jours siège désormais à l'**article R. 271-12 du
+   CGFP**.
+2. **L'abrogation est ciblée, pas générale.** Les autres articles du
+   décret n° 86-83, dont les articles 43-2 et 44, restent en vigueur. Se
+   tromper dans l'autre sens — traiter tout le décret comme abrogé —
+   coûterait aussi cher.
+3. **Un seuil décalé d'une unité.** La formation spécialisée SSCT était
+   présentée comme obligatoire « au-delà de » 200 agents. L'article
+   R. 251-28 vise un effectif « au moins égal à deux cents agents » :
+   l'obligation joue **dès** 200.
+4. **Une barrière de fraîcheur qui interdisait de rafraîchir.**
+   `tests/test_validation.py` figeait sa date de référence au 25 août :
+   toute affirmation vérifiée après cette date était rejetée comme
+   « située dans le futur ».
+
+**Enseignement transposable** : deux abrogations issues du même décret de
+codification, trouvées l'une après l'autre par des juges différents sur
+des branches différentes, ce n'est plus une erreur, c'est un motif. La
+réponse n'est pas une troisième correction ponctuelle mais un
+**avertissement transverse** dans le socle : avant de viser un texte
+réglementaire antérieur à 2025 en matière de dialogue social ou
+d'instances, contrôler qu'il n'a pas été codifié. Corollaire méthodique
+déjà tiré en v0.9.2 et confirmé ici : vérifier qu'un article dit bien ce
+qu'on lui fait dire ne dispense pas de vérifier que **le texte qui le
+porte est en vigueur à la date de l'acte**.
+
+**Sources qui ont permis de trancher** : art. 10 et 29 du décret
+n° 2024-1038 du 6 novembre 2024 ; art. R. 251-20, R. 251-28, R. 253-1,
+R. 271-1 et R. 271-12 du code général de la fonction publique ; état de
+vigueur des art. 43-2 et 44 du décret n° 86-83.
+
+**Action** : réancrage complet des branches instances et QVT sur le CGFP ;
+registre dédoublé (`CSA-ETAT` / `CSA-ETAT-ANCIEN`, ajout de `CCP-ETAT`) ;
+avertissement transverse de codification dans le socle ; correction du
+seuil de 200 agents ; deux misattributions résiduelles de l'article 110
+rectifiées ; date de référence des tests désindexée d'une date écrite en
+dur. **Rejeu** : T06, T10 et T15 — fond RÉUSSI pour les trois, T15
+décrochant pour la première fois fond et forme. Détail →
+`tests/rapports/RAPPORT-2026-08-28-codification.md`.
+**Reste ouvert** : la règle de composition disciplinaire de la CCP est
+laissée **sans numéro d'article**, faute d'avoir pu le lire en source — et
+le reste du registre n'a pas été audité pour cette vague de codification.
+
+---
+
 ## 2026-08-28 — v0.9.2 : la tuyauterie hors de la réponse, sans emporter les sources
 
 **Cas** : toutes les campagnes de la journée relevaient le même défaut de

@@ -1,4 +1,4 @@
-# Batterie de tests — skill drh-ansm (v0.9.2)
+# Batterie de tests — skill drh-ansm (v0.9.3)
 
 **Objet** : valider le déclenchement, l'exactitude des branches ✅, la
 retenue des branches 🟢/🟡, et les coactivations avec
@@ -238,6 +238,13 @@ interne). Les trois restent **RÉUSSI** sur le fond, la forme passe de
 non conforme à conforme ou à résidus mineurs. Le rejeu a mis au jour un
 défaut de fond hors grille — un visa reposant sur un décret abrogé —
 corrigé depuis. Détail → `tests/rapports/RAPPORT-2026-08-28-forme.md`.
+
+**Rejeu de réancrage du 28 août 2026** (skill v0.9.3) : T06, T10 et T15
+rejoués après reprise de toutes les mentions des textes abrogés au
+1er février 2025 par la codification au code général de la fonction
+publique. Les trois sont **RÉUSSI** sur le fond ; T15 décroche pour la
+première fois fond et forme. Détail →
+`tests/rapports/RAPPORT-2026-08-28-codification.md`.
 
 **Seuil de mise en service suggéré** : 100 % de réussite sur T03, T05,
 T08 et T10 (ce sont les tests d'*innocuité* — une erreur y produit un

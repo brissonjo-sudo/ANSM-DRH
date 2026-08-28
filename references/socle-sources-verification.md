@@ -44,10 +44,26 @@ Distinguer trois strates.
    dans son champ d'application (art. 1er). Fonde les quatre catégories
    d'emploi (CE1 à CE4). Modifié à plusieurs reprises, dont un effet au
    **1er janvier 2023** sur le titre IV (évaluation-avancement), issu de
-   l'article 110 du **décret n° 2020-1427 du 20 novembre 2020**.
+   l'**article 109** du **décret n° 2020-1427 du 20 novembre 2020** —
+   l'article 110 du même décret ne fixe que la date d'entrée en vigueur
+   de cet article 109.
    ⚠️ Le décret renvoie l'essentiel des **valeurs** (indices, durées
    d'échelon, emplois-repères, quotas) à des **délibérations du conseil
    d'administration non publiées** : voir la branche recrutement.
+> 🔴 **Vague de codification du 1er février 2025 — à vérifier avant tout
+> visa.** Le **décret n° 2024-1038 du 6 novembre 2024** a créé les livres
+> I et II de la **partie réglementaire du code général de la fonction
+> publique** et **abrogé, au 1er février 2025**, les textes
+> réglementaires qui portaient ces matières — droits et obligations,
+> dialogue social, instances. Deux abrogations ont déjà été constatées
+> dans ce référentiel : le **décret n° 2020-1427** en entier (art. 29) et
+> l'**article 1-2 du décret n° 86-83** (art. 10). L'abrogation est
+> **ciblée article par article** : le reste du décret n° 86-83 est en
+> vigueur. Avant de viser un texte réglementaire antérieur à 2025 en
+> matière de dialogue social ou d'instances, **contrôler qu'il n'a pas
+> été codifié** — un article exact dans un véhicule abrogé reste un visa
+> fautif.
+
 5 bis. **Décret n° 86-83 du 17 janvier 1986** — droit commun des agents
    contractuels de l'État, applicable **à titre subsidiaire**, sous
    réserve des dispositions du décret de 2003.

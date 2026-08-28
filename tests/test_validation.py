@@ -1,7 +1,7 @@
 """Tests en mémoire de la barrière de fiabilisation."""
 
 from copy import deepcopy
-from datetime import date
+from datetime import date, timedelta
 import json
 from pathlib import Path
 import unittest
@@ -10,7 +10,11 @@ from scripts.source_gate import BRANCH_FILES, parse_registry, validate_source_ga
 
 
 PROJECT = Path(__file__).resolve().parents[1]
-TODAY = date(2026, 8, 25)
+# Date de référence des tests : elle suit la dernière vérification de
+# sources du dépôt. Une affirmation contrôlée après cette date serait vue
+# comme « située dans le futur » — remonter TODAY en même temps qu'une
+# campagne de vérification, jamais pour contourner un contrôle.
+TODAY = date(2026, 8, 28)
 CONTRACTUELS = "references/recrutement-classification-contractuels.md"
 DEONTOLOGIE = "references/deontologie-conflits-interets.md"
 
@@ -81,7 +85,8 @@ class ValidationGateTests(unittest.TestCase):
 
     def test_future_check_date_is_blocked(self) -> None:
         gates = deepcopy(self.gates)
-        gates["branches"][DEONTOLOGIE]["claims"][0]["checked_on"] = "2026-08-26"
+        demain = (TODAY + timedelta(days=1)).isoformat()
+        gates["branches"][DEONTOLOGIE]["claims"][0]["checked_on"] = demain
         self.assert_blocked("futur", gates=gates)
 
 

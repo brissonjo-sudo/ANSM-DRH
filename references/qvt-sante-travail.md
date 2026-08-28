@@ -18,7 +18,9 @@
 > travail voté par le conseil d'administration (§5.3 bis).
 >
 > Sources : **retour d'information du CA du 27 novembre 2025** (programme
-> de travail 2026) ; **décret n° 2020-1427** (formation spécialisée SSCT) ;
+> de travail 2026) ; **art. R. 251-28 du code général de la fonction publique**
+> (formation spécialisée SSCT — le décret n° 2020-1427 qui portait cette
+> règle est abrogé depuis le 1er février 2025) ;
 > **décret n° 82-453 du 28 mai 1982** (hygiène, sécurité et prévention
 > médicale dans la FPE) ; page « Notre politique RH » de l'ANSM ; bilan
 > social 2014 (historique).
@@ -70,9 +72,11 @@ confidentiel adapté.
 ### 5.1 L'instance compétente — formation spécialisée SSCT obligatoire
 
 L'ANSM comptant de l'ordre d'un millier d'agents, elle dépasse largement
-le seuil de **200 agents** au-delà duquel la **formation spécialisée en
+le seuil de **200 agents** à partir duquel la **formation spécialisée en
 matière de santé, de sécurité et de conditions de travail est
-obligatoirement créée au sein du CSA** (décret n° 2020-1427).
+obligatoirement créée au sein du CSA** (**art. R. 251-28 du code général
+de la fonction publique** : effectif « au moins égal à deux cents
+agents »).
 
 Elle a repris les compétences de l'ancien CHSCT, supprimé au
 1er janvier 2023.
