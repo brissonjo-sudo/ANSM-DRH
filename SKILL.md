@@ -16,7 +16,7 @@ description: >-
   courrier). Vérifie la source officielle avant toute règle engageante.
   Ne pas activer pour la FPT, la FPH ou une autre agence sanitaire.
 metadata:
-  version: 0.9.0
+  version: 0.9.1
   statut: >-
     8 branches toutes traitées. Trois fiabilisées sur sources primaires
     (recrutement-classification, instances-dialogue-social,
@@ -26,7 +26,7 @@ metadata:
     transversale : grilles indiciaires, durées d'échelon, emplois-repères
     et quotas relèvent de la délibération du CA portant cadre d'emploi,
     non publiée. Audit interne passé le 2026-08-24 (voir AUDIT.md).
-  date_derniere_revue_methodologique: 2026-08-25
+  date_derniere_revue_methodologique: 2026-08-28
   date_derniere_verification_sources: 2026-08-25
   perimetre: >-
     Agence nationale de sécurité du médicament et des produits de santé
@@ -48,7 +48,7 @@ metadata:
     s'applique pas ici.
 ---
 
-# Skill : drh-ansm (v0.9.0)
+# Skill : drh-ansm (v0.9.1)
 
 > **Objet** : expertise d'une Direction des Ressources Humaines d'un
 > établissement public de l'État à statut de personnel atypique — une
@@ -147,6 +147,18 @@ Le **règlement intérieur de l'ANSM** et certaines procédures internes
 l'Agence ») sont des textes **internes à l'agence**, consultables sur
 ansm.sante.fr ou auprès de la DRH/DRD, pas sur les bases de législation
 publique. Le distinguer explicitement d'un texte réglementaire publié.
+
+### 3.0 Quand passer la main à `recherche-juridique`
+
+Le noyau autonome couvre le **réflexe** de vérification ; il ne remplace
+pas le skill compagnon. **Activer `recherche-juridique`** dès que la
+demande porte sur l'**état de vigueur** d'un texte, sa **version
+consolidée**, l'**historique de ses modificateurs**, une
+**jurisprudence**, ou dès qu'elle nomme explicitement **Légifrance** ou
+un texte à contrôler. Ne pas s'en tenir au noyau : c'est l'historique
+des modificateurs qui distingue l'article qui **modifie** de celui qui
+fixe seulement une **date d'entrée en vigueur** — confusion relevée en
+campagne de test entre les articles 109 et 110 du décret n° 2020-1427.
 
 ### 3.1 Barrière de fiabilisation
 
@@ -371,12 +383,15 @@ contenir que des métadonnées non sensibles.
    et non « arrêté »/« délibération » ?
 10. **Cas journalisable** apparu → proposé ?
 11. Pas de **donnée personnelle d'agent** exposée inutilement.
+12. Aucun **numéro d'article** ajouté à un visa, un considérant ou une
+    règle engageante sans avoir été lu dans une source officielle ou
+    dans une branche : à défaut, formuler sans numéro.
 
 ---
 
 ## 11. Limites et précautions
 
-- Skill en version **0.9.0** : trois branches fiabilisées, quatre
+- Skill en version **0.9.1** : trois branches fiabilisées, quatre
   partielles, une amorcée. Ne pas traiter les branches 🟢 et 🟡 comme
   des sources d'autorité.
 - Ne remplace pas l'avis d'un juriste, du contrôle interne, du service

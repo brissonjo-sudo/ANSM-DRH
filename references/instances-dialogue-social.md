@@ -116,8 +116,19 @@ le président, un **responsable ayant autorité en matière de gestion des
 ressources humaines** (DRH ou DGA Ressources) et des représentants du
 personnel.
 
-**Attributions** : projets d'organisation et de fonctionnement des
-services, et questions de santé, sécurité et conditions de travail.
+**Attributions** — **article 48 du décret n° 2020-1427** : le CSA est
+consulté notamment sur les **projets de texte réglementaire relatifs au
+fonctionnement et à l'organisation des services** (1°), sur les
+orientations en matière de gestion des ressources humaines, sur les
+règles statutaires et d'échelonnement indiciaire, ainsi que sur les
+questions de santé, sécurité et conditions de travail.
+
+⚠️ **C'est l'article 48 qu'il faut viser** dans une décision DG portant
+organisation — pas un autre. Ne jamais compléter un visa ou un
+considérant par un numéro d'article qui ne figure pas ici ou dans une
+source officielle effectivement consultée : un numéro plausible mais
+faux dans le corps d'un acte destiné à signature est une faute
+juridique, pas une approximation.
 
 **Pratique confirmée à l'ANSM** : les décisions DG modifiant
 l'organisation **visent explicitement l'avis du CSA** — ainsi la
@@ -201,10 +212,15 @@ d'avance.
 ### 5.5 Articulation CCP / avancement — point à vérifier
 
 Le **titre IV du décret n° 2003-224** (évaluation-avancement) a été
-modifié avec effet au **1er janvier 2023** par l'article 110 du décret
-n° 2020-1427. L'article 36 du décret de 2003 prévoit, dans sa rédaction
-accessible, l'attribution de **bonifications indiciaires après avis de
-la CCP**.
+modifié avec effet au **1er janvier 2023** par l'**article 109** du
+décret n° 2020-1427 — lequel modifie les **articles 3 et 33** du décret
+de 2003 (substitution du CSA au comité technique). L'**article 110** du
+même décret ne modifie rien : il se borne à fixer au 1er janvier 2023
+l'entrée en vigueur de cet article 109. L'article 109 a lui-même été
+abrogé par l'**article 29 du décret n° 2024-1038 du 6 novembre 2024**,
+sans remettre en cause les modifications déjà opérées. L'article 36 du
+décret de 2003 prévoit, dans sa rédaction accessible, l'attribution de
+**bonifications indiciaires après avis de la CCP**.
 
 ⚠️ La réforme de 2019-2020 a resserré partout les compétences
 consultatives sur les mesures individuelles favorables. **Vérifier au
