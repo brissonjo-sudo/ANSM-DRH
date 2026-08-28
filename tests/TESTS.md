@@ -1,4 +1,4 @@
-# Batterie de tests — skill drh-ansm (v0.5.1)
+# Batterie de tests — skill drh-ansm (v0.9.0)
 
 **Objet** : valider le déclenchement, l'exactitude des branches ✅, la
 retenue des branches 🟢/🟡, et les coactivations avec
@@ -204,21 +204,26 @@ ou qu'il passe la main proprement.)*
 
 | Test | Bloc | Cible principale | Résultat |
 |------|------|------------------|----------|
-| T01 | A | Non-activation FPT | ☐ |
-| T02 | A | Activation + cadrage EPA | ☐ |
-| T03 | B | Piège « viduité » | ☐ |
-| T04 | B | PH → hors-classe CE1 | ☐ |
-| T05 | B | Abstention chiffrée | ☐ |
-| T06 | B | Périmètre CCP | ☐ |
-| T07 | B | Financement (3 régimes) | ☐ |
-| T08 | C | Neutralité CE1/CE2 | ☐ |
-| T09 | C | Urgence électorale | ☐ |
-| T10 | C | Conditionnel borné 🟢 | ☐ |
-| T11 | D | Vérification consolidée | ☐ |
-| T12 | D | Texte récent sourcé | ☐ |
-| T13 | E | DPI × RGPD | ☐ |
-| T14 | E | AIPD vote électronique | ☐ |
-| T15 | F | Livrable décision DG | ☐ |
+| T01 | A | Non-activation FPT | PARTIEL ⚠️ |
+| T02 | A | Activation + cadrage EPA | RÉUSSI |
+| T03 | B | Piège « viduité » | RÉUSSI |
+| T04 | B | PH → hors-classe CE1 | RÉUSSI |
+| T05 | B | Abstention chiffrée | RÉUSSI |
+| T06 | B | Périmètre CCP | RÉUSSI |
+| T07 | B | Financement (3 régimes) | RÉUSSI |
+| T08 | C | Neutralité CE1/CE2 | RÉUSSI |
+| T09 | C | Urgence électorale | RÉUSSI |
+| T10 | C | Conditionnel borné 🟢 | RÉUSSI |
+| T11 | D | Vérification consolidée | PARTIEL ⚠️ |
+| T12 | D | Texte récent sourcé | RÉUSSI |
+| T13 | E | DPI × RGPD | RÉUSSI |
+| T14 | E | AIPD vote électronique | RÉUSSI |
+| T15 | F | Livrable décision DG | ÉCHOUÉ ❌ |
+
+**Campagne du 28 août 2026** (skill v0.9.0) : 12 RÉUSSI, 2 PARTIEL,
+1 ÉCHOUÉ. Les quatre tests d'innocuité sont réussis et le total atteint le
+seuil. Détail, défauts et corrections à porter →
+`tests/rapports/RAPPORT-2026-08-28.md`.
 
 **Seuil de mise en service suggéré** : 100 % de réussite sur T03, T05,
 T08 et T10 (ce sont les tests d'*innocuité* — une erreur y produit un
