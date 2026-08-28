@@ -1,4 +1,4 @@
-# Batterie de tests — skill drh-ansm (v0.9.0)
+# Batterie de tests — skill drh-ansm (v0.9.1)
 
 **Objet** : valider le déclenchement, l'exactitude des branches ✅, la
 retenue des branches 🟢/🟡, et les coactivations avec
@@ -214,16 +214,23 @@ ou qu'il passe la main proprement.)*
 | T08 | C | Neutralité CE1/CE2 | RÉUSSI |
 | T09 | C | Urgence électorale | RÉUSSI |
 | T10 | C | Conditionnel borné 🟢 | RÉUSSI |
-| T11 | D | Vérification consolidée | PARTIEL ⚠️ |
+| T11 | D | Vérification consolidée | PARTIEL ⚠️ → **RÉUSSI** (rejeu) |
 | T12 | D | Texte récent sourcé | RÉUSSI |
 | T13 | E | DPI × RGPD | RÉUSSI |
 | T14 | E | AIPD vote électronique | RÉUSSI |
-| T15 | F | Livrable décision DG | ÉCHOUÉ ❌ |
+| T15 | F | Livrable décision DG | ÉCHOUÉ ❌ → **RÉUSSI** (rejeu) |
 
 **Campagne du 28 août 2026** (skill v0.9.0) : 12 RÉUSSI, 2 PARTIEL,
 1 ÉCHOUÉ. Les quatre tests d'innocuité sont réussis et le total atteint le
 seuil. Détail, défauts et corrections à porter →
 `tests/rapports/RAPPORT-2026-08-28.md`.
+
+**Rejeu du 28 août 2026 après correction** (skill v0.9.1) : T11 et T15
+rejoués sur sous-agents neufs, tous deux **RÉUSSI**. Le compte passe à
+**14 RÉUSSI, 1 PARTIEL, 0 ÉCHOUÉ** — le PARTIEL résiduel étant T01, dont
+le critère propre (non-activation de `drh-ansm`) est satisfait, la réserve
+portant sur `drh-fpt`, hors de ce dépôt. Détail →
+`tests/rapports/RAPPORT-2026-08-28-rejeu.md`.
 
 **Seuil de mise en service suggéré** : 100 % de réussite sur T03, T05,
 T08 et T10 (ce sont les tests d'*innocuité* — une erreur y produit un
