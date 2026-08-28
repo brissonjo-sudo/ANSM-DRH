@@ -116,15 +116,26 @@ le président, un **responsable ayant autorité en matière de gestion des
 ressources humaines** (DRH ou DGA Ressources) et des représentants du
 personnel.
 
-**Attributions** — **article 48 du décret n° 2020-1427** : le CSA est
-consulté notamment sur les **projets de texte réglementaire relatifs au
-fonctionnement et à l'organisation des services** (1°), sur les
-orientations en matière de gestion des ressources humaines, sur les
-règles statutaires et d'échelonnement indiciaire, ainsi que sur les
-questions de santé, sécurité et conditions de travail.
+**Attributions** — **article R. 253-1 du code général de la fonction
+publique** : le CSA est consulté notamment sur les **projets de texte
+législatif ou réglementaire relatifs au fonctionnement et à
+l'organisation des services** (1°), sur les orientations stratégiques de
+gestion des ressources humaines, sur les règles statutaires et les
+dispositions d'échelonnement indiciaire, ainsi que sur les questions de
+santé, sécurité et conditions de travail.
 
-⚠️ **C'est l'article 48 qu'il faut viser** dans une décision DG portant
-organisation — pas un autre. Ne jamais compléter un visa ou un
+🔴 **Attention au véhicule.** Le **décret n° 2020-1427 du 20 novembre
+2020 est abrogé depuis le 1er février 2025** par l'**article 29 du
+décret n° 2024-1038 du 6 novembre 2024**, qui a codifié ces dispositions
+dans la **partie réglementaire du CGFP** (titre V « Comités sociaux »,
+art. R. 251-1 et suivants ; attributions du CSA aux art. R. 253-1 et
+suivants). Un acte pris après cette date **ne doit plus viser le décret
+de 2020** : viser le code. Le décret reste utile pour lire l'état du
+droit **antérieur** au 1er février 2025 — les autres mentions qu'en fait
+cette branche sont à relire dans cette optique et à réancrer sur le code.
+
+⚠️ **C'est l'article R. 253-1, 1° du CGFP qu'il faut viser** dans une
+décision DG portant organisation. Ne jamais compléter un visa ou un
 considérant par un numéro d'article qui ne figure pas ici ou dans une
 source officielle effectivement consultée : un numéro plausible mais
 faux dans le corps d'un acte destiné à signature est une faute

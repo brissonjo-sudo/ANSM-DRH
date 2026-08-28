@@ -11,6 +11,16 @@ de sécurité n'est perdu.
 > noms de branches, niveaux de maturité, codes du registre de sources,
 > mentions du « skill ») la rend inutilisable telle quelle. Voir §7.
 
+## Repérage rapide
+
+| Section | Objet |
+|---|---|
+| §1 à §5 | structure de la réponse remise au destinataire |
+| §6 | check-list de contrôle **interne**, jamais reproduite |
+| §7 | ce qui ne figure **jamais** dans une réponse |
+| §8 | ce qui doit **toujours** y figurer — même rang que le §7 |
+| §9 | test de relecture, en deux moitiés |
+
 ## 1. Réponse immédiate
 
 Donner la conclusion opérationnelle en deux ou trois phrases. Si la
@@ -73,11 +83,34 @@ Ni en corps de texte, ni en note de bas de réponse, ni en encadré :
   base », « d'après ma branche X » ;
 - la **check-list du §6** et toute auto-évaluation de la réponse.
 
-Ce qui doit en revanche rester **visible** : le niveau de confiance, ce
-qui reste à vérifier, la pièce interne à obtenir et la source officielle
-citée par son intitulé et sa date. Ces éléments servent le destinataire ;
-les précédents ne servent que le fonctionnement interne.
+## 8. Ce qui doit au contraire toujours y figurer
 
-**Test de relecture** : la réponse pourrait-elle être transférée telle
-quelle à un agent de la DRH qui ignore tout de ce dispositif, sans qu'il
-bute sur une référence qui ne lui parle pas ? Sinon, retirer.
+Cette liste a **le même rang que la précédente**. Le §7 retire la
+tuyauterie ; il ne retire rien du contenu. Une réponse appauvrie de ses
+sources n'est pas une réponse propre, c'est une réponse invérifiable :
+
+1. **Chaque texte officiel mobilisé, cité par son intitulé complet, son
+   numéro et sa date** — « décret n° 2003-224 du 7 mars 2003 »,
+   « arrêté du 2 juillet 2025 fixant la date des élections ». C'est
+   l'**identifiant interne du registre** (`ELECTION-DATE-2026`) qui ne
+   sort pas, jamais le texte qu'il désigne.
+2. **Les valeurs chiffrées vérifiées**, avec leur source et leur date de
+   référence — les masquer revient à refaire, par excès de prudence,
+   l'abstention que le skill réserve aux valeurs *non* publiées.
+3. **Le niveau de confiance**, dit en français dans le fil de la réponse.
+4. **Ce qui reste à vérifier**, et **la pièce interne à obtenir**, avec
+   la voie pour l'obtenir.
+5. **Les réserves destinées au destinataire** : vérification en version
+   consolidée avant signature, sens de l'avis d'une instance, éléments
+   laissés en champ vide.
+
+**Départage en un mot** : masquer ce qui décrit *comment la réponse a été
+fabriquée*, conserver ce qui permet *de la contrôler*. Un chemin de
+fichier ne se vérifie pas ; un numéro de décret, si.
+
+## 9. Test de relecture
+
+La réponse pourrait-elle être transférée telle quelle à un agent de la
+DRH qui ignore tout de ce dispositif — sans qu'il bute sur une référence
+qui ne lui parle pas (§7), **et sans qu'il ait à redemander sur quel
+texte elle se fonde** (§8) ? Les deux moitiés du test comptent également.

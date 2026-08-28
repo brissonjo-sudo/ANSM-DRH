@@ -33,7 +33,9 @@ VU la décision n° 2012-237 du 24 septembre 2012 modifiée portant
    vigueur, à vérifier] ;
 [VU l'avis du comité social d'administration du [date] — si l'acte porte
    sur l'organisation ou le fonctionnement des services ; fondement de
-   la consultation : article 48, 1° du décret n° 2020-1427] ;
+   la consultation : article R. 253-1, 1° du code général de la fonction
+   publique — et non le décret n° 2020-1427, abrogé au 1er février
+   2025] ;
 [VU (le cas échéant) les textes propres au fondement de l'acte : décret
    n° 2003-224 du 7 mars 2003 pour un acte de recrutement/classification,
    règlement intérieur de l'ANSM pour un acte à portée déontologique...] ;

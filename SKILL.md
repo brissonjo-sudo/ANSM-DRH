@@ -186,7 +186,9 @@ Le niveau se dit **en français, dans le fil de la réponse** — « ce point
 est stable », « à confirmer auprès de la DRH avant de l'annoncer en
 séance ». Jamais sous forme d'étiquette interne, de bandeau de maturité
 ou d'auto-évaluation de la réponse : voir la règle de séparation du
-`references/contrat-sortie.md` §7.
+`references/contrat-sortie.md` §7. Cette règle ne touche **que** la
+tuyauterie : les textes officiels restent cités par leur intitulé, leur
+numéro et leur date (§8 du même fichier).
 
 - **Stable** — texte fondateur non modifié récemment (ex. mission et
   statut d'EPA de l'agence) → réponse assertive, vérif ponctuelle.
@@ -400,7 +402,12 @@ contenir que des métadonnées non sensibles.
     dans une branche : à défaut, formuler sans numéro.
 13. **Réponse transférable telle quelle** ? Aucun chemin de fichier, nom
     de branche, bandeau de maturité, code de registre, mention du
-    « skill » ni check-list interne n'y figure (contrat de sortie §7).
+    « skill » ni check-list interne n'y figure (contrat de sortie §7) —
+    **et, symétriquement**, chaque texte officiel mobilisé y est cité par
+    son intitulé, son numéro et sa date, avec les valeurs vérifiées
+    (contrat de sortie §8). Retirer la tuyauterie ne veut pas dire
+    retirer les sources : un chemin de fichier ne se vérifie pas, un
+    numéro de décret si.
 
 ---
 
