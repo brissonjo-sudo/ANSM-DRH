@@ -116,6 +116,59 @@ livrable de la note de production.
 
 ---
 
+## 2026-08-28 — v0.9.4 : l'audit qui transforme deux erreurs en motif
+
+**Cas** : deux abrogations trouvées coup sur coup par des juges de test, sur
+deux branches différentes, imputables au même décret de codification. Plutôt
+que d'attendre la troisième, audit des 21 entrées du registre par trois
+auditeurs indépendants, chaque anomalie revérifiée avant correction.
+
+**Ce qui a manqué / ce qui était incertain** :
+
+1. **Ce n'étaient pas deux accidents mais un programme.** La partie
+   réglementaire du CGFP se construit **livre par livre** : livres I et II au
+   1er février 2025 (décret n° 2024-1038), livre III — recrutement — au
+   1er octobre 2025 (décret n° 2025-695), livre IV — organisation et gestion
+   RH, dont la **formation** et le **télétravail** — au 1er août 2026 (décret
+   n° 2026-366), livre V annoncé. Le référentiel était ancré sur les
+   véhicules d'avant, et la dernière vague avait 27 jours.
+2. **Une règle manquait au socle** : un article **survivant** peut avoir été
+   **réécrit** par le décret codificateur. Vérifier qu'un article dit bien ce
+   qu'on lui fait dire ne suffit donc pas — il faut citer la version.
+3. **Le numéro refusé en v0.9.3 n'était pas là où on le cherchait.** La
+   composition disciplinaire de la CCP n'est pas dans le code : elle est
+   restée à l'**article 44 du décret n° 86-83**, réécrit au 1er février 2025,
+   qui renvoie lui-même à l'art. R. 271-1 du CGFP. Le régime est hybride.
+   Chercher dans le seul code ne pouvait pas aboutir — et le refus d'écrire
+   un numéro plausible a évité d'inscrire une erreur.
+4. **Une réserve fausse depuis trois jours.** Le dépôt affirmait qu'aucune
+   URL n'avait été retrouvée pour la charte de déontologie de février 2026 et
+   le dispositif conflits d'intérêts. Les deux sont publics.
+
+**Enseignement transposable** : une réserve d'abstention **se périme comme
+une affirmation**. « Document non retrouvé » est une constatation datée, pas
+un état permanent ; elle doit être réinterrogée à chaque revue, au même titre
+qu'une règle. Et symétriquement : deux occurrences d'un même motif justifient
+d'auditer l'ensemble plutôt que de corriger la troisième quand elle viendra.
+
+**Sources qui ont permis de trancher** : décrets n° 2024-1038, n° 2025-695 et
+n° 2026-366 (programme de codification et dates d'effet) ; art. 44 du décret
+n° 86-83 en vigueur depuis le 1er février 2025 ; art. R. 431-1 et s. du CGFP
+(télétravail) ; charte ANSM de février 2026 et dispositif mis à jour février
+2026, millésimes confirmés en page de couverture.
+
+**Action** : programme complet de codification et ses trois règles portés au
+socle ; registre corrigé sur sept entrées et enrichi de quatre ; branches
+QVT, instances et déontologie réancrées ; branche formation marquée à
+réancrer. **Rejeu** : T10 et T13, tous deux RÉUSSI. Détail →
+`tests/rapports/RAPPORT-2026-08-28-audit-registre.md`.
+**Reste ouvert** : le réancrage de la formation sur le livre IV ; les
+nouvelles sources ANSM déclarées citables mais pas encore exploitées par le
+corps de la branche déontologie — lever une réserve ne suffit pas à faire
+utiliser la source.
+
+---
+
 ## 2026-08-28 — v0.9.3 : deux textes abrogés, un garde-fou plutôt que deux rustines
 
 **Cas** : la v0.9.2 avait corrigé un visa reposant sur le décret
