@@ -81,7 +81,10 @@ Ni en corps de texte, ni en note de bas de réponse, ni en encadré :
   citer le texte lui-même, pas son identifiant interne ;
 - **mentions du dispositif** : « le skill », « mon référentiel », « ma
   base », « d'après ma branche X » ;
-- la **check-list du §6** et toute auto-évaluation de la réponse.
+- la **check-list du §6**, toute auto-évaluation de la réponse, et plus
+  généralement **toute liste de cases à cocher de contrôle**, sous quelque
+  intitulé que ce soit : les règles de rédaction interne ne remontent pas
+  en surface.
 
 ## 8. Ce qui doit au contraire toujours y figurer
 

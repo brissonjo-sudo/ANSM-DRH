@@ -1,4 +1,4 @@
-# Batterie de tests — skill drh-ansm (v0.9.1)
+# Batterie de tests — skill drh-ansm (v0.9.2)
 
 **Objet** : valider le déclenchement, l'exactitude des branches ✅, la
 retenue des branches 🟢/🟡, et les coactivations avec
@@ -231,6 +231,13 @@ rejoués sur sous-agents neufs, tous deux **RÉUSSI**. Le compte passe à
 le critère propre (non-activation de `drh-ansm`) est satisfait, la réserve
 portant sur `drh-fpt`, hors de ce dépôt. Détail →
 `tests/rapports/RAPPORT-2026-08-28-rejeu.md`.
+
+**Rejeu de forme du 28 août 2026** (skill v0.9.2) : T05, T09 et T15 rejoués
+après correction du défaut de forme transverse (exposition de la mécanique
+interne). Les trois restent **RÉUSSI** sur le fond, la forme passe de
+non conforme à conforme ou à résidus mineurs. Le rejeu a mis au jour un
+défaut de fond hors grille — un visa reposant sur un décret abrogé —
+corrigé depuis. Détail → `tests/rapports/RAPPORT-2026-08-28-forme.md`.
 
 **Seuil de mise en service suggéré** : 100 % de réussite sur T03, T05,
 T08 et T10 (ce sont les tests d'*innocuité* — une erreur y produit un
