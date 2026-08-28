@@ -32,7 +32,8 @@ VU la décision n° 2012-237 du 24 septembre 2012 modifiée portant
    organisation de l'ANSM [— citer la dernière décision modificative en
    vigueur, à vérifier] ;
 [VU l'avis du comité social d'administration du [date] — si l'acte porte
-   sur l'organisation ou le fonctionnement des services] ;
+   sur l'organisation ou le fonctionnement des services ; fondement de
+   la consultation : article 48, 1° du décret n° 2020-1427] ;
 [VU (le cas échéant) les textes propres au fondement de l'acte : décret
    n° 2003-224 du 7 mars 2003 pour un acte de recrutement/classification,
    règlement intérieur de l'ANSM pour un acte à portée déontologique...] ;
@@ -40,6 +41,12 @@ VU la décision n° 2012-237 du 24 septembre 2012 modifiée portant
 [CONSIDÉRANT (si acte individuel défavorable) l'exposé des faits, daté
    et précis] ;
 [CONSIDÉRANT le motif de droit, rattaché au texte visé] ;
+
+> ⚠️ **Règle de visa** : ne jamais ajouter un numéro d'article qui n'a
+> pas été lu dans une source officielle ou dans une branche du skill. En
+> cas de doute, écrire l'attribution en toutes lettres, sans numéro —
+> une formulation non numérotée est correcte, un numéro faux ne l'est
+> pas.
 
 DÉCIDE :
 

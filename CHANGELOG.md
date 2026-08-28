@@ -1,5 +1,33 @@
 # Changelog — drh-ansm
 
+## v0.9.1 — 2026-08-28
+
+**Corrections issues de la première campagne de test complète.** La
+batterie `tests/TESTS.md` a été jouée intégralement pour la première
+fois (15 tests, sous-agents à contexte frais, juge indépendant) et a
+révélé deux défauts de fond, corrigés ici.
+
+`instances-dialogue-social.md` §5.5 imputait à l'**article 110** du
+décret n° 2020-1427 la modification du titre IV du décret n° 2003-224 au
+1er janvier 2023. L'article 110 est une pure disposition d'entrée en
+vigueur : la modification vient de l'**article 109** (articles 3 et 33
+du décret de 2003), lui-même abrogé depuis par l'article 29 du décret
+n° 2024-1038. L'article 36 reste inchangé — la CCP demeure consultée sur
+les bonifications indiciaires.
+
+`instances-dialogue-social.md` §5.1 énonçait les attributions du CSA
+sans numéro d'article, lacune qui a conduit un livrable de test à viser
+un « article 34 » inexistant en la matière dans le corps d'une décision
+DG. Le fondement exact — **article 48, 1° du décret n° 2020-1427** — est
+désormais écrit dans la branche et rappelé dans
+`assets/decision-dg-modele.md`, assorti d'une règle de visa : jamais de
+numéro d'article non lu en source.
+
+Ajout du §3.0 de `SKILL.md` — critère explicite de passage de main à
+`recherche-juridique` (état de vigueur, version consolidée, historique
+des modificateurs, jurisprudence, mention de Légifrance) — et d'un
+douzième point d'auto-vérification sur les numéros d'article.
+
 ## v0.9.0 — 2026-08-25
 
 **Évaluation métier, confidentialité et maintenance préventive.** Ajout

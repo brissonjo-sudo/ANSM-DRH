@@ -116,6 +116,60 @@ livrable de la note de production.
 
 ---
 
+## 2026-08-28 — v0.9.1 : correction des deux défauts de campagne et rejeu
+
+**Cas** : la première exécution intégrale de `tests/TESTS.md` (voir l'entrée
+du même jour) avait laissé deux défauts constatés mais non corrigés, pour ne
+pas invalider le tirage suivant. Ils sont corrigés ici, puis les deux tests
+concernés ont été rejoués sur des sous-agents neufs.
+
+**Ce qui a manqué / ce qui était incertain** :
+
+1. **Imputation fausse d'un article modificateur.**
+   `instances-dialogue-social.md` §5.5 attribuait à l'**article 110** du
+   décret n° 2020-1427 la modification du titre IV du décret n° 2003-224 au
+   1er janvier 2023. L'article 110 est une pure disposition d'entrée en
+   vigueur. La modification vient de l'**article 109**, qui touche les
+   articles 3 et 33 du décret de 2003 (substitution du CSA au comité
+   technique) ; l'article 109 a lui-même été abrogé par l'article 29 du
+   décret n° 2024-1038 du 6 novembre 2024. L'article 36 — celui qui porte
+   l'avis de la CCP sur les bonifications indiciaires — est resté inchangé
+   depuis le 14 mars 2003.
+2. **Lacune ayant produit un visa fabriqué.** Le §5.1 énonçait les
+   attributions du CSA sans numéro d'article. Le rédacteur du livrable T15 a
+   comblé la lacune par un « article 34 » plausible mais sans rapport
+   (l'article 34 porte sur l'affichage des candidatures aux élections), dans
+   le corps d'une décision destinée à signature, et sa checklist de sortie
+   certifiait la vérification. Le fondement exact est l'**article 48, 1°**.
+
+**Enseignement** : une branche qui énonce une règle **sans son numéro
+d'article** ne produit pas une réponse prudente, elle produit un numéro
+inventé. La lacune documentaire est ici plus dangereuse que l'absence de la
+règle : le rédacteur, sommé de viser un texte, comble. Et le second
+enseignement tient au dispositif de vérification lui-même : c'est l'historique
+des modificateurs qui distingue l'article qui **modifie** de celui qui fixe
+seulement une **date d'entrée en vigueur** — le noyau autonome du skill ne va
+pas jusque-là, `recherche-juridique` si.
+
+**Sources qui ont permis de trancher** : article 48 du décret n° 2020-1427
+(JORFARTI000042546151), article 109 (LEGIARTI000042547133, rubrique « A
+modifié les dispositions suivantes » : art. 3 et 33 du décret n° 2003-224),
+article 110 (JORFARTI000042546051), article 36 du décret n° 2003-224
+(LEGIARTI000006564370). Vérifications croisées par le juge de campagne puis
+refaites indépendamment avant écriture.
+
+**Action** : correction de `instances-dialogue-social.md` §5.1 et §5.5 ; ajout
+du fondement et d'une règle de visa dans `assets/decision-dg-modele.md` ;
+nouveau §3.0 de `SKILL.md` fixant le critère de passage de main à
+`recherche-juridique` ; douzième point d'auto-vérification sur les numéros
+d'article. **Rejeu** : T11 et T15 rejoués sur sous-agents neufs, tous deux
+**RÉUSSI** — la coactivation se déclenche, le visa fabriqué ne réapparaît pas,
+et le numéro non vérifiable est laissé en champ vide sous réserve plutôt que
+comblé. Bilan consolidé : 14 RÉUSSI, 1 PARTIEL, 0 ÉCHOUÉ. Détail →
+`tests/rapports/RAPPORT-2026-08-28-rejeu.md`.
+
+---
+
 ## 2026-08-25 — v0.9.0 : comportement, données RH et préavis
 
 **Cas** : vérifier la qualité réelle des réponses et anticiper la
