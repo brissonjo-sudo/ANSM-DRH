@@ -32,6 +32,28 @@ vigueur) de `CSA-ETAT-ANCIEN` (le décret abrogé, réservé à la lecture de
 l'état du droit antérieur, à ne jamais viser dans un acte postérieur au
 1er février 2025).
 
+**Seconde abrogation, trouvée par le même mécanisme.** Le rejeu de T06 a
+fait apparaître que l'**article 1-2 du décret n° 86-83**, qui portait les
+règles de la CCP, est lui aussi **abrogé depuis le 1er février 2025**
+(art. 10 du décret n° 2024-1038) : les règles sont codifiées aux
+**articles R. 271-1 et suivants du CGFP**, la consultation sur les
+sanctions autres que l'avertissement, le blâme et l'exclusion ≤ 3 jours
+figurant à l'**article R. 271-12**. L'abrogation est ciblée : les autres
+articles du décret n° 86-83, dont les articles 43-2 et 44 sur la
+procédure disciplinaire, restent en vigueur.
+
+Plutôt que de traiter le cas isolément, `socle-sources-verification.md`
+porte désormais un avertissement transverse sur la **vague de
+codification du 1er février 2025** : avant de viser un texte
+réglementaire antérieur à 2025 en matière de dialogue social ou
+d'instances, contrôler qu'il n'a pas été codifié. Deux abrogations ont
+déjà été constatées dans ce référentiel ; d'autres sont probables.
+
+Les deux numéros d'article qui n'ont pas pu être lus en source — la règle
+de composition disciplinaire de la CCP — sont laissés **sans numéro**,
+avec la mention « à confirmer avant tout visa », conformément au douzième
+point d'auto-vérification.
+
 `tests/test_validation.py` : la date de référence des tests suivait la
 dernière campagne de vérification et bloquait toute vérification
 ultérieure ; elle est portée au 28 août 2026, et le cas « date de
