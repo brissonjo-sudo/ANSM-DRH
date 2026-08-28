@@ -1,6 +1,7 @@
 # Branche — Déontologie, DPI & prévention des conflits d'intérêts
 
-> 🟢 **Partiellement fiabilisée** (v0.6.1, vérification du 25 août 2026).
+> 🟢 **Partiellement fiabilisée** (v0.9.4, vérification du 28 août 2026 —
+> charte et dispositif de février 2026 retrouvés et versés au registre).
 >
 > Sources primaires directement traçables :
 > - **rapport public 2023 du déontologue de l'ANSM**, daté du 31 mars
@@ -10,9 +11,16 @@
 >   432-13 du code pénal** ; **articles L. 121-1, L. 121-5, L. 122-1,
 >   L. 122-3, L. 124-4 à L. 124-7 du CGFP**.
 >
-> **Reste à confirmer** : les versions de février 2026 de la charte, du
-> dispositif de prévention et des fiches de probité sont mentionnées dans
-> la copie de travail mais leur URL officielle n'a pas été retrouvée.
+> **Réserve levée le 28 août 2026** : la **charte de déontologie de
+> février 2026** et le **dispositif de prévention et de gestion des
+> conflits d'intérêts** (septembre 2018, mise à jour février 2026) ont été
+> retrouvés sur ansm.sante.fr, leurs millésimes confirmés dans les
+> documents eux-mêmes — voir `ANSM-CHARTE-2026` et `ANSM-DISPOSITIF-2026`
+> au registre des sources. Ce sont des **sources publiques citables**.
+> Écarter la version de la charte de novembre 2024, encore indexée. Le
+> **rapport du déontologue** disponible le plus récent est celui de
+> **2025** (publié le 13 avril 2026) : ne plus présenter le millésime 2023
+> comme l'état actuel. Restent à confirmer les **fiches de probité**.
 > Confirmer également le contenu exact des
 > **articles 11 à 14 du règlement intérieur de l'ANSM** et de la
 > procédure interne « Prévention et gestion des conflits d'intérêts du
@@ -478,7 +486,9 @@ avant tout acte :
 
 - **Stable** : textes publiés cités au §5 et organisation décrite dans le
   rapport public 2023 du déontologue de l'ANSM.
-- **À vérifier** : versions de février 2026 de la charte, du dispositif et
+- **Obtenu le 28 août 2026** : charte de février 2026 et dispositif mis à
+  jour en février 2026, tous deux publics et au registre.
+- **À vérifier** : les fiches de probité, et
   des fiches de probité ; contenu du règlement intérieur (articles 11 à
   14) et de la procédure interne ; évolutions postérieures au rapport
   public 2023.

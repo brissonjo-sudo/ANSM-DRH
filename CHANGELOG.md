@@ -1,5 +1,57 @@
 # Changelog — drh-ansm
 
+## v0.9.4 — 2026-08-28
+
+**Audit de vigueur du registre des sources.** Les vingt-et-une entrées du
+registre ont été contrôlées une à une sur source officielle. Le constat
+dépasse les deux abrogations traitées en v0.9.2 et v0.9.3 : la partie
+réglementaire du code général de la fonction publique se construit **livre
+par livre**, chaque livre abrogeant les décrets thématiques dont il
+reprend les dispositions.
+
+| Livre | Matière | Décret | Entrée en vigueur |
+|---|---|---|---|
+| I et II | Droits et obligations ; dialogue social | n° 2024-1038 | 1er février 2025 |
+| III | Recrutement | n° 2025-695 | 1er octobre 2025 |
+| IV | Organisation et gestion RH — formation, télétravail | n° 2026-366 | **1er août 2026** |
+| V | Carrière | annoncé | à surveiller |
+
+`socle-sources-verification.md` porte désormais ce programme complet, et
+trois règles qui en découlent : l'abrogation est ciblée article par
+article ; un article survivant peut avoir été **réécrit** par le décret
+codificateur, ce qui impose de citer la version ; tout texte réglementaire
+antérieur à 2026 doit être ouvert en version consolidée avant d'être visé.
+
+**Télétravail.** Le décret n° 2016-151 du 11 février 2016 est **abrogé
+depuis le 1er août 2026** ; les règles sont codifiées aux articles
+R. 431-1 et suivants du CGFP. La branche QVT est corrigée, en laissant
+volontairement le **bloc** d'articles plutôt qu'un numéro précis non lu en
+source.
+
+**Formation.** Le livre IV codifie l'ensemble du droit de la formation
+professionnelle : la branche formation porte un avertissement de
+réancrage, non fait à ce stade.
+
+**Composition disciplinaire de la CCP — point retrouvé.** La règle laissée
+sans numéro en v0.9.3 n'est pas dans le code : elle est restée à
+l'**article 44 du décret n° 86-83**, réécrit au 1er février 2025, qui
+renvoie lui-même à l'article R. 271-1 du CGFP. Le régime est hybride.
+
+**Réserve levée sur les documents ANSM.** Le dépôt affirmait depuis le
+25 août qu'aucune URL n'avait été retrouvée pour la charte de déontologie
+de février 2026 et le dispositif de prévention des conflits d'intérêts.
+Les deux documents sont publics, leurs millésimes confirmés en page de
+couverture ; ils entrent au registre (`ANSM-CHARTE-2026`,
+`ANSM-DISPOSITIF-2026`). Le rapport du déontologue disponible le plus
+récent est celui de **2025**, non celui de 2023.
+
+**Autres corrections du registre** : portée du décret n° 2025-1430
+(chapitre Ier en vue du renouvellement général de décembre 2026, chapitre
+II depuis le 31 décembre 2025) ; chaînes de modification des articles
+R. 253-1 et R. 271-1 ; renvoi de l'art. L. 5323-1 CSP à des titres
+abrogés, à lire par équivalence ; ajout de l'art. L. 124-8 (saisine HATVP)
+et de la loi n° 2025-1249 modifiant l'art. 432-12 du code pénal.
+
 ## v0.9.3 — 2026-08-28
 
 **Réancrage des instances sur le code général de la fonction publique.**

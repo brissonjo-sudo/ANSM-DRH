@@ -14,6 +14,16 @@
 > Sources : page « Notre politique RH » et « Nos métiers » de l'ANSM ;
 > **décret n° 2003-224** (art. 11, 12, 29, 33 et s.) ; bilan social 2014
 > (historique).
+>
+> 🔴 **Véhicule à réancrer.** Le **décret n° 2026-366 du 7 mai 2026** a
+> créé le **livre IV de la partie réglementaire du CGFP**, en vigueur au
+> **1er août 2026**, qui codifie l'ensemble du **droit de la formation
+> professionnelle tout au long de la vie** et abroge une quarantaine de
+> décrets thématiques. Le cadre général de la formation invoqué dans cette
+> branche doit être **relu et rattaché au code** avant tout usage
+> engageant. Réancrage non fait à la date de cette révision : traiter
+> toute règle de formation issue d'un décret antérieur comme **à
+> vérifier**.
 
 ## Repérage rapide
 
