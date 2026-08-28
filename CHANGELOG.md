@@ -1,5 +1,43 @@
 # Changelog — drh-ansm
 
+## v0.9.3 — 2026-08-28
+
+**Réancrage des instances sur le code général de la fonction publique.**
+La v0.9.2 avait corrigé le seul point exposé — le visa d'un acte — en
+laissant les autres mentions du décret n° 2020-1427, abrogé au
+1er février 2025. Elles sont toutes reprises ici.
+
+`instances-dialogue-social.md` : l'implantation du CSA est rattachée à
+l'**article R. 251-20 du CGFP** (CSA d'établissement public créé par
+arrêté des ministres de tutelle, placé auprès du directeur général), la
+formation spécialisée SSCT à l'**article R. 251-28**, les consultations
+obligatoires à l'**article R. 253-1**. Le bandeau de sources désigne
+désormais le titre V de la partie réglementaire du code.
+
+**Correction de fond au passage** : le seuil de la formation spécialisée
+SSCT était présenté comme celui « au-delà duquel » l'obligation joue.
+L'article R. 251-28 vise un effectif « au moins égal à deux cents
+agents » : l'obligation joue **dès** 200. Corrigé dans les deux branches
+qui l'énonçaient (instances et QVT).
+
+**Deux misattributions résiduelles** de l'article 110 du décret
+n° 2020-1427, identiques à celle corrigée en v0.9.1 mais restées dans
+`socle-sources-verification.md` et
+`recrutement-classification-contractuels.md`, sont rectifiées : c'est
+l'article 109 qui modifie les articles 3 et 33 du décret n° 2003-224,
+l'article 110 n'en fixant que la date d'effet.
+
+Le registre des sources distingue maintenant `CSA-ETAT` (le code, en
+vigueur) de `CSA-ETAT-ANCIEN` (le décret abrogé, réservé à la lecture de
+l'état du droit antérieur, à ne jamais viser dans un acte postérieur au
+1er février 2025).
+
+`tests/test_validation.py` : la date de référence des tests suivait la
+dernière campagne de vérification et bloquait toute vérification
+ultérieure ; elle est portée au 28 août 2026, et le cas « date de
+contrôle dans le futur » se calcule désormais à partir d'elle au lieu
+d'une date écrite en dur.
+
 ## v0.9.2 — 2026-08-28
 
 **Séparation de la réponse et de la tuyauterie.** La campagne de test du

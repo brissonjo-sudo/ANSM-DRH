@@ -44,7 +44,9 @@ Distinguer trois strates.
    dans son champ d'application (art. 1er). Fonde les quatre catégories
    d'emploi (CE1 à CE4). Modifié à plusieurs reprises, dont un effet au
    **1er janvier 2023** sur le titre IV (évaluation-avancement), issu de
-   l'article 110 du **décret n° 2020-1427 du 20 novembre 2020**.
+   l'**article 109** du **décret n° 2020-1427 du 20 novembre 2020** —
+   l'article 110 du même décret ne fixe que la date d'entrée en vigueur
+   de cet article 109.
    ⚠️ Le décret renvoie l'essentiel des **valeurs** (indices, durées
    d'échelon, emplois-repères, quotas) à des **délibérations du conseil
    d'administration non publiées** : voir la branche recrutement.

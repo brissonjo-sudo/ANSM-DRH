@@ -13,8 +13,9 @@
 >   contractuels de l'État), applicable **sous réserve** des dispositions
 >   du décret de 2003.
 > - **Décret n° 2005-1162 du 8 septembre 2005** (modificatif) et
->   **décret n° 2020-1427 du 20 novembre 2020**, art. 110 (entrée en
->   vigueur au 1er janvier 2023 des dispositions du titre IV).
+>   **décret n° 2020-1427 du 20 novembre 2020**, art. 109 (modification
+>   des art. 3 et 33 du décret de 2003), son art. 110 fixant l'entrée en
+>   vigueur au 1er janvier 2023.
 > - **Question écrite Sénat n° 23753** du 15 juillet 2021 (Mme Corinne
 >   Imbert) sur le classement CE1/CE2 des évaluateurs de l'ANSM.
 > - **Cadre d'emploi de Santé publique France** pris en application du
@@ -257,8 +258,9 @@ des services à temps complet pour l'avancement. Idem pour les services à
 temps incomplet **d'une durée égale ou supérieure à 50 %**.
 
 > ⚠️ **Modification de 2023** : les dispositions du titre IV ont été
-> modifiées par l'article 110 du décret n° 2020-1427 du 20 novembre 2020
-> (réforme des instances). **Vérifier au texte** l'état exact des
+> modifiées par l'**article 109** du décret n° 2020-1427 du 20 novembre
+> 2020 (réforme des instances) — l'article 110 n'en fixe que la date
+> d'effet, au 1er janvier 2023. **Vérifier au texte** l'état exact des
 > compétences consultatives de la CCP en matière d'avancement avant de
 > l'annoncer à un agent ou à une organisation syndicale : c'est
 > précisément le type de point que la réforme de 2019-2020 a resserré

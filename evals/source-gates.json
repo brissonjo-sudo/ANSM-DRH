@@ -11,7 +11,12 @@
           "status": "verified",
           "checked_on": "2026-08-25",
           "max_age_days": 30,
-          "source_ids": ["CGFP-ENTRANT", "CGFP-SORTANT", "PENAL-PENDANT", "PENAL-APRES"]
+          "source_ids": [
+            "CGFP-ENTRANT",
+            "CGFP-SORTANT",
+            "PENAL-PENDANT",
+            "PENAL-APRES"
+          ]
         }
       ],
       "unresolved_claims": [
@@ -29,7 +34,10 @@
           "status": "verified",
           "checked_on": "2026-08-25",
           "max_age_days": 90,
-          "source_ids": ["CONTRACTUELS-ANSM", "CONTRACTUELS-ANSM-2005"]
+          "source_ids": [
+            "CONTRACTUELS-ANSM",
+            "CONTRACTUELS-ANSM-2005"
+          ]
         },
         {
           "id": "droit-commun-suppletif",
@@ -37,7 +45,10 @@
           "status": "verified",
           "checked_on": "2026-08-25",
           "max_age_days": 90,
-          "source_ids": ["CONTRACTUELS-ETAT", "CONTRACTUELS-ANSM"]
+          "source_ids": [
+            "CONTRACTUELS-ETAT",
+            "CONTRACTUELS-ANSM"
+          ]
         }
       ],
       "unresolved_claims": [],
@@ -47,15 +58,18 @@
     },
     "references/instances-dialogue-social.md": {
       "maturity": "verified",
-      "verified_on": "2026-08-25",
+      "verified_on": "2026-08-28",
       "claims": [
         {
           "id": "regime-csa-fpe",
-          "statement": "Le CSA de l'ANSM relève du régime des administrations et établissements publics de l'État.",
+          "statement": "Le CSA de l'ANSM relève du régime des administrations et établissements publics de l'État, codifié au titre V du livre II de la partie réglementaire du code général de la fonction publique.",
           "status": "verified",
-          "checked_on": "2026-08-25",
+          "checked_on": "2026-08-28",
           "max_age_days": 90,
-          "source_ids": ["CSA-ETAT", "ANSM-STATUT"]
+          "source_ids": [
+            "CSA-ETAT",
+            "ANSM-STATUT"
+          ]
         },
         {
           "id": "elections-2026",
@@ -63,7 +77,12 @@
           "status": "verified",
           "checked_on": "2026-08-25",
           "max_age_days": 30,
-          "source_ids": ["ELECTION-DATE-2026", "ELECTION-VOTE-2026", "ELECTION-REGLES-2025", "ELECTION-CODIFICATION-2024"]
+          "source_ids": [
+            "ELECTION-DATE-2026",
+            "ELECTION-VOTE-2026",
+            "ELECTION-REGLES-2025",
+            "ELECTION-CODIFICATION-2024"
+          ]
         }
       ],
       "unresolved_claims": [],
@@ -81,7 +100,9 @@
           "status": "verified",
           "checked_on": "2026-08-25",
           "max_age_days": 90,
-          "source_ids": ["ANSM-PERSONNELS"]
+          "source_ids": [
+            "ANSM-PERSONNELS"
+          ]
         },
         {
           "id": "statut-phisp",
@@ -89,7 +110,10 @@
           "status": "verified",
           "checked_on": "2026-08-25",
           "max_age_days": 90,
-          "source_ids": ["PHISP-STATUT", "PHISP-AVANCEMENT-2025"]
+          "source_ids": [
+            "PHISP-STATUT",
+            "PHISP-AVANCEMENT-2025"
+          ]
         }
       ],
       "unresolved_claims": [],
@@ -107,7 +131,9 @@
           "status": "verified",
           "checked_on": "2026-08-25",
           "max_age_days": 30,
-          "source_ids": ["LFSS-DOTATION-2026"]
+          "source_ids": [
+            "LFSS-DOTATION-2026"
+          ]
         }
       ],
       "unresolved_claims": [

@@ -1,10 +1,14 @@
 # Branche — Instances & dialogue social
 
-> ✅ **Fiabilisée** (v0.7.0, vérification du 25 août 2026).
+> ✅ **Fiabilisée** (v0.9.3, vérification du 28 août 2026 — réancrage sur
+> le code général de la fonction publique).
 >
-> Sources primaires : **décret n° 2020-1427 du 20 novembre 2020**
-> (CSA dans les administrations et EPA de l'État) ; **décret n° 86-83 du
-> 17 janvier 1986**, art. 1-2 (CCP) ; **arrêté du 2 juillet 2025**
+> Sources primaires : **code général de la fonction publique, partie
+> réglementaire, titre V « Comités sociaux »** (art. R. 251-1 et
+> suivants) — le **décret n° 2020-1427 du 20 novembre 2020** qui portait
+> ces règles est **abrogé depuis le 1er février 2025** (art. 29 du décret
+> n° 2024-1038) et ne sert plus qu'à lire l'état du droit antérieur ;
+> **décret n° 86-83 du 17 janvier 1986**, art. 1-2 (CCP) ; **arrêté du 2 juillet 2025**
 > fixant la date des élections professionnelles ; **décrets n° 2024-1038
 > du 6 novembre 2024 et n° 2025-1430 du 30 décembre 2025** (règles
 > électorales à lire dans leur version en vigueur) ; **art. L. 5322-1
@@ -24,7 +28,7 @@
 > L'**arrêté du 2 juillet 2025** fixe le renouvellement général des
 > instances de dialogue social des trois versants de la fonction
 > publique au **jeudi 10 décembre 2026**. À la date de rédaction de
-> cette branche (25 août 2026), il reste **moins de quatre mois**.
+> cette branche (28 août 2026), il reste **moins de quatre mois**.
 >
 > Conséquences immédiates pour une DRH prenant ses fonctions :
 > - Le **vote électronique par internet est la modalité de principe dans
@@ -101,13 +105,18 @@ information → délai de convocation et formalisme → traçabilité de l'avis
 ### 5.1 Le comité social d'administration (CSA)
 
 **Fondement** : loi n° 2019-828 du 6 août 2019 (art. 4), mise en œuvre
-par le **décret n° 2020-1427 du 20 novembre 2020**. Le CSA résulte de la
-**fusion du comité technique (CT) et du CHSCT**, effective au
-1er janvier 2023 à l'issue des élections de décembre 2022.
+par le décret n° 2020-1427 du 20 novembre 2020, **aujourd'hui codifiée
+au code général de la fonction publique** (art. L. 251-1 et suivants pour
+la partie législative, art. R. 251-1 et suivants pour la partie
+réglementaire depuis le 1er février 2025). Le CSA résulte de la **fusion
+du comité technique (CT) et du CHSCT**, effective au 1er janvier 2023 à
+l'issue des élections de décembre 2022.
 
-**Implantation** : un CSA peut être institué dans **chaque établissement
-public de l'État ne présentant pas un caractère industriel ou
-commercial** — cas de l'ANSM, EPA de l'État.
+**Implantation** — **article R. 251-20 du CGFP** : dans chaque
+établissement public de l'État ne présentant pas un caractère industriel
+ou commercial, un **CSA d'établissement public** est créé **par arrêté du
+ou des ministres chargés de la tutelle** et **placé auprès du directeur
+général** de l'établissement — cas de l'ANSM, EPA de l'État.
 
 **Présidence et composition** : les CSA autres que ministériels sont
 présidés par **l'autorité auprès de laquelle ils sont placés** — à
@@ -150,11 +159,12 @@ et le visa figure dans l'acte. **Reproduire ce formalisme** (voir
 
 ### 5.2 La formation spécialisée SSCT — obligatoire à l'ANSM
 
-Le décret n° 2020-1427 fixe à **200 agents** le seuil au-delà duquel la
-formation spécialisée en matière de santé, de sécurité et de conditions
-de travail est **obligatoirement créée au sein du CSA**. En deçà, sa
-création doit être justifiée par des risques professionnels
-particuliers.
+L'**article R. 251-28 du CGFP** impose la création d'une formation
+spécialisée en matière de santé, de sécurité et de conditions de travail
+au sein du CSA lorsque l'effectif de l'établissement est **au moins égal
+à 200 agents** — seuil atteint, et non « dépassé » : la formulation
+exacte compte, l'obligation joue dès 200. En deçà, sa création reste
+possible dans les conditions du second alinéa de l'article L. 251-3.
 
 **L'ANSM comptant de l'ordre d'un millier d'agents, la formation
 spécialisée est obligatoire.** Ce point ne souffre pas de discussion.
