@@ -1,5 +1,29 @@
 # Changelog — drh-ansm
 
+## v0.9.2 — 2026-08-28
+
+**Séparation de la réponse et de la tuyauterie.** La campagne de test du
+28 août et son rejeu ont relevé le même défaut de forme dans presque
+toutes les réponses : chemins de fichiers, noms de branches, bandeaux de
+maturité, codes du registre de sources, mentions du « skill » et
+check-list de contrôle apparaissaient dans le texte remis. Aucun test n'en
+échouait, mais les sorties n'étaient pas transférables telles quelles à un
+destinataire qui ignore le dispositif.
+
+La cause était dans le contrat de sortie lui-même : son §2 demandait la
+« branche principale et les renvois inter-branches », son §5 de pointer
+vers un gabarit `assets/`, et sa check-list §6 ne se disait nulle part
+interne. `references/contrat-sortie.md` porte désormais une règle de
+séparation en tête, un §2 formulé en langage métier, un §5 qui produit le
+livrable sans citer son chemin, une check-list explicitement interne et un
+§7 énumérant ce qui ne figure jamais dans une réponse — assorti d'un test
+de relecture : la réponse serait-elle transférable telle quelle ?
+
+`SKILL.md` précise en §4 que le niveau de confiance se dit en français
+dans le fil de la réponse, rappelle en §7 que la maturité pilote la
+prudence sans s'afficher, et ajoute un treizième point d'auto-vérification
+sur la transférabilité.
+
 ## v0.9.1 — 2026-08-28
 
 **Corrections issues de la première campagne de test complète.** La
