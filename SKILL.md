@@ -16,7 +16,7 @@ description: >-
   courrier). Vérifie la source officielle avant toute règle engageante.
   Ne pas activer pour la FPT, la FPH ou une autre agence sanitaire.
 metadata:
-  version: 0.9.1
+  version: 0.9.2
   statut: >-
     8 branches toutes traitées. Trois fiabilisées sur sources primaires
     (recrutement-classification, instances-dialogue-social,
@@ -48,7 +48,7 @@ metadata:
     s'applique pas ici.
 ---
 
-# Skill : drh-ansm (v0.9.1)
+# Skill : drh-ansm (v0.9.2)
 
 > **Objet** : expertise d'une Direction des Ressources Humaines d'un
 > établissement public de l'État à statut de personnel atypique — une
@@ -182,6 +182,14 @@ avant expiration, puis la ferme lorsque toutes les sources sont à jour.
 
 ## 4. Niveau de confiance (à signaler en sortie)
 
+Le niveau se dit **en français, dans le fil de la réponse** — « ce point
+est stable », « à confirmer auprès de la DRH avant de l'annoncer en
+séance ». Jamais sous forme d'étiquette interne, de bandeau de maturité
+ou d'auto-évaluation de la réponse : voir la règle de séparation du
+`references/contrat-sortie.md` §7. Cette règle ne touche **que** la
+tuyauterie : les textes officiels restent cités par leur intitulé, leur
+numéro et leur date (§8 du même fichier).
+
 - **Stable** — texte fondateur non modifié récemment (ex. mission et
   statut d'EPA de l'agence) → réponse assertive, vérif ponctuelle.
 - **À vérifier** — régime par défaut de toute règle issue d'une branche
@@ -280,6 +288,12 @@ Toutes les branches suivent le **gabarit décisionnel** de
 primaires, utilisable en mode assertif) · 🟢 *partiellement fiabilisée*
 (le mécanisme est établi, les valeurs ou le dispositif interne
 manquent) · 🟡 *amorcée* (repères structurels seulement).
+
+> La maturité **pilote la prudence de la réponse, elle ne s'affiche pas**.
+> Une branche 🟢 se traduit par un conditionnel borné et une pièce à
+> obtenir, pas par la mention « branche partiellement fiabilisée ». Idem
+> pour les noms de branches et les chemins de fichiers : ils servent à
+> router, pas à être cités au destinataire.
 
 > **Renvois inter-branches** : recrutement d'un profil exposé →
 > recrutement-classification **et** déontologie (filtrage des liens
@@ -386,12 +400,20 @@ contenir que des métadonnées non sensibles.
 12. Aucun **numéro d'article** ajouté à un visa, un considérant ou une
     règle engageante sans avoir été lu dans une source officielle ou
     dans une branche : à défaut, formuler sans numéro.
+13. **Réponse transférable telle quelle** ? Aucun chemin de fichier, nom
+    de branche, bandeau de maturité, code de registre, mention du
+    « skill » ni check-list interne n'y figure (contrat de sortie §7) —
+    **et, symétriquement**, chaque texte officiel mobilisé y est cité par
+    son intitulé, son numéro et sa date, avec les valeurs vérifiées
+    (contrat de sortie §8). Retirer la tuyauterie ne veut pas dire
+    retirer les sources : un chemin de fichier ne se vérifie pas, un
+    numéro de décret si.
 
 ---
 
 ## 11. Limites et précautions
 
-- Skill en version **0.9.1** : trois branches fiabilisées, quatre
+- Skill en version **0.9.2** : trois branches fiabilisées, quatre
   partielles, une amorcée. Ne pas traiter les branches 🟢 et 🟡 comme
   des sources d'autorité.
 - Ne remplace pas l'avis d'un juriste, du contrôle interne, du service

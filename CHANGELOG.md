@@ -1,5 +1,51 @@
 # Changelog — drh-ansm
 
+## v0.9.2 — 2026-08-28
+
+**Séparation de la réponse et de la tuyauterie.** La campagne de test du
+28 août et son rejeu ont relevé le même défaut de forme dans presque
+toutes les réponses : chemins de fichiers, noms de branches, bandeaux de
+maturité, codes du registre de sources, mentions du « skill » et
+check-list de contrôle apparaissaient dans le texte remis. Aucun test n'en
+échouait, mais les sorties n'étaient pas transférables telles quelles à un
+destinataire qui ignore le dispositif.
+
+La cause était dans le contrat de sortie lui-même : son §2 demandait la
+« branche principale et les renvois inter-branches », son §5 de pointer
+vers un gabarit `assets/`, et sa check-list §6 ne se disait nulle part
+interne. `references/contrat-sortie.md` porte désormais une règle de
+séparation en tête, un §2 formulé en langage métier, un §5 qui produit le
+livrable sans citer son chemin, une check-list explicitement interne et un
+§7 énumérant ce qui ne figure jamais dans une réponse — assorti d'un test
+de relecture : la réponse serait-elle transférable telle quelle ?
+
+`SKILL.md` précise en §4 que le niveau de confiance se dit en français
+dans le fil de la réponse, rappelle en §7 que la maturité pilote la
+prudence sans s'afficher, et ajoute un treizième point d'auto-vérification
+sur la transférabilité.
+
+**Rééquilibrage après sur-correction.** Le premier rejeu a montré qu'une
+interdiction en liste face à une obligation en prose produit une réponse
+appauvrie : le répondant avait retiré, avec la tuyauterie, presque toutes
+les sources officielles nommées et les valeurs vérifiées. Le contrat de
+sortie porte désormais un **§8 de même rang que le §7** — obligation de
+citer chaque texte par son intitulé, son numéro et sa date, et de
+conserver les valeurs vérifiées, leur identifiant *interne* de registre
+restant seul masqué — et un §9 dont le test de relecture compte deux
+moitiés : ni référence qui ne parle pas au lecteur, ni fondement qu'il
+doive redemander.
+
+**Fondement de la consultation du CSA réancré sur le code.** Un juge de
+rejeu a établi que le **décret n° 2020-1427 est abrogé depuis le
+1er février 2025** (art. 29 du décret n° 2024-1038 du 6 novembre 2024),
+ses dispositions étant codifiées dans la partie réglementaire du CGFP. Le
+fondement à viser est donc l'**article R. 253-1, 1° du code général de la
+fonction publique**, et non l'article 48 du décret de 2020 introduit en
+v0.9.1. `instances-dialogue-social.md` §5.1 et
+`assets/decision-dg-modele.md` sont corrigés, avec un avertissement sur le
+véhicule. Les autres mentions du décret de 2020 dans cette branche
+décrivent l'état du droit antérieur et restent à réancrer.
+
 ## v0.9.1 — 2026-08-28
 
 **Corrections issues de la première campagne de test complète.** La

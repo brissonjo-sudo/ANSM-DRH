@@ -116,6 +116,63 @@ livrable de la note de production.
 
 ---
 
+## 2026-08-28 — v0.9.2 : la tuyauterie hors de la réponse, sans emporter les sources
+
+**Cas** : toutes les campagnes de la journée relevaient le même défaut de
+forme — chemins de fichiers, noms de branches, bandeaux de maturité, codes
+du registre, mentions du « skill » et check-list de contrôles figuraient
+dans le texte remis. Aucun test n'en échouait ; aucune réponse n'était
+transférable telle quelle à un agent qui ignore le dispositif.
+
+**Ce qui a manqué / ce qui était incertain** :
+
+1. **La cause était dans l'instruction, pas dans le comportement.** Le
+   contrat de sortie demandait lui-même la « branche principale et les
+   renvois inter-branches » (§2), de « pointer vers le gabarit dans
+   `assets/` » (§5), et sa check-list §6 ne se disait nulle part interne.
+   Corriger le comportement sans corriger l'instruction n'aurait rien
+   donné.
+2. **La première correction a sur-corrigé.** Rejeu de T09 : forme
+   conforme, fond retombé en PARTIEL — le répondant avait retiré, avec la
+   tuyauterie, presque toutes les sources officielles nommées et les
+   valeurs vérifiées. Une **interdiction en liste face à une obligation en
+   prose ne fait pas jeu égal** : douze interdits en puces contre une
+   phrase de paragraphe, le modèle suit la liste.
+3. **Un visa reposant sur un texte abrogé.** En contrôlant les visas un à
+   un, un juge a établi que le **décret n° 2020-1427 est abrogé depuis le
+   1er février 2025** (art. 29 du décret n° 2024-1038), ses dispositions
+   étant codifiées au CGFP. Or c'est ce décret que la v0.9.1 venait
+   d'inscrire comme fondement de la consultation du CSA. Remplacer un
+   numéro faux par un numéro exact **dans un véhicule abrogé** ne corrige
+   qu'à moitié : vérifier qu'un article dit bien ce qu'on lui fait dire ne
+   dispense pas de vérifier que le texte qui le porte est en vigueur à la
+   date de l'acte.
+
+**Enseignement transposable** : une règle de retrait doit toujours être
+écrite avec sa règle de conservation, au même rang et dans le même
+format. La ligne de partage retenue : masquer ce qui décrit *comment la
+réponse a été fabriquée*, conserver ce qui permet *de la contrôler* — un
+chemin de fichier ne se vérifie pas, un numéro de décret si.
+
+**Sources qui ont permis de trancher** : article 29 du décret
+n° 2024-1038 du 6 novembre 2024 (abrogation du décret n° 2020-1427 au
+1er février 2025) ; article R. 253-1, 1° du code général de la fonction
+publique, partie réglementaire (titre V « Comités sociaux »).
+
+**Action** : `contrat-sortie.md` réécrit — règle de séparation, §2 en
+langage métier, §5 sans chemin, check-list §6 explicitement interne, §7
+des interdits, **§8 des obligations de citation de même rang**, §9 test de
+relecture en deux moitiés. `SKILL.md` §4, §7 et §10 alignés.
+`instances-dialogue-social.md` §5.1 et `assets/decision-dg-modele.md`
+réancrés sur l'article R. 253-1, 1° du CGFP, avec avertissement sur le
+véhicule. **Rejeu** : T05, T09 et T15 rejoués — fond RÉUSSI pour les
+trois, forme conforme (T05) ou résidus mineurs (T09, T15), sources
+suffisantes. Détail → `tests/rapports/RAPPORT-2026-08-28-forme.md`.
+**Reste ouvert** : le réancrage des autres mentions du décret de 2020 dans
+la branche instances, à faire avant la v1.0.0.
+
+---
+
 ## 2026-08-28 — v0.9.1 : correction des deux défauts de campagne et rejeu
 
 **Cas** : la première exécution intégrale de `tests/TESTS.md` (voir l'entrée
