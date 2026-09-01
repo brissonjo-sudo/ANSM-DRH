@@ -19,6 +19,34 @@ Format d'entrée suggéré :
 
 ---
 
+## 2026-09-01 — contrat de sortie (§2, §7, §8)
+**Cas** : rejeu du test de coactivation sur le vote électronique des
+élections professionnelles de décembre 2026. Fond **RÉUSSI**, onze
+références vérifiées une à une sans aucune invention, aucune règle
+territoriale rapatriée depuis `dpo-ct`. Trois défauts de forme subsistent.
+**Ce qui a manqué / ce qui était incertain** : deux des trois défauts ne
+sont pas imputables au répondant. Le §7 interdisait « le skill », « mon
+référentiel », « ma base » — trois formules énumérées, que le répondant a
+contournées sans le vouloir en en écrivant une quatrième : « le référentiel
+utilisé pour préparer cette réponse ». **Une interdiction énumérée se
+contourne ; une interdiction de classe, non.** Et le mot « maturité »
+désignait deux choses à la fois — l'état d'une branche, qui est de la
+tuyauterie, et le niveau de certitude d'un élément, qui est dû au
+destinataire et prescrit par le §3. Le juge les a confondues et a signalé
+comme défaut un tableau qui était exigé. Un répondant aurait fait la même
+lecture et l'aurait supprimé : c'est la sur-correction qui avait déjà
+dégradé T09 en v0.9.2, prête à se rejouer.
+**Source qui a permis de trancher** : le §3 du contrat de sortie lui-même,
+qui prescrit le tableau que le §7 semblait interdire.
+**Action** : le §7 vise désormais toute mention du dispositif *sous quelque
+formulation que ce soit*, et renvoie à la rédaction de remplacement (dire ce
+qui reste à obtenir et auprès de qui, §8.4). Les deux sens de « maturité »
+sont nommés séparément, et le §3 est explicitement hors du champ de
+l'interdiction. Le §2 demande une date de référence donnée comme une date,
+non comme un compte rendu de vérification. Le §8.1 précise qu'un article de
+règlement européen se cite par son numéro comme un décret : le répondant
+déroulait tout le contenu de l'article 28 du RGPD sans jamais le nommer.
+
 ## 2026-08-28 — instances-dialogue-social : imputation article 110 / 109
 
 **Cas** : campagne de test `tests/TESTS.md` (T11). Un répondant à contexte

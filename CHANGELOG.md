@@ -1,5 +1,33 @@
 # Changelog — drh-ansm
 
+## v0.9.10 — 2026-09-01
+
+**Une interdiction énumérée se contourne ; une interdiction de classe,
+non.** Le rejeu du test de coactivation sur le vote électronique est
+**RÉUSSI** — la coactivation se déclenche, onze références sont vérifiées
+sans invention, aucune règle territoriale ne franchit la frontière posée en
+v0.9.9. Mais la réponse écrit « le référentiel utilisé pour préparer cette
+réponse », formule que le §7 du contrat de sortie n'avait pas prévue parce
+qu'il énumérait trois formules au lieu de nommer une classe. Le §7 vise
+désormais toute mention du dispositif, quelle qu'en soit la tournure, et
+indique par quoi la remplacer : ce qui reste à obtenir et auprès de qui.
+
+**Le mot « maturité » désignait deux choses.** L'état d'une branche du
+référentiel est de la tuyauterie et ne sort pas ; le niveau de certitude
+d'un élément est dû au destinataire et le §3 le prescrit sous forme de
+tableau. Le juge du rejeu a confondu les deux et signalé comme défaut un
+tableau qui était exigé. Un répondant aurait pu faire la même lecture et le
+supprimer — la sur-correction qui avait dégradé T09 en v0.9.2, prête à se
+rejouer. Les deux sens sont maintenant nommés séparément et le §3 est
+explicitement hors du champ du §7.
+
+Deux corrections mineures de même origine : la **date de référence** du §2
+se donne comme une date (« au 1er septembre 2026 »), non comme un compte
+rendu de fabrication (« vérification effectuée le… ») ; et le §8.1 précise
+qu'un **article de règlement européen** se cite par son numéro au même titre
+qu'un décret — le répondant déroulait tout le contenu de l'article 28 du
+RGPD sans jamais le nommer.
+
 ## v0.9.9 — 2026-09-01
 
 **La lacune RGPD est comblée par coactivation, pas par duplication.** Un

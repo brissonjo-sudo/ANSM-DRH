@@ -188,10 +188,87 @@ de la batterie repose entièrement sur ce que le répondant va chercher
 ailleurs**. À trancher : documenter un socle RGPD minimal, ou assumer le renvoi
 et l'écrire.
 
+## Suite du 1er septembre 2026 — la lacune RGPD refermée par coactivation
+
+La question laissée ouverte ci-dessus (« documenter un socle RGPD minimal, ou
+assumer le renvoi et l'écrire ») est tranchée dans le **second sens**, mais
+d'une manière que la formulation d'origine n'envisageait pas : ni socle
+maison, ni renvoi muet vers le DPO. Le dépôt de l'utilisateur porte déjà un
+skill `dpo-ct` dont dix des onze références sont de la méthode RGPD générique
+— AIPD, violations, droits des personnes, sécurité, sous-traitance, relations
+CNIL, registre. Une seule, `secteur-collectivites.md`, est propre au versant
+territorial. Dupliquer cette méthode ici aurait créé une seconde source de
+vérité à maintenir ; la bonne réponse était de **désigner la frontière**.
+
+C'est l'objet du §3.0 bis de `SKILL.md` (v0.9.9) : le référentiel ne documente
+aucun régime RGPD, il nomme les cas qui appellent `dpo-ct` et pose ce qui ne
+doit pas franchir la frontière — écarter `secteur-collectivites.md` et toute
+règle présupposant une délibération d'un conseil municipal, un DPO mutualisé
+ou un centre de gestion. À l'ANSM, le responsable de traitement est l'agence
+et le DPO est celui de l'agence.
+
+### Rejeu T14 — la coactivation se déclenche
+
+T14 (« vote électronique de décembre 2026 : que doit prévoir la DRH côté
+protection des données ? ») rejoué sur répondant neuf, jugé par un agent
+distinct avec accès web. Le répondant lit `SKILL.md`, y trouve le renvoi, va
+chercher la méthode chez `dpo-ct` — AIPD, sous-traitance, sécurité, droits des
+personnes — et rend une réponse dont le calendrier est le fil directeur
+(décompte à trois mois, expertise préalable à boucler en novembre pour une
+fenêtre de vote du 3 au 10 décembre). Verdict **RÉUSSI**.
+
+Le contrôle des références est le résultat le plus important : **onze
+références vérifiées une à une sur le web, aucune inventée** — arrêté du
+2 juillet 2025 (NOR APFF2513659A), décrets n° 2024-1038 et n° 2025-1430,
+articles R. 211-503 à R. 211-584 du CGFP dont R. 211-518 à R. 211-521 pour
+l'expertise indépendante, délibérations CNIL n° 2019-053 du 25 avril 2019 et
+n° 2026-045 du 19 mars 2026, y compris le régime transitoire qui laisse la
+recommandation de 2019 régir les scrutins déjà engagés en 2026. Un seul point
+reste non vérifiable : l'attribution au portail national des élections d'une
+exigence de certification de sécurité — le fond est exact par ailleurs, c'est
+la source qui est mal identifiée. **Aucune fuite territoriale** : zéro
+occurrence de conseil municipal, DPO mutualisé, centre de gestion ou CNFPT.
+
+### Ce que le rejeu apprend sur le contrat de sortie
+
+Trois défauts de forme relevés, et deux d'entre eux ne sont **pas** des fautes
+du répondant :
+
+1. « Cette durée n'est pas fixée par **le référentiel utilisé pour préparer
+   cette réponse** » — celui-là est bien une fuite. Le §7 interdisait « le
+   skill », « mon référentiel », « ma base » : une liste de trois formules,
+   que le répondant a contournée sans le vouloir en en écrivant une
+   quatrième. Une interdiction énumérée se contourne ; une interdiction de
+   classe, non. Le §7 vise désormais **toute mention du dispositif, sous
+   quelque formulation que ce soit**, et indique la rédaction de
+   remplacement : dire ce qui reste à obtenir et auprès de qui (§8.4), non
+   ce que le dispositif ne contient pas.
+2. Le tableau **Stable / À vérifier / Hypothèse** a été relevé comme
+   « taxonomie de maturité exposée ». Il est en réalité **prescrit** par le
+   §3 du contrat de sortie. Le mot « maturité » désignait deux choses à la
+   fois : l'état d'une branche du référentiel, qui est de la tuyauterie, et
+   le niveau de certitude d'un élément, qui est dû au destinataire. Un juge
+   les a confondues ; un répondant l'aurait fait aussi, et aurait supprimé
+   le tableau — exactement la sur-correction qui avait dégradé T09 en
+   v0.9.2. Les deux sont désormais nommées séparément.
+3. « Date de référence : **vérification effectuée le** 1er septembre 2026 » —
+   le champ est légitime, le compte rendu de procédure ne l'est pas. Le §2
+   demande maintenant une date donnée **comme une date**.
+
+Le juge relève enfin une lacune de fond sans effet sur le verdict :
+l'article 28 du RGPD est déroulé dans son contenu mais **jamais cité par son
+numéro**. Le §8.1 n'évoquait que des textes français — décret, arrêté. Il
+précise désormais qu'un **article de règlement européen** se cite comme les
+autres.
+
 ## Ce qui reste ouvert après cette suite
 
 1. Le **contenu des rapports du déontologue 2024 et 2025** n'est pas dépouillé :
    les chiffres de la branche datent du millésime 2023.
 2. Les **fiches de probité** de février 2026 et les **articles 11 à 14 du
    règlement intérieur** restent à obtenir.
-3. Le choix sur le **socle RGPD** ci-dessus.
+3. Le **registre des traitements (article 30)** et la **procédure de violation
+   de données** pendant la fenêtre de vote sont nommés par le §3.0 bis mais
+   n'ont pas été mobilisés par le répondant de T14. À surveiller au prochain
+   rejeu : le renvoi porte-t-il sur toute la liste, ou seulement sur les cas
+   que la question rend évidents ?

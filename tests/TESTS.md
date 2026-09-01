@@ -252,6 +252,14 @@ contrôlées une à une ; T10 et T13 rejoués après correction, tous deux
 livre** du CGFP, dont la vague du 1er août 2026 (formation, télétravail).
 Détail → `tests/rapports/RAPPORT-2026-08-28-audit-registre.md`.
 
+**Rejeu de coactivation du 1er septembre 2026** (skill v0.9.9) : T14
+rejoué après l'ajout du renvoi vers `dpo-ct`. La coactivation se déclenche
+cette fois — le répondant lit le renvoi, va chercher la méthode RGPD chez
+`dpo-ct` et n'en rapatrie aucune règle territoriale. **RÉUSSI**, sans
+référence inventée sur onze contrôlées ; trois défauts de forme résiduels,
+dont deux tenaient à une ambiguïté du contrat de sortie, corrigée en
+v0.9.10. Détail → `tests/rapports/RAPPORT-2026-08-28-audit-registre.md`.
+
 **Seuil de mise en service suggéré** : 100 % de réussite sur T03, T05,
 T08 et T10 (ce sont les tests d'*innocuité* — une erreur y produit un
 acte fautif), et ≥ 12/15 au total. Tout échec s'inscrit au JOURNAL du

@@ -8,8 +8,10 @@ de sécurité n'est perdu.
 > reçoit**, pas la manière dont la réponse a été fabriquée. Une réponse
 > est destinée à être lue, transférée ou collée dans une note interne :
 > tout ce qui relève de la tuyauterie du référentiel (noms de fichiers,
-> noms de branches, niveaux de maturité, codes du registre de sources,
-> mentions du « skill ») la rend inutilisable telle quelle. Voir §7.
+> noms de branches, **maturité des branches**, codes du registre de
+> sources, mentions du « skill ») la rend inutilisable telle quelle.
+> Voir §7. À ne pas confondre avec le **niveau de certitude d'un
+> élément** du §3, qui, lui, s'adresse au destinataire et doit figurer.
 
 ## Repérage rapide
 
@@ -32,7 +34,9 @@ réponse dépend d'une pièce absente, l'indiquer dès cette section.
 - **domaine RH concerné**, nommé en langage métier (« classification des
   contractuels », « dialogue social ») — jamais le nom d'un fichier ni
   d'une branche du référentiel ;
-- date de référence ;
+- date de référence, **donnée comme une date** (« au 1er septembre
+  2026 ») et non comme un compte rendu de la fabrication de la réponse
+  (« vérification effectuée le… ») ;
 - faits retenus, anonymisés.
 
 ## 3. Ce qui est certain / à confirmer
@@ -75,12 +79,19 @@ Ni en corps de texte, ni en note de bas de réponse, ni en encadré :
 - **chemins et noms de fichiers** du référentiel (`references/...`,
   `assets/...`, `SKILL.md`) ;
 - **noms de branches** et renvois inter-branches sous leur forme interne ;
-- **bandeaux de maturité** (✅ 🟢 🟡) et mentions « branche fiabilisée »,
-  « branche partielle » ;
+- **bandeaux de maturité des branches** (✅ 🟢 🟡) et mentions « branche
+  fiabilisée », « branche partielle » — le tableau du §3, qui gradue la
+  certitude de chaque **élément** et non l'état d'une branche, n'est pas
+  visé : il reste dû ;
 - **codes du registre de sources** (`CSA-ETAT`, `LFSS-DOTATION-2026`...) —
   citer le texte lui-même, pas son identifiant interne ;
-- **mentions du dispositif** : « le skill », « mon référentiel », « ma
-  base », « d'après ma branche X » ;
+- **toute mention du dispositif qui a produit la réponse**, sous quelque
+  formulation que ce soit : « le skill », « mon référentiel », « ma
+  base », « d'après ma branche X », « le référentiel utilisé pour cette
+  réponse ». La liste ne se lit pas comme trois formules à éviter mais
+  comme une classe : dire qu'un point *n'est pas couvert* se rédige par
+  ce qui reste à obtenir et auprès de qui (§8.4), jamais par ce que le
+  dispositif ne contient pas ;
 - la **check-list du §6**, toute auto-évaluation de la réponse, et plus
   généralement **toute liste de cases à cocher de contrôle**, sous quelque
   intitulé que ce soit : les règles de rédaction interne ne remontent pas
@@ -94,7 +105,10 @@ sources n'est pas une réponse propre, c'est une réponse invérifiable :
 
 1. **Chaque texte officiel mobilisé, cité par son intitulé complet, son
    numéro et sa date** — « décret n° 2003-224 du 7 mars 2003 »,
-   « arrêté du 2 juillet 2025 fixant la date des élections ». C'est
+   « arrêté du 2 juillet 2025 fixant la date des élections ». Un
+   **article de règlement européen** compte au même titre : écrire
+   « article 28 du RGPD », non « les clauses imposées au sous-traitant ».
+   C'est
    l'**identifiant interne du registre** (`ELECTION-DATE-2026`) qui ne
    sort pas, jamais le texte qu'il désigne.
 2. **Les valeurs chiffrées vérifiées**, avec leur source et leur date de
