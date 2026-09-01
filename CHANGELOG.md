@@ -1,5 +1,38 @@
 # Changelog — drh-ansm
 
+## v0.9.9 — 2026-09-01
+
+**La lacune RGPD est comblée par coactivation, pas par duplication.** Un
+répondant avait relevé que ce référentiel ne comporte aucune branche ni
+aucune source RGPD ou CNIL, ce qui faisait reposer le bloc E de la
+batterie sur ce qu'il allait chercher au-dehors. Deux issues étaient
+possibles : documenter un socle RGPD ici, ou emprunter celui qui existe
+déjà.
+
+**Le contenu de `dpo-ct` est générique.** Son intitulé vise le DPO de
+collectivité territoriale, mais sur ses dix fichiers de référence, **un
+seul** — `secteur-collectivites.md` — est propre aux collectivités.
+L'AIPD, l'article 28, le délai de 72 heures, les droits des personnes, la
+sécurité de l'article 32 et les relations CNIL sont le RGPD, pas du droit
+territorial. Le dupliquer ici aurait créé une seconde source à maintenir,
+et à faire diverger.
+
+`dpo-ct` entre donc dans les dépendances, et le nouveau **§3.0 bis** de
+`SKILL.md` pose la frontière : emprunter la **méthode** et les **sources
+RGPD/CNIL**, écarter la référence sur le secteur communal et toute règle
+supposant une délibération d'un conseil municipal, un DPO mutualisé ou un
+centre de gestion. À l'ANSM, le responsable de traitement est **l'agence**
+et le **DPO est celui de l'agence** : l'associer, ne pas raisonner en DPO
+territorial.
+
+`references/protection-donnees-rh.md` dit désormais explicitement ce qu'il
+est — un fichier d'**hygiène** des données dans les échanges — et ce qu'il
+n'est pas : une branche de conformité. La confusion entre les deux
+expliquait qu'une question de conformité y trouve une réponse d'hygiène.
+
+Ce faisant, le comportement attendu par le bloc E de `tests/TESTS.md`
+devient explicite au lieu d'être laissé au jugement du répondant.
+
 ## v0.9.8 — 2026-09-01
 
 **La charte de février 2026 est lue, pas seulement citée.** Deux
