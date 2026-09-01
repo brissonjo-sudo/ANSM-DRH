@@ -3,13 +3,13 @@
   "branches": {
     "references/deontologie-conflits-interets.md": {
       "maturity": "partial",
-      "verified_on": "2026-08-28",
+      "verified_on": "2026-09-01",
       "claims": [
         {
           "id": "distinction-entree-pendant-sortie",
           "statement": "Les contrôles à l'entrée, pendant les fonctions et après leur cessation relèvent de fondements distincts.",
           "status": "verified",
-          "checked_on": "2026-08-28",
+          "checked_on": "2026-09-01",
           "max_age_days": 30,
           "source_ids": [
             "CGFP-ENTRANT",
@@ -20,7 +20,8 @@
         }
       ],
       "unresolved_claims": [
-        "Fiches de probité de février 2026 et articles 11 à 14 du règlement intérieur à obtenir."
+        "Fiches de probité de février 2026 et articles 11 à 14 du règlement intérieur à obtenir.",
+        "Contenu des rapports du déontologue 2024 et 2025 non dépouillé : chiffres et constats encore issus du millésime 2023."
       ],
       "known_limits": []
     },

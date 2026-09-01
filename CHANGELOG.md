@@ -1,5 +1,30 @@
 # Changelog — drh-ansm
 
+## v0.9.7 — 2026-09-01
+
+**Les sources ANSM retrouvées deviennent utilisables.** La v0.9.4 avait
+levé la réserve : la charte de déontologie de février 2026, le dispositif
+mis à jour en février 2026 et le rapport du déontologue 2025 sont publics
+et au registre. Le rejeu de T13 a pourtant montré qu'aucune n'était
+citée — parce que l'en-tête de la branche déontologie continuait
+d'annoncer le **rapport 2023** comme source primaire, la réserve levée
+étant bolt-on plutôt qu'intégrée.
+
+**Lever une réserve ne suffit pas à faire utiliser la source.** Il faut
+aussi retirer l'ancienne de la place qu'elle occupait. L'en-tête est
+réécrit : les trois sources en vigueur en tête, avec ce qui les
+distingue (la charte est annexée au règlement intérieur, d'où sa portée
+disciplinaire ; la version de novembre 2024 est à écarter), les
+millésimes antérieurs conservés au registre pour une lecture d'évolution
+mais explicitement déclassés.
+
+**Réserve honnête ajoutée** : le **contenu** des rapports 2024 et 2025
+n'a pas été dépouillé. Les chiffres et constats de la branche datent
+encore du millésime 2023 et sont à réactualiser — savoir qu'une source
+existe n'est pas l'avoir lue.
+
+Ajout de l'art. L. 124-8 du CGFP à la liste des textes de la branche.
+
 ## v0.9.6 — 2026-09-01
 
 **Correction d'une erreur introduite par la v0.9.5.** Le réancrage de la

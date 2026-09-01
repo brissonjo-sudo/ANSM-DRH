@@ -1,35 +1,40 @@
 # Branche — Déontologie, DPI & prévention des conflits d'intérêts
 
-> 🟢 **Partiellement fiabilisée** (v0.9.4, vérification du 28 août 2026 —
-> charte et dispositif de février 2026 retrouvés et versés au registre).
+> 🟢 **Partiellement fiabilisée** (vérification du 1er septembre 2026)
+> — v0.9.7, sources ANSM en vigueur citables.
 >
-> Sources primaires directement traçables :
-> - **rapport public 2023 du déontologue de l'ANSM**, daté du 31 mars
->   2024 ;
-> - **Articles L. 5323-4, L. 1451-1, L. 1452-2, L. 1452-3, L. 1454-2 et
->   L. 1454-4 du code de la santé publique** ; **article 432-12 et
->   432-13 du code pénal** ; **articles L. 121-1, L. 121-5, L. 122-1,
->   L. 122-3, L. 124-4 à L. 124-7 du CGFP**.
+> **Sources ANSM en vigueur — à citer en priorité, elles sont publiques** :
+> - **Charte de déontologie de l'ANSM, février 2026** (`ANSM-CHARTE-2026`)
+>   — version en vigueur, **annexée au règlement intérieur**, d'où sa
+>   portée disciplinaire. Écarter la version de novembre 2024, encore
+>   indexée par les moteurs.
+> - **Dispositif de prévention et de gestion des conflits d'intérêts**,
+>   septembre 2018 **mis à jour en février 2026**
+>   (`ANSM-DISPOSITIF-2026`) — circuit de traitement des liens
+>   d'intérêts.
+> - **Rapport public 2025 du déontologue de l'ANSM**, publié le 13 avril
+>   2026 (`ANSM-DEONTO-2025`) — **millésime le plus récent**. Les
+>   rapports 2024 (`ANSM-DEONTO-2024`) et 2023 (`ANSM-DEONTO-2023`)
+>   restent au registre pour une lecture d'évolution ; ne plus les
+>   présenter comme l'état actuel.
 >
-> **Réserve levée le 28 août 2026** : la **charte de déontologie de
-> février 2026** et le **dispositif de prévention et de gestion des
-> conflits d'intérêts** (septembre 2018, mise à jour février 2026) ont été
-> retrouvés sur ansm.sante.fr, leurs millésimes confirmés dans les
-> documents eux-mêmes — voir `ANSM-CHARTE-2026` et `ANSM-DISPOSITIF-2026`
-> au registre des sources. Ce sont des **sources publiques citables**.
-> Écarter la version de la charte de novembre 2024, encore indexée. Le
-> **rapport du déontologue** disponible le plus récent est celui de
-> **2025** (publié le 13 avril 2026) : ne plus présenter le millésime 2023
-> comme l'état actuel. Restent à confirmer les **fiches de probité**.
-> Confirmer également le contenu exact des
-> **articles 11 à 14 du règlement intérieur de l'ANSM** et de la
-> procédure interne « Prévention et gestion des conflits d'intérêts du
+> **Textes** : articles L. 5323-4, L. 1451-1, L. 1452-2, L. 1452-3,
+> L. 1454-2 et L. 1454-4 du code de la santé publique ; articles 432-12 et
+> 432-13 du code pénal ; articles L. 121-1, L. 121-5, L. 122-1, L. 122-3,
+> L. 124-4 à L. 124-8 du CGFP.
+>
+> **Ce qui manque encore** : les **fiches de probité** de février 2026 ;
+> le contenu exact des **articles 11 à 14 du règlement intérieur** et de
+> la procédure interne « Prévention et gestion des conflits d'intérêts du
 > personnel de l'Agence », auxquels les fiches renvoient sans les
-> reproduire.
+> reproduire. Le **contenu** des rapports 2024 et 2025 n'a pas encore été
+> dépouillé : les chiffres et constats de cette branche datent du
+> millésime 2023 et sont à réactualiser.
 
 > Registre des textes et liens de contrôle →
 > `references/sources-principales.md` (`PENAL-PENDANT`, `PENAL-APRES`,
-> `CGFP-ENTRANT`, `CGFP-SORTANT`, `ANSM-DEONTO-2023`).
+> `CGFP-ENTRANT`, `CGFP-SORTANT`, `ANSM-CHARTE-2026`,
+> `ANSM-DISPOSITIF-2026`, `ANSM-DEONTO-2025`).
 
 ---
 
