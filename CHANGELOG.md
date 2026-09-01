@@ -1,5 +1,38 @@
 # Changelog — drh-ansm
 
+## v0.9.5 — 2026-09-01
+
+**Réancrage de la branche formation sur le livre IV du CGFP.** C'était le
+chantier laissé ouvert par la v0.9.4. Le cadre général de la formation
+professionnelle n'est plus à chercher dans un décret antérieur : il est au
+code depuis le 1er août 2026.
+
+| Bloc | Articles | Objet |
+|---|---|---|
+| Livre IV, titre II — législatif | L. 421-1 à L. 424-1 | Formation tout au long de la vie ; CPF aux art. L. 422-8 à L. 422-19 |
+| Livre IV, titre II — réglementaire | R. 420-1 à R. 424-1 | Mise en œuvre depuis le 1er août 2026 |
+| Livre IV, titre IV — réglementaire | R. 441-1 à R. 445-1 | Réorganisation de services et d'établissements |
+
+**Distinction que la branche ne faisait pas.** Son §5.6 rangeait le CPF,
+l'entretien professionnel et la VAE parmi les points « non documentés ».
+C'était ambigu : leur **cadre général** existe et est codifié ; ce qui
+manque est la **déclinaison ANSM**. Présenter l'absence de la seconde
+comme une absence du premier conduisait à s'abstenir là où il y avait une
+règle à citer. La branche distingue désormais les deux niveaux.
+
+Le titre IV — réorganisation de services — intéresse aussi les branches
+instances et communication interne : le renvoi inter-branches est posé.
+
+**Ce que ce réancrage ne fait pas**, et la branche le dit : il donne les
+**blocs**, pas l'article de chaque règle. Aucun article n'a été lu un par
+un ; l'application aux **agents contractuels de droit public** reste à
+confirmer, la partie législative parlant d'« agent public ».
+
+**Correction d'outillage** : le formateur de dates de
+`scripts/source_gate.py` écrivait « vérification du 1 septembre », qui
+n'est pas du français — aucune branche vérifiée un premier du mois ne
+pouvait passer la barrière. Corrigé, avec un test de non-régression.
+
 ## v0.9.4 — 2026-08-28
 
 **Audit de vigueur du registre des sources.** Les vingt-et-une entrées du

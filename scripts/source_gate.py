@@ -74,7 +74,10 @@ def validate_source_gates(
         if verified_on is not None:
             try:
                 verification_date = date.fromisoformat(verified_on)
-                french_date = f"{verification_date.day} {FRENCH_MONTHS[verification_date.month]} {verification_date.year}"
+                # Le premier jour du mois s'écrit « 1er » en français : sans ce
+                # cas particulier, aucune branche vérifiée un 1er ne peut passer.
+                french_day = "1er" if verification_date.day == 1 else str(verification_date.day)
+                french_date = f"{french_day} {FRENCH_MONTHS[verification_date.month]} {verification_date.year}"
                 require(f"vérification du {french_date}" in header, f"{branch_file} : date de la branche différente de verified_on")
             except (TypeError, ValueError):
                 errors.append(f"{branch_file} : date verified_on invalide")
