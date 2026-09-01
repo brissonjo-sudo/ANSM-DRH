@@ -141,8 +141,24 @@ matière de **commande publique** (cabinet d'avocats, société de conseil,
 prestataire bureautique...). Point souvent négligé : le risque de conflit
 d'intérêts ne se limite pas au champ sanitaire.
 
-**Déclarations rendues publiques** (art. L. 1451-1 II CSP ; liste établie
-par **décision du directeur général du 6 juillet 2012**) :
+**Déclarations rendues publiques** (art. **L. 1451-1 du code de la santé
+publique** — la publicité figure dans le **I**, non dans le II qui porte
+l'obligation déclarative ; ⚠️ **alinéa exact à confirmer au texte avant
+citation dans un acte**).
+
+**Sources à citer pour le périmètre** — ce sont elles qui décrivent
+l'état actuel, et elles sont publiques :
+- la **charte de déontologie de l'ANSM, février 2026** ;
+- le **dispositif de prévention et de gestion des conflits d'intérêts**,
+  mise à jour de **février 2026** ;
+- le **rapport 2025 du déontologue de l'ANSM**, publié le 13 avril 2026.
+
+La **décision du directeur général du 6 juillet 2012** est l'**acte
+fondateur** de la liste. Ne pas la présenter comme l'état actuel du
+périmètre sans avoir vérifié qu'aucune décision postérieure ne l'a
+modifiée : citer d'abord les documents de 2026 ci-dessus.
+
+Périmètre décrit :
 - les dirigeants de l'Agence ;
 - le personnel de **direction et d'encadrement** ;
 - les membres des **instances de gouvernance** ;
@@ -429,9 +445,11 @@ Ces sanctions **ne sont pas exclusives de poursuites pénales**.
 **Toutes** les questions de cette branche relèvent d'une ligne « Oui » de
 la matrice §2.2 du SKILL.md. Points appelant une vérification renforcée
 avant tout acte :
-- appartenance d'un emploi précis à la liste des DPI publiques (décision
-  DG du 6 juillet 2012 — vérifier si une décision postérieure l'a
-  modifiée) ;
+- appartenance d'un emploi précis à la liste des DPI publiques :
+  s'appuyer sur la **charte de février 2026** et le **dispositif mis à
+  jour en février 2026**, qui décrivent le périmètre en vigueur ; la
+  décision DG du 6 juillet 2012 en est l'acte fondateur et non l'état
+  actuel — vérifier si une décision postérieure l'a modifiée ;
 - contenu des **articles 11 à 14 du règlement intérieur** (non publié) ;
 - version en vigueur du **tableau des incompatibilités** ;
 - articulation avec la **HATVP** pour les emplois les plus élevés, dont
