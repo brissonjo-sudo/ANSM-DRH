@@ -23,13 +23,19 @@
 > 432-13 du code pénal ; articles L. 121-1, L. 121-5, L. 122-1, L. 122-3,
 > L. 124-4 à L. 124-8 du CGFP.
 >
+> **Dépouillement fait le 1er septembre 2026** : la charte de février
+> 2026 et le dispositif mis à jour ont été lus. Ce qu'ils apportent est
+> intégré au corps de la branche — périmètre des DPI publiées,
+> actualisation au moins annuelle, exclusion des liens de parenté — et
+> **se cite depuis la charte**, non depuis la décision de 2012.
+>
 > **Ce qui manque encore** : les **fiches de probité** de février 2026 ;
 > le contenu exact des **articles 11 à 14 du règlement intérieur** et de
 > la procédure interne « Prévention et gestion des conflits d'intérêts du
 > personnel de l'Agence », auxquels les fiches renvoient sans les
-> reproduire. Le **contenu** des rapports 2024 et 2025 n'a pas encore été
-> dépouillé : les chiffres et constats de cette branche datent du
-> millésime 2023 et sont à réactualiser.
+> reproduire. Le **contenu** des rapports du déontologue 2024 et 2025
+> n'a pas été dépouillé : les chiffres et constats chiffrés de cette
+> branche datent du millésime 2023 et sont à réactualiser.
 
 > Registre des textes et liens de contrôle →
 > `references/sources-principales.md` (`PENAL-PENDANT`, `PENAL-APRES`,
@@ -131,7 +137,8 @@ mêmes secteurs.
 
 **Support** : télédéclaration sur **dpi.sante.gouv.fr** (DPI santé).
 
-**Actualisation** : à l'initiative de l'agent dès qu'un lien change ou
+**Actualisation** (charte de février 2026) : **au moins annuellement,
+même sans modification**, et à l'initiative de l'agent dès qu'un lien change ou
 qu'un lien nouveau est noué, **et au moins une fois par an même sans
 modification** — y compris en l'absence de tout lien.
 
@@ -146,19 +153,10 @@ publique** — la publicité figure dans le **I**, non dans le II qui porte
 l'obligation déclarative ; ⚠️ **alinéa exact à confirmer au texte avant
 citation dans un acte**).
 
-**Sources à citer pour le périmètre** — ce sont elles qui décrivent
-l'état actuel, et elles sont publiques :
-- la **charte de déontologie de l'ANSM, février 2026** ;
-- le **dispositif de prévention et de gestion des conflits d'intérêts**,
-  mise à jour de **février 2026** ;
-- le **rapport 2025 du déontologue de l'ANSM**, publié le 13 avril 2026.
-
-La **décision du directeur général du 6 juillet 2012** est l'**acte
-fondateur** de la liste. Ne pas la présenter comme l'état actuel du
-périmètre sans avoir vérifié qu'aucune décision postérieure ne l'a
-modifiée : citer d'abord les documents de 2026 ci-dessus.
-
-Périmètre décrit :
+**Source du périmètre : la charte de déontologie de février 2026**, qui
+l'énonce elle-même — c'est elle qu'il faut citer, et non la décision
+fondatrice de 2012. Dépouillement fait le 1er septembre 2026 ; la charte
+publie sur le site **DPI santé** les déclarations :
 - les dirigeants de l'Agence ;
 - le personnel de **direction et d'encadrement** ;
 - les membres des **instances de gouvernance** ;
@@ -168,6 +166,17 @@ Périmètre décrit :
 
 Ordre de grandeur communiqué par l'agence : **plus de 600 agents**
 concernés par la publication, en sus des experts externes.
+
+La **décision du directeur général du 6 juillet 2012** (décisions
+n° 2012-202 et n° 2012-203) reste l'**acte fondateur** de la liste : la
+citer comme historique, pas comme l'état courant.
+
+**Durée de publication** — **article R. 1451-3 du code de la santé
+publique** : la déclaration est publiée **pendant la durée des fonctions
+ou de la mission**, **et les cinq années suivant leur fin**. Une fiche
+encore en ligne après la sortie du périmètre n'est donc **pas** dépourvue
+de base légale pendant ces cinq ans : c'est l'erreur symétrique de celle
+qui consisterait à publier sans limite. Au-delà, le retrait s'impose.
 
 **Deux limites à la publicité** : les mentions relatives aux **liens de
 parenté ne sont pas rendues publiques** ; par ailleurs la déclaration est

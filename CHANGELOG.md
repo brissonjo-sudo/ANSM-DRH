@@ -1,5 +1,39 @@
 # Changelog — drh-ansm
 
+## v0.9.8 — 2026-09-01
+
+**La charte de février 2026 est lue, pas seulement citée.** Deux
+corrections successives avaient échoué à faire employer les sources ANSM
+retrouvées : la première ne touchait que l'en-tête de la branche, la
+seconde nommait les documents dans le passage opératoire sans que rien
+n'en soit tiré. Le diagnostic manquait : **une source qu'on n'a pas lue
+ne peut être que nommée**. Pointer plus fort ne remplace pas le
+dépouillement.
+
+La charte et le dispositif ont donc été extraits et lus. Ce qu'ils
+apportent entre dans le corps de la branche :
+
+- le **périmètre des DPI publiées** est désormais énoncé **depuis la
+  charte de février 2026**, qui le formule elle-même, et non depuis la
+  décision fondatrice de 2012 — cette dernière restant citée comme
+  historique ;
+- l'**actualisation au moins annuelle, même sans modification**, que la
+  branche n'énonçait pas ;
+- la publication sur le site **DPI santé** et l'exclusion des **liens de
+  parenté**, confirmées sur une source de 2026.
+
+**Lacune corrigée, trouvée par un juge** : la branche était muette sur la
+**durée de publication**, et un répondant a comblé le vide à contresens
+en affirmant qu'une fiche maintenue en ligne après la sortie du périmètre
+n'avait plus de base légale. L'**article R. 1451-3 du code de la santé
+publique** prévoit la publication pendant la durée des fonctions **et les
+cinq années suivant leur fin**. La règle est écrite, avec ses deux
+erreurs symétriques : retirer trop tôt, ou publier sans limite.
+
+**Réserve maintenue** : le contenu des rapports du déontologue 2024 et
+2025 n'a pas été dépouillé. Les chiffres de la branche datent encore du
+millésime 2023.
+
 ## v0.9.7 — 2026-09-01
 
 **Les sources ANSM retrouvées deviennent utilisables.** La v0.9.4 avait
