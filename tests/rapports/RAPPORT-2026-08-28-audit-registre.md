@@ -136,3 +136,62 @@ python scripts/internal_sources.py   → OK — 10 besoins internes suivis
 python scripts/check_source_urls.py  → OK — 25 URL officielles (403 Légifrance tolérés)
 python -m pytest tests/ -q           → 28 passed
 ```
+
+---
+
+## Suite donnée — T13 rejoué jusqu'à l'emploi effectif des sources (1er septembre 2026)
+
+Le rapport concluait que « lever une réserve ne suffit pas à faire utiliser la
+source ». Il a fallu **trois tentatives** pour comprendre pourquoi, et la
+troisième seule a fonctionné.
+
+| Passage | Correction tentée | Résultat |
+|---|---|---|
+| 2ᵉ | — (état v0.9.4) | Sources absentes |
+| 3ᵉ | En-tête de la branche réécrit, sources en vigueur en tête | **Sources absentes** — le répondant travaille depuis le corps, pas depuis l'en-tête |
+| 4ᵉ | Sources nommées dans le passage opératoire | **Citées sans emploi** — rien à en tirer |
+| 5ᵉ | **Charte réellement dépouillée**, son contenu versé au corps | **Sources mobilisées** |
+
+**Le diagnostic manquait aux deux premières tentatives.** Une source qu'on
+n'a pas lue ne peut être que nommée : pointer plus fort ne remplace pas le
+dépouillement. Les deux premières corrections déplaçaient une étiquette ; la
+troisième a apporté de la matière.
+
+Ce que le juge du 5ᵉ passage constate : périmètre des emplois publiés restitué
+presque mot pour mot depuis la charte, exclusion des liens de parenté érigée en
+contrôle avant transmission, site DPI santé exploité jusqu'à la répartition des
+responsabilités avec l'opérateur national, actualisation annuelle transformée
+en règle d'information répétée.
+
+**Une lacune trouvée en chemin, et qui comptait.** La branche était muette sur
+la **durée de publication**. Un répondant a comblé le vide à contresens, en
+affirmant qu'une fiche encore en ligne après la sortie du périmètre n'avait
+plus de base légale. L'**article R. 1451-3 du code de la santé publique**
+prévoit la publication pendant la durée des fonctions **et les cinq années
+suivant leur fin**. La règle est désormais écrite avec ses deux erreurs
+symétriques — retirer trop tôt, publier sans limite — et le 5ᵉ passage
+l'énonce exactement.
+
+**Nuance sur le dispositif de février 2026** : la branche portait déjà son
+contenu (arrêtés de 2017, amende de 30 000 €, déclaration de moins d'un an,
+mécanique de séance) mais ne l'attribuait à rien. Le manque était
+d'**attribution**, pas d'extraction. Corrigé.
+
+## Lacune structurelle relevée par un répondant
+
+Le référentiel **ne comporte aucune branche ni aucune source RGPD ou CNIL**.
+Sur une question de protection des données, le répondant doit chercher
+au-dehors — ce qu'il a fait, en signalant correctement sa trouvaille comme
+repère doctrinal antérieur au RGPD. C'est cohérent avec le périmètre du skill,
+qui renvoie ces questions au DPO de l'agence, mais cela signifie que le **bloc E
+de la batterie repose entièrement sur ce que le répondant va chercher
+ailleurs**. À trancher : documenter un socle RGPD minimal, ou assumer le renvoi
+et l'écrire.
+
+## Ce qui reste ouvert après cette suite
+
+1. Le **contenu des rapports du déontologue 2024 et 2025** n'est pas dépouillé :
+   les chiffres de la branche datent du millésime 2023.
+2. Les **fiches de probité** de février 2026 et les **articles 11 à 14 du
+   règlement intérieur** restent à obtenir.
+3. Le choix sur le **socle RGPD** ci-dessus.

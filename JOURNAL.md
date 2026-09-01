@@ -116,6 +116,69 @@ livrable de la note de production.
 
 ---
 
+## 2026-09-01 — v0.9.7 et v0.9.8 : une source qu'on n'a pas lue ne peut être que nommée
+
+**Cas** : l'audit du 28 août avait retrouvé la charte de déontologie de
+février 2026, le dispositif mis à jour et le rapport du déontologue 2025,
+et les avait versés au registre. Le rejeu de T13 montrait pourtant
+qu'aucune n'était citée : la réponse continuait de donner la décision DG
+du 6 juillet 2012 comme périmètre actuel.
+
+**Ce qui a manqué / ce qui était incertain** — trois tentatives, dont
+deux fondées sur un mauvais diagnostic :
+
+1. **Réécrire l'en-tête** de la branche, sources en vigueur en tête.
+   Sans effet : le répondant construit sa réponse depuis le **corps**,
+   pas depuis la déclaration d'intention en tête de fichier.
+2. **Nommer les sources dans le passage opératoire**, en qualifiant la
+   décision de 2012 d'acte fondateur. La décision de 2012 a cessé d'être
+   présentée comme l'état courant — mais les sources restaient
+   « citées sans emploi ».
+3. **Dépouiller réellement la charte** et verser son contenu au corps.
+   Sources enfin **mobilisées** : périmètre restitué presque mot pour
+   mot, exclusion des liens de parenté érigée en contrôle avant
+   transmission, actualisation annuelle transformée en règle
+   d'information.
+
+**Enseignement transposable** : *une source qu'on n'a pas lue ne peut
+être que nommée*. Les deux premières corrections déplaçaient une
+étiquette ; seule la troisième a apporté de la matière. Pointer plus fort
+ne remplace pas le dépouillement — et l'écart entre « source au registre »
+et « source utilisable » est exactement le travail de lecture.
+
+**Nuance utile** : pour le dispositif de février 2026, le diagnostic était
+inverse. La branche portait déjà son contenu (arrêtés de 2017, amende de
+30 000 €, déclaration de moins d'un an, conduite des séances) mais ne
+l'attribuait à rien. Il manquait l'**attribution**, pas l'extraction. Les
+deux défauts se ressemblent en sortie — une source non citée — et
+appellent des corrections opposées.
+
+**Lacune trouvée par un juge, et qui comptait** : la branche était muette
+sur la **durée de publication** des déclarations. Un répondant a comblé
+le vide à contresens, en affirmant qu'une fiche maintenue en ligne après
+la sortie du périmètre n'avait plus de base légale. L'**article R. 1451-3
+du code de la santé publique** prévoit la publication pendant la durée
+des fonctions **et les cinq années suivant leur fin**. Un silence de la
+documentation ne produit pas une abstention : il produit une invention.
+
+**Sources qui ont permis de trancher** : charte de déontologie de l'ANSM,
+février 2026 (périmètre des DPI publiées, exclusion des liens de parenté,
+site DPI santé, actualisation au moins annuelle même sans modification) ;
+dispositif de prévention et de gestion des conflits d'intérêts, mise à
+jour février 2026 ; art. R. 1451-3 du code de la santé publique.
+
+**Action** : charte et dispositif extraits et lus ; contenu versé au corps
+de la branche avec attribution explicite ; durée de publication écrite
+avec ses deux erreurs symétriques ; en-tête rendant compte du
+dépouillement fait et de ce qui reste à lire.
+**Reste ouvert** : le contenu des rapports du déontologue 2024 et 2025,
+non dépouillé — les chiffres de la branche datent encore de 2023 ; et une
+lacune structurelle relevée par un répondant, l'absence de toute branche
+ou source **RGPD/CNIL** dans le référentiel, qui fait reposer le bloc E de
+la batterie sur ce que le répondant va chercher au-dehors.
+
+---
+
 ## 2026-09-01 — v0.9.5 puis v0.9.6 : le versant, troisième contrôle
 
 **Cas** : réancrage de la branche formation sur le livre IV du CGFP,

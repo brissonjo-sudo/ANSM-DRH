@@ -137,8 +137,10 @@ mêmes secteurs.
 
 **Support** : télédéclaration sur **dpi.sante.gouv.fr** (DPI santé).
 
-**Actualisation** (charte de février 2026) : **au moins annuellement,
-même sans modification**, et à l'initiative de l'agent dès qu'un lien change ou
+**Actualisation** (charte de février 2026 et dispositif mis à jour en
+février 2026) : **au moins une fois par an, même sans modification de la
+déclaration précédente ou en l'absence de tout lien**, et à l'initiative
+de l'agent dès qu'un lien change ou
 qu'un lien nouveau est noué, **et au moins une fois par an même sans
 modification** — y compris en l'absence de tout lien.
 
@@ -360,6 +362,10 @@ concerné agirait en fait de manière impartiale.
 
 ### 5.7 Régime propre aux experts externes
 
+> Règles issues du **dispositif de prévention et de gestion des conflits
+> d'intérêts de l'ANSM**, septembre 2018 **mis à jour en février 2026** —
+> c'est lui qu'il faut citer pour ce régime.
+
 **Nomination subordonnée** à la production d'une **déclaration d'intérêts
 de moins d'un an et à jour**, et d'un **engagement d'indépendance et de
 confidentialité** signé au moment de la nomination.
@@ -386,6 +392,9 @@ sur le site de l'agence (version du 04/05/2026), complété par des
 d'instances / experts ponctuels).
 
 ### 5.8 Conduite des séances d'instance
+
+> Procédure décrite par le **dispositif de prévention et de gestion des
+> conflits d'intérêts**, mise à jour de **février 2026** — source à citer.
 
 - **Avant la réunion** : le secrétariat vérifie les risques de conflits au
   regard des dossiers inscrits.
