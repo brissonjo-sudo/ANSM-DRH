@@ -81,6 +81,15 @@ Distinguer trois strates.
 >    contrôler qu'il n'a pas été codifié. La vague du livre IV date du
 >    1er août 2026 : elle est récente, et ses effets ne sont pas tous
 >    répercutés ici.
+> 4. **Le CGFP est un code des trois versants : vérifier la section.**
+>    Plusieurs de ses chapitres se divisent en sections propres à la
+>    fonction publique de l'État, à la territoriale et à l'hospitalière.
+>    Un article peut être **exact, en vigueur, et hors versant** — donc
+>    inapplicable à l'ANSM, établissement public de l'État. Cas relevé :
+>    les art. L. 422-28 et suivants (formations d'intégration, CNFPT)
+>    relèvent de la section territoriale. Remonter à la section avant de
+>    citer un article du code : la chaîne à contrôler est **véhicule →
+>    vigueur → versant**.
 
 5 bis. **Décret n° 86-83 du 17 janvier 1986** — droit commun des agents
    contractuels de l'État, applicable **à titre subsidiaire**, sous

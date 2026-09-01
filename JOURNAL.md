@@ -116,6 +116,60 @@ livrable de la note de production.
 
 ---
 
+## 2026-09-01 — v0.9.5 puis v0.9.6 : le versant, troisième contrôle
+
+**Cas** : réancrage de la branche formation sur le livre IV du CGFP,
+dernier chantier ouvert par l'audit du registre. Le cadre général de la
+formation n'était plus à chercher dans un décret antérieur : il est au
+code depuis le 1er août 2026.
+
+**Ce qui a manqué / ce qui était incertain** :
+
+1. **Une distinction que la branche ne faisait pas.** Son §5.6 rangeait le
+   CPF, l'entretien professionnel et la VAE parmi les points « non
+   documentés ». Ambigu : leur **cadre général** est codifié, ce qui
+   manque est la **déclinaison ANSM**. Confondre les deux fait s'abstenir
+   là où il y a une règle à citer.
+2. **Une erreur introduite par la correction elle-même.** Le réancrage
+   citait les **art. L. 422-28 et suivants** parmi les blocs applicables.
+   Ces articles existent et sont en vigueur — mais en **section propre à
+   la fonction publique territoriale** (formations CNFPT, promotion
+   interne). Ils ne s'appliquent pas à un établissement public de l'État.
+   Le répondant du test de vérification l'a relevé en contrôlant au code
+   ce que la branche l'invitait à contrôler.
+
+**Enseignement transposable** : trois corrections successives ont porté
+sur trois défauts différents d'une même citation — le **véhicule** (un
+décret abrogé), la **vigueur** (un article réécrit), et maintenant le
+**versant** (un article d'un autre versant de la fonction publique). Un
+article peut être exact, en vigueur, et hors versant. La chaîne de
+contrôle est donc **véhicule → vigueur → versant**, et aucun des trois
+maillons ne se déduit des deux autres.
+
+Second enseignement, sur le dispositif de test : c'est le **répondant**,
+pas le juge, qui a trouvé l'erreur — parce que la branche lui disait
+explicitement quoi vérifier. Une réserve bien écrite ne se contente pas
+de protéger le skill : elle **oriente le contrôle** de qui l'utilise.
+
+**Sources qui ont permis de trancher** : plan du livre IV du CGFP (titre
+II formation, titre III télétravail, titre IV réorganisation de
+services) ; sous-section « Formations d'intégration et de
+professionnalisation », art. L. 422-28 à L. 422-34-1, située en section 3
+« Dispositions particulières à la fonction publique territoriale ».
+
+**Action** : branche formation réancrée au niveau des blocs, avec
+distinction cadre général / déclinaison ANSM ; référence territoriale
+retirée et avertissement de versant posé ; **quatrième règle du socle**
+sur les sections par versant ; registre complété d'une entrée
+`CGFP-LIVRE4`. Correction d'outillage au passage : le formateur de dates
+écrivait « vérification du 1 septembre », interdisant toute branche
+vérifiée un premier du mois — corrigé avec test de non-régression.
+**Reste ouvert** : l'article précis de chaque règle générale de formation,
+et l'application des dispositifs aux contractuels de droit public, que la
+partie législative désigne par « agent public ».
+
+---
+
 ## 2026-08-28 — v0.9.4 : l'audit qui transforme deux erreurs en motif
 
 **Cas** : deux abrogations trouvées coup sur coup par des juges de test, sur

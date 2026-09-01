@@ -1,5 +1,33 @@
 # Changelog — drh-ansm
 
+## v0.9.6 — 2026-09-01
+
+**Correction d'une erreur introduite par la v0.9.5.** Le réancrage de la
+branche formation citait, parmi les blocs du titre II, les **articles
+L. 422-28 et suivants** (formations d'intégration et de
+professionnalisation). Ces articles existent et sont en vigueur, mais ils
+figurent en **section 3 du chapitre II, propre à la fonction publique
+territoriale** : attestations du CNFPT, condition de promotion interne.
+Ils **ne s'appliquent pas** à l'ANSM, établissement public de l'État. La
+référence est retirée.
+
+L'erreur a été trouvée par le répondant du test de vérification, qui a
+contrôlé au code ce que la branche l'invitait précisément à contrôler.
+
+**Ce qu'elle apprend, et qui vaut au-delà du cas.** Les deux corrections
+précédentes portaient sur le **véhicule** (décret abrogé) et sur la
+**vigueur** (article réécrit). Celle-ci ajoute un troisième contrôle : le
+CGFP est un code des **trois versants**, et plusieurs de ses chapitres se
+divisent en sections propres à l'État, à la territoriale et à
+l'hospitalière. Un article peut être **exact, en vigueur, et hors
+versant**. La chaîne à contrôler devient : **véhicule → vigueur →
+versant**. Elle est écrite comme quatrième règle du socle, et rappelée
+dans la branche formation et au registre.
+
+Cette erreur illustre aussi la limite que la v0.9.5 annonçait elle-même :
+un réancrage au niveau des **blocs** ne dispense pas de remonter à la
+section avant de citer un article.
+
 ## v0.9.5 — 2026-09-01
 
 **Réancrage de la branche formation sur le livre IV du CGFP.** C'était le

@@ -25,16 +25,28 @@
 >
 > | Bloc | Articles | Objet |
 > |---|---|---|
-> | Livre IV, titre II — **législatif** | **L. 421-1 à L. 424-1** | Formation professionnelle tout au long de la vie ; **compte personnel de formation aux art. L. 422-8 à L. 422-19** ; formations d'intégration et de professionnalisation aux art. L. 422-28 et s. |
+> | Livre IV, titre II — **législatif** | **L. 421-1 à L. 424-1** | Formation professionnelle tout au long de la vie ; **compte personnel de formation aux art. L. 422-8 à L. 422-19** |
 > | Livre IV, titre II — **réglementaire** | **R. 420-1 à R. 424-1** | Mise en œuvre, depuis le 1er août 2026 |
 > | Livre IV, titre IV — réglementaire | **R. 441-1 à R. 445-1** | **Réorganisation de services et d'établissements** — accompagnement des agents. Renvoi inter-branches : instances & dialogue social, communication interne |
 >
+> 🔴 **Le titre II est découpé par versant — vérifier la section avant de
+> citer.** À l'intérieur du chapitre II « Dispositifs de formation
+> professionnelle », une section est propre à la **fonction publique
+> territoriale**. Ses articles existent, disent ce qu'ils disent, et ne
+> s'appliquent **pas** à l'ANSM : ainsi les **art. L. 422-28 à
+> L. 422-34-1** (formations d'intégration et de professionnalisation,
+> attestations du CNFPT, promotion interne) sont **territoriaux** et
+> n'ont pas d'effet ici. Un numéro d'article exact peut donc être exact
+> **et hors versant**. Avant de citer, remonter à la section et vérifier
+> qu'elle vise l'État et ses établissements publics.
+>
 > ⚠️ **Ce que ce réancrage ne fait pas** : il donne les **blocs**, pas
 > l'article précis de chaque règle. Aucun article n'a été lu un par un à
-> cette date. Avant tout usage engageant, ouvrir le bloc et **citer
-> l'article exact** — et vérifier l'application aux **agents contractuels
-> de droit public**, que la partie législative désigne par « agent
-> public » sans que la déclinaison ANSM soit documentée.
+> cette date. Avant tout usage engageant, ouvrir le bloc, **citer
+> l'article exact**, contrôler son **versant** — et vérifier
+> l'application aux **agents contractuels de droit public**, que la
+> partie législative désigne par « agent public » sans que la déclinaison
+> ANSM soit documentée.
 
 ## Repérage rapide
 
