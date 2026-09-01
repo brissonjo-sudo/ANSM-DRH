@@ -16,7 +16,7 @@ description: >-
   courrier). Vérifie la source officielle avant toute règle engageante.
   Ne pas activer pour la FPT, la FPH ou une autre agence sanitaire.
 metadata:
-  version: 0.9.3
+  version: 0.9.10
   statut: >-
     8 branches toutes traitées. Trois fiabilisées sur sources primaires
     (recrutement-classification, instances-dialogue-social,
@@ -27,7 +27,7 @@ metadata:
     et quotas relèvent de la délibération du CA portant cadre d'emploi,
     non publiée. Audit interne passé le 2026-08-24 (voir AUDIT.md).
   date_derniere_revue_methodologique: 2026-08-28
-  date_derniere_verification_sources: 2026-08-28
+  date_derniere_verification_sources: 2026-09-01
   perimetre: >-
     Agence nationale de sécurité du médicament et des produits de santé
     (ANSM) — établissement public administratif de l'État, environ 1000
@@ -35,6 +35,9 @@ metadata:
   dependances:
     - recherche-juridique >= 2.2.0 (recommandé, pour l'approfondissement
       juridique et la vérification de version consolidée)
+    - dpo-ct (recommandé, pour la méthode RGPD — AIPD, article 28,
+      violations, droits des personnes, sécurité, relations CNIL ;
+      écarter sa branche propre aux collectivités territoriales)
   compatibilite:
     - Claude Opus
     - Claude Sonnet
@@ -48,7 +51,7 @@ metadata:
     s'applique pas ici.
 ---
 
-# Skill : drh-ansm (v0.9.3)
+# Skill : drh-ansm (v0.9.10)
 
 > **Objet** : expertise d'une Direction des Ressources Humaines d'un
 > établissement public de l'État à statut de personnel atypique — une
@@ -159,6 +162,33 @@ un texte à contrôler. Ne pas s'en tenir au noyau : c'est l'historique
 des modificateurs qui distingue l'article qui **modifie** de celui qui
 fixe seulement une **date d'entrée en vigueur** — confusion relevée en
 campagne de test entre les articles 109 et 110 du décret n° 2020-1427.
+
+### 3.0 bis Coactivation `dpo-ct` — la méthode RGPD, pas le droit territorial
+
+Ce skill **ne documente aucun régime RGPD** : il n'a ni branche ni source
+en la matière. Pour toute question de protection des données — AIPD,
+registre des traitements, violation et notification à la CNIL,
+sous-traitance, droits des personnes, sécurité, doctrine CNIL —
+**activer `dpo-ct`**.
+
+Son intitulé vise le DPO de collectivité territoriale, mais **son contenu
+est générique** : sur ses dix fichiers de référence, un seul —
+`secteur-collectivites.md` — est propre aux collectivités.
+L'AIPD, l'article 28 et le délai de 72 heures sont le RGPD, pas du droit
+territorial.
+
+**Frontière à tenir** — écarter systématiquement :
+
+- la référence `secteur-collectivites.md` et les traitements communaux
+  (état civil, élections municipales, scolaire, action sociale) ;
+- toute règle supposant une **délibération d'un conseil municipal**, un
+  **DPO mutualisé**, un centre de gestion ou une autorité territoriale ;
+- la qualification du responsable de traitement : à l'ANSM, c'est
+  **l'agence**, établissement public de l'État, et le **DPO est celui de
+  l'agence** — l'associer, ne pas raisonner en DPO territorial.
+
+Ce qui se garde : la **méthode** et les **sources RGPD/CNIL** de `dpo-ct`,
+que ce référentiel n'a pas.
 
 ### 3.1 Barrière de fiabilisation
 
@@ -413,7 +443,7 @@ contenir que des métadonnées non sensibles.
 
 ## 11. Limites et précautions
 
-- Skill en version **0.9.3** : trois branches fiabilisées, quatre
+- Skill en version **0.9.10** : trois branches fiabilisées, quatre
   partielles, une amorcée. Ne pas traiter les branches 🟢 et 🟡 comme
   des sources d'autorité.
 - Ne remplace pas l'avis d'un juriste, du contrôle interne, du service

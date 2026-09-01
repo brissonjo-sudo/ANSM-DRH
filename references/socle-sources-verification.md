@@ -50,19 +50,46 @@ Distinguer trois strates.
    ⚠️ Le décret renvoie l'essentiel des **valeurs** (indices, durées
    d'échelon, emplois-repères, quotas) à des **délibérations du conseil
    d'administration non publiées** : voir la branche recrutement.
-> 🔴 **Vague de codification du 1er février 2025 — à vérifier avant tout
-> visa.** Le **décret n° 2024-1038 du 6 novembre 2024** a créé les livres
-> I et II de la **partie réglementaire du code général de la fonction
-> publique** et **abrogé, au 1er février 2025**, les textes
-> réglementaires qui portaient ces matières — droits et obligations,
-> dialogue social, instances. Deux abrogations ont déjà été constatées
-> dans ce référentiel : le **décret n° 2020-1427** en entier (art. 29) et
-> l'**article 1-2 du décret n° 86-83** (art. 10). L'abrogation est
-> **ciblée article par article** : le reste du décret n° 86-83 est en
-> vigueur. Avant de viser un texte réglementaire antérieur à 2025 en
-> matière de dialogue social ou d'instances, **contrôler qu'il n'a pas
-> été codifié** — un article exact dans un véhicule abrogé reste un visa
-> fautif.
+> 🔴 **Codification du code général de la fonction publique — à vérifier
+> avant tout visa.** La partie réglementaire du CGFP est construite
+> **livre par livre**, chaque livre abrogeant les décrets thématiques dont
+> il reprend les dispositions. Un article exact dans un véhicule abrogé
+> reste un visa fautif.
+>
+> | Livre | Matière | Décret codificateur | Entrée en vigueur |
+> |---|---|---|---|
+> | I et II | Droits et obligations ; dialogue social | **n° 2024-1038 du 6 novembre 2024** | **1er février 2025** |
+> | III | Recrutement | **n° 2025-695 du 24 juillet 2025** | **1er octobre 2025** |
+> | IV | Organisation et gestion des RH — **formation professionnelle, télétravail**, accompagnement des réorganisations | **n° 2026-366 du 7 mai 2026** | **1er août 2026** |
+> | V | Carrière | annoncé | à surveiller |
+>
+> **Effets déjà constatés dans ce référentiel** : décret n° 2020-1427
+> abrogé en entier ; décret n° 86-83 amputé de plusieurs articles, en deux
+> vagues (dont l'art. 1-2 sur la CCP au 1er février 2025, et un bloc
+> « recrutement » au 1er octobre 2025) ; décret n° 2016-151 sur le
+> télétravail abrogé au 1er août 2026.
+>
+> **Trois règles qui en découlent** :
+> 1. L'abrogation est **ciblée article par article** — le reste du décret
+>    n° 86-83 est en vigueur, notamment ses articles 43-1, 43-2 et 44.
+> 2. Un article **survivant peut avoir été réécrit** par le décret
+>    codificateur : citer la **version**, pas seulement le numéro (l'art. 44
+>    du décret n° 86-83 n'existe dans sa rédaction actuelle que depuis le
+>    1er février 2025).
+> 3. Avant de viser **tout texte réglementaire antérieur à 2026** en
+>    matière de fonction publique, ouvrir sa version consolidée et
+>    contrôler qu'il n'a pas été codifié. La vague du livre IV date du
+>    1er août 2026 : elle est récente, et ses effets ne sont pas tous
+>    répercutés ici.
+> 4. **Le CGFP est un code des trois versants : vérifier la section.**
+>    Plusieurs de ses chapitres se divisent en sections propres à la
+>    fonction publique de l'État, à la territoriale et à l'hospitalière.
+>    Un article peut être **exact, en vigueur, et hors versant** — donc
+>    inapplicable à l'ANSM, établissement public de l'État. Cas relevé :
+>    les art. L. 422-28 et suivants (formations d'intégration, CNFPT)
+>    relèvent de la section territoriale. Remonter à la section avant de
+>    citer un article du code : la chaîne à contrôler est **véhicule →
+>    vigueur → versant**.
 
 5 bis. **Décret n° 86-83 du 17 janvier 1986** — droit commun des agents
    contractuels de l'État, applicable **à titre subsidiaire**, sous

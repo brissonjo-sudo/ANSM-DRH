@@ -14,7 +14,7 @@ PROJECT = Path(__file__).resolve().parents[1]
 # sources du dépôt. Une affirmation contrôlée après cette date serait vue
 # comme « située dans le futur » — remonter TODAY en même temps qu'une
 # campagne de vérification, jamais pour contourner un contrôle.
-TODAY = date(2026, 8, 28)
+TODAY = date(2026, 9, 1)
 CONTRACTUELS = "references/recrutement-classification-contractuels.md"
 DEONTOLOGIE = "references/deontologie-conflits-interets.md"
 
@@ -50,6 +50,20 @@ class ValidationGateTests(unittest.TestCase):
 
     def test_current_repository_passes(self) -> None:
         self.assertEqual([], self.validate())
+
+    def test_first_of_month_is_written_1er(self) -> None:
+        # « vérification du 1 septembre » n'est pas du français : le formateur
+        # doit produire « 1er ». Sans ce cas, une branche vérifiée un premier
+        # du mois ne peut pas passer la barrière.
+        branches = deepcopy(self.branches)
+        gates = deepcopy(self.gates)
+        gates["branches"][CONTRACTUELS]["verified_on"] = "2026-09-01"
+        for claim in gates["branches"][CONTRACTUELS]["claims"]:
+            claim["checked_on"] = "2026-09-01"
+        branches[CONTRACTUELS] = branches[CONTRACTUELS].replace(
+            "vérification du 25 août 2026", "vérification du 1er septembre 2026", 1
+        )
+        self.assertEqual([], self.validate(gates=gates, branches=branches))
 
     def test_missing_source_is_blocked(self) -> None:
         gates = deepcopy(self.gates)

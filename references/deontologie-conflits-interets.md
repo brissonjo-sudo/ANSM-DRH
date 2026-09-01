@@ -1,27 +1,46 @@
 # Branche — Déontologie, DPI & prévention des conflits d'intérêts
 
-> 🟢 **Partiellement fiabilisée** (v0.6.1, vérification du 25 août 2026).
+> 🟢 **Partiellement fiabilisée** (vérification du 1er septembre 2026)
+> — v0.9.7, sources ANSM en vigueur citables.
 >
-> Sources primaires directement traçables :
-> - **rapport public 2023 du déontologue de l'ANSM**, daté du 31 mars
->   2024 ;
-> - **Articles L. 5323-4, L. 1451-1, L. 1452-2, L. 1452-3, L. 1454-2 et
->   L. 1454-4 du code de la santé publique** ; **article 432-12 et
->   432-13 du code pénal** ; **articles L. 121-1, L. 121-5, L. 122-1,
->   L. 122-3, L. 124-4 à L. 124-7 du CGFP**.
+> **Sources ANSM en vigueur — à citer en priorité, elles sont publiques** :
+> - **Charte de déontologie de l'ANSM, février 2026** (`ANSM-CHARTE-2026`)
+>   — version en vigueur, **annexée au règlement intérieur**, d'où sa
+>   portée disciplinaire. Écarter la version de novembre 2024, encore
+>   indexée par les moteurs.
+> - **Dispositif de prévention et de gestion des conflits d'intérêts**,
+>   septembre 2018 **mis à jour en février 2026**
+>   (`ANSM-DISPOSITIF-2026`) — circuit de traitement des liens
+>   d'intérêts.
+> - **Rapport public 2025 du déontologue de l'ANSM**, publié le 13 avril
+>   2026 (`ANSM-DEONTO-2025`) — **millésime le plus récent**. Les
+>   rapports 2024 (`ANSM-DEONTO-2024`) et 2023 (`ANSM-DEONTO-2023`)
+>   restent au registre pour une lecture d'évolution ; ne plus les
+>   présenter comme l'état actuel.
 >
-> **Reste à confirmer** : les versions de février 2026 de la charte, du
-> dispositif de prévention et des fiches de probité sont mentionnées dans
-> la copie de travail mais leur URL officielle n'a pas été retrouvée.
-> Confirmer également le contenu exact des
-> **articles 11 à 14 du règlement intérieur de l'ANSM** et de la
-> procédure interne « Prévention et gestion des conflits d'intérêts du
+> **Textes** : articles L. 5323-4, L. 1451-1, L. 1452-2, L. 1452-3,
+> L. 1454-2 et L. 1454-4 du code de la santé publique ; articles 432-12 et
+> 432-13 du code pénal ; articles L. 121-1, L. 121-5, L. 122-1, L. 122-3,
+> L. 124-4 à L. 124-8 du CGFP.
+>
+> **Dépouillement fait le 1er septembre 2026** : la charte de février
+> 2026 et le dispositif mis à jour ont été lus. Ce qu'ils apportent est
+> intégré au corps de la branche — périmètre des DPI publiées,
+> actualisation au moins annuelle, exclusion des liens de parenté — et
+> **se cite depuis la charte**, non depuis la décision de 2012.
+>
+> **Ce qui manque encore** : les **fiches de probité** de février 2026 ;
+> le contenu exact des **articles 11 à 14 du règlement intérieur** et de
+> la procédure interne « Prévention et gestion des conflits d'intérêts du
 > personnel de l'Agence », auxquels les fiches renvoient sans les
-> reproduire.
+> reproduire. Le **contenu** des rapports du déontologue 2024 et 2025
+> n'a pas été dépouillé : les chiffres et constats chiffrés de cette
+> branche datent du millésime 2023 et sont à réactualiser.
 
 > Registre des textes et liens de contrôle →
 > `references/sources-principales.md` (`PENAL-PENDANT`, `PENAL-APRES`,
-> `CGFP-ENTRANT`, `CGFP-SORTANT`, `ANSM-DEONTO-2023`).
+> `CGFP-ENTRANT`, `CGFP-SORTANT`, `ANSM-CHARTE-2026`,
+> `ANSM-DISPOSITIF-2026`, `ANSM-DEONTO-2025`).
 
 ---
 
@@ -118,7 +137,10 @@ mêmes secteurs.
 
 **Support** : télédéclaration sur **dpi.sante.gouv.fr** (DPI santé).
 
-**Actualisation** : à l'initiative de l'agent dès qu'un lien change ou
+**Actualisation** (charte de février 2026 et dispositif mis à jour en
+février 2026) : **au moins une fois par an, même sans modification de la
+déclaration précédente ou en l'absence de tout lien**, et à l'initiative
+de l'agent dès qu'un lien change ou
 qu'un lien nouveau est noué, **et au moins une fois par an même sans
 modification** — y compris en l'absence de tout lien.
 
@@ -128,8 +150,15 @@ matière de **commande publique** (cabinet d'avocats, société de conseil,
 prestataire bureautique...). Point souvent négligé : le risque de conflit
 d'intérêts ne se limite pas au champ sanitaire.
 
-**Déclarations rendues publiques** (art. L. 1451-1 II CSP ; liste établie
-par **décision du directeur général du 6 juillet 2012**) :
+**Déclarations rendues publiques** (art. **L. 1451-1 du code de la santé
+publique** — la publicité figure dans le **I**, non dans le II qui porte
+l'obligation déclarative ; ⚠️ **alinéa exact à confirmer au texte avant
+citation dans un acte**).
+
+**Source du périmètre : la charte de déontologie de février 2026**, qui
+l'énonce elle-même — c'est elle qu'il faut citer, et non la décision
+fondatrice de 2012. Dépouillement fait le 1er septembre 2026 ; la charte
+publie sur le site **DPI santé** les déclarations :
 - les dirigeants de l'Agence ;
 - le personnel de **direction et d'encadrement** ;
 - les membres des **instances de gouvernance** ;
@@ -139,6 +168,17 @@ par **décision du directeur général du 6 juillet 2012**) :
 
 Ordre de grandeur communiqué par l'agence : **plus de 600 agents**
 concernés par la publication, en sus des experts externes.
+
+La **décision du directeur général du 6 juillet 2012** (décisions
+n° 2012-202 et n° 2012-203) reste l'**acte fondateur** de la liste : la
+citer comme historique, pas comme l'état courant.
+
+**Durée de publication** — **article R. 1451-3 du code de la santé
+publique** : la déclaration est publiée **pendant la durée des fonctions
+ou de la mission**, **et les cinq années suivant leur fin**. Une fiche
+encore en ligne après la sortie du périmètre n'est donc **pas** dépourvue
+de base légale pendant ces cinq ans : c'est l'erreur symétrique de celle
+qui consisterait à publier sans limite. Au-delà, le retrait s'impose.
 
 **Deux limites à la publicité** : les mentions relatives aux **liens de
 parenté ne sont pas rendues publiques** ; par ailleurs la déclaration est
@@ -322,6 +362,10 @@ concerné agirait en fait de manière impartiale.
 
 ### 5.7 Régime propre aux experts externes
 
+> Règles issues du **dispositif de prévention et de gestion des conflits
+> d'intérêts de l'ANSM**, septembre 2018 **mis à jour en février 2026** —
+> c'est lui qu'il faut citer pour ce régime.
+
 **Nomination subordonnée** à la production d'une **déclaration d'intérêts
 de moins d'un an et à jour**, et d'un **engagement d'indépendance et de
 confidentialité** signé au moment de la nomination.
@@ -348,6 +392,9 @@ sur le site de l'agence (version du 04/05/2026), complété par des
 d'instances / experts ponctuels).
 
 ### 5.8 Conduite des séances d'instance
+
+> Procédure décrite par le **dispositif de prévention et de gestion des
+> conflits d'intérêts**, mise à jour de **février 2026** — source à citer.
 
 - **Avant la réunion** : le secrétariat vérifie les risques de conflits au
   regard des dossiers inscrits.
@@ -416,9 +463,11 @@ Ces sanctions **ne sont pas exclusives de poursuites pénales**.
 **Toutes** les questions de cette branche relèvent d'une ligne « Oui » de
 la matrice §2.2 du SKILL.md. Points appelant une vérification renforcée
 avant tout acte :
-- appartenance d'un emploi précis à la liste des DPI publiques (décision
-  DG du 6 juillet 2012 — vérifier si une décision postérieure l'a
-  modifiée) ;
+- appartenance d'un emploi précis à la liste des DPI publiques :
+  s'appuyer sur la **charte de février 2026** et le **dispositif mis à
+  jour en février 2026**, qui décrivent le périmètre en vigueur ; la
+  décision DG du 6 juillet 2012 en est l'acte fondateur et non l'état
+  actuel — vérifier si une décision postérieure l'a modifiée ;
 - contenu des **articles 11 à 14 du règlement intérieur** (non publié) ;
 - version en vigueur du **tableau des incompatibilités** ;
 - articulation avec la **HATVP** pour les emplois les plus élevés, dont
@@ -478,7 +527,9 @@ avant tout acte :
 
 - **Stable** : textes publiés cités au §5 et organisation décrite dans le
   rapport public 2023 du déontologue de l'ANSM.
-- **À vérifier** : versions de février 2026 de la charte, du dispositif et
+- **Obtenu le 28 août 2026** : charte de février 2026 et dispositif mis à
+  jour en février 2026, tous deux publics et au registre.
+- **À vérifier** : les fiches de probité, et
   des fiches de probité ; contenu du règlement intérieur (articles 11 à
   14) et de la procédure interne ; évolutions postérieures au rapport
   public 2023.

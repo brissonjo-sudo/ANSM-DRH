@@ -3,13 +3,13 @@
   "branches": {
     "references/deontologie-conflits-interets.md": {
       "maturity": "partial",
-      "verified_on": "2026-08-25",
+      "verified_on": "2026-09-01",
       "claims": [
         {
           "id": "distinction-entree-pendant-sortie",
           "statement": "Les contrôles à l'entrée, pendant les fonctions et après leur cessation relèvent de fondements distincts.",
           "status": "verified",
-          "checked_on": "2026-08-25",
+          "checked_on": "2026-09-01",
           "max_age_days": 30,
           "source_ids": [
             "CGFP-ENTRANT",
@@ -20,7 +20,8 @@
         }
       ],
       "unresolved_claims": [
-        "Versions ANSM de février 2026 et procédure interne à obtenir."
+        "Fiches de probité de février 2026 et articles 11 à 14 du règlement intérieur à obtenir.",
+        "Contenu des rapports du déontologue 2024 et 2025 non dépouillé : chiffres et constats encore issus du millésime 2023."
       ],
       "known_limits": []
     },
@@ -152,10 +153,11 @@
     },
     "references/formation-developpement-competences.md": {
       "maturity": "partial",
-      "verified_on": "2026-08-24",
+      "verified_on": "2026-09-01",
       "claims": [],
       "unresolved_claims": [
-        "Plan et budget de formation actuels à obtenir."
+        "Plan et budget de formation actuels à obtenir.",
+        "Déclinaison ANSM du CPF, de l'entretien professionnel, de la VAE et de l'apprentissage ; article précis du livre IV du CGFP pour chaque règle générale."
       ],
       "known_limits": []
     },

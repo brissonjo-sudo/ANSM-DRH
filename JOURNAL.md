@@ -19,6 +19,34 @@ Format d'entrée suggéré :
 
 ---
 
+## 2026-09-01 — contrat de sortie (§2, §7, §8)
+**Cas** : rejeu du test de coactivation sur le vote électronique des
+élections professionnelles de décembre 2026. Fond **RÉUSSI**, onze
+références vérifiées une à une sans aucune invention, aucune règle
+territoriale rapatriée depuis `dpo-ct`. Trois défauts de forme subsistent.
+**Ce qui a manqué / ce qui était incertain** : deux des trois défauts ne
+sont pas imputables au répondant. Le §7 interdisait « le skill », « mon
+référentiel », « ma base » — trois formules énumérées, que le répondant a
+contournées sans le vouloir en en écrivant une quatrième : « le référentiel
+utilisé pour préparer cette réponse ». **Une interdiction énumérée se
+contourne ; une interdiction de classe, non.** Et le mot « maturité »
+désignait deux choses à la fois — l'état d'une branche, qui est de la
+tuyauterie, et le niveau de certitude d'un élément, qui est dû au
+destinataire et prescrit par le §3. Le juge les a confondues et a signalé
+comme défaut un tableau qui était exigé. Un répondant aurait fait la même
+lecture et l'aurait supprimé : c'est la sur-correction qui avait déjà
+dégradé T09 en v0.9.2, prête à se rejouer.
+**Source qui a permis de trancher** : le §3 du contrat de sortie lui-même,
+qui prescrit le tableau que le §7 semblait interdire.
+**Action** : le §7 vise désormais toute mention du dispositif *sous quelque
+formulation que ce soit*, et renvoie à la rédaction de remplacement (dire ce
+qui reste à obtenir et auprès de qui, §8.4). Les deux sens de « maturité »
+sont nommés séparément, et le §3 est explicitement hors du champ de
+l'interdiction. Le §2 demande une date de référence donnée comme une date,
+non comme un compte rendu de vérification. Le §8.1 précise qu'un article de
+règlement européen se cite par son numéro comme un décret : le répondant
+déroulait tout le contenu de l'article 28 du RGPD sans jamais le nommer.
+
 ## 2026-08-28 — instances-dialogue-social : imputation article 110 / 109
 
 **Cas** : campagne de test `tests/TESTS.md` (T11). Un répondant à contexte
@@ -113,6 +141,176 @@ test, attendus jamais transmis au répondant).
 **Action** : rendre l'appel à `recherche-juridique` obligatoire sur déclencheur
 explicite plutôt que « recommandé » ; ajouter une règle de sortie séparant le
 livrable de la note de production.
+
+---
+
+## 2026-09-01 — v0.9.7 et v0.9.8 : une source qu'on n'a pas lue ne peut être que nommée
+
+**Cas** : l'audit du 28 août avait retrouvé la charte de déontologie de
+février 2026, le dispositif mis à jour et le rapport du déontologue 2025,
+et les avait versés au registre. Le rejeu de T13 montrait pourtant
+qu'aucune n'était citée : la réponse continuait de donner la décision DG
+du 6 juillet 2012 comme périmètre actuel.
+
+**Ce qui a manqué / ce qui était incertain** — trois tentatives, dont
+deux fondées sur un mauvais diagnostic :
+
+1. **Réécrire l'en-tête** de la branche, sources en vigueur en tête.
+   Sans effet : le répondant construit sa réponse depuis le **corps**,
+   pas depuis la déclaration d'intention en tête de fichier.
+2. **Nommer les sources dans le passage opératoire**, en qualifiant la
+   décision de 2012 d'acte fondateur. La décision de 2012 a cessé d'être
+   présentée comme l'état courant — mais les sources restaient
+   « citées sans emploi ».
+3. **Dépouiller réellement la charte** et verser son contenu au corps.
+   Sources enfin **mobilisées** : périmètre restitué presque mot pour
+   mot, exclusion des liens de parenté érigée en contrôle avant
+   transmission, actualisation annuelle transformée en règle
+   d'information.
+
+**Enseignement transposable** : *une source qu'on n'a pas lue ne peut
+être que nommée*. Les deux premières corrections déplaçaient une
+étiquette ; seule la troisième a apporté de la matière. Pointer plus fort
+ne remplace pas le dépouillement — et l'écart entre « source au registre »
+et « source utilisable » est exactement le travail de lecture.
+
+**Nuance utile** : pour le dispositif de février 2026, le diagnostic était
+inverse. La branche portait déjà son contenu (arrêtés de 2017, amende de
+30 000 €, déclaration de moins d'un an, conduite des séances) mais ne
+l'attribuait à rien. Il manquait l'**attribution**, pas l'extraction. Les
+deux défauts se ressemblent en sortie — une source non citée — et
+appellent des corrections opposées.
+
+**Lacune trouvée par un juge, et qui comptait** : la branche était muette
+sur la **durée de publication** des déclarations. Un répondant a comblé
+le vide à contresens, en affirmant qu'une fiche maintenue en ligne après
+la sortie du périmètre n'avait plus de base légale. L'**article R. 1451-3
+du code de la santé publique** prévoit la publication pendant la durée
+des fonctions **et les cinq années suivant leur fin**. Un silence de la
+documentation ne produit pas une abstention : il produit une invention.
+
+**Sources qui ont permis de trancher** : charte de déontologie de l'ANSM,
+février 2026 (périmètre des DPI publiées, exclusion des liens de parenté,
+site DPI santé, actualisation au moins annuelle même sans modification) ;
+dispositif de prévention et de gestion des conflits d'intérêts, mise à
+jour février 2026 ; art. R. 1451-3 du code de la santé publique.
+
+**Action** : charte et dispositif extraits et lus ; contenu versé au corps
+de la branche avec attribution explicite ; durée de publication écrite
+avec ses deux erreurs symétriques ; en-tête rendant compte du
+dépouillement fait et de ce qui reste à lire.
+**Reste ouvert** : le contenu des rapports du déontologue 2024 et 2025,
+non dépouillé — les chiffres de la branche datent encore de 2023 ; et une
+lacune structurelle relevée par un répondant, l'absence de toute branche
+ou source **RGPD/CNIL** dans le référentiel, qui fait reposer le bloc E de
+la batterie sur ce que le répondant va chercher au-dehors.
+
+---
+
+## 2026-09-01 — v0.9.5 puis v0.9.6 : le versant, troisième contrôle
+
+**Cas** : réancrage de la branche formation sur le livre IV du CGFP,
+dernier chantier ouvert par l'audit du registre. Le cadre général de la
+formation n'était plus à chercher dans un décret antérieur : il est au
+code depuis le 1er août 2026.
+
+**Ce qui a manqué / ce qui était incertain** :
+
+1. **Une distinction que la branche ne faisait pas.** Son §5.6 rangeait le
+   CPF, l'entretien professionnel et la VAE parmi les points « non
+   documentés ». Ambigu : leur **cadre général** est codifié, ce qui
+   manque est la **déclinaison ANSM**. Confondre les deux fait s'abstenir
+   là où il y a une règle à citer.
+2. **Une erreur introduite par la correction elle-même.** Le réancrage
+   citait les **art. L. 422-28 et suivants** parmi les blocs applicables.
+   Ces articles existent et sont en vigueur — mais en **section propre à
+   la fonction publique territoriale** (formations CNFPT, promotion
+   interne). Ils ne s'appliquent pas à un établissement public de l'État.
+   Le répondant du test de vérification l'a relevé en contrôlant au code
+   ce que la branche l'invitait à contrôler.
+
+**Enseignement transposable** : trois corrections successives ont porté
+sur trois défauts différents d'une même citation — le **véhicule** (un
+décret abrogé), la **vigueur** (un article réécrit), et maintenant le
+**versant** (un article d'un autre versant de la fonction publique). Un
+article peut être exact, en vigueur, et hors versant. La chaîne de
+contrôle est donc **véhicule → vigueur → versant**, et aucun des trois
+maillons ne se déduit des deux autres.
+
+Second enseignement, sur le dispositif de test : c'est le **répondant**,
+pas le juge, qui a trouvé l'erreur — parce que la branche lui disait
+explicitement quoi vérifier. Une réserve bien écrite ne se contente pas
+de protéger le skill : elle **oriente le contrôle** de qui l'utilise.
+
+**Sources qui ont permis de trancher** : plan du livre IV du CGFP (titre
+II formation, titre III télétravail, titre IV réorganisation de
+services) ; sous-section « Formations d'intégration et de
+professionnalisation », art. L. 422-28 à L. 422-34-1, située en section 3
+« Dispositions particulières à la fonction publique territoriale ».
+
+**Action** : branche formation réancrée au niveau des blocs, avec
+distinction cadre général / déclinaison ANSM ; référence territoriale
+retirée et avertissement de versant posé ; **quatrième règle du socle**
+sur les sections par versant ; registre complété d'une entrée
+`CGFP-LIVRE4`. Correction d'outillage au passage : le formateur de dates
+écrivait « vérification du 1 septembre », interdisant toute branche
+vérifiée un premier du mois — corrigé avec test de non-régression.
+**Reste ouvert** : l'article précis de chaque règle générale de formation,
+et l'application des dispositifs aux contractuels de droit public, que la
+partie législative désigne par « agent public ».
+
+---
+
+## 2026-08-28 — v0.9.4 : l'audit qui transforme deux erreurs en motif
+
+**Cas** : deux abrogations trouvées coup sur coup par des juges de test, sur
+deux branches différentes, imputables au même décret de codification. Plutôt
+que d'attendre la troisième, audit des 21 entrées du registre par trois
+auditeurs indépendants, chaque anomalie revérifiée avant correction.
+
+**Ce qui a manqué / ce qui était incertain** :
+
+1. **Ce n'étaient pas deux accidents mais un programme.** La partie
+   réglementaire du CGFP se construit **livre par livre** : livres I et II au
+   1er février 2025 (décret n° 2024-1038), livre III — recrutement — au
+   1er octobre 2025 (décret n° 2025-695), livre IV — organisation et gestion
+   RH, dont la **formation** et le **télétravail** — au 1er août 2026 (décret
+   n° 2026-366), livre V annoncé. Le référentiel était ancré sur les
+   véhicules d'avant, et la dernière vague avait 27 jours.
+2. **Une règle manquait au socle** : un article **survivant** peut avoir été
+   **réécrit** par le décret codificateur. Vérifier qu'un article dit bien ce
+   qu'on lui fait dire ne suffit donc pas — il faut citer la version.
+3. **Le numéro refusé en v0.9.3 n'était pas là où on le cherchait.** La
+   composition disciplinaire de la CCP n'est pas dans le code : elle est
+   restée à l'**article 44 du décret n° 86-83**, réécrit au 1er février 2025,
+   qui renvoie lui-même à l'art. R. 271-1 du CGFP. Le régime est hybride.
+   Chercher dans le seul code ne pouvait pas aboutir — et le refus d'écrire
+   un numéro plausible a évité d'inscrire une erreur.
+4. **Une réserve fausse depuis trois jours.** Le dépôt affirmait qu'aucune
+   URL n'avait été retrouvée pour la charte de déontologie de février 2026 et
+   le dispositif conflits d'intérêts. Les deux sont publics.
+
+**Enseignement transposable** : une réserve d'abstention **se périme comme
+une affirmation**. « Document non retrouvé » est une constatation datée, pas
+un état permanent ; elle doit être réinterrogée à chaque revue, au même titre
+qu'une règle. Et symétriquement : deux occurrences d'un même motif justifient
+d'auditer l'ensemble plutôt que de corriger la troisième quand elle viendra.
+
+**Sources qui ont permis de trancher** : décrets n° 2024-1038, n° 2025-695 et
+n° 2026-366 (programme de codification et dates d'effet) ; art. 44 du décret
+n° 86-83 en vigueur depuis le 1er février 2025 ; art. R. 431-1 et s. du CGFP
+(télétravail) ; charte ANSM de février 2026 et dispositif mis à jour février
+2026, millésimes confirmés en page de couverture.
+
+**Action** : programme complet de codification et ses trois règles portés au
+socle ; registre corrigé sur sept entrées et enrichi de quatre ; branches
+QVT, instances et déontologie réancrées ; branche formation marquée à
+réancrer. **Rejeu** : T10 et T13, tous deux RÉUSSI. Détail →
+`tests/rapports/RAPPORT-2026-08-28-audit-registre.md`.
+**Reste ouvert** : le réancrage de la formation sur le livre IV ; les
+nouvelles sources ANSM déclarées citables mais pas encore exploitées par le
+corps de la branche déontologie — lever une réserve ne suffit pas à faire
+utiliser la source.
 
 ---
 

@@ -1,5 +1,238 @@
 # Changelog — drh-ansm
 
+## v0.9.10 — 2026-09-01
+
+**Une interdiction énumérée se contourne ; une interdiction de classe,
+non.** Le rejeu du test de coactivation sur le vote électronique est
+**RÉUSSI** — la coactivation se déclenche, onze références sont vérifiées
+sans invention, aucune règle territoriale ne franchit la frontière posée en
+v0.9.9. Mais la réponse écrit « le référentiel utilisé pour préparer cette
+réponse », formule que le §7 du contrat de sortie n'avait pas prévue parce
+qu'il énumérait trois formules au lieu de nommer une classe. Le §7 vise
+désormais toute mention du dispositif, quelle qu'en soit la tournure, et
+indique par quoi la remplacer : ce qui reste à obtenir et auprès de qui.
+
+**Le mot « maturité » désignait deux choses.** L'état d'une branche du
+référentiel est de la tuyauterie et ne sort pas ; le niveau de certitude
+d'un élément est dû au destinataire et le §3 le prescrit sous forme de
+tableau. Le juge du rejeu a confondu les deux et signalé comme défaut un
+tableau qui était exigé. Un répondant aurait pu faire la même lecture et le
+supprimer — la sur-correction qui avait dégradé T09 en v0.9.2, prête à se
+rejouer. Les deux sens sont maintenant nommés séparément et le §3 est
+explicitement hors du champ du §7.
+
+Deux corrections mineures de même origine : la **date de référence** du §2
+se donne comme une date (« au 1er septembre 2026 »), non comme un compte
+rendu de fabrication (« vérification effectuée le… ») ; et le §8.1 précise
+qu'un **article de règlement européen** se cite par son numéro au même titre
+qu'un décret — le répondant déroulait tout le contenu de l'article 28 du
+RGPD sans jamais le nommer.
+
+## v0.9.9 — 2026-09-01
+
+**La lacune RGPD est comblée par coactivation, pas par duplication.** Un
+répondant avait relevé que ce référentiel ne comporte aucune branche ni
+aucune source RGPD ou CNIL, ce qui faisait reposer le bloc E de la
+batterie sur ce qu'il allait chercher au-dehors. Deux issues étaient
+possibles : documenter un socle RGPD ici, ou emprunter celui qui existe
+déjà.
+
+**Le contenu de `dpo-ct` est générique.** Son intitulé vise le DPO de
+collectivité territoriale, mais sur ses dix fichiers de référence, **un
+seul** — `secteur-collectivites.md` — est propre aux collectivités.
+L'AIPD, l'article 28, le délai de 72 heures, les droits des personnes, la
+sécurité de l'article 32 et les relations CNIL sont le RGPD, pas du droit
+territorial. Le dupliquer ici aurait créé une seconde source à maintenir,
+et à faire diverger.
+
+`dpo-ct` entre donc dans les dépendances, et le nouveau **§3.0 bis** de
+`SKILL.md` pose la frontière : emprunter la **méthode** et les **sources
+RGPD/CNIL**, écarter la référence sur le secteur communal et toute règle
+supposant une délibération d'un conseil municipal, un DPO mutualisé ou un
+centre de gestion. À l'ANSM, le responsable de traitement est **l'agence**
+et le **DPO est celui de l'agence** : l'associer, ne pas raisonner en DPO
+territorial.
+
+`references/protection-donnees-rh.md` dit désormais explicitement ce qu'il
+est — un fichier d'**hygiène** des données dans les échanges — et ce qu'il
+n'est pas : une branche de conformité. La confusion entre les deux
+expliquait qu'une question de conformité y trouve une réponse d'hygiène.
+
+Ce faisant, le comportement attendu par le bloc E de `tests/TESTS.md`
+devient explicite au lieu d'être laissé au jugement du répondant.
+
+## v0.9.8 — 2026-09-01
+
+**La charte de février 2026 est lue, pas seulement citée.** Deux
+corrections successives avaient échoué à faire employer les sources ANSM
+retrouvées : la première ne touchait que l'en-tête de la branche, la
+seconde nommait les documents dans le passage opératoire sans que rien
+n'en soit tiré. Le diagnostic manquait : **une source qu'on n'a pas lue
+ne peut être que nommée**. Pointer plus fort ne remplace pas le
+dépouillement.
+
+La charte et le dispositif ont donc été extraits et lus. Ce qu'ils
+apportent entre dans le corps de la branche :
+
+- le **périmètre des DPI publiées** est désormais énoncé **depuis la
+  charte de février 2026**, qui le formule elle-même, et non depuis la
+  décision fondatrice de 2012 — cette dernière restant citée comme
+  historique ;
+- l'**actualisation au moins annuelle, même sans modification**, que la
+  branche n'énonçait pas ;
+- la publication sur le site **DPI santé** et l'exclusion des **liens de
+  parenté**, confirmées sur une source de 2026.
+
+**Lacune corrigée, trouvée par un juge** : la branche était muette sur la
+**durée de publication**, et un répondant a comblé le vide à contresens
+en affirmant qu'une fiche maintenue en ligne après la sortie du périmètre
+n'avait plus de base légale. L'**article R. 1451-3 du code de la santé
+publique** prévoit la publication pendant la durée des fonctions **et les
+cinq années suivant leur fin**. La règle est écrite, avec ses deux
+erreurs symétriques : retirer trop tôt, ou publier sans limite.
+
+**Réserve maintenue** : le contenu des rapports du déontologue 2024 et
+2025 n'a pas été dépouillé. Les chiffres de la branche datent encore du
+millésime 2023.
+
+## v0.9.7 — 2026-09-01
+
+**Les sources ANSM retrouvées deviennent utilisables.** La v0.9.4 avait
+levé la réserve : la charte de déontologie de février 2026, le dispositif
+mis à jour en février 2026 et le rapport du déontologue 2025 sont publics
+et au registre. Le rejeu de T13 a pourtant montré qu'aucune n'était
+citée — parce que l'en-tête de la branche déontologie continuait
+d'annoncer le **rapport 2023** comme source primaire, la réserve levée
+étant bolt-on plutôt qu'intégrée.
+
+**Lever une réserve ne suffit pas à faire utiliser la source.** Il faut
+aussi retirer l'ancienne de la place qu'elle occupait. L'en-tête est
+réécrit : les trois sources en vigueur en tête, avec ce qui les
+distingue (la charte est annexée au règlement intérieur, d'où sa portée
+disciplinaire ; la version de novembre 2024 est à écarter), les
+millésimes antérieurs conservés au registre pour une lecture d'évolution
+mais explicitement déclassés.
+
+**Réserve honnête ajoutée** : le **contenu** des rapports 2024 et 2025
+n'a pas été dépouillé. Les chiffres et constats de la branche datent
+encore du millésime 2023 et sont à réactualiser — savoir qu'une source
+existe n'est pas l'avoir lue.
+
+Ajout de l'art. L. 124-8 du CGFP à la liste des textes de la branche.
+
+## v0.9.6 — 2026-09-01
+
+**Correction d'une erreur introduite par la v0.9.5.** Le réancrage de la
+branche formation citait, parmi les blocs du titre II, les **articles
+L. 422-28 et suivants** (formations d'intégration et de
+professionnalisation). Ces articles existent et sont en vigueur, mais ils
+figurent en **section 3 du chapitre II, propre à la fonction publique
+territoriale** : attestations du CNFPT, condition de promotion interne.
+Ils **ne s'appliquent pas** à l'ANSM, établissement public de l'État. La
+référence est retirée.
+
+L'erreur a été trouvée par le répondant du test de vérification, qui a
+contrôlé au code ce que la branche l'invitait précisément à contrôler.
+
+**Ce qu'elle apprend, et qui vaut au-delà du cas.** Les deux corrections
+précédentes portaient sur le **véhicule** (décret abrogé) et sur la
+**vigueur** (article réécrit). Celle-ci ajoute un troisième contrôle : le
+CGFP est un code des **trois versants**, et plusieurs de ses chapitres se
+divisent en sections propres à l'État, à la territoriale et à
+l'hospitalière. Un article peut être **exact, en vigueur, et hors
+versant**. La chaîne à contrôler devient : **véhicule → vigueur →
+versant**. Elle est écrite comme quatrième règle du socle, et rappelée
+dans la branche formation et au registre.
+
+Cette erreur illustre aussi la limite que la v0.9.5 annonçait elle-même :
+un réancrage au niveau des **blocs** ne dispense pas de remonter à la
+section avant de citer un article.
+
+## v0.9.5 — 2026-09-01
+
+**Réancrage de la branche formation sur le livre IV du CGFP.** C'était le
+chantier laissé ouvert par la v0.9.4. Le cadre général de la formation
+professionnelle n'est plus à chercher dans un décret antérieur : il est au
+code depuis le 1er août 2026.
+
+| Bloc | Articles | Objet |
+|---|---|---|
+| Livre IV, titre II — législatif | L. 421-1 à L. 424-1 | Formation tout au long de la vie ; CPF aux art. L. 422-8 à L. 422-19 |
+| Livre IV, titre II — réglementaire | R. 420-1 à R. 424-1 | Mise en œuvre depuis le 1er août 2026 |
+| Livre IV, titre IV — réglementaire | R. 441-1 à R. 445-1 | Réorganisation de services et d'établissements |
+
+**Distinction que la branche ne faisait pas.** Son §5.6 rangeait le CPF,
+l'entretien professionnel et la VAE parmi les points « non documentés ».
+C'était ambigu : leur **cadre général** existe et est codifié ; ce qui
+manque est la **déclinaison ANSM**. Présenter l'absence de la seconde
+comme une absence du premier conduisait à s'abstenir là où il y avait une
+règle à citer. La branche distingue désormais les deux niveaux.
+
+Le titre IV — réorganisation de services — intéresse aussi les branches
+instances et communication interne : le renvoi inter-branches est posé.
+
+**Ce que ce réancrage ne fait pas**, et la branche le dit : il donne les
+**blocs**, pas l'article de chaque règle. Aucun article n'a été lu un par
+un ; l'application aux **agents contractuels de droit public** reste à
+confirmer, la partie législative parlant d'« agent public ».
+
+**Correction d'outillage** : le formateur de dates de
+`scripts/source_gate.py` écrivait « vérification du 1 septembre », qui
+n'est pas du français — aucune branche vérifiée un premier du mois ne
+pouvait passer la barrière. Corrigé, avec un test de non-régression.
+
+## v0.9.4 — 2026-08-28
+
+**Audit de vigueur du registre des sources.** Les vingt-et-une entrées du
+registre ont été contrôlées une à une sur source officielle. Le constat
+dépasse les deux abrogations traitées en v0.9.2 et v0.9.3 : la partie
+réglementaire du code général de la fonction publique se construit **livre
+par livre**, chaque livre abrogeant les décrets thématiques dont il
+reprend les dispositions.
+
+| Livre | Matière | Décret | Entrée en vigueur |
+|---|---|---|---|
+| I et II | Droits et obligations ; dialogue social | n° 2024-1038 | 1er février 2025 |
+| III | Recrutement | n° 2025-695 | 1er octobre 2025 |
+| IV | Organisation et gestion RH — formation, télétravail | n° 2026-366 | **1er août 2026** |
+| V | Carrière | annoncé | à surveiller |
+
+`socle-sources-verification.md` porte désormais ce programme complet, et
+trois règles qui en découlent : l'abrogation est ciblée article par
+article ; un article survivant peut avoir été **réécrit** par le décret
+codificateur, ce qui impose de citer la version ; tout texte réglementaire
+antérieur à 2026 doit être ouvert en version consolidée avant d'être visé.
+
+**Télétravail.** Le décret n° 2016-151 du 11 février 2016 est **abrogé
+depuis le 1er août 2026** ; les règles sont codifiées aux articles
+R. 431-1 et suivants du CGFP. La branche QVT est corrigée, en laissant
+volontairement le **bloc** d'articles plutôt qu'un numéro précis non lu en
+source.
+
+**Formation.** Le livre IV codifie l'ensemble du droit de la formation
+professionnelle : la branche formation porte un avertissement de
+réancrage, non fait à ce stade.
+
+**Composition disciplinaire de la CCP — point retrouvé.** La règle laissée
+sans numéro en v0.9.3 n'est pas dans le code : elle est restée à
+l'**article 44 du décret n° 86-83**, réécrit au 1er février 2025, qui
+renvoie lui-même à l'article R. 271-1 du CGFP. Le régime est hybride.
+
+**Réserve levée sur les documents ANSM.** Le dépôt affirmait depuis le
+25 août qu'aucune URL n'avait été retrouvée pour la charte de déontologie
+de février 2026 et le dispositif de prévention des conflits d'intérêts.
+Les deux documents sont publics, leurs millésimes confirmés en page de
+couverture ; ils entrent au registre (`ANSM-CHARTE-2026`,
+`ANSM-DISPOSITIF-2026`). Le rapport du déontologue disponible le plus
+récent est celui de **2025**, non celui de 2023.
+
+**Autres corrections du registre** : portée du décret n° 2025-1430
+(chapitre Ier en vue du renouvellement général de décembre 2026, chapitre
+II depuis le 31 décembre 2025) ; chaînes de modification des articles
+R. 253-1 et R. 271-1 ; renvoi de l'art. L. 5323-1 CSP à des titres
+abrogés, à lire par équivalence ; ajout de l'art. L. 124-8 (saisine HATVP)
+et de la loi n° 2025-1249 modifiant l'art. 432-12 du code pénal.
+
 ## v0.9.3 — 2026-08-28
 
 **Réancrage des instances sur le code général de la fonction publique.**

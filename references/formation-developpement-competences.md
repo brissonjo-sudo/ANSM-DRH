@@ -1,6 +1,7 @@
 # Branche — Formation & développement des compétences
 
-> 🟢 **Partiellement fiabilisée** (v0.4.0, vérification du 24 août 2026).
+> 🟢 **Partiellement fiabilisée** (vérification du 1er septembre 2026)
+> — v0.9.5, cadre général réancré sur le code.
 >
 > **Ce qui est solide** : les **axes de développement des compétences
 > affichés publiquement** par l'agence, la **logique de cartographie des
@@ -14,6 +15,38 @@
 > Sources : page « Notre politique RH » et « Nos métiers » de l'ANSM ;
 > **décret n° 2003-224** (art. 11, 12, 29, 33 et s.) ; bilan social 2014
 > (historique).
+>
+> **Cadre général — code général de la fonction publique, livre IV.** Le
+> **décret n° 2026-366 du 7 mai 2026** a créé la **partie réglementaire du
+> livre IV**, en vigueur au **1er août 2026**, qui codifie le droit de la
+> formation professionnelle tout au long de la vie et abroge une
+> quarantaine de décrets thématiques. Ne plus chercher le cadre général
+> dans un décret antérieur : il est au code.
+>
+> | Bloc | Articles | Objet |
+> |---|---|---|
+> | Livre IV, titre II — **législatif** | **L. 421-1 à L. 424-1** | Formation professionnelle tout au long de la vie ; **compte personnel de formation aux art. L. 422-8 à L. 422-19** |
+> | Livre IV, titre II — **réglementaire** | **R. 420-1 à R. 424-1** | Mise en œuvre, depuis le 1er août 2026 |
+> | Livre IV, titre IV — réglementaire | **R. 441-1 à R. 445-1** | **Réorganisation de services et d'établissements** — accompagnement des agents. Renvoi inter-branches : instances & dialogue social, communication interne |
+>
+> 🔴 **Le titre II est découpé par versant — vérifier la section avant de
+> citer.** À l'intérieur du chapitre II « Dispositifs de formation
+> professionnelle », une section est propre à la **fonction publique
+> territoriale**. Ses articles existent, disent ce qu'ils disent, et ne
+> s'appliquent **pas** à l'ANSM : ainsi les **art. L. 422-28 à
+> L. 422-34-1** (formations d'intégration et de professionnalisation,
+> attestations du CNFPT, promotion interne) sont **territoriaux** et
+> n'ont pas d'effet ici. Un numéro d'article exact peut donc être exact
+> **et hors versant**. Avant de citer, remonter à la section et vérifier
+> qu'elle vise l'État et ses établissements publics.
+>
+> ⚠️ **Ce que ce réancrage ne fait pas** : il donne les **blocs**, pas
+> l'article précis de chaque règle. Aucun article n'a été lu un par un à
+> cette date. Avant tout usage engageant, ouvrir le bloc, **citer
+> l'article exact**, contrôler son **versant** — et vérifier
+> l'application aux **agents contractuels de droit public**, que la
+> partie législative désigne par « agent public » sans que la déclinaison
+> ANSM soit documentée.
 
 ## Repérage rapide
 
@@ -157,14 +190,25 @@ un diagnostic actualisé.
 
 ### 5.6 Ce qui n'a pas pu être documenté
 
+**Distinguer deux niveaux.** Le **cadre général** de ces dispositifs
+existe et est codifié au livre IV du CGFP (voir le bandeau) : CPF,
+formations d'intégration et de professionnalisation, congé de formation,
+bilan de compétences, VAE. Ce qui manque est la **déclinaison ANSM** —
+comment l'agence les met en œuvre, avec quels circuits et quels
+plafonds. Ne pas présenter l'absence de la déclinaison comme une absence
+de cadre.
+
+Manquent donc, côté agence :
+
 - **Plan de formation actuel** et son budget.
 - **Référentiel métiers** à jour et état du schéma directeur.
-- Application du **compte personnel de formation (CPF)** à l'agence.
+- Modalités d'application du **CPF** à l'agence (le cadre est aux
+  art. L. 422-8 à L. 422-19 du CGFP).
 - Modalités de l'**entretien professionnel** annuel et son articulation
   avec l'avancement (→ art. 33 et s. du décret n° 2003-224, titre IV
-  modifié en 2023).
-- Dispositifs de **VAE**, de bilan de compétences, de préparation aux
-  concours.
+  modifié au 1er janvier 2023 par l'article 109 du décret n° 2020-1427).
+- Déclinaison des dispositifs de **VAE**, de bilan de compétences et de
+  préparation aux concours.
 - Politique d'**apprentissage et de stages** (mentionnée dans les offres
   d'emploi comme axe de diversité).
 
@@ -175,6 +219,9 @@ un diagnostic actualisé.
   **Oui** (titre IV modifié au 1er janvier 2023).
 - Toute affirmation sur le **référentiel métiers** → **Oui**.
 - Toute bonification de diplôme → **Oui**, barème fixé par le CA.
+- Toute règle générale de formation citée depuis un **décret antérieur à
+  2026** → **Oui** : vérifier qu'elle n'a pas été codifiée au livre IV du
+  CGFP au 1er août 2026, et citer le code.
 
 ## 7. Pièges & confusions fréquentes
 
@@ -215,7 +262,11 @@ un diagnostic actualisé.
   démarche GPEC ; articulation formation / classement statutaire prévue
   par le décret.
 - **À vérifier** : plan et budget actuels ; état du référentiel métiers.
-- **Non documenté** : CPF, entretien professionnel, VAE, apprentissage.
+- **Non documenté** : la **déclinaison ANSM** du CPF, de l'entretien
+  professionnel, de la VAE et de l'apprentissage — leur **cadre général**
+  est, lui, codifié au livre IV du CGFP.
+- **À vérifier au code** : l'article précis correspondant à chaque règle
+  générale, le réancrage ayant été fait au niveau des blocs.
 
 ## 11. Checklist de branche
 

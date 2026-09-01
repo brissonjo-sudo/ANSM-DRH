@@ -69,6 +69,31 @@ confidentiel adapté.
 
 ## 5. Règles métier
 
+### 5.0 🔴 Cadre du télétravail — véhicule changé le 1er août 2026
+
+Le **décret n° 2016-151 du 11 février 2016**, qui portait le cadre du
+télétravail dans la fonction publique, est **abrogé depuis le 1er août
+2026** par le **décret n° 2026-366 du 7 mai 2026** créant le **livre IV de
+la partie réglementaire du CGFP**. Les règles sont codifiées aux
+**articles R. 431-1 et suivants** du code (plafond hebdomadaire, minimum
+de jours sur site, procédure d'autorisation).
+
+Conséquences pratiques :
+
+- **ne plus viser le décret de 2016** dans un acte ou une note postérieurs
+  au 1er août 2026 ;
+- le **cadre général FPE** se cite désormais au code, et reste à
+  **distinguer explicitement** de la règle locale ANSM, qui relève d'un
+  accord ou d'une décision interne non publiée (voir §5.3) ;
+- l'**accord-cadre du 13 juillet 2021** sur le télétravail dans la
+  fonction publique n'est pas un texte réglementaire : ne pas le
+  présenter comme tel.
+
+⚠️ Cette vague date de moins d'un mois à la date de révision : le
+**numéro d'article exact** correspondant à chaque règle est à confirmer au
+code avant tout visa. La branche donne le **bloc** (R. 431-1 et suivants),
+pas l'article précis.
+
 ### 5.1 L'instance compétente — formation spécialisée SSCT obligatoire
 
 L'ANSM comptant de l'ordre d'un millier d'agents, elle dépasse largement

@@ -109,8 +109,8 @@ deontology = (ROOT / "references" / "deontologie-conflits-interets.md").read_tex
 require("2025-1430" in instances, "Instances : décret n° 2025-1430 non référencé")
 require("ne constitue pas un délai légal automatique" in deontology, "Déontologie : réserve interne / délai légal non distingués")
 require("emplois mentionnés à l'article L. 124-5" in deontology, "Déontologie : champ de L. 124-7 insuffisamment borné")
-require("3 fiabilisées, 4" in skill, "SKILL.md : bilan de maturité v0.9.3 incohérent")
-require("version: 0.9.3" in skill, "SKILL.md : version 0.9.3 attendue")
+require("3 fiabilisées, 4" in skill, "SKILL.md : bilan de maturité v0.9.10 incohérent")
+require("version: 0.9.10" in skill, "SKILL.md : version 0.9.10 attendue")
 
 if errors:
     print("ÉCHEC")

@@ -216,11 +216,14 @@ contractuels, dans les administrations et les établissements publics de
 l'État, par arrêté ministériel ou par décision de l'autorité compétente
 de l'établissement.
 
-⚠️ **À confirmer au texte** : le numéro d'article exact de la règle de
-composition en matière disciplinaire au sein du chapitre R. 271-1 à
-R. 271-23 n'a pas été lu en source à la date de cette révision. La règle
-elle-même est rappelée ci-dessous ; **ne pas viser un numéro sans l'avoir
-vérifié**.
+💡 **Point retrouvé le 28 août 2026** : la composition en matière
+disciplinaire n'est **pas** dans le code. Elle est restée à l'**article 44
+du décret n° 86-83**, réécrit par l'article 10 du décret n° 2024-1038 et
+en vigueur dans cette rédaction depuis le 1er février 2025 — l'article y
+renvoie lui-même à « la commission consultative paritaire mentionnée à
+l'article R. 271-1 du code général de la fonction publique ». Le régime
+est donc **hybride** : institution et attributions au code, composition
+disciplinaire au décret.
 
 **Consultation obligatoire de la CCP sur** :
 1. les **licenciements** intervenant **postérieurement à la période
@@ -240,9 +243,8 @@ vérifié**.
 L'administration porte en outre à la connaissance de la CCP les
 **motifs empêchant le reclassement** d'un agent, le cas échéant.
 
-**Composition en matière disciplinaire** (ancien VI de l'art. 1-2 du
-décret n° 86-83, désormais codifié au chapitre R. 271-1 et suivants —
-article exact à confirmer avant tout visa) : seuls
+**Composition en matière disciplinaire** (**art. 44 du décret n° 86-83**,
+dans sa rédaction en vigueur depuis le 1er février 2025) : seuls
 délibèrent les représentants du personnel occupant un emploi d'une
 **catégorie hiérarchique au moins égale** à celle de l'agent examiné,
 avec un **nombre égal de représentants de l'administration**.

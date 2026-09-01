@@ -1,5 +1,20 @@
 # Protection des données dans les demandes RH
 
+> **Portée de ce fichier** : l'**hygiène** des données personnelles dans
+> les échanges — ce qu'on retire d'une demande avant de la traiter. Ce
+> n'est **pas** une branche de conformité RGPD : ce référentiel n'en a
+> pas.
+>
+> Pour une question de **conformité** — AIPD, registre des traitements,
+> violation et notification CNIL à 72 heures, sous-traitance (art. 28),
+> droits des personnes, sécurité (art. 32), doctrine CNIL — **activer le
+> skill `dpo-ct`** et lui emprunter sa méthode. Écarter sa référence
+> `secteur-collectivites.md` et toute règle propre aux collectivités
+> (délibération d'un conseil municipal, DPO mutualisé, centre de
+> gestion) : à l'ANSM, le responsable de traitement est **l'agence**,
+> établissement public de l'État, et le **DPO est celui de l'agence** —
+> l'associer systématiquement. Voir `SKILL.md` §3.0 bis.
+
 ## Repérage rapide
 
 - Filtre d'entrée : §1
