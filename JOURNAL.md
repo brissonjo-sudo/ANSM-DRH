@@ -19,6 +19,42 @@ Format d'entrée suggéré :
 
 ---
 
+## 2026-09-02 — déontologie, DPI & conflits d'intérêts
+**Cas** : dépouillement des rapports publics du déontologue **2025**
+(31 mars 2026) et **2024** (31 mars 2025), dernier millésime restant après
+la charte et le dispositif de février 2026.
+**Ce qui a manqué / ce qui était incertain** : la branche décrivait
+correctement les *règles* mais ignorait entièrement leur *application*.
+Trois trous s'en trouvent comblés, et deux d'entre eux changent la réponse
+qu'on donne à un agent :
+1. **Aucun avis d'incompatibilité sur trois exercices** (20 départs en
+   2023, 23 en 2024, 17 en 2025) : dire à un agent qu'il « risque un
+   refus » est démenti par les faits. Ce qui l'attend, c'est une réserve
+   opposable, pas un veto.
+2. **65 % des candidats au recrutement reçoivent des réserves** (53 % en
+   2024, 49 % en 2023) : la clause de réserves relève de la trame de
+   promesse d'embauche, non du cas particulier.
+3. **L'entretien annuel d'évaluation est le support déclaratif de droit
+   commun** : depuis le 2 décembre 2020, seuls les agents dont la DPI est
+   publiée télédéclarent sur DPI Santé ; pour tous les autres, la revue
+   des liens se fait à l'entretien et se consigne dans son compte rendu.
+   Un compte rendu muet laisse un trou dans le dispositif, y compris pour
+   un agent sans aucun lien.
+**Source qui a permis de trancher** : `ANSM-DEONTO-2025` et
+`ANSM-DEONTO-2024`, lus intégralement (20 et 17 pages).
+**Action** : §5.11 nouvelle — tableau de volumétrie sur trois exercices,
+avec la mise en garde que les volumes d'instances suivent le calendrier
+des mandats et ne se lisent pas comme une tendance. Effets répercutés en
+§§5.2, 5.3, 5.4, 5.5 et 5.10. Deux points laissés en suspens depuis la
+campagne sont tranchés : la double dénomination du service coexiste **à
+l'intérieur d'un même rapport** (ce n'était donc pas un décalage entre
+fiches et rapport), et le comité de déontologie n'apparaît plus que
+rétrospectivement, comme origine du contrôle interne de 2019.
+**Leçon** : une branche peut être juste sur la règle et muette sur son
+application. Le rapport d'activité d'une autorité est une source de
+**droit vécu** — ce qui est effectivement décidé — que le texte ne donne
+jamais.
+
 ## 2026-09-01 — contrat de sortie (§2, §7, §8)
 **Cas** : rejeu du test de coactivation sur le vote électronique des
 élections professionnelles de décembre 2026. Fond **RÉUSSI**, onze

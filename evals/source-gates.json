@@ -3,7 +3,7 @@
   "branches": {
     "references/deontologie-conflits-interets.md": {
       "maturity": "partial",
-      "verified_on": "2026-09-01",
+      "verified_on": "2026-09-02",
       "claims": [
         {
           "id": "distinction-entree-pendant-sortie",
@@ -17,11 +17,31 @@
             "PENAL-PENDANT",
             "PENAL-APRES"
           ]
+        },
+        {
+          "id": "departs-prives-aucune-incompatibilite",
+          "statement": "Sur les exercices 2023, 2024 et 2025, aucun départ d'agent vers le secteur privé n'a donné lieu à un avis d'incompatibilité ; la gestion passe par des réserves.",
+          "status": "verified",
+          "checked_on": "2026-09-02",
+          "max_age_days": 90,
+          "source_ids": [
+            "ANSM-DEONTO-2025",
+            "ANSM-DEONTO-2024"
+          ]
+        },
+        {
+          "id": "reserves-au-recrutement-majoritaires",
+          "statement": "La part des candidats au recrutement assortis de réserves déontologiques est passée de 49 % en 2023 à 53 % en 2024 puis 65 % en 2025.",
+          "status": "verified",
+          "checked_on": "2026-09-02",
+          "max_age_days": 90,
+          "source_ids": [
+            "ANSM-DEONTO-2025"
+          ]
         }
       ],
       "unresolved_claims": [
-        "Fiches de probité de février 2026 et articles 11 à 14 du règlement intérieur à obtenir.",
-        "Contenu des rapports du déontologue 2024 et 2025 non dépouillé : chiffres et constats encore issus du millésime 2023."
+        "Fiches de probité de février 2026 et articles 11 à 14 du règlement intérieur à obtenir."
       ],
       "known_limits": []
     },

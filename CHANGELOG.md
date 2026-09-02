@@ -1,5 +1,46 @@
 # Changelog — drh-ansm
 
+## v0.9.11 — 2026-09-02
+
+**Une branche peut être juste sur la règle et muette sur son
+application.** Les rapports publics du déontologue 2025 (31 mars 2026) et
+2024 (31 mars 2025) sont dépouillés intégralement. La branche déontologie
+décrivait bien le régime ; elle ne savait rien de ce qui est
+effectivement décidé.
+
+Trois faits changent la réponse qu'on donne à un agent :
+
+- **Aucun avis d'incompatibilité sur trois exercices** — 20 départs vers
+  le privé en 2023, 23 en 2024, 17 en 2025, tous compatibles. Annoncer un
+  risque de refus est démenti par les faits ; ce qui attend l'agent est
+  une réserve opposable, pas un veto.
+- **65 % des candidats reçoivent des réserves au recrutement** (53 % en
+  2024, 49 % en 2023) : la clause appartient à la trame de la promesse
+  d'embauche, pas au cas particulier.
+- **L'entretien annuel d'évaluation est le support déclaratif de droit
+  commun.** Depuis le 2 décembre 2020, seuls les agents dont la DPI est
+  publiée télédéclarent sur DPI Santé ; pour les autres, la revue des
+  liens se fait à l'entretien et se consigne dans son compte rendu.
+
+Le nouveau **§5.11** porte le tableau de volumétrie sur trois exercices,
+avec la mise en garde qui va avec : les volumes d'instances suivent le
+calendrier des mandats et ne se lisent pas comme une tendance. Les
+rapports fournissent aussi les **dates de constitution** de la
+gouvernance, l'exclusion des placements collectifs (FCP, SICAV) de
+l'interdiction de détention d'actifs, le régime réel des participations à
+des manifestations extérieures (83 demandes en 2025, 14 % défavorables,
+symposiums de laboratoires interdits) et un **précédent pénal
+effectivement prononcé** — TGI de Grenoble, novembre 2019, 5 000 €
+d'amende avec sursis, première application de l'article L. 1454-2 du code
+de la santé publique.
+
+Deux points en suspens depuis la campagne sont tranchés. La **double
+dénomination** du service coexiste *à l'intérieur d'un même rapport* : ce
+n'était pas un décalage entre les fiches et le rapport. Et le **comité de
+déontologie** n'apparaît plus que rétrospectivement, comme origine du
+contrôle interne de 2019 — à citer comme tel, jamais comme une instance à
+saisir.
+
 ## v0.9.10 — 2026-09-01
 
 **Une interdiction énumérée se contourne ; une interdiction de classe,
