@@ -1,6 +1,6 @@
 # Branche — Formation & développement des compétences
 
-> 🟢 **Partiellement fiabilisée** (vérification du 1er septembre 2026)
+> 🟢 **Partiellement fiabilisée** (vérification du 3 septembre 2026)
 > — v0.9.5, cadre général réancré sur le code.
 >
 > **Ce qui est solide** : les **axes de développement des compétences
@@ -43,10 +43,18 @@
 > ⚠️ **Ce que ce réancrage ne fait pas** : il donne les **blocs**, pas
 > l'article précis de chaque règle. Aucun article n'a été lu un par un à
 > cette date. Avant tout usage engageant, ouvrir le bloc, **citer
-> l'article exact**, contrôler son **versant** — et vérifier
-> l'application aux **agents contractuels de droit public**, que la
-> partie législative désigne par « agent public » sans que la déclinaison
-> ANSM soit documentée.
+> l'article exact** et contrôler son **versant**.
+>
+> **Application aux agents contractuels de droit public — tranchée le
+> 3 septembre 2026.** Le livre IV parle d'« agent public », jamais de
+> « fonctionnaire » : ce choix de vocabulaire **inclut les contractuels**,
+> par construction du code lui-même (voir §5.4 bis). Le droit à la
+> formation professionnelle (L. 421-1) et le compte personnel de
+> formation (L. 422-8 et s.) leur sont donc **applicables au même titre**
+> qu'aux fonctionnaires — point structurant pour l'ANSM, dont le
+> personnel est majoritairement contractuel. Cela **ne dispense pas** de
+> vérifier, article par article, qu'une règle précise ne suppose pas un
+> lien statutaire (titularisation, stage) sans objet pour un contractuel.
 
 ## Repérage rapide
 
@@ -161,6 +169,46 @@ Trois points de jonction avec le décret n° 2003-224 :
    d'obligations de formation à l'entrée. **Modalités propres à l'ANSM à
    vérifier.**
 
+### 5.4 bis Le livre IV s'applique aux agents contractuels de droit public
+
+Question laissée ouverte par le réancrage du 1er septembre 2026 : le
+livre IV désigne ses bénéficiaires par « agent public » — cela couvre-t-il
+les contractuels d'une agence dont le personnel l'est majoritairement ?
+**Oui**, et ce n'est pas une lecture par défaut : c'est ce que le code
+prévoit lui-même, par une chaîne de trois articles de son **chapitre
+liminaire** (`CGFP-CHAMP`) :
+
+1. **Art. L1** — le code est le statut général des **fonctionnaires**
+   civils : le socle de base ne vise qu'eux.
+2. **Art. L2** — le code s'applique en outre aux **agents contractuels**
+   des administrations de l'État, des AAI/API, des établissements
+   publics de l'État, des collectivités territoriales et de leurs
+   établissements publics — mais **seulement « quand il le prévoit »** :
+   l'extension n'est jamais automatique, elle se lit disposition par
+   disposition.
+3. **Art. L7** — et voici la disposition qui prévoit : « les mots
+   "agent public" désignent le fonctionnaire et l'agent contractuel ».
+
+**La conséquence pour le livre IV** (`CGFP-LIVRE4`) : ses articles n'emploient jamais
+« fonctionnaire », mais systématiquement « agent public » — vérifié à
+l'art. L. 421-1 (droit à la formation professionnelle : *« Le droit à la
+formation professionnelle tout au long de la vie est reconnu à l'agent
+public »*) et à l'art. L. 422-8 (CPF : *« Le compte personnel de
+formation permet à l'agent public d'accéder à une qualification… »*).
+Le choix du mot est donc **la** clause d'extension que L2 exige : elle
+n'est pas absente, elle est écrite dans le vocabulaire même de l'article.
+
+**Ce que cela ne règle pas** : la partie **réglementaire** du titre II
+(R. 420-1 à R. 424-1, décret n° 2026-366) et les autres sous-sections du
+titre II — formation d'intégration et de professionnalisation, VAE,
+bilan de compétences — n'ont pas été relues article par article pour y
+chercher une clause qui restreindrait telle ou telle mesure aux seuls
+fonctionnaires (une obligation liée à la titularisation, par nature,
+n'a pas de sens pour un contractuel — mais cela relève de la nature de
+la mesure, pas d'une exclusion textuelle des contractuels). Le principe
+d'applicabilité est acquis ; la vérification disposition par disposition
+reste à faire avant un acte engageant un contractuel précis.
+
 ### 5.5 Repères historiques — ordres de grandeur non actuels
 
 Données du bilan social 2014, **à titre de comparaison uniquement** :
@@ -238,6 +286,10 @@ Manquent donc, côté agence :
 - **Oublier la dimension européenne** : une part significative de
   l'activité se joue à l'EMA et dans les procédures coordonnées, d'où
   l'enjeu linguistique.
+- **Croire que le livre IV ne vise que les fonctionnaires** parce qu'un
+  contrat n'est pas un statut : le code emploie « agent public », qui
+  inclut par construction l'agent contractuel (§5.4 bis) — l'écarter du
+  droit à la formation ou du CPF sur ce seul motif est une erreur.
 
 ## 8. Données volatiles à vérifier
 

@@ -1,5 +1,33 @@
 # Changelog — drh-ansm
 
+## v0.9.12 — 2026-09-03
+
+**Le livre IV s'applique aux agents contractuels de droit public** — et
+ce n'est pas une lecture par défaut, c'est écrit dans le code. La
+question était restée ouverte depuis l'audit du registre : le livre IV
+désigne ses bénéficiaires par « agent public », sans que la branche sache
+si cela couvre les contractuels d'une agence dont le personnel l'est
+majoritairement.
+
+La réponse tenait dans trois articles du **chapitre liminaire** du CGFP,
+jamais consultés jusqu'ici : l'art. **L1** fait du code le statut des
+fonctionnaires ; l'art. **L2** l'étend aux agents contractuels des
+administrations de l'État et de leurs établissements publics, mais
+seulement **« quand il le prévoit »** — une extension conditionnelle,
+jamais automatique ; l'art. **L7** fournit précisément cette condition :
+« les mots agent public désignent le fonctionnaire et l'agent
+contractuel ». Vérifié ensuite que les articles L. 421-1 (droit à la
+formation) et L. 422-8 (compte personnel de formation) emploient bien
+« agent public », jamais « fonctionnaire » — le choix du mot **est** la
+clause d'extension que L2 exige.
+
+Nouveau §5.4 bis dans `formation-developpement-competences.md` ; nouvelle
+source `CGFP-CHAMP` au registre. Ce que cela ne règle pas : la partie
+réglementaire du titre II (décret n° 2026-366) n'a pas été relue article
+par article pour y chercher une clause restrictive propre à une mesure
+donnée — le principe est acquis, la vérification disposition par
+disposition reste à faire avant un acte engageant un contractuel précis.
+
 ## v0.9.11 — 2026-09-02
 
 **Une branche peut être juste sur la règle et muette sur son

@@ -19,6 +19,32 @@ Format d'entrée suggéré :
 
 ---
 
+## 2026-09-03 — formation & développement des compétences
+**Cas** : chantier laissé ouvert par l'audit du registre — le livre IV du
+CGFP parle d'« agent public » sans que la branche sache si cela couvre les
+**agents contractuels de droit public**, alors que le personnel de
+l'ANSM l'est majoritairement.
+**Ce qui a manqué / ce qui était incertain** : la branche traitait la
+question comme non documentée, faute de déclinaison ANSM. Elle ne l'était
+pas pour autant indécidable : la réponse est dans le **chapitre liminaire**
+du code lui-même (art. L1, L2, L7), jamais consulté jusqu'ici.
+**Source qui a permis de trancher** : art. L1 (le code est le statut des
+fonctionnaires), art. L2 (extension aux contractuels « quand il le
+prévoit », donc conditionnelle), art. L7 (« agent public » désigne le
+fonctionnaire ET l'agent contractuel) — chapitre liminaire du CGFP,
+lu à la source. Vérifié ensuite que L. 421-1 et L. 422-8 emploient bien
+« agent public », jamais « fonctionnaire ».
+**Action** : nouveau §5.4 bis dans `formation-developpement-competences.md` ;
+nouvelle source `CGFP-CHAMP` au registre ; affirmation ajoutée à la
+barrière de fiabilisation.
+**Leçon** : une extension de champ d'application « quand le code le
+prévoit » n'est pas une clause qu'on cherche article par article dans
+chaque disposition — elle se lit dans le **choix du mot** que la
+disposition emploie, combiné à la définition que le code donne une fois
+pour toutes de ce mot. Chercher la clause d'extension au mauvais endroit
+(dans l'article métier) plutôt qu'au bon (le chapitre liminaire) aurait
+laissé la question ouverte indéfiniment.
+
 ## 2026-09-02 — déontologie, DPI & conflits d'intérêts
 **Cas** : dépouillement des rapports publics du déontologue **2025**
 (31 mars 2026) et **2024** (31 mars 2025), dernier millésime restant après
