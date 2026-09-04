@@ -1011,3 +1011,40 @@ institutionnelles HTML et les documents archivés de l'agence sont une
 mauvaise base de fiabilisation — ils sont souvent en retard de plusieurs
 années sur les PDF datés publiés dans la rubrique déontologie. Toujours
 remonter au document PDF daté le plus récent avant de figer une règle.
+
+## 2026-09-04 — Formation & développement des compétences (v0.9.15)
+**Cas** : reprise du seul point resté ouvert sur le CPF réglementaire — la
+lecture mot à mot des articles issus du décret n° 2026-366, que l'accès
+médié à Légifrance n'avait pas su restituer alinéa par alinéa. Vérification
+confiée à un second outil disposant d'un accès à l'API officielle PISTE,
+puis **recontrôlée article par article** ici avant toute écriture.
+
+**Ce qui a manqué / ce qui était incertain** : la v0.9.13 avait conclu sans
+lire les articles eux-mêmes. Elle s'appuyait sur la table de concordance
+officielle (qui dit d'où vient chaque article) et sur le texte de l'ancien
+décret n° 2017-928 (qui dit ce que l'ancien droit prévoyait) — jamais sur
+le nouveau texte. Elle en avait déduit que R. 422-87 et R. 422-88 portaient
+les taux du CPF, dédoublés sans différence de droit. Les deux prémisses
+étaient exactes, la conclusion fausse : ces deux articles reprennent les
+alinéas de l'art. 3 relatifs aux **absences**, pas ceux relatifs aux taux.
+
+**Source qui a permis de trancher** : lecture en version consolidée des
+art. **R. 421-4**, **R. 422-84**, **R. 422-85**, **R. 422-87** et
+**R. 422-88** du CGFP (Légifrance, versions en vigueur au 1er août 2026),
+chacun vérifié deux fois par deux accès indépendants, avec correspondance
+mot pour mot.
+
+**Action** : §5.4 ter entièrement réécrit avec bloc de rétractation
+explicite ; carte des articles rétablie ; tableau comparatif des absences
+neutralisées ; §5.4 quater corrigé sur le renvoi fautif à R. 421-4 ; deux
+nouveaux pièges au §7 (ne pas combler par symétrie une base parallèle
+introuvable ; ne pas déduire le contenu d'un article de sa table de
+concordance) ; affirmation de la barrière de fiabilisation remplacée ; deux
+limites versées aux `unresolved_claims` (L. 422-3 et R. 422-13 non lus,
+balayage R. 422-82 à R. 422-107 non refait).
+
+**Leçon** : une source primaire indisponible ne se remplace pas par la
+somme de deux sources qui l'entourent — son texte antérieur et sa table de
+concordance. Les deux peuvent être justes et la reconstitution fausse. Tant
+que l'article lui-même n'est pas lu, la conclusion se marque comme non
+vérifiée, elle ne se déduit pas.

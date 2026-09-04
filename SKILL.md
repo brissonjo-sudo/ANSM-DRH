@@ -16,7 +16,7 @@ description: >-
   courrier). Vérifie la source officielle avant toute règle engageante.
   Ne pas activer pour la FPT, la FPH ou une autre agence sanitaire.
 metadata:
-  version: 0.9.14
+  version: 0.9.15
   statut: >-
     8 branches toutes traitées. Trois fiabilisées sur sources primaires
     (recrutement-classification, instances-dialogue-social,
@@ -51,7 +51,7 @@ metadata:
     s'applique pas ici.
 ---
 
-# Skill : drh-ansm (v0.9.14)
+# Skill : drh-ansm (v0.9.15)
 
 > **Objet** : expertise d'une Direction des Ressources Humaines d'un
 > établissement public de l'État à statut de personnel atypique — une
@@ -443,7 +443,7 @@ contenir que des métadonnées non sensibles.
 
 ## 11. Limites et précautions
 
-- Skill en version **0.9.14** : trois branches fiabilisées, quatre
+- Skill en version **0.9.15** : trois branches fiabilisées, quatre
   partielles, une amorcée. Ne pas traiter les branches 🟢 et 🟡 comme
   des sources d'autorité.
 - Ne remplace pas l'avis d'un juriste, du contrôle interne, du service
