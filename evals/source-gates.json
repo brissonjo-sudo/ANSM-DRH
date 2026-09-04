@@ -177,9 +177,9 @@
       "claims": [
         {
           "id": "livre4-applicable-contractuels",
-          "statement": "Le livre IV du CGFP, qui codifie le droit à la formation professionnelle (art. L. 421-1) et le compte personnel de formation (art. L. 422-8 et s.), s'applique aux agents contractuels de droit public au même titre qu'aux fonctionnaires, par l'effet combiné des articles L1, L2 et L7 du chapitre liminaire du code.",
+          "statement": "Le droit à la formation professionnelle (art. L. 421-1) et le compte personnel de formation (art. L. 422-8 et s.) du livre IV du CGFP s'appliquent aux agents contractuels de droit public au même titre qu'aux fonctionnaires, parce que ces deux articles emploient « agent public », mot que les art. L1, L2 et L7 du chapitre liminaire définissent comme incluant l'agent contractuel. Ce mécanisme ne vaut que pour les articles employant ce mot ; il ne s'étend pas par défaut au reste du livre IV (voir §5.4 quater).",
           "status": "verified",
-          "checked_on": "2026-09-03",
+          "checked_on": "2026-09-04",
           "max_age_days": 90,
           "source_ids": [
             "CGFP-CHAMP",
@@ -189,6 +189,16 @@
         {
           "id": "cpf-dedoublement-article-sans-effet-droit",
           "statement": "Le dédoublement des art. R. 422-87 (fonctionnaires) et R. 422-88 (agents contractuels) du CGFP pour le taux renforcé du CPF ne traduit pas une différence de droit : les deux populations bénéficient du même taux renforcé de 50 heures par an plafonné à 400 heures pour un niveau équivalent à la catégorie C sans diplôme, et du même taux de base de 25 heures par an plafonné à 150 heures.",
+          "status": "verified",
+          "checked_on": "2026-09-04",
+          "max_age_days": 90,
+          "source_ids": [
+            "CGFP-LIVRE4"
+          ]
+        },
+        {
+          "id": "conge-formation-vae-bilan-contractuels-etat",
+          "statement": "Les agents contractuels de l'État bénéficient du congé de formation professionnelle, du congé pour VAE et du congé pour bilan de compétences (art. L. 422-1 CGFP, qui ne vise textuellement que le fonctionnaire) par un mécanisme distinct : le décret n° 2007-1942 du 26 décembre 2007, propre aux agents contractuels, renvoyait au décret n° 2007-1470 des fonctionnaires pour leur en étendre le régime ; la recodification a fusionné les deux décrets dans les mêmes articles réglementaires du CGFP (ex. art. R. 421-4, sourcé sur les deux décrets).",
           "status": "verified",
           "checked_on": "2026-09-04",
           "max_age_days": 90,

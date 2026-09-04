@@ -1,5 +1,44 @@
 # Changelog — drh-ansm
 
+## v0.9.14 — 2026-09-04
+
+**Une règle vérifiée sur deux cas favorables n'est pas une règle
+générale.** La v0.9.12 affirmait que le livre IV du CGFP « n'emploie
+jamais "fonctionnaire", mais systématiquement "agent public" » — une
+généralisation tirée de deux articles (L. 421-1, L. 422-8). Le second
+point de la vérification disposition par disposition, portant sur le
+congé de formation professionnelle, la VAE et le bilan de compétences,
+l'a contredite dès le premier essai : l'**art. L. 422-1**, dans la même
+section « commune aux trois versants », s'ouvre par **« Le fonctionnaire
+en activité a droit… »**, pas « agent public ». **Rétractée.**
+
+Le droit existe pourtant pour les contractuels de l'État, mais par un
+mécanisme différent de celui du CPF : l'ancien **décret n° 2007-1942**,
+propre aux contractuels, renvoyait au **décret n° 2007-1470** des
+fonctionnaires pour leur étendre le même régime ; la recodification a
+**fusionné** les deux décrets dans les mêmes articles réglementaires du
+CGFP (ex. **R. 421-4**, sourcé sur les deux). Conclusion générale, plus
+solide que celle qu'elle remplace : le mot « agent public » est une
+condition **suffisante** d'extension, jamais **nécessaire** — son
+absence signale qu'il faut chercher une base parallèle, pas conclure à
+une exclusion.
+
+Le même chantier a corrigé une deuxième erreur, indépendante : le
+périmètre territorial du chapitre II « dispositifs de formation
+professionnelle » était sous-évalué de sept articles. La section 3
+« propre à la fonction publique territoriale » couvre **L. 422-21 à
+L. 422-35 en entier**, y compris sa sous-section intitulée
+« dispositions générales » (L. 422-21 à L. 422-27) — un intitulé
+générique ne garantit pas une portée aux trois versants, il faut vérifier
+la section qui le contient.
+
+Nouveau §5.4 quater ; §5.4 bis corrigé avec rétractation explicite ;
+bandeau d'en-tête et entrée `CGFP-LIVRE4` du registre réécrits pour la
+portée exacte. Limite consignée : la nouvelle rédaction fusionnée de
+R. 421-4 et des articles voisins n'a pas été lue mot à mot — seule la
+fusion des sources, dans la table de concordance officielle, est
+vérifiée.
+
 ## v0.9.13 — 2026-09-04
 
 **Un article séparé par population n'est pas une preuve de régime

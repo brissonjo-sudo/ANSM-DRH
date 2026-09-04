@@ -19,6 +19,43 @@ Format d'entrée suggéré :
 
 ---
 
+## 2026-09-04 — formation & développement des compétences (rétractation)
+**Cas** : second point de la vérification disposition par disposition —
+congé de formation professionnelle, VAE, bilan de compétences
+(art. L. 422-1). Cette vérification a fait échouer ma propre
+généralisation de la veille.
+**Ce qui a manqué / ce qui était incertain** : la v0.9.12 affirmait que
+« le livre IV n'emploie jamais "fonctionnaire", mais systématiquement
+"agent public" », généralisée à partir de deux articles favorables
+(L. 421-1, L. 422-8). L'art. L. 422-1 — dans la même section 1 « commune
+aux trois versants » — s'ouvre par « Le fonctionnaire en activité a
+droit… », pas « agent public ». La généralisation était fausse.
+**Ce que la vérification a aussi trouvé, dans le même mouvement** : deux
+autres erreurs de portée, découvertes en creusant le même chapitre. (1)
+Le périmètre territorial du chapitre II était sous-évalué de sept
+articles : la section 3 « propre à la fonction publique territoriale »
+couvre L. 422-21 à L. 422-35 **en entier**, y compris sa sous-section
+« dispositions générales » (L. 422-21 à L. 422-27) — un intitulé
+générique ne garantit pas une portée aux trois versants. (2) Le droit au
+congé formation/VAE/bilan pour les contractuels de l'État existe
+pourtant bien, mais par un mécanisme distinct de celui du CPF : l'ancien
+décret n° 2007-1942 (contractuels) renvoyait au décret n° 2007-1470
+(fonctionnaires) ; la recodification a fusionné les deux dans les mêmes
+articles réglementaires (ex. R. 421-4, sourcé sur les deux décrets).
+**Source qui a permis de trancher** : art. L. 422-1 et L. 422-21 lus à la
+source (Légifrance, accès médié) ; table de concordance officielle de la
+DGAFP (5 mai 2026) pour la fusion des décrets.
+**Action** : §5.4 bis corrigé avec la rétractation explicite ; nouveau
+§5.4 quater ; bandeau d'en-tête réécrit pour la portée exacte de la
+section 3 ; entrée `CGFP-LIVRE4` du registre corrigée ; affirmation de
+la barrière reformulée à sa portée réelle (L. 421-1 et L. 422-8
+seulement, pas « le livre IV »).
+**Leçon** : une règle vérifiée sur deux cas favorables n'est pas une
+règle générale — la vérification article par article existe précisément
+pour trouver le troisième cas qui la contredit. Et l'absence d'un mot
+favorable n'est pas la preuve d'une exclusion : c'est la consigne de
+chercher la base ailleurs.
+
 ## 2026-09-04 — formation & développement des compétences (CPF)
 **Cas** : premier point de la vérification disposition par disposition
 annoncée le 3 septembre — le compte personnel de formation (CPF), choisi

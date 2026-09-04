@@ -30,15 +30,30 @@
 > | Livre IV, titre IV — réglementaire | **R. 441-1 à R. 445-1** | **Réorganisation de services et d'établissements** — accompagnement des agents. Renvoi inter-branches : instances & dialogue social, communication interne |
 >
 > 🔴 **Le titre II est découpé par versant — vérifier la section avant de
-> citer.** À l'intérieur du chapitre II « Dispositifs de formation
-> professionnelle », une section est propre à la **fonction publique
-> territoriale**. Ses articles existent, disent ce qu'ils disent, et ne
-> s'appliquent **pas** à l'ANSM : ainsi les **art. L. 422-28 à
-> L. 422-34-1** (formations d'intégration et de professionnalisation,
-> attestations du CNFPT, promotion interne) sont **territoriaux** et
-> n'ont pas d'effet ici. Un numéro d'article exact peut donc être exact
-> **et hors versant**. Avant de citer, remonter à la section et vérifier
-> qu'elle vise l'État et ses établissements publics.
+> citer.** Le chapitre II « Dispositifs de formation professionnelle »
+> (L. 422-1 à L. 422-35) a un plan précis : **section 1** (L. 422-1 à
+> L. 422-19) est **commune aux trois versants** — congés formation, VAE,
+> bilan de compétences, périodes de professionnalisation, formation
+> renforcée, CPA, CPF ; **section 2** (L. 422-20) est propre à l'**État**
+> mais étroite — formation de l'administration pénitentiaire seulement ;
+> **section 3** (**L. 422-21 à L. 422-35, en entier**, y compris sa
+> « sous-section 1 : dispositions générales » L. 422-21 à L. 422-27) est
+> propre à la **fonction publique territoriale**. Une correction de
+> version antérieure de ce bandeau ne bornait le territorial qu'aux
+> art. L. 422-28 à L. 422-34-1 (formations d'intégration et de
+> professionnalisation) : c'était **sous-évalué de sept articles** —
+> L. 422-21 (« la formation professionnelle tout au long de la vie
+> **dans la fonction publique territoriale** comprend… ») le dit dans
+> son premier mot, et L. 422-35 (formation personnelle à l'initiative de
+> l'agent) est aussi dans la section 3. Une sous-section intitulée
+> « dispositions générales » n'est générale qu'**à l'intérieur de sa
+> section** — pas nécessairement aux trois versants. Un numéro d'article
+> exact peut donc être exact **et hors versant**. Avant de citer,
+> remonter à la section et vérifier qu'elle vise l'État et ses
+> établissements publics. **Aucune section dédiée « formation
+> d'intégration et de professionnalisation » n'existe pour l'État** dans
+> ce chapitre : ne pas en chercher une par analogie avec la section 3
+> territoriale.
 >
 > ⚠️ **Ce que ce réancrage ne fait pas** : il donne les **blocs**, pas
 > l'article précis de chaque règle. Aucun article n'a été lu un par un à
@@ -189,28 +204,36 @@ liminaire** (`CGFP-CHAMP`) :
 3. **Art. L7** — et voici la disposition qui prévoit : « les mots
    "agent public" désignent le fonctionnaire et l'agent contractuel ».
 
-**La conséquence pour le livre IV** (`CGFP-LIVRE4`) : ses articles n'emploient jamais
-« fonctionnaire », mais systématiquement « agent public » — vérifié à
-l'art. L. 421-1 (droit à la formation professionnelle : *« Le droit à la
-formation professionnelle tout au long de la vie est reconnu à l'agent
-public »*) et à l'art. L. 422-8 (CPF : *« Le compte personnel de
-formation permet à l'agent public d'accéder à une qualification… »*).
-Le choix du mot est donc **la** clause d'extension que L2 exige : elle
-n'est pas absente, elle est écrite dans le vocabulaire même de l'article.
+**La conséquence pour le livre IV** (`CGFP-LIVRE4`) : plusieurs de ses
+articles centraux emploient « agent public » plutôt que « fonctionnaire »
+— vérifié à l'art. L. 421-1 (droit à la formation professionnelle :
+*« Le droit à la formation professionnelle tout au long de la vie est
+reconnu à l'agent public »*) et à l'art. L. 422-8 (CPF : *« Le compte
+personnel de formation permet à l'agent public d'accéder à une
+qualification… »*). Là où c'est le cas, le choix du mot **est** la
+clause d'extension que L2 exige.
+
+> ⚠️ **Correction du 4 septembre 2026** : une version antérieure de ce
+> paragraphe affirmait que « ses articles n'emploient **jamais**
+> "fonctionnaire", mais **systématiquement** "agent public" ». C'est
+> **faux**, et la vérification article par article annoncée ci-dessous
+> l'a montré dès son premier cas hors CPF : l'**art. L. 422-1**, dans la
+> même section 1 « commune aux trois versants », s'ouvre par **« Le
+> fonctionnaire en activité a droit… »** — pas « agent public ». Une
+> généralisation à partir de deux articles favorables était prématurée.
+> Voir §5.4 quater : le test du mot reste **suffisant** quand il donne
+> « agent public », il n'est **pas nécessaire** — son absence ne prouve
+> pas l'exclusion des contractuels, elle oblige seulement à chercher
+> ailleurs la base qui les couvre.
 
 **Ce que cela ne règle pas** : la partie **réglementaire** du titre II
-(R. 420-1 à R. 424-1, décret n° 2026-366) et les autres sous-sections du
-titre II — formation d'intégration et de professionnalisation, VAE,
-bilan de compétences — n'ont pas toutes été relues article par article
-pour y chercher une clause qui restreindrait telle ou telle mesure aux
-seuls fonctionnaires (une obligation liée à la titularisation, par
-nature, n'a pas de sens pour un contractuel — mais cela relève de la
-nature de la mesure, pas d'une exclusion textuelle des contractuels). Le
-principe d'applicabilité est acquis ; la vérification disposition par
-disposition reste à faire avant un acte engageant un contractuel précis
-pour la formation d'intégration et de professionnalisation, la VAE et le
-bilan de compétences. Le CPF, premier cas traité, montre ce que trouve
-cette vérification — voir §5.4 ter.
+(R. 420-1 à R. 424-1, décret n° 2026-366) n'a pas été relue en entier
+article par article. Le principe d'applicabilité aux contractuels est
+acquis pour les articles qui disent « agent public » ; il reste à établir
+au cas par cas pour les autres. Deux cas sont désormais traités : le CPF
+(§5.4 ter) et le congé de formation professionnelle, la VAE et le bilan
+de compétences (§5.4 quater) — ce dernier étant précisément le cas où le
+test du mot échoue et où il a fallu chercher ailleurs.
 
 ### 5.4 ter CPF — un cas vérifié où le dédoublement d'article ne change rien au droit
 
@@ -259,6 +282,66 @@ donc le texte que le nouveau reprend à droit constant) et sur deux
 sources secondaires convergentes. Pour un acte individuel engageant un
 solde d'heures CPF précis, relire les art. R. 422-87 et R. 422-88 en
 version consolidée avant de trancher.
+
+### 5.4 quater Congé formation, VAE, bilan de compétences — le cas où le test du mot échoue
+
+Second point de la vérification disposition par disposition, et le
+premier où le test du §5.4 bis (« agent public » → extension acquise)
+**ne fonctionne pas**.
+
+**Le constat** : l'art. **L. 422-1** — première disposition de la
+section 1, « commune aux trois versants » — s'ouvre par « **Le
+fonctionnaire en activité a droit** : 1° [congé de formation
+professionnelle] ; 2° [congé pour VAE] ; 3° [congé pour bilan de
+compétences] ». Vérifié deux fois, sur deux passages distincts de
+l'article : le mot est bien « fonctionnaire », jamais « agent public ».
+Sur la seule lecture de L. 422-1, un contractuel serait exclu des trois
+congés.
+
+**Ce que cela ne veut pas dire** : le silence législatif sur les
+contractuels n'est pas une exclusion — c'est le signe qu'il faut chercher
+la base qui les couvre **ailleurs que dans l'article qui couvre les
+fonctionnaires**, pas conclure qu'elle n'existe pas.
+
+**La base retrouvée** : pour les agents contractuels de l'État relevant
+du décret n° 86-83, la formation professionnelle tout au long de la vie
+était organisée par un décret **séparé et spécifique** — le **décret
+n° 2007-1942 du 26 décembre 2007**, dont l'article 2 procédait par
+**renvoi exprès** aux dispositions du décret des fonctionnaires (décret
+n° 2007-1470) pour leur étendre le même régime. C'est un mécanisme
+d'extension différent de celui du §5.4 bis : pas un mot commun dans un
+même article, mais deux décrets parallèles, l'un renvoyant à l'autre.
+
+**Ce que confirme la table de concordance officielle** (`CGFP-LIVRE4`) :
+la recodification a **fusionné** les deux décrets dans les mêmes
+nouveaux articles réglementaires. Exemple vérifié — le nouvel
+**art. R. 421-4** est sourcé à la fois sur le décret n° 2007-1470,
+art. 5, al. 1-2 (fonctionnaires) et sur le décret n° 2007-1942, art. 2,
+al. 1 (« ecqc le renvoi à l'article 5, alinéas 1 et 2, **pour les agents
+contractuels de l'État** »). Le même schéma se répète pour R. 421-5,
+R. 421-6, R. 422-1, R. 422-7, R. 422-12, R. 422-16 et d'autres — le
+répondant de ce chantier n'a pas cherché à établir la liste complète.
+
+**Conclusion vérifiée pour le congé formation, la VAE et le bilan de
+compétences** : le droit existe pour les agents contractuels de l'État,
+mais **pas par le même mécanisme** que le CPF. Le CPF est ouvert par un
+article unique qui dit « agent public » (§5.4 bis) ; le congé formation
+l'est par la fusion réglementaire de deux décrets historiquement
+distincts, l'un pour les fonctionnaires, l'autre pour les contractuels
+par renvoi. La recodification a rapproché les deux mécanismes dans le
+même titre II sans les uniformiser : **l'absence du mot « agent public »
+dans un article du livre IV n'est donc pas, à elle seule, un signal
+d'exclusion des contractuels** — c'est un signal qu'il faut vérifier
+l'existence d'une base parallèle avant de conclure.
+
+**Limite de cette vérification** : la nouvelle rédaction fusionnée de
+R. 421-4 et des articles voisins n'a pas été lue mot à mot, pour la même
+raison qu'au §5.4 ter (accès médié à Légifrance, alinéas non restitués
+un par un). Ce qui est vérifié est la **fusion des sources** dans la
+table de concordance officielle, pas le contenu final ligne à ligne. Pour
+un acte individuel — accorder ou refuser un congé formation, une VAE ou
+un bilan de compétences à un contractuel — relire R. 421-4 et les
+articles voisins en version consolidée.
 
 ### 5.5 Repères historiques — ordres de grandeur non actuels
 
@@ -338,9 +421,15 @@ Manquent donc, côté agence :
   l'activité se joue à l'EMA et dans les procédures coordonnées, d'où
   l'enjeu linguistique.
 - **Croire que le livre IV ne vise que les fonctionnaires** parce qu'un
-  contrat n'est pas un statut : le code emploie « agent public », qui
-  inclut par construction l'agent contractuel (§5.4 bis) — l'écarter du
-  droit à la formation ou du CPF sur ce seul motif est une erreur.
+  contrat n'est pas un statut : plusieurs articles centraux emploient
+  « agent public », qui inclut par construction l'agent contractuel
+  (§5.4 bis) — l'écarter du droit à la formation ou du CPF sur ce seul
+  motif est une erreur.
+- **L'erreur inverse, tout aussi réelle** : voir un article dire « le
+  fonctionnaire » (L. 422-1, congé formation/VAE/bilan de compétences) et
+  en conclure que les contractuels en sont exclus. Le mot manquant
+  signale qu'il faut chercher une base parallèle, pas que le droit
+  n'existe pas pour eux (§5.4 quater).
 
 ## 8. Données volatiles à vérifier
 
