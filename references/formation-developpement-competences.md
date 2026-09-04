@@ -1,6 +1,6 @@
 # Branche — Formation & développement des compétences
 
-> 🟢 **Partiellement fiabilisée** (vérification du 3 septembre 2026)
+> 🟢 **Partiellement fiabilisée** (vérification du 4 septembre 2026)
 > — v0.9.5, cadre général réancré sur le code.
 >
 > **Ce qui est solide** : les **axes de développement des compétences
@@ -201,13 +201,64 @@ n'est pas absente, elle est écrite dans le vocabulaire même de l'article.
 **Ce que cela ne règle pas** : la partie **réglementaire** du titre II
 (R. 420-1 à R. 424-1, décret n° 2026-366) et les autres sous-sections du
 titre II — formation d'intégration et de professionnalisation, VAE,
-bilan de compétences — n'ont pas été relues article par article pour y
-chercher une clause qui restreindrait telle ou telle mesure aux seuls
-fonctionnaires (une obligation liée à la titularisation, par nature,
-n'a pas de sens pour un contractuel — mais cela relève de la nature de
-la mesure, pas d'une exclusion textuelle des contractuels). Le principe
-d'applicabilité est acquis ; la vérification disposition par disposition
-reste à faire avant un acte engageant un contractuel précis.
+bilan de compétences — n'ont pas toutes été relues article par article
+pour y chercher une clause qui restreindrait telle ou telle mesure aux
+seuls fonctionnaires (une obligation liée à la titularisation, par
+nature, n'a pas de sens pour un contractuel — mais cela relève de la
+nature de la mesure, pas d'une exclusion textuelle des contractuels). Le
+principe d'applicabilité est acquis ; la vérification disposition par
+disposition reste à faire avant un acte engageant un contractuel précis
+pour la formation d'intégration et de professionnalisation, la VAE et le
+bilan de compétences. Le CPF, premier cas traité, montre ce que trouve
+cette vérification — voir §5.4 ter.
+
+### 5.4 ter CPF — un cas vérifié où le dédoublement d'article ne change rien au droit
+
+Premier point de la vérification disposition par disposition annoncée en
+§5.4 bis, choisi parce qu'il est le plus quantifié et donc le plus
+exposé à un acte engageant (calcul d'un solde d'heures).
+
+**Ce que confirme la table de concordance officielle** (`CGFP-LIVRE4`,
+table de concordance inverse du 5 mai 2026, DGAFP) : la recodification
+**dédouble** l'ancien art. 3 du décret n° 2017-928 en deux nouveaux
+articles distincts — **R. 422-87**, repris de l'alinéa qui vise « ecqc
+fonctionnaires », et **R. 422-88**, repris des alinéas qui visent « ecqc
+agents contractuels ». Le réglementaire du CPF **suit donc bien**, sur ce
+point précis, la pratique par population que le §5.4 bis met en garde
+contre.
+
+**Ce que confirme le contenu, une fois remonté à l'ancien texte encore
+lisible** (le nouveau texte n'a pas pu être extrait littéralement — voir
+la limite ci-dessous) : le régime alors en vigueur alimentait le CPF à
+raison de **25 heures par année civile, plafonnées à 150 heures**, pour
+« le fonctionnaire » comme pour « l'agent contractuel », **sans
+distinction de taux ni de plafond**. Le régime renforcé — **50 heures par
+an, plafond porté à 400 heures** — visait le fonctionnaire de catégorie C
+sans diplôme **et, en miroir, l'agent occupant un emploi de niveau
+équivalent à la catégorie C** sans diplôme : c'est cette mise en miroir,
+nécessaire parce qu'un contractuel n'a pas de « catégorie » statutaire
+au sens propre, qui explique le dédoublement en deux articles. Aucune
+des deux sources consultées n'indique de plafond ou de taux différent
+entre les deux articles.
+
+**Conclusion vérifiée pour le CPF** : le dédoublement d'article par
+population **ne traduit pas** une différence de droit — il traduit la
+nécessité de reformuler un critère statutaire (« catégorie C ») en un
+critère utilisable pour un contractuel (« niveau d'emploi équivalent »).
+Ne pas conclure d'un article séparé à un régime réduit sans avoir
+vérifié, comme ici, ce que l'article séparé dit réellement.
+
+**Limite de cette vérification** : les art. R. 422-87 et R. 422-88, dans
+leur rédaction issue du décret n° 2026-366, n'ont pas pu être lus mot à
+mot — l'accès médié à Légifrance a restitué un texte structurellement
+fiable (numéros d'article, renvoi à l'ancien texte, statut en vigueur)
+mais n'a pas résolu les alinéas numérotés un par un. La conclusion
+ci-dessus s'appuie sur le texte de l'ancien décret n° 2017-928 (encore
+lisible dans sa version antérieure à son abrogation du 1er août 2026,
+donc le texte que le nouveau reprend à droit constant) et sur deux
+sources secondaires convergentes. Pour un acte individuel engageant un
+solde d'heures CPF précis, relire les art. R. 422-87 et R. 422-88 en
+version consolidée avant de trancher.
 
 ### 5.5 Repères historiques — ordres de grandeur non actuels
 

@@ -173,7 +173,7 @@
     },
     "references/formation-developpement-competences.md": {
       "maturity": "partial",
-      "verified_on": "2026-09-03",
+      "verified_on": "2026-09-04",
       "claims": [
         {
           "id": "livre4-applicable-contractuels",
@@ -183,6 +183,16 @@
           "max_age_days": 90,
           "source_ids": [
             "CGFP-CHAMP",
+            "CGFP-LIVRE4"
+          ]
+        },
+        {
+          "id": "cpf-dedoublement-article-sans-effet-droit",
+          "statement": "Le dédoublement des art. R. 422-87 (fonctionnaires) et R. 422-88 (agents contractuels) du CGFP pour le taux renforcé du CPF ne traduit pas une différence de droit : les deux populations bénéficient du même taux renforcé de 50 heures par an plafonné à 400 heures pour un niveau équivalent à la catégorie C sans diplôme, et du même taux de base de 25 heures par an plafonné à 150 heures.",
+          "status": "verified",
+          "checked_on": "2026-09-04",
+          "max_age_days": 90,
+          "source_ids": [
             "CGFP-LIVRE4"
           ]
         }

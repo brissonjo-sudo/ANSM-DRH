@@ -14,7 +14,7 @@ PROJECT = Path(__file__).resolve().parents[1]
 # sources du dépôt. Une affirmation contrôlée après cette date serait vue
 # comme « située dans le futur » — remonter TODAY en même temps qu'une
 # campagne de vérification, jamais pour contourner un contrôle.
-TODAY = date(2026, 9, 3)
+TODAY = date(2026, 9, 4)
 CONTRACTUELS = "references/recrutement-classification-contractuels.md"
 DEONTOLOGIE = "references/deontologie-conflits-interets.md"
 

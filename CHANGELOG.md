@@ -1,5 +1,31 @@
 # Changelog — drh-ansm
 
+## v0.9.13 — 2026-09-04
+
+**Un article séparé par population n'est pas une preuve de régime
+différent.** Premier point de la vérification disposition par
+disposition annoncée en v0.9.12 pour le titre II réglementaire du
+livre IV : le compte personnel de formation (CPF), choisi parce qu'il
+est le plus quantifié et donc le plus exposé à un acte engageant.
+
+La table de concordance officielle de la recodification montre que
+l'ancien art. 3 du décret n° 2017-928 a été dédoublé en deux articles —
+**R. 422-87** pour les fonctionnaires, **R. 422-88** pour les agents
+contractuels. Remonté au texte encore lisible de l'ancien décret (que le
+nouveau reprend à droit constant) : le taux de base (25 h/an, plafond
+150 h) et le taux renforcé (50 h/an, plafond 400 h, pour un niveau
+équivalent à la catégorie C sans diplôme) sont **identiques** pour les
+deux populations. Le dédoublement ne traduit que la nécessité de
+reformuler un critère statutaire (« catégorie C ») en un critère
+utilisable pour un contractuel (« niveau d'emploi équivalent »).
+
+Nouveau §5.4 ter, avec une limite explicitement consignée : les
+art. R. 422-87 et R. 422-88 eux-mêmes n'ont pas pu être lus mot à mot —
+l'accès médié à Légifrance n'a pas restitué les alinéas numérotés un par
+un. La conclusion s'appuie sur l'ancien texte et deux sources secondaires
+convergentes ; pour un acte individuel engageant un solde d'heures
+précis, relire les deux articles en version consolidée.
+
 ## v0.9.12 — 2026-09-03
 
 **Le livre IV s'applique aux agents contractuels de droit public** — et

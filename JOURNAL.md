@@ -19,6 +19,34 @@ Format d'entrée suggéré :
 
 ---
 
+## 2026-09-04 — formation & développement des compétences (CPF)
+**Cas** : premier point de la vérification disposition par disposition
+annoncée le 3 septembre — le compte personnel de formation (CPF), choisi
+parce qu'il est le plus quantifié et le plus exposé à un acte engageant
+(calcul d'un solde d'heures).
+**Ce qui a manqué / ce qui était incertain** : la table de concordance
+officielle montre que la recodification dédouble l'ancien art. 3 du
+décret n° 2017-928 en deux articles distincts — R. 422-87 pour les
+fonctionnaires, R. 422-88 pour les agents contractuels. Un article séparé
+par population peut se lire, à tort, comme un régime réduit pour les
+contractuels.
+**Source qui a permis de trancher** : le texte encore lisible de l'ancien
+décret n° 2017-928 (que le nouveau reprend à droit constant) et deux
+sources secondaires convergentes : taux de base identique (25 h/an,
+plafond 150 h) pour fonctionnaire et agent contractuel ; taux renforcé
+identique (50 h/an, plafond 400 h) pour le fonctionnaire de catégorie C
+sans diplôme **et**, en miroir, l'agent contractuel occupant un emploi de
+niveau équivalent à la catégorie C sans diplôme.
+**Action** : nouveau §5.4 ter. Limite consignée explicitement : les
+art. R. 422-87 et R. 422-88 eux-mêmes, dans leur rédaction issue du
+décret n° 2026-366, n'ont pas pu être lus mot à mot — l'accès médié à
+Légifrance n'a pas restitué les alinéas numérotés un par un.
+**Leçon** : un article séparé par population n'est pas en soi une preuve
+de régime différent — il peut n'être que la traduction d'un critère
+statutaire (« catégorie C ») en un critère utilisable pour un
+contractuel (« niveau d'emploi équivalent »). Vérifier le contenu, pas
+seulement compter les articles.
+
 ## 2026-09-03 — formation & développement des compétences
 **Cas** : chantier laissé ouvert par l'audit du registre — le livre IV du
 CGFP parle d'« agent public » sans que la branche sache si cela couvre les
