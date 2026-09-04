@@ -187,8 +187,8 @@
           ]
         },
         {
-          "id": "cpf-dedoublement-article-sans-effet-droit",
-          "statement": "Le dédoublement des art. R. 422-87 (fonctionnaires) et R. 422-88 (agents contractuels) du CGFP pour le taux renforcé du CPF ne traduit pas une différence de droit : les deux populations bénéficient du même taux renforcé de 50 heures par an plafonné à 400 heures pour un niveau équivalent à la catégorie C sans diplôme, et du même taux de base de 25 heures par an plafonné à 150 heures.",
+          "id": "cpf-taux-renforce-reserve-fonctionnaire",
+          "statement": "Le taux de base du CPF est fixé par l'art. R. 422-84 du CGFP (25 heures maximum par année civile, plafond 150 heures) sans mention de population. Le taux renforcé est fixé par l'art. R. 422-85 (50 heures maximum par année civile, plafond 400 heures) et vise textuellement « le fonctionnaire qui appartient à un corps ou cadre d'emplois de catégorie C » n'ayant pas atteint le niveau 3 du RNCP : aucune clause miroir n'y étend ce taux à l'agent contractuel occupant un emploi de niveau équivalent. Les art. R. 422-87 et R. 422-88 ne portent pas les taux mais les périodes d'absence neutralisées pour l'alimentation du compte, respectivement pour le fonctionnaire et pour l'agent contractuel, avec des listes qui diffèrent réellement.",
           "status": "verified",
           "checked_on": "2026-09-04",
           "max_age_days": 90,
@@ -198,7 +198,7 @@
         },
         {
           "id": "conge-formation-vae-bilan-contractuels-etat",
-          "statement": "Les agents contractuels de l'État bénéficient du congé de formation professionnelle, du congé pour VAE et du congé pour bilan de compétences (art. L. 422-1 CGFP, qui ne vise textuellement que le fonctionnaire) par un mécanisme distinct : le décret n° 2007-1942 du 26 décembre 2007, propre aux agents contractuels, renvoyait au décret n° 2007-1470 des fonctionnaires pour leur en étendre le régime ; la recodification a fusionné les deux décrets dans les mêmes articles réglementaires du CGFP (ex. art. R. 421-4, sourcé sur les deux décrets).",
+          "statement": "Les agents contractuels de l'État bénéficient du congé de formation professionnelle, du congé pour VAE et du congé pour bilan de compétences (art. L. 422-1 CGFP, qui ne vise textuellement que le fonctionnaire) par un mécanisme distinct : le décret n° 2007-1942 du 26 décembre 2007, propre aux agents contractuels, renvoyait au décret n° 2007-1470 des fonctionnaires pour leur en étendre le régime ; la recodification a fusionné les deux décrets dans les mêmes articles réglementaires du CGFP (exemple vérifié mot à mot : l'art. R. 421-4, sourcé sur les deux décrets, qui institue l'entretien annuel de formation de « l'agent public » — il atteste le mécanisme de fusion, il n'est pas le siège des congés, lesquels relèvent de R. 422-108 et s. pour le congé de formation, R. 422-74 et s. pour la VAE et R. 421-12 et s. pour le bilan de compétences).",
           "status": "verified",
           "checked_on": "2026-09-04",
           "max_age_days": 90,
@@ -209,7 +209,9 @@
       ],
       "unresolved_claims": [
         "Plan et budget de formation actuels à obtenir.",
-        "Déclinaison ANSM du CPF, de l'entretien professionnel, de la VAE et de l'apprentissage ; article précis du livre IV du CGFP pour chaque règle générale."
+        "Déclinaison ANSM du CPF, de l'entretien professionnel, de la VAE et de l'apprentissage ; article précis du livre IV du CGFP pour chaque règle générale.",
+        "Art. L. 422-3 et R. 422-13 du CGFP non lus : L. 422-3 viserait à la fois le fonctionnaire de catégorie C et l'agent contractuel occupant un emploi de niveau de catégorie C, mais pour des droits renforcés distincts du plafond CPF et avec un seuil RNCP différent (niveau 4 via R. 422-13, contre niveau 3 dans R. 422-85). À lire avant de trancher si un contractuel de niveau C sans diplôme peut prétendre au taux CPF renforcé.",
+        "Balayage exhaustif de R. 422-82 à R. 422-107 non refait article par article : le constat qu'aucune disposition n'étend le taux renforcé de 50 h/an au contractuel repose sur une vérification croisée, pas sur une relecture intégrale de la série."
       ],
       "known_limits": []
     },

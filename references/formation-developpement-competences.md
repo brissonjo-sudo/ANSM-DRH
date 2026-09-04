@@ -235,53 +235,107 @@ au cas par cas pour les autres. Deux cas sont désormais traités : le CPF
 de compétences (§5.4 quater) — ce dernier étant précisément le cas où le
 test du mot échoue et où il a fallu chercher ailleurs.
 
-### 5.4 ter CPF — un cas vérifié où le dédoublement d'article ne change rien au droit
+### 5.4 ter CPF — le taux renforcé est réservé au fonctionnaire
 
-Premier point de la vérification disposition par disposition annoncée en
-§5.4 bis, choisi parce qu'il est le plus quantifié et donc le plus
-exposé à un acte engageant (calcul d'un solde d'heures).
+> ⚠️ **Correction du 4 septembre 2026 — la rédaction précédente de ce
+> paragraphe (v0.9.13) était fausse sur toute sa substance et est retirée.**
+> Elle affirmait trois choses : que les art. **R. 422-87** et **R. 422-88**
+> portaient les **taux** du CPF, dédoublés par population ; que ces taux
+> étaient **identiques** pour le fonctionnaire et le contractuel ; et que
+> le régime renforcé visait le fonctionnaire de catégorie C **« et, en
+> miroir, l'agent occupant un emploi de niveau équivalent »**. Les cinq
+> articles en cause ont depuis été lus **mot à mot en version consolidée**.
+> **Aucune des trois affirmations n'est exacte** : ni la numérotation, ni
+> le contenu de R. 422-87 et R. 422-88, ni la conclusion d'identité de
+> régime. Ce qui suit remplace intégralement l'ancien paragraphe.
 
-**Ce que confirme la table de concordance officielle** (`CGFP-LIVRE4`,
-table de concordance inverse du 5 mai 2026, DGAFP) : la recodification
-**dédouble** l'ancien art. 3 du décret n° 2017-928 en deux nouveaux
-articles distincts — **R. 422-87**, repris de l'alinéa qui vise « ecqc
-fonctionnaires », et **R. 422-88**, repris des alinéas qui visent « ecqc
-agents contractuels ». Le réglementaire du CPF **suit donc bien**, sur ce
-point précis, la pratique par population que le §5.4 bis met en garde
-contre.
+**La carte réelle des articles** (CGFP, partie réglementaire issue du
+décret n° 2026-366, en vigueur au 1er août 2026, `CGFP-LIVRE4` — les cinq
+articles ci-dessous ont été lus en version consolidée, deux fois, par
+deux accès indépendants) :
 
-**Ce que confirme le contenu, une fois remonté à l'ancien texte encore
-lisible** (le nouveau texte n'a pas pu être extrait littéralement — voir
-la limite ci-dessous) : le régime alors en vigueur alimentait le CPF à
-raison de **25 heures par année civile, plafonnées à 150 heures**, pour
-« le fonctionnaire » comme pour « l'agent contractuel », **sans
-distinction de taux ni de plafond**. Le régime renforcé — **50 heures par
-an, plafond porté à 400 heures** — visait le fonctionnaire de catégorie C
-sans diplôme **et, en miroir, l'agent occupant un emploi de niveau
-équivalent à la catégorie C** sans diplôme : c'est cette mise en miroir,
-nécessaire parce qu'un contractuel n'a pas de « catégorie » statutaire
-au sens propre, qui explique le dédoublement en deux articles. Aucune
-des deux sources consultées n'indique de plafond ou de taux différent
-entre les deux articles.
+| Article | Objet réel |
+|---|---|
+| **R. 422-84** | Taux de base : 25 h/an, plafond 150 h |
+| **R. 422-85** | Taux renforcé : 50 h/an, plafond 400 h |
+| R. 422-86 | Proratisation |
+| **R. 422-87** | **Absences** neutralisées pour l'alimentation — **fonctionnaire** |
+| **R. 422-88** | **Absences** neutralisées pour l'alimentation — **agent contractuel** |
+| R. 422-89 | Crédit de temps syndical |
 
-**Conclusion vérifiée pour le CPF** : le dédoublement d'article par
-population **ne traduit pas** une différence de droit — il traduit la
-nécessité de reformuler un critère statutaire (« catégorie C ») en un
-critère utilisable pour un contractuel (« niveau d'emploi équivalent »).
-Ne pas conclure d'un article séparé à un régime réduit sans avoir
-vérifié, comme ici, ce que l'article séparé dit réellement.
+**Le taux de base ne distingue pas** — art. R. 422-84, texte intégral :
+« *L'alimentation du compte personnel de formation s'effectue à hauteur
+de 25 heures maximum au titre de chaque année civile, dans la limite d'un
+plafond de 150 heures.* » Aucune population n'est nommée ; l'article vaut
+donc pour l'agent public au sens du chapitre liminaire, contractuel
+compris (§5.4 bis).
 
-**Limite de cette vérification** : les art. R. 422-87 et R. 422-88, dans
-leur rédaction issue du décret n° 2026-366, n'ont pas pu être lus mot à
-mot — l'accès médié à Légifrance a restitué un texte structurellement
-fiable (numéros d'article, renvoi à l'ancien texte, statut en vigueur)
-mais n'a pas résolu les alinéas numérotés un par un. La conclusion
-ci-dessus s'appuie sur le texte de l'ancien décret n° 2017-928 (encore
-lisible dans sa version antérieure à son abrogation du 1er août 2026,
-donc le texte que le nouveau reprend à droit constant) et sur deux
-sources secondaires convergentes. Pour un acte individuel engageant un
-solde d'heures CPF précis, relire les art. R. 422-87 et R. 422-88 en
-version consolidée avant de trancher.
+**Le taux renforcé, lui, nomme le fonctionnaire** — art. R. 422-85, texte
+intégral : « *Pour **le fonctionnaire** qui appartient à un corps ou cadre
+d'emplois de catégorie C et qui n'a pas atteint un niveau de formation
+sanctionné par un diplôme ou titre professionnel enregistré et classé au
+niveau 3 au sens du répertoire national des certifications
+professionnelles, l'alimentation du compte s'effectue à hauteur de
+50 heures maximum par année civile et le plafond est de 400 heures.* »
+**Aucune clause miroir** pour l'agent contractuel occupant un emploi de
+niveau équivalent n'y figure — c'est exactement la mise en miroir que la
+v0.9.13 avait supposée sans la lire.
+
+**Les deux articles « par population » ne portent pas les taux mais les
+absences — et leurs listes diffèrent réellement.** R. 422-87 (fonctionnaire)
+et R. 422-88 (agent contractuel) énumèrent les périodes d'absence prises
+en compte *intégralement* pour l'alimentation du compte :
+
+| Absence neutralisée | Fonctionnaire (R. 422-87) | Contractuel (R. 422-88) |
+|---|:--:|:--:|
+| Congé parental | ✅ | ✅ |
+| Congé rémunéré / avec traitement | ✅ | ✅ |
+| Congé de solidarité familiale | ✅ | ✅ |
+| Congé de proche aidant | ✅ | — |
+| Congé de citoyenneté | ✅ | — |
+| Congé d'adoption avec déplacement outre-mer ou à l'étranger | — | ✅ |
+| Temps partiel pour raison thérapeutique | — | ✅ |
+
+Ce ne sont donc **pas** deux rédactions parallèles du même régime : les
+deux listes se recouvrent partiellement et divergent aux extrémités.
+
+**Ce que le dédoublement d'article signifie ici** — l'inverse de ce que
+disait la v0.9.13. Quand le réglementaire sépare un article par
+population, il faut lire les deux : la séparation peut porter une
+**différence de fond**, et c'est le cas ici, dans les deux sens (le
+fonctionnaire gagne le proche aidant et la citoyenneté, le contractuel
+gagne l'adoption outre-mer et le temps partiel thérapeutique).
+
+**Ce que cela donne comme méthode** — le §5.4 quater posait que l'absence
+du mot « agent public » n'est pas une exclusion mais une invitation à
+chercher une base parallèle. La règle tient ; appliquée ici, **la
+recherche revient vide** : le régime renforcé du CPF paraît bien réservé
+au fonctionnaire. Chercher une base parallèle ne garantit pas d'en
+trouver une — et ne pas en trouver est un résultat, pas un échec de
+méthode.
+
+**Limites de cette vérification** — deux, à énoncer avant tout acte
+engageant :
+
+1. **L'absence de base parallèle est un constat négatif**, plus fragile
+   qu'un constat positif. Les cinq articles du tableau ci-dessus ont été
+   lus mot à mot ; le balayage de l'ensemble R. 422-82 à R. 422-107 à la
+   recherche d'une disposition étendant les 50 h / 400 h au contractuel
+   provient d'une **vérification croisée** et n'a pas été refait ici
+   article par article.
+2. **Une piste reste ouverte et non vérifiée** : l'art. **L. 422-3**
+   (législatif) viserait, lui, à la fois le fonctionnaire de catégorie C
+   **et l'agent contractuel occupant un emploi de niveau de catégorie C**,
+   mais pour d'autres droits renforcés que le plafond CPF, et avec un
+   seuil de diplôme différent (niveau 4 du RNCP via R. 422-13, contre
+   niveau 3 dans R. 422-85). **Ni L. 422-3 ni R. 422-13 n'ont été lus
+   ici** : ne pas s'en servir pour conclure dans un sens ou dans l'autre.
+
+**En pratique** : pour un contractuel de niveau catégorie C sans diplôme
+qui réclame 50 h/an, ne pas répondre « oui » sur le fondement de la
+v0.9.13 (retirée), ni « non » sur la seule lettre de R. 422-85. Lire
+R. 422-85, L. 422-3 et R. 422-13 en version consolidée, et faire trancher
+la question par le service juridique avant de notifier un refus.
 
 ### 5.4 quater Congé formation, VAE, bilan de compétences — le cas où le test du mot échoue
 
@@ -322,6 +376,26 @@ contractuels de l'État** »). Le même schéma se répète pour R. 421-5,
 R. 421-6, R. 422-1, R. 422-7, R. 422-12, R. 422-16 et d'autres — le
 répondant de ce chantier n'a pas cherché à établir la liste complète.
 
+> ⚠️ **Précision du 4 septembre 2026 — R. 421-4 n'est pas un article de
+> congé.** Lu en version consolidée, il dispose : « *L'agent public
+> bénéficie chaque année d'un **entretien de formation** avec son
+> supérieur hiérarchique direct…* ». Il vaut donc ici comme **preuve du
+> mécanisme de fusion** (un article unique, sourcé sur les deux décrets,
+> et qui dit « agent public »), **pas** comme siège du congé de formation.
+> La rédaction antérieure de ce paragraphe invitait à le relire pour
+> trancher une demande de congé : c'était un mauvais renvoi.
+
+**Où sont réellement les régimes de fond** (piste issue de la même
+vérification croisée, **non relue article par article ici** — à confirmer
+en version consolidée avant tout acte) : entretien de formation
+**R. 421-4 à R. 421-7** ; bilan de compétences **R. 421-12 et s.** ; VAE
+**R. 422-74 et s.** ; CPF **R. 422-82 à R. 422-107** ; **congé de
+formation professionnelle R. 422-108 et s.** Pour la VAE et le congé de
+formation, la même source signale une **condition propre au contractuel
+territorial** (occuper un emploi permanent) — sans portée à l'ANSM, qui
+relève de l'État, mais à ne pas recopier telle quelle dans une note
+inter-versants.
+
 **Conclusion vérifiée pour le congé formation, la VAE et le bilan de
 compétences** : le droit existe pour les agents contractuels de l'État,
 mais **pas par le même mécanisme** que le CPF. Le CPF est ouvert par un
@@ -334,14 +408,16 @@ dans un article du livre IV n'est donc pas, à elle seule, un signal
 d'exclusion des contractuels** — c'est un signal qu'il faut vérifier
 l'existence d'une base parallèle avant de conclure.
 
-**Limite de cette vérification** : la nouvelle rédaction fusionnée de
-R. 421-4 et des articles voisins n'a pas été lue mot à mot, pour la même
-raison qu'au §5.4 ter (accès médié à Légifrance, alinéas non restitués
-un par un). Ce qui est vérifié est la **fusion des sources** dans la
-table de concordance officielle, pas le contenu final ligne à ligne. Pour
+**Limite de cette vérification** : ce qui est établi est la **fusion des
+sources** — deux décrets historiquement distincts refondus dans les mêmes
+articles — attestée par la table de concordance officielle et confirmée
+sur R. 421-4 lu mot à mot. Ce qui ne l'est pas, c'est le **contenu final
+ligne à ligne** des articles qui portent réellement les trois congés
+(R. 422-108 et s. pour le congé de formation, R. 422-74 et s. pour la
+VAE, R. 421-12 et s. pour le bilan) : ils n'ont pas été relus ici. Pour
 un acte individuel — accorder ou refuser un congé formation, une VAE ou
-un bilan de compétences à un contractuel — relire R. 421-4 et les
-articles voisins en version consolidée.
+un bilan de compétences à un contractuel — relire **ces** articles en
+version consolidée, et non R. 421-4.
 
 ### 5.5 Repères historiques — ordres de grandeur non actuels
 
@@ -430,6 +506,18 @@ Manquent donc, côté agence :
   en conclure que les contractuels en sont exclus. Le mot manquant
   signale qu'il faut chercher une base parallèle, pas que le droit
   n'existe pas pour eux (§5.4 quater).
+- **Et la troisième erreur, symétrique de la deuxième** : chercher la
+  base parallèle, ne pas la trouver, et **conclure quand même** qu'elle
+  existe. Le taux renforcé du CPF (R. 422-85, 50 h/an) nomme « le
+  fonctionnaire » de catégorie C et **rien n'a été trouvé** qui l'étende
+  au contractuel de niveau équivalent : ici, la recherche revient vide
+  (§5.4 ter). Ne pas trouver de base est un résultat à annoncer comme
+  tel, pas un blanc à combler par symétrie.
+- **Déduire le contenu d'un article de sa table de concordance** : la
+  concordance dit de quel ancien texte vient un article, **pas ce qu'il
+  dit**. C'est l'erreur qui a produit la v0.9.13, retirée : R. 422-87 et
+  R. 422-88 sont bien issus de l'art. 3 du décret n° 2017-928, mais ils
+  en reprennent les alinéas sur les **absences**, pas ceux sur les taux.
 
 ## 8. Données volatiles à vérifier
 

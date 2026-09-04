@@ -1,5 +1,54 @@
 # Changelog — drh-ansm
 
+## v0.9.15 — 2026-09-04
+
+**Une table de concordance dit d'où vient un article, pas ce qu'il dit.**
+La v0.9.13 est **retirée** : elle affirmait que les art. **R. 422-87** et
+**R. 422-88** du CGFP portaient les **taux** du CPF, dédoublés par
+population sans différence de droit, et que le régime renforcé visait le
+fonctionnaire de catégorie C « et, en miroir, l'agent de niveau
+équivalent ». Les cinq articles ont été lus **mot à mot en version
+consolidée** : aucune des trois affirmations n'est exacte.
+
+La carte réelle : **R. 422-84** porte le taux de base (25 h/an,
+plafond 150 h) **sans mention de population** ; **R. 422-85** porte le
+taux renforcé (50 h/an, plafond 400 h) et vise textuellement « **le
+fonctionnaire** qui appartient à un corps ou cadre d'emplois de
+catégorie C » — **aucune clause miroir** pour le contractuel n'y figure.
+**R. 422-87** et **R. 422-88** ne portent pas les taux mais les
+**périodes d'absence neutralisées** pour l'alimentation du compte, et
+leurs listes **diffèrent réellement** : le fonctionnaire y gagne le congé
+de proche aidant et le congé de citoyenneté, le contractuel le congé
+d'adoption avec déplacement outre-mer et le temps partiel thérapeutique.
+
+D'où vient l'erreur : la v0.9.13 avait raisonné sur la **table de
+concordance** (qui dit correctement que R. 422-87 et R. 422-88 viennent
+de l'art. 3 du décret n° 2017-928) plus le **texte de l'ancien décret**,
+en supposant que les nouveaux articles reprenaient les alinéas de taux.
+Ils reprennent les alinéas d'absences. La concordance mappe des
+**sources**, jamais du **contenu**.
+
+Ce que la correction apprend, en retour, sur la règle de la v0.9.14 :
+« chercher une base parallèle quand le mot "agent public" manque » reste
+la bonne méthode, mais **la recherche peut revenir vide** — ici, elle
+revient vide. Ne pas trouver de base d'extension est un résultat à
+annoncer comme tel, pas un blanc à combler par symétrie. Troisième piège
+ajouté au §7 en conséquence.
+
+Corrigé aussi : **R. 421-4 n'est pas un article de congé** — il institue
+l'entretien annuel de formation de « l'agent public ». Il reste l'exemple
+vérifié du **mécanisme de fusion** des deux anciens décrets, mais le §5.4
+quater invitait à tort à le relire pour trancher une demande de congé ;
+les congés relèvent de R. 422-108 et s. (formation), R. 422-74 et s.
+(VAE) et R. 421-12 et s. (bilan).
+
+Deux limites explicitées : le constat d'absence de base parallèle repose
+sur une **vérification croisée** et non sur une relecture intégrale de
+R. 422-82 à R. 422-107 ; et **L. 422-3** — qui viserait le contractuel de
+niveau catégorie C pour d'autres droits renforcés, avec un seuil RNCP
+différent — **n'a pas été lu**. Les deux points sont versés aux
+`unresolved_claims`.
+
 ## v0.9.14 — 2026-09-04
 
 **Une règle vérifiée sur deux cas favorables n'est pas une règle
