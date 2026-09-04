@@ -1,5 +1,53 @@
 # Changelog — drh-ansm
 
+## v0.9.16 — 2026-09-04
+
+**La question du CPF est close, et par le haut.** La v0.9.15 avait établi
+que le taux majoré (50 h/an, plafond 400 h) nommait « le fonctionnaire »
+à l'art. R. 422-85, mais ne pouvait conclure que par un **constat
+négatif** : rien de trouvé qui l'étende au contractuel de niveau
+catégorie C. Deux articles **législatifs** ont été lus, et retournent le
+constat en réponse positive.
+
+**L. 422-14, alinéa 2** — la restriction n'est pas réglementaire, elle est
+dans la loi : « *Le **fonctionnaire** qui appartient à un corps ou cadre
+d'emplois de catégorie C et qui n'a pas atteint un niveau de formation
+sanctionné par un diplôme ou titre professionnel correspondant à un
+niveau prévu bénéficie de **majorations** portant sur le nombre maximal
+d'heures acquises annuellement et sur le plafond des droits à
+formation.* » Sujet grammatical « le fonctionnaire », sans renvoi.
+R. 422-85 ne fait que transposer fidèlement ; un décret ne pourrait pas
+l'élargir sans excéder sa base légale.
+
+**L. 422-3** — et l'omission est délibérée. Le même chapitre ouvre une
+« formation renforcée » à la fois au fonctionnaire de catégorie C **et à
+« l'agent contractuel occupant un emploi de niveau de catégorie C »**,
+pour quatre droits : accès prioritaire à la formation et à
+l'accompagnement personnalisé ; majoration de la durée **et de la
+rémunération** du congé de formation professionnelle ; conditions
+adaptées de VAE et de bilan de compétences ; congé de transition
+professionnelle d'un an au plus. **Le CPF n'y figure pas.** Le
+législateur savait viser le contractuel quand il le voulait : deux
+articles voisins, deux périmètres, et des **seuils de diplôme
+différents** (niveau 4 du RNCP pour L. 422-3, niveau 3 pour la majoration
+CPF) — deux mécanismes distincts, pas deux rédactions du même.
+
+La branche porte désormais la réponse opérationnelle sous forme de
+tableau : le contractuel de niveau C sans diplôme a le CPF au taux de
+base, n'a pas le taux majoré, et a en revanche les quatre droits de
+L. 422-3. Un refus se motive sur **L. 422-14**, pas sur le seul décret, et
+s'accompagne de ce que L. 422-3 ouvre par ailleurs.
+
+Piège ajouté au §7 : **s'arrêter au réglementaire quand la question est
+législative**. Tant qu'on ne lisait que R. 422-85, on ne pouvait produire
+qu'un constat négatif fragile ; en remontant d'un cran, il devient positif
+et opposable.
+
+Les deux `unresolved_claims` ouvertes par la v0.9.15 sont **fermées**. Il
+n'en reste qu'une, mineure : la rédaction codifiée de R. 422-13 (seuil de
+niveau 4) n'a pas été lue mot à mot — le seuil est corroboré par le décret
+n° 2022-1043, et la conclusion ne repose pas sur lui.
+
 ## v0.9.15 — 2026-09-04
 
 **Une table de concordance dit d'où vient un article, pas ce qu'il dit.**
