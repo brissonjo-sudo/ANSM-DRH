@@ -3,7 +3,7 @@
   "branches": {
     "references/deontologie-conflits-interets.md": {
       "maturity": "partial",
-      "verified_on": "2026-09-01",
+      "verified_on": "2026-09-02",
       "claims": [
         {
           "id": "distinction-entree-pendant-sortie",
@@ -17,11 +17,31 @@
             "PENAL-PENDANT",
             "PENAL-APRES"
           ]
+        },
+        {
+          "id": "departs-prives-aucune-incompatibilite",
+          "statement": "Sur les exercices 2023, 2024 et 2025, aucun départ d'agent vers le secteur privé n'a donné lieu à un avis d'incompatibilité ; la gestion passe par des réserves.",
+          "status": "verified",
+          "checked_on": "2026-09-02",
+          "max_age_days": 90,
+          "source_ids": [
+            "ANSM-DEONTO-2025",
+            "ANSM-DEONTO-2024"
+          ]
+        },
+        {
+          "id": "reserves-au-recrutement-majoritaires",
+          "statement": "La part des candidats au recrutement assortis de réserves déontologiques est passée de 49 % en 2023 à 53 % en 2024 puis 65 % en 2025.",
+          "status": "verified",
+          "checked_on": "2026-09-02",
+          "max_age_days": 90,
+          "source_ids": [
+            "ANSM-DEONTO-2025"
+          ]
         }
       ],
       "unresolved_claims": [
-        "Fiches de probité de février 2026 et articles 11 à 14 du règlement intérieur à obtenir.",
-        "Contenu des rapports du déontologue 2024 et 2025 non dépouillé : chiffres et constats encore issus du millésime 2023."
+        "Fiches de probité de février 2026 et articles 11 à 14 du règlement intérieur à obtenir."
       ],
       "known_limits": []
     },
@@ -153,8 +173,40 @@
     },
     "references/formation-developpement-competences.md": {
       "maturity": "partial",
-      "verified_on": "2026-09-01",
-      "claims": [],
+      "verified_on": "2026-09-04",
+      "claims": [
+        {
+          "id": "livre4-applicable-contractuels",
+          "statement": "Le droit à la formation professionnelle (art. L. 421-1) et le compte personnel de formation (art. L. 422-8 et s.) du livre IV du CGFP s'appliquent aux agents contractuels de droit public au même titre qu'aux fonctionnaires, parce que ces deux articles emploient « agent public », mot que les art. L1, L2 et L7 du chapitre liminaire définissent comme incluant l'agent contractuel. Ce mécanisme ne vaut que pour les articles employant ce mot ; il ne s'étend pas par défaut au reste du livre IV (voir §5.4 quater).",
+          "status": "verified",
+          "checked_on": "2026-09-04",
+          "max_age_days": 90,
+          "source_ids": [
+            "CGFP-CHAMP",
+            "CGFP-LIVRE4"
+          ]
+        },
+        {
+          "id": "cpf-dedoublement-article-sans-effet-droit",
+          "statement": "Le dédoublement des art. R. 422-87 (fonctionnaires) et R. 422-88 (agents contractuels) du CGFP pour le taux renforcé du CPF ne traduit pas une différence de droit : les deux populations bénéficient du même taux renforcé de 50 heures par an plafonné à 400 heures pour un niveau équivalent à la catégorie C sans diplôme, et du même taux de base de 25 heures par an plafonné à 150 heures.",
+          "status": "verified",
+          "checked_on": "2026-09-04",
+          "max_age_days": 90,
+          "source_ids": [
+            "CGFP-LIVRE4"
+          ]
+        },
+        {
+          "id": "conge-formation-vae-bilan-contractuels-etat",
+          "statement": "Les agents contractuels de l'État bénéficient du congé de formation professionnelle, du congé pour VAE et du congé pour bilan de compétences (art. L. 422-1 CGFP, qui ne vise textuellement que le fonctionnaire) par un mécanisme distinct : le décret n° 2007-1942 du 26 décembre 2007, propre aux agents contractuels, renvoyait au décret n° 2007-1470 des fonctionnaires pour leur en étendre le régime ; la recodification a fusionné les deux décrets dans les mêmes articles réglementaires du CGFP (ex. art. R. 421-4, sourcé sur les deux décrets).",
+          "status": "verified",
+          "checked_on": "2026-09-04",
+          "max_age_days": 90,
+          "source_ids": [
+            "CGFP-LIVRE4"
+          ]
+        }
+      ],
       "unresolved_claims": [
         "Plan et budget de formation actuels à obtenir.",
         "Déclinaison ANSM du CPF, de l'entretien professionnel, de la VAE et de l'apprentissage ; article précis du livre IV du CGFP pour chaque règle générale."

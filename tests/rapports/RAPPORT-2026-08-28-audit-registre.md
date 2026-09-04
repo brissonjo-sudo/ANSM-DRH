@@ -263,8 +263,11 @@ autres.
 
 ## Ce qui reste ouvert après cette suite
 
-1. Le **contenu des rapports du déontologue 2024 et 2025** n'est pas dépouillé :
-   les chiffres de la branche datent du millésime 2023.
+1. ~~Le **contenu des rapports du déontologue 2024 et 2025** n'est pas
+   dépouillé~~ — **fait le 2 septembre 2026** (v0.9.11). Les deux millésimes
+   sont lus ; la branche porte désormais une section de volumétrie sur trois
+   exercices, et deux points laissés en suspens par la campagne sont tranchés
+   (double dénomination du service, statut du comité de déontologie).
 2. Les **fiches de probité** de février 2026 et les **articles 11 à 14 du
    règlement intérieur** restent à obtenir.
 3. Le **registre des traitements (article 30)** et la **procédure de violation

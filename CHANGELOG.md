@@ -1,5 +1,139 @@
 # Changelog — drh-ansm
 
+## v0.9.14 — 2026-09-04
+
+**Une règle vérifiée sur deux cas favorables n'est pas une règle
+générale.** La v0.9.12 affirmait que le livre IV du CGFP « n'emploie
+jamais "fonctionnaire", mais systématiquement "agent public" » — une
+généralisation tirée de deux articles (L. 421-1, L. 422-8). Le second
+point de la vérification disposition par disposition, portant sur le
+congé de formation professionnelle, la VAE et le bilan de compétences,
+l'a contredite dès le premier essai : l'**art. L. 422-1**, dans la même
+section « commune aux trois versants », s'ouvre par **« Le fonctionnaire
+en activité a droit… »**, pas « agent public ». **Rétractée.**
+
+Le droit existe pourtant pour les contractuels de l'État, mais par un
+mécanisme différent de celui du CPF : l'ancien **décret n° 2007-1942**,
+propre aux contractuels, renvoyait au **décret n° 2007-1470** des
+fonctionnaires pour leur étendre le même régime ; la recodification a
+**fusionné** les deux décrets dans les mêmes articles réglementaires du
+CGFP (ex. **R. 421-4**, sourcé sur les deux). Conclusion générale, plus
+solide que celle qu'elle remplace : le mot « agent public » est une
+condition **suffisante** d'extension, jamais **nécessaire** — son
+absence signale qu'il faut chercher une base parallèle, pas conclure à
+une exclusion.
+
+Le même chantier a corrigé une deuxième erreur, indépendante : le
+périmètre territorial du chapitre II « dispositifs de formation
+professionnelle » était sous-évalué de sept articles. La section 3
+« propre à la fonction publique territoriale » couvre **L. 422-21 à
+L. 422-35 en entier**, y compris sa sous-section intitulée
+« dispositions générales » (L. 422-21 à L. 422-27) — un intitulé
+générique ne garantit pas une portée aux trois versants, il faut vérifier
+la section qui le contient.
+
+Nouveau §5.4 quater ; §5.4 bis corrigé avec rétractation explicite ;
+bandeau d'en-tête et entrée `CGFP-LIVRE4` du registre réécrits pour la
+portée exacte. Limite consignée : la nouvelle rédaction fusionnée de
+R. 421-4 et des articles voisins n'a pas été lue mot à mot — seule la
+fusion des sources, dans la table de concordance officielle, est
+vérifiée.
+
+## v0.9.13 — 2026-09-04
+
+**Un article séparé par population n'est pas une preuve de régime
+différent.** Premier point de la vérification disposition par
+disposition annoncée en v0.9.12 pour le titre II réglementaire du
+livre IV : le compte personnel de formation (CPF), choisi parce qu'il
+est le plus quantifié et donc le plus exposé à un acte engageant.
+
+La table de concordance officielle de la recodification montre que
+l'ancien art. 3 du décret n° 2017-928 a été dédoublé en deux articles —
+**R. 422-87** pour les fonctionnaires, **R. 422-88** pour les agents
+contractuels. Remonté au texte encore lisible de l'ancien décret (que le
+nouveau reprend à droit constant) : le taux de base (25 h/an, plafond
+150 h) et le taux renforcé (50 h/an, plafond 400 h, pour un niveau
+équivalent à la catégorie C sans diplôme) sont **identiques** pour les
+deux populations. Le dédoublement ne traduit que la nécessité de
+reformuler un critère statutaire (« catégorie C ») en un critère
+utilisable pour un contractuel (« niveau d'emploi équivalent »).
+
+Nouveau §5.4 ter, avec une limite explicitement consignée : les
+art. R. 422-87 et R. 422-88 eux-mêmes n'ont pas pu être lus mot à mot —
+l'accès médié à Légifrance n'a pas restitué les alinéas numérotés un par
+un. La conclusion s'appuie sur l'ancien texte et deux sources secondaires
+convergentes ; pour un acte individuel engageant un solde d'heures
+précis, relire les deux articles en version consolidée.
+
+## v0.9.12 — 2026-09-03
+
+**Le livre IV s'applique aux agents contractuels de droit public** — et
+ce n'est pas une lecture par défaut, c'est écrit dans le code. La
+question était restée ouverte depuis l'audit du registre : le livre IV
+désigne ses bénéficiaires par « agent public », sans que la branche sache
+si cela couvre les contractuels d'une agence dont le personnel l'est
+majoritairement.
+
+La réponse tenait dans trois articles du **chapitre liminaire** du CGFP,
+jamais consultés jusqu'ici : l'art. **L1** fait du code le statut des
+fonctionnaires ; l'art. **L2** l'étend aux agents contractuels des
+administrations de l'État et de leurs établissements publics, mais
+seulement **« quand il le prévoit »** — une extension conditionnelle,
+jamais automatique ; l'art. **L7** fournit précisément cette condition :
+« les mots agent public désignent le fonctionnaire et l'agent
+contractuel ». Vérifié ensuite que les articles L. 421-1 (droit à la
+formation) et L. 422-8 (compte personnel de formation) emploient bien
+« agent public », jamais « fonctionnaire » — le choix du mot **est** la
+clause d'extension que L2 exige.
+
+Nouveau §5.4 bis dans `formation-developpement-competences.md` ; nouvelle
+source `CGFP-CHAMP` au registre. Ce que cela ne règle pas : la partie
+réglementaire du titre II (décret n° 2026-366) n'a pas été relue article
+par article pour y chercher une clause restrictive propre à une mesure
+donnée — le principe est acquis, la vérification disposition par
+disposition reste à faire avant un acte engageant un contractuel précis.
+
+## v0.9.11 — 2026-09-02
+
+**Une branche peut être juste sur la règle et muette sur son
+application.** Les rapports publics du déontologue 2025 (31 mars 2026) et
+2024 (31 mars 2025) sont dépouillés intégralement. La branche déontologie
+décrivait bien le régime ; elle ne savait rien de ce qui est
+effectivement décidé.
+
+Trois faits changent la réponse qu'on donne à un agent :
+
+- **Aucun avis d'incompatibilité sur trois exercices** — 20 départs vers
+  le privé en 2023, 23 en 2024, 17 en 2025, tous compatibles. Annoncer un
+  risque de refus est démenti par les faits ; ce qui attend l'agent est
+  une réserve opposable, pas un veto.
+- **65 % des candidats reçoivent des réserves au recrutement** (53 % en
+  2024, 49 % en 2023) : la clause appartient à la trame de la promesse
+  d'embauche, pas au cas particulier.
+- **L'entretien annuel d'évaluation est le support déclaratif de droit
+  commun.** Depuis le 2 décembre 2020, seuls les agents dont la DPI est
+  publiée télédéclarent sur DPI Santé ; pour les autres, la revue des
+  liens se fait à l'entretien et se consigne dans son compte rendu.
+
+Le nouveau **§5.11** porte le tableau de volumétrie sur trois exercices,
+avec la mise en garde qui va avec : les volumes d'instances suivent le
+calendrier des mandats et ne se lisent pas comme une tendance. Les
+rapports fournissent aussi les **dates de constitution** de la
+gouvernance, l'exclusion des placements collectifs (FCP, SICAV) de
+l'interdiction de détention d'actifs, le régime réel des participations à
+des manifestations extérieures (83 demandes en 2025, 14 % défavorables,
+symposiums de laboratoires interdits) et un **précédent pénal
+effectivement prononcé** — TGI de Grenoble, novembre 2019, 5 000 €
+d'amende avec sursis, première application de l'article L. 1454-2 du code
+de la santé publique.
+
+Deux points en suspens depuis la campagne sont tranchés. La **double
+dénomination** du service coexiste *à l'intérieur d'un même rapport* : ce
+n'était pas un décalage entre les fiches et le rapport. Et le **comité de
+déontologie** n'apparaît plus que rétrospectivement, comme origine du
+contrôle interne de 2019 — à citer comme tel, jamais comme une instance à
+saisir.
+
 ## v0.9.10 — 2026-09-01
 
 **Une interdiction énumérée se contourne ; une interdiction de classe,

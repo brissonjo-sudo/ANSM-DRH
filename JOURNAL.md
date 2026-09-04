@@ -19,6 +19,133 @@ Format d'entrée suggéré :
 
 ---
 
+## 2026-09-04 — formation & développement des compétences (rétractation)
+**Cas** : second point de la vérification disposition par disposition —
+congé de formation professionnelle, VAE, bilan de compétences
+(art. L. 422-1). Cette vérification a fait échouer ma propre
+généralisation de la veille.
+**Ce qui a manqué / ce qui était incertain** : la v0.9.12 affirmait que
+« le livre IV n'emploie jamais "fonctionnaire", mais systématiquement
+"agent public" », généralisée à partir de deux articles favorables
+(L. 421-1, L. 422-8). L'art. L. 422-1 — dans la même section 1 « commune
+aux trois versants » — s'ouvre par « Le fonctionnaire en activité a
+droit… », pas « agent public ». La généralisation était fausse.
+**Ce que la vérification a aussi trouvé, dans le même mouvement** : deux
+autres erreurs de portée, découvertes en creusant le même chapitre. (1)
+Le périmètre territorial du chapitre II était sous-évalué de sept
+articles : la section 3 « propre à la fonction publique territoriale »
+couvre L. 422-21 à L. 422-35 **en entier**, y compris sa sous-section
+« dispositions générales » (L. 422-21 à L. 422-27) — un intitulé
+générique ne garantit pas une portée aux trois versants. (2) Le droit au
+congé formation/VAE/bilan pour les contractuels de l'État existe
+pourtant bien, mais par un mécanisme distinct de celui du CPF : l'ancien
+décret n° 2007-1942 (contractuels) renvoyait au décret n° 2007-1470
+(fonctionnaires) ; la recodification a fusionné les deux dans les mêmes
+articles réglementaires (ex. R. 421-4, sourcé sur les deux décrets).
+**Source qui a permis de trancher** : art. L. 422-1 et L. 422-21 lus à la
+source (Légifrance, accès médié) ; table de concordance officielle de la
+DGAFP (5 mai 2026) pour la fusion des décrets.
+**Action** : §5.4 bis corrigé avec la rétractation explicite ; nouveau
+§5.4 quater ; bandeau d'en-tête réécrit pour la portée exacte de la
+section 3 ; entrée `CGFP-LIVRE4` du registre corrigée ; affirmation de
+la barrière reformulée à sa portée réelle (L. 421-1 et L. 422-8
+seulement, pas « le livre IV »).
+**Leçon** : une règle vérifiée sur deux cas favorables n'est pas une
+règle générale — la vérification article par article existe précisément
+pour trouver le troisième cas qui la contredit. Et l'absence d'un mot
+favorable n'est pas la preuve d'une exclusion : c'est la consigne de
+chercher la base ailleurs.
+
+## 2026-09-04 — formation & développement des compétences (CPF)
+**Cas** : premier point de la vérification disposition par disposition
+annoncée le 3 septembre — le compte personnel de formation (CPF), choisi
+parce qu'il est le plus quantifié et le plus exposé à un acte engageant
+(calcul d'un solde d'heures).
+**Ce qui a manqué / ce qui était incertain** : la table de concordance
+officielle montre que la recodification dédouble l'ancien art. 3 du
+décret n° 2017-928 en deux articles distincts — R. 422-87 pour les
+fonctionnaires, R. 422-88 pour les agents contractuels. Un article séparé
+par population peut se lire, à tort, comme un régime réduit pour les
+contractuels.
+**Source qui a permis de trancher** : le texte encore lisible de l'ancien
+décret n° 2017-928 (que le nouveau reprend à droit constant) et deux
+sources secondaires convergentes : taux de base identique (25 h/an,
+plafond 150 h) pour fonctionnaire et agent contractuel ; taux renforcé
+identique (50 h/an, plafond 400 h) pour le fonctionnaire de catégorie C
+sans diplôme **et**, en miroir, l'agent contractuel occupant un emploi de
+niveau équivalent à la catégorie C sans diplôme.
+**Action** : nouveau §5.4 ter. Limite consignée explicitement : les
+art. R. 422-87 et R. 422-88 eux-mêmes, dans leur rédaction issue du
+décret n° 2026-366, n'ont pas pu être lus mot à mot — l'accès médié à
+Légifrance n'a pas restitué les alinéas numérotés un par un.
+**Leçon** : un article séparé par population n'est pas en soi une preuve
+de régime différent — il peut n'être que la traduction d'un critère
+statutaire (« catégorie C ») en un critère utilisable pour un
+contractuel (« niveau d'emploi équivalent »). Vérifier le contenu, pas
+seulement compter les articles.
+
+## 2026-09-03 — formation & développement des compétences
+**Cas** : chantier laissé ouvert par l'audit du registre — le livre IV du
+CGFP parle d'« agent public » sans que la branche sache si cela couvre les
+**agents contractuels de droit public**, alors que le personnel de
+l'ANSM l'est majoritairement.
+**Ce qui a manqué / ce qui était incertain** : la branche traitait la
+question comme non documentée, faute de déclinaison ANSM. Elle ne l'était
+pas pour autant indécidable : la réponse est dans le **chapitre liminaire**
+du code lui-même (art. L1, L2, L7), jamais consulté jusqu'ici.
+**Source qui a permis de trancher** : art. L1 (le code est le statut des
+fonctionnaires), art. L2 (extension aux contractuels « quand il le
+prévoit », donc conditionnelle), art. L7 (« agent public » désigne le
+fonctionnaire ET l'agent contractuel) — chapitre liminaire du CGFP,
+lu à la source. Vérifié ensuite que L. 421-1 et L. 422-8 emploient bien
+« agent public », jamais « fonctionnaire ».
+**Action** : nouveau §5.4 bis dans `formation-developpement-competences.md` ;
+nouvelle source `CGFP-CHAMP` au registre ; affirmation ajoutée à la
+barrière de fiabilisation.
+**Leçon** : une extension de champ d'application « quand le code le
+prévoit » n'est pas une clause qu'on cherche article par article dans
+chaque disposition — elle se lit dans le **choix du mot** que la
+disposition emploie, combiné à la définition que le code donne une fois
+pour toutes de ce mot. Chercher la clause d'extension au mauvais endroit
+(dans l'article métier) plutôt qu'au bon (le chapitre liminaire) aurait
+laissé la question ouverte indéfiniment.
+
+## 2026-09-02 — déontologie, DPI & conflits d'intérêts
+**Cas** : dépouillement des rapports publics du déontologue **2025**
+(31 mars 2026) et **2024** (31 mars 2025), dernier millésime restant après
+la charte et le dispositif de février 2026.
+**Ce qui a manqué / ce qui était incertain** : la branche décrivait
+correctement les *règles* mais ignorait entièrement leur *application*.
+Trois trous s'en trouvent comblés, et deux d'entre eux changent la réponse
+qu'on donne à un agent :
+1. **Aucun avis d'incompatibilité sur trois exercices** (20 départs en
+   2023, 23 en 2024, 17 en 2025) : dire à un agent qu'il « risque un
+   refus » est démenti par les faits. Ce qui l'attend, c'est une réserve
+   opposable, pas un veto.
+2. **65 % des candidats au recrutement reçoivent des réserves** (53 % en
+   2024, 49 % en 2023) : la clause de réserves relève de la trame de
+   promesse d'embauche, non du cas particulier.
+3. **L'entretien annuel d'évaluation est le support déclaratif de droit
+   commun** : depuis le 2 décembre 2020, seuls les agents dont la DPI est
+   publiée télédéclarent sur DPI Santé ; pour tous les autres, la revue
+   des liens se fait à l'entretien et se consigne dans son compte rendu.
+   Un compte rendu muet laisse un trou dans le dispositif, y compris pour
+   un agent sans aucun lien.
+**Source qui a permis de trancher** : `ANSM-DEONTO-2025` et
+`ANSM-DEONTO-2024`, lus intégralement (20 et 17 pages).
+**Action** : §5.11 nouvelle — tableau de volumétrie sur trois exercices,
+avec la mise en garde que les volumes d'instances suivent le calendrier
+des mandats et ne se lisent pas comme une tendance. Effets répercutés en
+§§5.2, 5.3, 5.4, 5.5 et 5.10. Deux points laissés en suspens depuis la
+campagne sont tranchés : la double dénomination du service coexiste **à
+l'intérieur d'un même rapport** (ce n'était donc pas un décalage entre
+fiches et rapport), et le comité de déontologie n'apparaît plus que
+rétrospectivement, comme origine du contrôle interne de 2019.
+**Leçon** : une branche peut être juste sur la règle et muette sur son
+application. Le rapport d'activité d'une autorité est une source de
+**droit vécu** — ce qui est effectivement décidé — que le texte ne donne
+jamais.
+
 ## 2026-09-01 — contrat de sortie (§2, §7, §8)
 **Cas** : rejeu du test de coactivation sur le vote électronique des
 élections professionnelles de décembre 2026. Fond **RÉUSSI**, onze

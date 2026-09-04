@@ -1,7 +1,8 @@
 # Branche — Déontologie, DPI & prévention des conflits d'intérêts
 
-> 🟢 **Partiellement fiabilisée** (vérification du 1er septembre 2026)
-> — v0.9.7, sources ANSM en vigueur citables.
+> 🟢 **Partiellement fiabilisée** (vérification du 2 septembre 2026)
+> — v0.9.11, sources ANSM en vigueur citables et rapports du déontologue
+> dépouillés.
 >
 > **Sources ANSM en vigueur — à citer en priorité, elles sont publiques** :
 > - **Charte de déontologie de l'ANSM, février 2026** (`ANSM-CHARTE-2026`)
@@ -29,13 +30,19 @@
 > actualisation au moins annuelle, exclusion des liens de parenté — et
 > **se cite depuis la charte**, non depuis la décision de 2012.
 >
+> **Dépouillement fait le 2 septembre 2026** : les rapports publics du
+> déontologue **2025** (daté du 31 mars 2026) et **2024** (daté du
+> 31 mars 2025) ont été lus intégralement. La volumétrie et les taux
+> qu'ils publient sont au **§5.11** ; leurs effets sur le recrutement, le
+> départ vers le privé et la gouvernance sont écrits dans les sections
+> correspondantes. Les chiffres de cette branche ne proviennent plus du
+> millésime 2023.
+>
 > **Ce qui manque encore** : les **fiches de probité** de février 2026 ;
 > le contenu exact des **articles 11 à 14 du règlement intérieur** et de
 > la procédure interne « Prévention et gestion des conflits d'intérêts du
 > personnel de l'Agence », auxquels les fiches renvoient sans les
-> reproduire. Le **contenu** des rapports du déontologue 2024 et 2025
-> n'a pas été dépouillé : les chiffres et constats chiffrés de cette
-> branche datent du millésime 2023 et sont à réactualiser.
+> reproduire.
 
 > Registre des textes et liens de contrôle →
 > `references/sources-principales.md` (`PENAL-PENDANT`, `PENAL-APRES`,
@@ -50,6 +57,7 @@
 - Recrutement et réserves internes : §5.3
 - Déport pendant les fonctions : §5.4
 - Départ vers le privé : §5.5
+- Gouvernance et volumétrie publiée : §§5.10–5.11
 - Vérifications, livrables et contrôles : §§6–11
 
 ## 1. Périmètre
@@ -138,11 +146,29 @@ mêmes secteurs.
 **Support** : télédéclaration sur **dpi.sante.gouv.fr** (DPI santé).
 
 **Actualisation** (charte de février 2026 et dispositif mis à jour en
-février 2026) : **au moins une fois par an, même sans modification de la
-déclaration précédente ou en l'absence de tout lien**, et à l'initiative
-de l'agent dès qu'un lien change ou
-qu'un lien nouveau est noué, **et au moins une fois par an même sans
-modification** — y compris en l'absence de tout lien.
+février 2026) : à l'initiative de l'agent **dès qu'un lien change ou
+qu'un lien nouveau est noué**, et **au moins une fois par an, même sans
+modification de la déclaration précédente ou en l'absence de tout
+lien**.
+
+**Qui télédéclare, et qui est revu autrement** — point de gestion RH
+souvent ignoré. Le rapport public 2025 du déontologue rappelle que,
+**depuis le 2 décembre 2020**, seuls les agents dont la déclaration doit
+être **rendue publique** sont soumis à l'obligation de déclarer sur DPI
+Santé. Ce resserrement fait suite aux recommandations de la **CNIL** et
+à un vote du **comité technique d'établissement** — l'ancêtre du CSA.
+Pour **tous les agents en poste**, publiés ou non, les liens d'intérêts
+font l'objet d'une **revue systématique lors de l'entretien annuel
+d'évaluation**, consignée dans son compte rendu (une rubrique dédiée
+existe dans le formulaire). La situation est en outre **réexaminée à
+chaque mobilité interne** susceptible de modifier les réserves
+initialement émises.
+
+> Conséquence opérationnelle pour la DRH : l'entretien annuel n'est pas
+> seulement un acte d'évaluation, c'est le **support déclaratif de droit
+> commun** pour la majorité des agents. Un compte rendu muet sur ce point
+> laisse un trou dans le dispositif, y compris pour un agent sans aucun
+> lien à déclarer.
 
 **Rubrique « Autres »** : permet notamment au personnel administratif de
 déclarer des liens hors secteur des produits de santé mais pertinents en
@@ -192,6 +218,15 @@ complémentaires possibles (interdiction des droits civiques, diffusion ou
 affichage de la condamnation, interdiction temporaire ou définitive
 d'exercer une profession de santé réglementée — art. **L. 1454-4 CSP**).
 
+Cette incrimination **a déjà été appliquée**, et à l'initiative de
+l'agence : sur signalement de l'ANSM au procureur de la République, le
+**tribunal de grande instance de Grenoble a condamné, en novembre 2019,
+un expert ponctuel à 5 000 € d'amende avec sursis** — première mise en
+œuvre par une agence sanitaire de cette disposition, introduite par la
+loi du 29 décembre 2011 (`ANSM-DEONTO-2025`). À citer lorsqu'un
+interlocuteur tient l'obligation déclarative pour purement formelle ; à
+ne pas transformer en menace de principe dans un courrier d'agent.
+
 ### 5.3 Avant la prise de fonction — le filtrage au recrutement
 
 C'est le point où DRH et déontologie s'articulent directement.
@@ -224,6 +259,23 @@ une restriction imposée à un candidat entrant.
 > conduit à écarter à tort des candidats — problème réel dans une
 > agence qui peine déjà à recruter des profils scientifiques seniors.
 
+**Ce que les chiffres publiés confirment.** Le rapport public 2025 du
+déontologue (`ANSM-DEONTO-2025`) fait état de **108 dossiers de candidats
+analysés au pré-recrutement**, dont **70 assortis de restrictions, soit
+65 %** — contre **53 % en 2024** et **49 % en 2023**. Deux enseignements
+pour la DRH :
+
+- la réserve est **le régime ordinaire**, pas la sanction d'un dossier
+  problématique : deux candidats sur trois en reçoivent une, et **aucun
+  n'est écarté pour ce motif** ;
+- la part croît d'exercice en exercice. Une promesse d'embauche sans
+  clause de réserves devient l'exception : prévoir la clause dans la
+  trame plutôt que l'ajouter au cas par cas.
+
+Le même exercice recense **27 dossiers d'internes en pharmacie** (7 avec
+restrictions, 26 %) et **21 dossiers de stagiaires** (3, 14 %) : le
+filtrage ne s'arrête pas aux recrutements pérennes.
+
 Pour une nomination à **l'un des emplois mentionnés à l'article L. 124-5
 du CGFP**, l'article **L. 124-7** impose à l'autorité hiérarchique
 d'apprécier la compatibilité avec une activité privée lucrative exercée
@@ -242,6 +294,13 @@ s'engagent à **céder les actifs détenus dans un délai de 6 mois à compter
 de la fin de leur période d'essai** (note du directeur général du
 28/08/2018). C'est un point de vigilance RH concret à l'intégration.
 
+L'interdiction vise les actifs **détenus personnellement**. Le rapport
+public 2025 du déontologue en écarte expressément les placements
+**collectifs** — fonds communs de placement, SICAV — dont le détenteur
+**ne contrôle ni la gestion ni la composition**. Ne pas demander à un
+agent de liquider une assurance-vie ou un FCP diversifié au motif qu'un
+laboratoire figure quelque part dans le portefeuille.
+
 **Cumul d'activités.** Les agents consacrent l'intégralité de leur
 activité professionnelle à l'agence. Des activités accessoires
 **limitativement énumérées** restent possibles, sous réserve de
@@ -254,10 +313,21 @@ d'hospitalité ou avantages des entreprises du champ de compétence de
 l'ANSM ou en relation avec elle. Aucun seuil de tolérance n'est prévu.
 
 **Participation à des colloques et manifestations.** Autorisation
-**préalable du supérieur hiérarchique** requise. **Aucune rémunération**
-ne peut être perçue. Sauf organisateur public, les frais de déplacement
-et d'hébergement sont **pris en charge par l'Agence** — précisément pour
-éviter que l'industrie ne les finance.
+**préalable** requise. **Aucune rémunération** ne peut être perçue. Sauf
+organisateur public, les frais de déplacement et d'hébergement sont
+**pris en charge par l'Agence** — précisément pour éviter que l'industrie
+ne les finance. La **participation à un symposium organisé par un
+laboratoire est interdite** en toute hypothèse.
+
+L'autorisation n'est pas un simple visa hiérarchique : les demandes sont
+**centralisées et analysées par le service de déontologie**, avec deux
+grilles distinctes — une demande *en tant qu'intervenant* s'apprécie au
+regard des messages que l'agence entend porter, une demande *en tant
+qu'auditeur* au regard de son apport de formation continue. En 2025,
+**83 demandes** ont été instruites (76 comme intervenant, 7 comme
+auditeur) et **12 ont reçu une analyse défavorable, soit 14 %**
+(`ANSM-DEONTO-2025`). Le refus est donc minoritaire mais réel : anticiper
+le délai d'instruction plutôt que d'inscrire l'agent avant l'avis.
 
 **Déport en cas de conflit d'intérêts** (modalités issues du CGFP,
 art. L. 121-5, L. 122-1 et L. 122-3) :
@@ -287,6 +357,39 @@ elle-même comme une garantie déontologique forte.
 **Champ** : s'applique aux agents de l'ANSM, **fonctionnaires comme
 contractuels, quelle que soit la durée du contrat**, en cas de cessation
 temporaire ou définitive — y compris départ en retraite.
+
+**Ce que trois exercices établissent** (`ANSM-DEONTO-2025`,
+`ANSM-DEONTO-2024`) : le service de déontologie s'est prononcé sur
+**17 dossiers de départ en 2025**, **23 en 2024** et **20 en 2023**.
+**Tous ont reçu un avis de compatibilité** — sur les trois exercices,
+**aucun avis d'incompatibilité**. En 2025, **11 des 17** ont été
+accompagnés de réserves (17 sur 23 en 2024).
+
+> Ce que cela veut dire, et ce que cela ne veut pas dire : la sortie vers
+> le privé **n'est pas un couloir fermé**, et annoncer à un agent qu'il
+> « risque un refus » est démenti par les faits. Mais la réserve est
+> fréquente, et elle est **opposable** : absence de relations
+> professionnelles avec l'ancien service, abstention sur les affaires
+> connues, pendant les trois ans de l'article 432-13 du code pénal. Le
+> périmètre de l'exclusion peut être étendu à la direction
+> d'appartenance, à plusieurs directions, voire à l'agence entière, selon
+> le niveau hiérarchique et le caractère transversal des fonctions
+> exercées.
+
+Deux réserves supplémentaires reviennent selon les cas : ne pas
+participer aux réunions organisées par l'ANSM ni aux inspections
+diligentées par elle dans la société rejointe ; et, pour un départ vers
+le conseil ou une activité de consultant libéral, **ne pas citer
+l'ANSM dans la présentation promotionnelle** de son parcours.
+
+**Saisine du référent déontologue** : **1 dossier en 2025**, **2 en
+2024**. Dans les deux millésimes, son avis a **levé le doute** et conduit
+à un avis de compatibilité avec réserves — la saisine n'est donc pas le
+prélude à un refus. Un cas distinct est signalé en 2025 : une demande
+d'avis **préalable**, hors dossier formel, a conduit l'agent à
+**renoncer** de lui-même à son projet. D'où l'intérêt, pour la DRH, de
+router tôt vers le service de déontologie : l'examen en amont évite
+d'engager une procédure qui n'aboutira pas.
 
 **Infraction** : art. **432-13 du code pénal** — participation par travail
 ou conseil, dans les **trois ans** suivant la cessation des fonctions, à
@@ -452,11 +555,79 @@ de traitement.
 | **Déontologue de l'ANSM** | Fonction exercée par la **directrice de la DRD** elle-même | Portage institutionnel de la charte et de son évolution |
 | **Référent déontologue** | Nommé par la direction générale, **indépendamment de la DRD** | **Appui externe** en matière de déontologie de la fonction publique ; conseil à tout agent qui le demande ; **avis préalable à une éventuelle saisine de la HATVP** |
 
+**Dates de constitution** (`ANSM-DEONTO-2025`) — utiles pour viser les
+actes dans une note : le service de déontologie de l'expertise a été créé
+par **décision du directeur général du 12 avril 2012**, après
+délibération du conseil d'administration. Ne pas la confondre avec la
+**décision du 6 juillet 2012**, qui porte sur un autre objet — la liste
+des emplois à DPI publique (§5.2). Depuis le **22 juillet 2022**, le
+service relève de la **DRD**, rattachée directement à la directrice
+générale, organisation approuvée par le conseil d'administration du
+**23 juin 2022** ; la directrice de la DRD exerce depuis la même date la
+fonction de **déontologue** au sens de l'article **L. 1451-4 du code de
+la santé publique**. Le **référent déontologue** en fonction a été
+désigné par **décision du 22 décembre 2023, entrée en vigueur le
+1er janvier 2024** ; son identité figure dans le rapport public et n'est
+pas reprise ici — la vérifier au rapport en vigueur avant de la citer
+dans un acte.
+
+Le référent déontologue **ne peut solliciter ni recevoir d'instructions
+du directeur général** : c'est ce qui fonde la valeur de son avis dans un
+dossier de mobilité, et ce qui interdit à la DRH de le solliciter comme
+un service interne.
+
 **Sanctions du non-respect** : la charte étant **annexée au règlement
 intérieur**, son non-respect ouvre des sanctions disciplinaires graduées —
 de l'avertissement et du blâme jusqu'à l'**exclusion temporaire avec
 retenue de traitement** ou au **licenciement sans préavis ni indemnité**.
 Ces sanctions **ne sont pas exclusives de poursuites pénales**.
+
+### 5.11 Volumétrie publiée — ce que les rapports du déontologue établissent
+
+Chiffres tirés des rapports publics **2025** (`ANSM-DEONTO-2025`, daté du
+31 mars 2026) et **2024** (`ANSM-DEONTO-2024`, daté du 31 mars 2025). Ils
+sont **publics** : les citer plutôt que de parler d'ordres de grandeur.
+
+| Indicateur | 2023 | 2024 | 2025 |
+|---|---|---|---|
+| Candidats analysés au pré-recrutement | — | 99 | 108 |
+| … dont assortis de restrictions | 49 % | 52 (53 %) | 70 (**65 %**) |
+| Internes en pharmacie analysés | — | 24 (6 restreints, 25 %) | 27 (7, 26 %) |
+| Stagiaires analysés | — | 29 (5, 17 %) | 21 (3, 14 %) |
+| Dossiers de départ vers le privé | 20 | 23 | 17 |
+| … avis d'incompatibilité | **0** | **0** | **0** |
+| … assortis de réserves | — | 17 | 11 |
+| Saisines du référent déontologue | — | 2 | 1 |
+| Candidatures de membres d'instance analysées | — | 233 | 105 |
+| Désignations d'experts ponctuels analysées | — | 21 | 17 |
+| Demandes d'information traitées | — | 34 | ~100 (dont 6 cumuls d'activités) |
+| Participations à des manifestations extérieures | — | non chiffré | 83 (12 défavorables, 14 %) |
+| DPI vérifiées en amont d'un acte | — | 406 | 344 |
+| DPI contrôlées en conformité | — | 560 | 884 |
+
+**Lecture** — trois points qui changent une réponse RH :
+
+1. **Le volume d'instances chute, le volume de conformité double.** Les
+   233 candidatures de 2024 tenaient à un renouvellement de comités ; les
+   105 de 2025 incluent 73 candidatures liées au renouvellement des
+   comités français de la pharmacopée au 1er janvier 2026. Ces chiffres
+   suivent le calendrier des mandats : **ne pas les lire comme une
+   tendance**.
+2. **Aucun avis d'incompatibilité sur trois exercices.** Le dispositif se
+   règle par des réserves, pas par des refus (§5.5).
+3. **Le contrôle interne est réel et à deux niveaux** : les directions
+   assurent la traçabilité de premier niveau avant chaque désignation ;
+   le service de déontologie contrôle par échantillonnage. Le rapport
+   2025 conclut que la nécessité d'une DPI pour participer aux travaux
+   est **acquise**, mais demande aux directions de **maintenir leur
+   vigilance sur la complétude** des DPI des mandats en cours, **y
+   compris pendant les périodes où le membre ne siège pas**.
+
+**Ce que les rapports ne disent pas** : ni l'effectif exact concerné par
+la publication (l'ordre de grandeur de « plus de 600 agents » reste une
+donnée communiquée par l'agence, §5.2), ni le nombre de déports
+effectivement enregistrés en cours d'année. Ne pas combler ces deux vides
+par un calcul.
 
 ## 6. Déclencheurs de vérification
 
@@ -509,6 +680,9 @@ avant tout acte :
   grandeur communiqué par l'agence).
 - Identité des titulaires (directrice DRD / déontologue, référent
   déontologue) — susceptibles de changer.
+- **Volumétrie du §5.11** — millésime annuel. Le rapport suivant est
+  attendu autour du **31 mars 2027** pour l'exercice 2026 : à cette date,
+  reprendre le tableau plutôt que de prolonger la tendance.
 
 ## 9. Livrables
 
@@ -525,21 +699,30 @@ avant tout acte :
 
 ## 10. Niveau de confiance
 
-- **Stable** : textes publiés cités au §5 et organisation décrite dans le
-  rapport public 2023 du déontologue de l'ANSM.
+- **Stable** : textes publiés cités au §5, organisation et volumétrie
+  décrites dans les rapports publics **2025** et **2024** du déontologue
+  de l'ANSM.
 - **Obtenu le 28 août 2026** : charte de février 2026 et dispositif mis à
   jour en février 2026, tous deux publics et au registre.
-- **À vérifier** : les fiches de probité, et
-  des fiches de probité ; contenu du règlement intérieur (articles 11 à
-  14) et de la procédure interne ; évolutions postérieures au rapport
-  public 2023.
-- **Point d'attention** : les **fiches pratiques** emploient encore
-  l'expression « service de déontologie de l'expertise », tandis que la
-  rapport public 2023 retient « **service déontologie, éthique et
-  probité** ». Vérifier la dénomination actuelle avant un acte formel.
-- **Écart signalé** : un **comité de déontologie** consultatif figurait
-  dans des pages archivées de l'agence. Ne pas s'y référer sans
-  confirmation de son maintien.
+- **Obtenu le 2 septembre 2026** : rapports du déontologue 2025 et 2024,
+  lus intégralement (§5.11).
+- **À vérifier** : le contenu des **fiches de probité** ; celui des
+  **articles 11 à 14 du règlement intérieur** et de la procédure interne.
+- **Point d'attention levé, autrement que prévu** : les deux
+  dénominations coexistent **à l'intérieur d'un même rapport**. Le
+  millésime 2025 titre « **service Déontologie, éthique et probité** »
+  dans son chapitre d'organisation et « service de déontologie de
+  l'expertise » dans celui du contrôle interne. Ce n'est donc pas un
+  décalage entre les fiches et le rapport : l'agence emploie les deux.
+  Retenir « **service Déontologie, éthique et probité** » pour un acte,
+  et ne pas traiter l'autre formulation comme une erreur.
+- **Écart signalé, précisé** : le **comité de déontologie** n'apparaît
+  dans les rapports 2024 et 2025 que **rétrospectivement** — ses
+  recommandations du **28 février 2018**, avec l'audit IGAS de 2018,
+  fondent l'organisation du contrôle interne en vigueur depuis le
+  **1er avril 2019**. Aucune activité récente ne lui est attribuée.
+  Le citer comme origine du dispositif, jamais comme une instance à
+  saisir aujourd'hui sans confirmation.
 
 ## 11. Checklist de branche
 
