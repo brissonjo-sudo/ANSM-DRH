@@ -306,36 +306,60 @@ population, il faut lire les deux : la séparation peut porter une
 fonctionnaire gagne le proche aidant et la citoyenneté, le contractuel
 gagne l'adoption outre-mer et le temps partiel thérapeutique).
 
-**Ce que cela donne comme méthode** — le §5.4 quater posait que l'absence
-du mot « agent public » n'est pas une exclusion mais une invitation à
-chercher une base parallèle. La règle tient ; appliquée ici, **la
-recherche revient vide** : le régime renforcé du CPF paraît bien réservé
-au fonctionnaire. Chercher une base parallèle ne garantit pas d'en
-trouver une — et ne pas en trouver est un résultat, pas un échec de
-méthode.
+**La restriction n'est pas réglementaire, elle est législative** — c'est
+ce qui clôt la question. L'art. **L. 422-14**, alinéa 2, lu mot à mot :
+« *Le **fonctionnaire** qui appartient à un corps ou cadre d'emplois de
+catégorie C et qui n'a pas atteint un niveau de formation sanctionné par
+un diplôme ou titre professionnel correspondant à un niveau prévu
+bénéficie de **majorations** portant sur le nombre maximal d'heures
+acquises annuellement et sur le plafond des droits à formation.* »
+Le sujet grammatical est « le fonctionnaire », sans renvoi. R. 422-85 ne
+fait donc que transposer fidèlement une restriction posée par la loi :
+un décret ne pourrait pas l'élargir sans excéder sa base légale.
 
-**Limites de cette vérification** — deux, à énoncer avant tout acte
-engageant :
+**Et le législateur savait viser les contractuels quand il le voulait** —
+c'est le second pilier, et il transforme un silence en choix. L'art.
+**L. 422-3**, dans le **même chapitre**, ouvre une « formation renforcée »
+à la fois « au fonctionnaire appartenant à un corps ou cadre d'emplois de
+catégorie C » **et à « l'agent contractuel occupant un emploi de niveau de
+catégorie C** » (ainsi qu'aux agents en situation de handicap et à ceux
+exposés à un risque d'usure professionnelle). Quatre droits y sont
+attachés, et **le CPF n'en fait pas partie** :
 
-1. **L'absence de base parallèle est un constat négatif**, plus fragile
-   qu'un constat positif. Les cinq articles du tableau ci-dessus ont été
-   lus mot à mot ; le balayage de l'ensemble R. 422-82 à R. 422-107 à la
-   recherche d'une disposition étendant les 50 h / 400 h au contractuel
-   provient d'une **vérification croisée** et n'a pas été refait ici
-   article par article.
-2. **Une piste reste ouverte et non vérifiée** : l'art. **L. 422-3**
-   (législatif) viserait, lui, à la fois le fonctionnaire de catégorie C
-   **et l'agent contractuel occupant un emploi de niveau de catégorie C**,
-   mais pour d'autres droits renforcés que le plafond CPF, et avec un
-   seuil de diplôme différent (niveau 4 du RNCP via R. 422-13, contre
-   niveau 3 dans R. 422-85). **Ni L. 422-3 ni R. 422-13 n'ont été lus
-   ici** : ne pas s'en servir pour conclure dans un sens ou dans l'autre.
+1. accès prioritaire aux actions de formation et à l'accompagnement
+   personnalisé ;
+2. majoration de la durée du congé de formation professionnelle **et de
+   la rémunération** qui lui est attachée ;
+3. conditions adaptées d'accès à la VAE et au bilan de compétences ;
+4. congé de transition professionnelle d'un an au maximum.
 
-**En pratique** : pour un contractuel de niveau catégorie C sans diplôme
-qui réclame 50 h/an, ne pas répondre « oui » sur le fondement de la
-v0.9.13 (retirée), ni « non » sur la seule lettre de R. 422-85. Lire
-R. 422-85, L. 422-3 et R. 422-13 en version consolidée, et faire trancher
-la question par le service juridique avant de notifier un refus.
+Deux articles voisins, deux périmètres de population différents, écrits
+par le même texte : l'omission du contractuel à L. 422-14 n'est pas une
+lacune de rédaction, c'est une **délimitation voulue**. Un troisième
+indice le confirme — les **seuils de diplôme diffèrent** : niveau 3 du
+RNCP pour la majoration CPF (R. 422-85), niveau 4 pour la formation
+renforcée de L. 422-3. Deux mécanismes distincts, pas deux rédactions du
+même.
+
+**Réponse opérationnelle** — un agent **contractuel** de niveau
+catégorie C sans diplôme :
+
+| Droit | Ouvert ? | Base |
+|---|:--:|---|
+| CPF, taux de base 25 h/an, plafond 150 h | **Oui** | R. 422-84, sans mention de population |
+| CPF, taux majoré 50 h/an, plafond 400 h | **Non** | L. 422-14 al. 2 et R. 422-85 : « le fonctionnaire » |
+| Accès prioritaire à la formation, congé de formation majoré (durée **et** rémunération), VAE et bilan à conditions adaptées, congé de transition professionnelle | **Oui** | L. 422-3, qui le vise expressément |
+
+Le refus du taux majoré se motive donc sur **L. 422-14**, pas sur le seul
+décret — et il s'accompagne utilement de ce que L. 422-3 ouvre par
+ailleurs, qui est substantiel.
+
+**Ce qui reste non lu** : la rédaction exacte de **R. 422-13** (seuil de
+niveau 4 pour L. 422-3) issue du décret n° 2026-366. Le seuil lui-même est
+corroboré par le décret n° 2022-1043 du 22 juillet 2022, texte
+d'application de L. 422-3 avant recodification, mais l'article codifié
+n'a pas été lu mot à mot. Sans effet sur la conclusion ci-dessus, qui ne
+repose pas sur lui.
 
 ### 5.4 quater Congé formation, VAE, bilan de compétences — le cas où le test du mot échoue
 
@@ -508,11 +532,18 @@ Manquent donc, côté agence :
   n'existe pas pour eux (§5.4 quater).
 - **Et la troisième erreur, symétrique de la deuxième** : chercher la
   base parallèle, ne pas la trouver, et **conclure quand même** qu'elle
-  existe. Le taux renforcé du CPF (R. 422-85, 50 h/an) nomme « le
-  fonctionnaire » de catégorie C et **rien n'a été trouvé** qui l'étende
-  au contractuel de niveau équivalent : ici, la recherche revient vide
-  (§5.4 ter). Ne pas trouver de base est un résultat à annoncer comme
-  tel, pas un blanc à combler par symétrie.
+  existe. Le taux majoré du CPF (50 h/an) est réservé au **fonctionnaire**
+  de catégorie C, et pas par accident de rédaction réglementaire :
+  **L. 422-14 al. 2**, la loi elle-même, dit « le fonctionnaire »
+  (§5.4 ter).
+- **S'arrêter au réglementaire quand la question est législative** : c'est
+  ce qui aurait laissé la question du CPF ouverte. Tant qu'on ne lisait
+  que R. 422-85, on ne pouvait qu'énoncer un constat négatif fragile
+  (« rien trouvé qui étende le taux »). En remontant à **L. 422-14**, le
+  constat devient positif et opposable, et l'article voisin **L. 422-3**
+  — qui vise expressément le contractuel de niveau catégorie C pour
+  d'autres droits — montre que l'omission est **voulue**, pas subie.
+  Devant un silence réglementaire, remonter d'un cran avant de conclure.
 - **Déduire le contenu d'un article de sa table de concordance** : la
   concordance dit de quel ancien texte vient un article, **pas ce qu'il
   dit**. C'est l'erreur qui a produit la v0.9.13, retirée : R. 422-87 et

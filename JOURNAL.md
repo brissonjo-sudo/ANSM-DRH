@@ -1048,3 +1048,38 @@ somme de deux sources qui l'entourent — son texte antérieur et sa table de
 concordance. Les deux peuvent être justes et la reconstitution fausse. Tant
 que l'article lui-même n'est pas lu, la conclusion se marque comme non
 vérifiée, elle ne se déduit pas.
+
+## 2026-09-04 — Formation & développement des compétences (v0.9.16)
+**Cas** : fermer les deux points laissés ouverts par la v0.9.15 sur le CPF
+— un contractuel de niveau catégorie C sans diplôme peut-il prétendre au
+taux majoré de 50 h/an, plafond 400 h ?
+
+**Ce qui a manqué / ce qui était incertain** : la v0.9.15 n'avait lu que le
+**réglementaire**. Elle constatait que R. 422-85 nommait « le
+fonctionnaire » et qu'aucune disposition trouvée ne l'étendait au
+contractuel — un constat négatif, explicitement signalé comme fragile,
+qui ne permettait ni d'accorder ni de refuser.
+
+**Source qui a permis de trancher** : deux articles **législatifs** du
+CGFP, lus mot à mot en version consolidée. L'art. **L. 422-14**, al. 2,
+réserve les majorations d'alimentation du CPF au « fonctionnaire » de
+catégorie C — la restriction est donc dans la loi, et R. 422-85 ne fait
+que la transposer. L'art. **L. 422-3**, dans le même chapitre, vise
+expressément « l'agent contractuel occupant un emploi de niveau de
+catégorie C », mais pour quatre autres droits, le CPF n'en étant pas ;
+seuil RNCP de niveau 4 contre niveau 3 pour la majoration CPF.
+
+**Action** : §5.4 ter complété d'une conclusion positive et d'un tableau
+de réponse opérationnelle (ce qui est ouvert, ce qui ne l'est pas, sur
+quelle base) ; nouveau piège au §7 ; affirmation de la barrière de
+fiabilisation réénoncée sur L. 422-14 et L. 422-3 ; les deux
+`unresolved_claims` de la v0.9.15 fermées, une seule subsistant sur
+R. 422-13.
+
+**Leçon** : un constat négatif au niveau réglementaire n'est pas une
+conclusion — c'est le signe qu'on n'est pas remonté assez haut. « Rien
+trouvé qui étende ce droit » et « la loi le restreint, et l'a fait
+sciemment » se ressemblent en apparence et n'ont pas la même valeur devant
+un agent : le premier ne motive aucun refus, le second oui. Devant un
+silence réglementaire, remonter au législatif avant de conclure.
+
