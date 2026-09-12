@@ -3,3 +3,6 @@ __pycache__/
 freshness-report.json
 freshness-report.md
 *.behavior-review.json
+
+# Graphe de connaissances genere par graphify (rejouable depuis les sources)
+graphify-out/
