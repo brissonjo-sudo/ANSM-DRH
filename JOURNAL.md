@@ -1107,13 +1107,21 @@ la nature secondaire de la vérification de la dotation est consignée en
 `known_limits` de la branche, avec consigne de relire l'article en version
 consolidée avant tout engagement budgétaire.
 
-**Constat d'environnement, sans effet sur le dépôt** : les cinq PDF
-`ansm.sante.fr` du registre sont injoignables depuis cette session
-(« connection reset » après 11 s). Le diagnostic du relais sortant
-(`ws_closed_mid_exchange`, 39 octets reçus) situe la coupure dans le tunnel
-réseau, **pas** du côté de l'ANSM : ces sources ne sont pas réputées mortes
-et le registre reste inchangé. À recontrôler depuis un autre réseau avant
-toute conclusion.
+**Indisponibilité des sources ANSM — diagnostic corrigé le jour même.**
+Les cinq PDF `ansm.sante.fr` du registre sont injoignables. Première
+conclusion, **erronée** : le relais sortant de la session signalant un
+`ws_closed_mid_exchange`, j'ai imputé la coupure au tunnel réseau local et
+écrit que ce n'était « pas du côté de l'ANSM ». Deux faits l'ont démentie
+dans l'heure — la CI du dépôt échoue sur les **mêmes cinq URL** depuis les
+runners GitHub, réseau sans rapport avec le mien, et une requête par un
+troisième chemin renvoie un **HTTP 503 Service Unavailable**, qui est une
+réponse du serveur et non une coupure. La cause est donc **chez l'ANSM**
+(indisponibilité ou blocage), pas chez moi.
+
+Ce que cela ne dit pas : que les URL soient mortes. Un 503 est un état
+transitoire du service, et ces mêmes URL répondaient encore le 12 septembre
+(dernière exécution verte de `validate` sur `main`). Le registre reste donc
+inchangé, mais pour une raison différente de celle que j'avais écrite.
 
 **Effet de bord sur l'outillage** : rafraîchir deux `checked_on` a fait
 tomber cinq tests. Deux causes, toutes deux prévues par le dépôt. La
@@ -1134,4 +1142,8 @@ l'auteur du dépôt.
 la source primaire ou une corroboration. Les deux sont légitimes, mais la
 seconde doit être étiquetée comme telle dans `known_limits`, faute de quoi
 un `checked_on` rafraîchi laisse croire à une relecture de l'article. Et un
-échec réseau se diagnostique avant d'être imputé à la source.
+échec réseau ne se diagnostique pas depuis un seul point de vue : le premier
+symptôme observé désignait mon propre tunnel, il a fallu un second réseau
+(la CI) et un troisième chemin (un 503 explicite) pour voir que la cause
+était à l'autre bout. Un diagnostic tiré d'une seule sonde est une
+hypothèse, pas une conclusion.
