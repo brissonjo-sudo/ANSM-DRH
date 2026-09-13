@@ -1,6 +1,6 @@
 # Branche — Masse salariale, budget & SI RH
 
-> 🟢 **Partiellement fiabilisée** (v0.6.1, vérification du 25 août 2026).
+> 🟢 **Partiellement fiabilisée** (v0.6.1, vérification du 13 septembre 2026).
 >
 > La **dotation 2026 de 143,69 M€** est vérifiée dans l'article 107 IV de
 > la LFSS pour 2026. Les autres chiffres détaillés ci-dessous sont issus
