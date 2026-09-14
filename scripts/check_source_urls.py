@@ -7,12 +7,13 @@ from urllib.request import Request, urlopen
 from urllib.parse import urlparse
 import re
 import sys
+import time
 
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "references" / "sources-principales.md"
 SOURCE_PATTERN = re.compile(r"^\| `([^`]+)` \|.*?\| <(https://[^>]+)> \|", re.MULTILINE)
-USER_AGENT = "ANSM-DRH-source-check/0.7 (+https://github.com/brissonjo-sudo/ANSM-DRH)"
+USER_AGENT = "ANSM-DRH-source-check/0.8 (+https://github.com/brissonjo-sudo/ANSM-DRH)"
 
 # Deux familles d'échec, qui ne disent pas la même chose et n'appellent pas la
 # même sanction.
@@ -48,29 +49,58 @@ def classify_failure(error: str) -> str:
     return "dead"
 
 
-def check_url(source_id: str, url: str) -> tuple[str, str, int | None, str | None]:
-    """Retourne l'identifiant, l'URL, le statut HTTP et une erreur éventuelle."""
+# Les erreurs brèves sont retentées avant d'être classées par summarize().
+# Deux tentatives suffisent à absorber un incident ponctuel sans prolonger
+# fortement la CI lorsque l'hôte reste indisponible.
+RETRY_ATTEMPTS = 2
+RETRY_BACKOFF = 1.5
+
+
+def _attempt(url: str, opener) -> tuple[int | None, str | None, bool]:
+    """Tente HEAD puis GET. Retourne (statut, erreur, erreur transitoire)."""
     last_error: str | None = None
+    transient = False
     for method in ("HEAD", "GET"):
         request = Request(url, headers={"User-Agent": USER_AGENT}, method=method)
         try:
-            with urlopen(request, timeout=20) as response:
+            with opener(request, timeout=20) as response:
                 status = response.getcode()
                 if 200 <= status < 400:
-                    return source_id, url, status, None
+                    return status, None, False
                 last_error = f"HTTP {status}"
+                transient = status in UNAVAILABLE_STATUSES or status >= 500
         except HTTPError as exc:
             last_error = f"HTTP {exc.code}"
             host = urlparse(url).hostname
             if exc.code == 403 and host == "www.legifrance.gouv.fr":
-                return source_id, url, 403, None
+                return 403, None, False
+            transient = exc.code in UNAVAILABLE_STATUSES or exc.code >= 500
             if exc.code != 405:
                 break
         except (URLError, TimeoutError, OSError) as exc:
             last_error = str(exc)
+            transient = True
+    return None, last_error, transient
+
+
+def check_url(
+    source_id: str,
+    url: str,
+    *,
+    attempts: int = RETRY_ATTEMPTS,
+    sleep=time.sleep,
+    opener=urlopen,
+) -> tuple[str, str, int | None, str | None]:
+    """Vérifie une URL et retente uniquement les échecs transitoires."""
+    last_error: str | None = None
+    for attempt in range(1, attempts + 1):
+        status, last_error, transient = _attempt(url, opener)
+        if status is not None:
+            return source_id, url, status, None
+        if not transient or attempt == attempts:
+            break
+        sleep(RETRY_BACKOFF * 2 ** (attempt - 1))
     return source_id, url, None, last_error or "erreur inconnue"
-
-
 def summarize(
     results: list[tuple[str, str, int | None, str | None]],
 ) -> tuple[int, list[str]]:
