@@ -1083,3 +1083,67 @@ sciemment » se ressemblent en apparence et n'ont pas la même valeur devant
 un agent : le premier ne motive aucun refus, le second oui. Devant un
 silence réglementaire, remonter au législatif avant de conclure.
 
+## 2026-09-13 — Instances & dialogue social / Masse salariale (revérification de fraîcheur)
+**Cas** : deux affirmations sensibles arrivaient à 11 jours de leur fenêtre de
+30 jours — la date du scrutin des élections professionnelles 2026 et la
+dotation d'assurance maladie à l'ANSM pour 2026.
+
+**Ce qui a manqué / ce qui était incertain** : Légifrance refuse l'accès
+automatisé (HTTP 403) aux chemins /loda/ et /jorf/, où vivent l'arrêté du
+2 juillet 2025 et la loi n° 2025-1403. Les chemins /codes/ restent
+accessibles ; la restriction est donc partielle et dépend de la rubrique.
+
+**Source qui a permis de trancher** : pour les élections, la page officielle
+de la DGAFP (`DGAFP-ELECTIONS-2026`, seule URL du registre en HTTP 200) a
+confirmé le scrutin au **10 décembre 2026** et la fenêtre de vote
+électronique du **3 au 10 décembre 2026**, sans report ni modification. Pour
+la dotation, corroboration secondaire seulement : le montant de
+**143,69 M€** figure au rapport d'examen des articles du Sénat sur le
+PLFSS 2026, et aucune loi de financement rectificative pour 2026 modifiant
+l'art. 107 n'a été trouvée.
+
+**Action** : `checked_on` des deux affirmations porté au 13 septembre 2026 ;
+la nature secondaire de la vérification de la dotation est consignée en
+`known_limits` de la branche, avec consigne de relire l'article en version
+consolidée avant tout engagement budgétaire.
+
+**Indisponibilité des sources ANSM — diagnostic corrigé le jour même.**
+Les cinq PDF `ansm.sante.fr` du registre sont injoignables. Première
+conclusion, **erronée** : le relais sortant de la session signalant un
+`ws_closed_mid_exchange`, j'ai imputé la coupure au tunnel réseau local et
+écrit que ce n'était « pas du côté de l'ANSM ». Deux faits l'ont démentie
+dans l'heure — la CI du dépôt échoue sur les **mêmes cinq URL** depuis les
+runners GitHub, réseau sans rapport avec le mien, et une requête par un
+troisième chemin renvoie un **HTTP 503 Service Unavailable**, qui est une
+réponse du serveur et non une coupure. La cause est donc **chez l'ANSM**
+(indisponibilité ou blocage), pas chez moi.
+
+Ce que cela ne dit pas : que les URL soient mortes. Un 503 est un état
+transitoire du service, et ces mêmes URL répondaient encore le 12 septembre
+(dernière exécution verte de `validate` sur `main`). Le registre reste donc
+inchangé, mais pour une raison différente de celle que j'avais écrite.
+
+**Effet de bord sur l'outillage** : rafraîchir deux `checked_on` a fait
+tomber cinq tests. Deux causes, toutes deux prévues par le dépôt. La
+constante `TODAY` de `test_validation.py` était restée au 4 septembre, si
+bien qu'un contrôle daté du 13 lui paraissait « situé dans le futur » — son
+propre commentaire demande de la remonter à chaque campagne. Et les trois
+tests de `test_freshness_report.py` sondent le manifeste réel à des dates
+choisies autour de l'échéance la plus proche : celle-ci ayant glissé du
+24 septembre au 1er octobre, les sondes ne tombaient plus dans les bonnes
+fenêtres. Recalées sur la nouvelle échéance, et réécrites pour dériver
+d'une constante unique afin qu'un prochain recalage n'ait qu'une date à
+changer. **Fragilité à traiter un jour** : ces tests restent couplés aux
+données réelles et casseront à chaque campagne ; un manifeste synthétique
+les rendrait stables, mais c'est un choix de conception qui appartient à
+l'auteur du dépôt.
+
+**Leçon** : une revérification n'a pas la même valeur selon qu'elle atteint
+la source primaire ou une corroboration. Les deux sont légitimes, mais la
+seconde doit être étiquetée comme telle dans `known_limits`, faute de quoi
+un `checked_on` rafraîchi laisse croire à une relecture de l'article. Et un
+échec réseau ne se diagnostique pas depuis un seul point de vue : le premier
+symptôme observé désignait mon propre tunnel, il a fallu un second réseau
+(la CI) et un troisième chemin (un 503 explicite) pour voir que la cause
+était à l'autre bout. Un diagnostic tiré d'une seule sonde est une
+hypothèse, pas une conclusion.

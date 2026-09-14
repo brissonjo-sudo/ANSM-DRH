@@ -1,6 +1,6 @@
 # Branche — Instances & dialogue social
 
-> ✅ **Fiabilisée** (v0.9.3, vérification du 28 août 2026 — réancrage sur
+> ✅ **Fiabilisée** (v0.9.3, vérification du 13 septembre 2026 — réancrage sur
 > le code général de la fonction publique).
 >
 > Sources primaires : **code général de la fonction publique, partie

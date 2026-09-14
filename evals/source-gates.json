@@ -79,7 +79,7 @@
     },
     "references/instances-dialogue-social.md": {
       "maturity": "verified",
-      "verified_on": "2026-08-28",
+      "verified_on": "2026-09-13",
       "claims": [
         {
           "id": "regime-csa-fpe",
@@ -96,7 +96,7 @@
           "id": "elections-2026",
           "statement": "Le scrutin est fixé au 10 décembre 2026 et les règles électorales FPE en vigueur doivent être appliquées.",
           "status": "verified",
-          "checked_on": "2026-08-25",
+          "checked_on": "2026-09-13",
           "max_age_days": 30,
           "source_ids": [
             "ELECTION-DATE-2026",
@@ -144,13 +144,13 @@
     },
     "references/masse-salariale-budget-sirh.md": {
       "maturity": "partial",
-      "verified_on": "2026-08-25",
+      "verified_on": "2026-09-13",
       "claims": [
         {
           "id": "dotation-2026",
           "statement": "La dotation des régimes obligatoires d'assurance maladie à l'ANSM est fixée à 143,69 M€ pour 2026.",
           "status": "verified",
-          "checked_on": "2026-08-25",
+          "checked_on": "2026-09-13",
           "max_age_days": 30,
           "source_ids": [
             "LFSS-DOTATION-2026"
@@ -160,7 +160,9 @@
       "unresolved_claims": [
         "Détail du budget initial 2026 et volet SI RH à confirmer sur les documents ANSM."
       ],
-      "known_limits": []
+      "known_limits": [
+        "Revérification du 13 septembre 2026 faite par corroboration secondaire : Légifrance refuse l'accès automatisé (HTTP 403) aux chemins /loda/ et /jorf/, l'art. 107 de la loi n° 2025-1403 n'a donc pas pu être relu mot à mot à cette date. Ce qui a été établi : le montant de 143,69 M€ est corroboré par le rapport d'examen des articles du Sénat sur le PLFSS 2026, et aucune loi de financement rectificative de la sécurité sociale pour 2026 modifiant cet article n'a été trouvée. Relire l'article en version consolidée avant tout engagement budgétaire."
+      ]
     },
     "references/qvt-sante-travail.md": {
       "maturity": "partial",
