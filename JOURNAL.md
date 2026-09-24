@@ -1147,3 +1147,40 @@ symptôme observé désignait mon propre tunnel, il a fallu un second réseau
 (la CI) et un troisième chemin (un 503 explicite) pour voir que la cause
 était à l'autre bout. Un diagnostic tiré d'une seule sonde est une
 hypothèse, pas une conclusion.
+
+## 2026-09-24 — Déontologie & conflits d'intérêts (revérification de fraîcheur)
+**Cas** : l'affirmation `distinction-entree-pendant-sortie` (les contrôles à
+l'entrée, pendant les fonctions et après leur cessation relèvent de
+fondements distincts) arrivait à 7 jours de sa fenêtre de 30 jours.
+
+**Ce qui a manqué** : `check_source_urls.py` échoue sur toutes les URL du
+registre depuis cette session — tunnel réseau en 403 Forbidden vers
+`legifrance.gouv.fr` et `ansm.sante.fr`, sans exception. L'accès direct aux
+sources primaires était donc fermé.
+
+**Source qui a permis de trancher** : le serveur MCP `Droit_Francais`, qui
+interroge l'API Légifrance par un chemin distinct de cette session. Les
+quatre bases juridiques de l'affirmation ont été relues à jour :
+L. 124-7 CGFP (contrôle à l'entrée, en vigueur depuis le 1er mars 2022),
+L. 124-4 CGFP section 2 (contrôle des agents ayant cessé leurs fonctions,
+même date d'entrée en vigueur), art. 432-12 C. pén. (prise illégale
+d'intérêts pendant les fonctions, en vigueur — nouvelle version depuis le
+24 décembre 2025, antérieure au dernier contrôle du 1er septembre, donc
+sans changement de fond à documenter) et art. 432-13 C. pén. (pantouflage
+pénal, délai de 3 ans après cessation, en vigueur depuis 2017). Les quatre
+fondements restent bien distincts et tous en vigueur : l'affirmation tient.
+
+**Action** : `checked_on` de l'affirmation et `verified_on` de la branche
+portés au 24 septembre 2026 dans `evals/source-gates.json`, en-tête de
+`references/deontologie-conflits-interets.md` mis à jour. `TODAY` de
+`test_validation.py` remonté à la même date, comme son commentaire le
+prévoit. `test_freshness_report.py` n'a rien demandé : ses sondes sont
+depuis le PR #16 dérivées d'un manifeste synthétique, découplé du registre
+réel — la fragilité notée le 13 septembre est donc déjà résorbée.
+
+**Leçon** : un outil de contrôle direct des URL (`check_source_urls.py`)
+et un outil de lecture de la source (ici le MCP `Droit_Francais`) n'ont pas
+la même surface réseau ; le premier qui échoue ne dit rien sur le second.
+Avant de consigner une source comme inatteignable, essayer un chemin
+d'accès différent plutôt que de rabattre la vérification sur une
+corroboration secondaire par défaut.
