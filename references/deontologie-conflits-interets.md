@@ -1,6 +1,6 @@
 # Branche — Déontologie, DPI & prévention des conflits d'intérêts
 
-> 🟢 **Partiellement fiabilisée** (vérification du 2 septembre 2026)
+> 🟢 **Partiellement fiabilisée** (vérification du 24 septembre 2026)
 > — v0.9.11, sources ANSM en vigueur citables et rapports du déontologue
 > dépouillés.
 >

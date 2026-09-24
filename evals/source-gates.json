@@ -3,13 +3,13 @@
   "branches": {
     "references/deontologie-conflits-interets.md": {
       "maturity": "partial",
-      "verified_on": "2026-09-02",
+      "verified_on": "2026-09-24",
       "claims": [
         {
           "id": "distinction-entree-pendant-sortie",
           "statement": "Les contrôles à l'entrée, pendant les fonctions et après leur cessation relèvent de fondements distincts.",
           "status": "verified",
-          "checked_on": "2026-09-01",
+          "checked_on": "2026-09-24",
           "max_age_days": 30,
           "source_ids": [
             "CGFP-ENTRANT",
