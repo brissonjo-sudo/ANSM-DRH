@@ -3,6 +3,8 @@
 > Référentiel de traçabilité, **audité en vigueur le 28 août 2026**. Ce fichier
 > complète `socle-sources-verification.md` : il indique où contrôler les
 > sources, sans se substituer à leur lecture dans leur version en vigueur.
+> Revue ciblée du 24 octobre 2026 : élections et dotation ; déontologie
+> incomplète. Les autres références conservent leurs dates antérieures.
 
 ## Repérage rapide
 
@@ -33,14 +35,15 @@
 
 | Identifiant | Source primaire | Lien officiel | Usage |
 |---|---|---|---|
-| `ELECTION-DATE-2026` | Arrêté du 2 juillet 2025 fixant la date des élections professionnelles (NOR APFF2513659A) | <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051844344> | Date du scrutin : 10 décembre 2026. |
-| `ELECTION-VOTE-2026` | Article 2 de l'arrêté du 2 juillet 2025 | <https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000051844349> | Fenêtre du vote électronique FPE : 3 au 10 décembre 2026, sous réserves prévues par les textes. |
-| `ELECTION-REGLES-2025` | Décret n° 2025-1430 du 30 décembre 2025 harmonisant et simplifiant les dispositions applicables aux élections professionnelles et aux instances de dialogue social (NOR CPPF2529967D) | <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000053229755/2026-02-10> | ⚠️ **Deux régimes d'entrée en vigueur** : le chapitre Ier s'applique **en vue du renouvellement général de décembre 2026**, le chapitre II depuis le **31 décembre 2025**. Ne pas présenter l'ensemble comme applicable depuis janvier 2026. |
-| `DGAFP-ELECTIONS-2026` | Direction générale de l'administration et de la fonction publique | <https://www.fonction-publique.gouv.fr/dialogue-social-et-representation/les-elections-professionnelles-2026> | Point d'entrée administratif et calendrier à contrôler. |
+| `ELECTION-DATE-2026` | Arrêté du 2 juillet 2025 fixant la date des élections professionnelles (NOR APFF2513659A) | <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051844344> | Date du scrutin : 10 décembre 2026, confirmée le 24 octobre 2026 par le portail DGAFP actualisé le 15 octobre. Accès au texte intégral de cet arrêté bloqué ; article 2 lu séparément. |
+| `ELECTION-VOTE-2026` | Article 2 de l'arrêté du 2 juillet 2025 | <https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000051844349> | Article 2 relu le 24 octobre 2026 : vote électronique FPE du 3 au 10 décembre 2026, sous les réserves du texte. |
+| `ELECTION-REGLES-2025` | Décret n° 2025-1430 du 30 décembre 2025 harmonisant et simplifiant les dispositions applicables aux élections professionnelles et aux instances de dialogue social (NOR CPPF2529967D) | <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000053229755/> | ⚠️ **Deux régimes d'entrée en vigueur** : le chapitre Ier s'applique **en vue du renouvellement général de décembre 2026**, le chapitre II depuis le **1er janvier 2026**. Revue du 24 octobre 2026 : article 47 relu, concordant avec la fiche DGAFP. La consultation datée au 24 octobre a échoué ; le texte récupéré est affiché au 14 septembre 2026. |
+| `DGAFP-ELECTIONS-2026` | Direction générale de l'administration et de la fonction publique | <https://www.fonction-publique.gouv.fr/dialogue-social-et-representation/les-elections-professionnelles-2026> | Consulté le 24 octobre 2026, page mise à jour le 15 octobre : dates inchangées, vote électronique de principe en FPE ; calendrier local ANSM non établi. |
+| `DGAFP-REGLES-2026` | DGAFP, fiche sur le décret n° 2025-1430 (mise à jour du 15 janvier 2026) | <https://www.fonction-publique.gouv.fr/dialogue-social-et-representation/les-elections-professionnelles-2026/des-mesures-de-simplification-et-dharmonisation-pour-les-elections-professionnelles-2026-et-les-instances-de-dialogue-social-dans> | Lue le 24 octobre 2026 : distingue renouvellement général et composition applicable depuis le 1er janvier 2026. |
 | `CSA-ETAT` | Code général de la fonction publique, partie réglementaire, titre V « Comités sociaux » (art. R. 251-1 et s.) | <https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000044416551/LEGISCTA000050549357/> | Organisation, composition, attributions et fonctionnement des CSA de l'État et de ses EPA. Remplace le décret n° 2020-1427, abrogé au 1er février 2025. Points d'appui : art. R. 251-20 (CSA d'établissement public), R. 251-28 (formation spécialisée SSCT à partir de 200 agents), R. 253-1 (consultations obligatoires, **modifié par le décret n° 2026-366, en vigueur au 1er août 2026**). |
 | `CCP-ETAT` | Code général de la fonction publique, partie réglementaire, titre VII du livre II « Commissions consultatives paritaires » (art. R. 271-1 et s.) | <https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000044416551/LEGISCTA000050550707> | Institution, attributions et fonctionnement de la CCP dans la FPE. Remplace l'art. 1-2 du décret n° 86-83, abrogé au 1er février 2025. Points d'appui : art. R. 271-1 (institution, **modifié par le décret n° 2025-695, en vigueur au 1er octobre 2025**) et R. 271-12 (sanctions autres qu'avertissement, blâme et exclusion ≤ 3 jours). La **composition en matière disciplinaire** n'est pas dans le code : elle est restée à l'**art. 44 du décret n° 86-83**, réécrit au 1er février 2025. |
 | `CSA-ETAT-ANCIEN` | Décret n° 2020-1427 du 20 novembre 2020 (abrogé au 1er février 2025 par l'art. 29 du décret n° 2024-1038) | <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042545890/> | Lecture de l'état du droit **antérieur** au 1er février 2025 uniquement. Ne jamais viser dans un acte pris après cette date. |
-| `ELECTION-CODIFICATION-2024` | Décret n° 2024-1038 du 6 novembre 2024, art. 32 | <https://www.legifrance.gouv.fr/affichTexteArticle.do?categorieLien=cid&cidTexte=JORFTEXT000050510977&idArticle=JORFARTI000050512471> | Entrée en vigueur des règles codifiées de vote électronique pour le renouvellement général 2026. |
+| `ELECTION-CODIFICATION-2024` | Décret n° 2024-1038 du 6 novembre 2024, art. 32 | <https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000050525120> | Article 32 relu le 24 octobre 2026 (version depuis le 20 novembre 2024) : règles codifiées pour le renouvellement 2026, anciens décrets maintenus pour les scrutins antérieurs. |
 
 ## 3. Déontologie et probité
 
@@ -51,11 +54,19 @@
 | `CGFP-ENTRANT` | Code général de la fonction publique, art. L. 124-7 | <https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044427766/2026-07-26> | Contrôle préalable d'une activité privée antérieure, uniquement pour une nomination à l'un des emplois mentionnés à l'art. L. 124-5. Compléter par l'**art. L. 124-8** : saisine obligatoire de la HATVP pour les dirigeants d'établissement public de l'État nommés en conseil des ministres — cas potentiel de la direction générale de l'ANSM. |
 | `CGFP-SORTANT` | Code général de la fonction publique, art. L. 124-4 à L. 124-6 | <https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000044416551/LEGISCTA000044420809/2026-05-14> | Contrôle d'une activité lucrative après cessation temporaire ou définitive des fonctions. |
 
+> Tentative déontologique du 24 octobre 2026 : des versions historiques
+> du CGFP ont été retrouvées, mais la relecture intégrale des fondements
+> courants et leur évolution depuis septembre n'a pas abouti. Les dates
+> `checked_on`/`verified_on` déontologiques restent au 24 septembre.
+
 ## 4. Budget
 
 | Identifiant | Source primaire | Lien officiel | Usage |
 |---|---|---|---|
-| `LFSS-DOTATION-2026` | Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026, art. 107 IV | <https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053265460> | Dotation des régimes obligatoires d'assurance maladie à l'ANSM : 143,69 M€ en 2026. |
+| `LFSS-DOTATION-2026` | Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026, art. 107 IV | <https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053265460> | Relu le 24 octobre 2026, article en vigueur depuis le 31 décembre 2025 : IV, dotation légale de 143,69 M€ ; XIII, compléments possibles par arrêté. La réserve d'accès de septembre est levée pour cette lecture. Ne prouve ni le budget total, ni le versement effectif. |
+| `ANSM-BI-2026` | CA du 27 novembre 2025, délibération 2025-25 et annexes | <https://ansm.sante.fr/uploads/2026/01/08/20251127-conseil-administration-deliberation-2025-25-budget-initial-2026.pdf> | Lu le 24 octobre 2026, p. 1-2 lues, p. 1 contrôlée visuellement : BI daté, distinct de la dotation légale et de l'exécution. Certaines annexes portent des intitulés résiduels anciens ; ne pas généraliser leur validation. |
+| `ANSM-BR1-2026` | CA du 11 mars 2026, délibération 2026-02 | <https://ansm.sante.fr/uploads/2026/05/04/20260311-ca-delib-2026-02-br1-2026.pdf> | Lu le 24 octobre 2026, p. 1 contrôlée visuellement : rectificatif daté ; absence de rectificatif ultérieur non établie. |
+| `ANSM-CA-MARS-2026` | Retour d'information du CA du 11 mars 2026 | <https://ansm.sante.fr/uploads/2026/05/04/20260311-ca-retour-information-ca-11-03-2026.pdf> | Lu le 24 octobre 2026, p. 1 : contexte du BR1 et vote du CSA. Les autres points du rapport ne sont pas audités par cette revue. |
 
 ## 5. Publications ANSM retrouvées
 
@@ -84,8 +95,11 @@ Ils sont désormais au registre (`ANSM-CHARTE-2026`,
 `ANSM-DISPOSITIF-2026`) et **peuvent être cités comme sources publiques**.
 Restent à obtenir en interne : le **règlement intérieur**, la
 **délibération du CA portant cadre d'emploi**, la décision instituant les
-instances, et le **retour d'information du CA du 27 novembre 2025**, dont
-aucune URL canonique n'a été retrouvée.
+instances. **Mise à jour ciblée du 24 octobre 2026** : les délibérations
+publiques du BI et du BR1 2026 ont été retrouvées (§4). Le rapprochement
+avec la dotation légale, les rectificatifs ultérieurs et l'exécution
+restent à obtenir ; cela ne lève pas la réserve sur le retour
+d'information du CA du 27 novembre 2025 lui-même.
 
 ## 7. Règle de mise à jour
 

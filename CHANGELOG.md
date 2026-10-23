@@ -1,5 +1,15 @@
 # Changelog — drh-ansm
 
+## Maintenance documentaire — 2026-10-24 (issue #19)
+
+- Renouvellement ciblé des élections et de la dotation légale sur preuves
+  officielles ; déontologie non renouvelée, ancienne date conservée.
+- Correction du chapitre II du décret 2025-1430 : 1er janvier 2026.
+- BI et BR1 publics retrouvés : distinction des recettes votées et de la
+  dotation légale, écart non résolu et limites d'exécution maintenus.
+- Cas comportemental budgétaire précisé ; 51 tests réussis. Rapport :
+  `tests/rapports/RAPPORT-2026-10-24-source-gates-issue-19.md`.
+
 ## v0.9.16 — 2026-09-04
 
 **La question du CPF est close, et par le haut.** La v0.9.15 avait établi

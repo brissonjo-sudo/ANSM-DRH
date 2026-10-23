@@ -1,7 +1,7 @@
 # Branche — Instances & dialogue social
 
-> ✅ **Fiabilisée** (v0.9.3, vérification du 13 septembre 2026 — réancrage sur
-> le code général de la fonction publique).
+> ✅ **Fiabilisée** (v0.9.3, vérification du 24 octobre 2026 — contrôle ciblé
+> des élections ; les autres dates restent celles du registre).
 >
 > Sources primaires : **code général de la fonction publique, partie
 > réglementaire, titre V « Comités sociaux »** (art. R. 251-1 et
@@ -25,14 +25,16 @@
 > Registre des textes et liens de contrôle →
 > `references/sources-principales.md` (`ELECTION-DATE-2026`,
 > `ELECTION-VOTE-2026`, `ELECTION-REGLES-2025`,
-> `ELECTION-CODIFICATION-2024`, `CSA-ETAT`, `ANSM-STATUT`).
+> `ELECTION-CODIFICATION-2024`, `DGAFP-ELECTIONS-2026`,
+> `DGAFP-REGLES-2026`, `CSA-ETAT`, `ANSM-STATUT`).
 
 > ## 🔴 URGENCE CALENDAIRE — élections professionnelles le 10 décembre 2026
 >
 > L'**arrêté du 2 juillet 2025** fixe le renouvellement général des
 > instances de dialogue social des trois versants de la fonction
-> publique au **jeudi 10 décembre 2026**. À la date de rédaction de
-> cette branche (28 août 2026), il reste **moins de quatre mois**.
+> publique au **jeudi 10 décembre 2026**. Le portail DGAFP, mis à jour
+> le 15 octobre et consulté le 24 octobre 2026, confirme cette date et
+> la période du **3 au 10 décembre 2026** pour le vote électronique FPE.
 >
 > Conséquences immédiates pour une DRH prenant ses fonctions :
 > - Le **vote électronique par internet est la modalité de principe dans
@@ -295,12 +297,22 @@ que les parlementaires et les membres de droit.
 
 ### 5.7 Cadre rénové des élections 2026
 
-Le **décret n° 2024-1038 du 6 novembre 2024** a intégré les dispositions
-réglementaires des livres I et II du CGFP. Le **décret n° 2025-1430 du
-30 décembre 2025**, entré en vigueur en janvier 2026, a ensuite
-harmonisé et simplifié plusieurs règles électorales. Ces deux textes sont
-des sources primaires : les consulter dans leur version en vigueur avant
-de fonder un acte ou un calendrier local.
+Le **décret n° 2024-1038 du 6 novembre 2024**, article 32, rend les
+règles codifiées du vote électronique applicables en vue du renouvellement
+général de 2026. Les anciens décrets demeurent applicables aux scrutins
+antérieurs à ce renouvellement (`ELECTION-CODIFICATION-2024`).
+
+Le **décret n° 2025-1430 du 30 décembre 2025**, article 47, distingue
+son chapitre Ier, applicable en vue de ce renouvellement, des dispositions
+de composition du chapitre II, applicables depuis le **1er janvier 2026**
+(`ELECTION-REGLES-2025`, `DGAFP-REGLES-2026`). La date du 31 décembre
+2025 précédemment donnée au registre pour ce dernier chapitre est corrigée.
+
+**Contrôle du 24 octobre 2026** : l'article 2 de l'arrêté du 2 juillet
+2025 a été relu ; le portail DGAFP actualisé confirme les dates et le vote
+électronique de principe en FPE. Aucun changement de ces éléments depuis
+septembre n'a été identifié. Cette revue ciblée ne vaut pas audit exhaustif
+de tous les articles électoraux, ni validation du calendrier local ANSM.
 
 Ils encadrent notamment la durée du scrutin électronique, les instances
 de supervision, l'expertise indépendante, l'authentification des
