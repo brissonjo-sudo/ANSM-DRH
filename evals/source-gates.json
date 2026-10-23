@@ -43,7 +43,9 @@
       "unresolved_claims": [
         "Fiches de probité de février 2026 et articles 11 à 14 du règlement intérieur à obtenir."
       ],
-      "known_limits": []
+      "known_limits": [
+        "Tentative du 24 octobre 2026 incomplète : lectures historiques du CGFP disponibles, mais relecture intégrale des versions courantes des fondements CGFP/pénaux et contrôle exhaustif des modifications depuis septembre non aboutis (accès Légifrance intermittents/403). checked_on conservé au 24 septembre 2026 ; échéance au 24 octobre maintenue."
+      ]
     },
     "references/recrutement-classification-contractuels.md": {
       "maturity": "verified",
@@ -79,7 +81,7 @@
     },
     "references/instances-dialogue-social.md": {
       "maturity": "verified",
-      "verified_on": "2026-09-13",
+      "verified_on": "2026-10-24",
       "claims": [
         {
           "id": "regime-csa-fpe",
@@ -96,13 +98,15 @@
           "id": "elections-2026",
           "statement": "Le scrutin est fixé au 10 décembre 2026 et les règles électorales FPE en vigueur doivent être appliquées.",
           "status": "verified",
-          "checked_on": "2026-09-13",
+          "checked_on": "2026-10-24",
           "max_age_days": 30,
           "source_ids": [
             "ELECTION-DATE-2026",
             "ELECTION-VOTE-2026",
             "ELECTION-REGLES-2025",
-            "ELECTION-CODIFICATION-2024"
+            "ELECTION-CODIFICATION-2024",
+            "DGAFP-ELECTIONS-2026",
+            "DGAFP-REGLES-2026"
           ]
         }
       ],
@@ -144,13 +148,13 @@
     },
     "references/masse-salariale-budget-sirh.md": {
       "maturity": "partial",
-      "verified_on": "2026-09-13",
+      "verified_on": "2026-10-24",
       "claims": [
         {
           "id": "dotation-2026",
           "statement": "La dotation des régimes obligatoires d'assurance maladie à l'ANSM est fixée à 143,69 M€ pour 2026.",
           "status": "verified",
-          "checked_on": "2026-09-13",
+          "checked_on": "2026-10-24",
           "max_age_days": 30,
           "source_ids": [
             "LFSS-DOTATION-2026"
@@ -158,10 +162,12 @@
         }
       ],
       "unresolved_claims": [
-        "Détail du budget initial 2026 et volet SI RH à confirmer sur les documents ANSM."
+        "Écart de 4,36 M€ entre la dotation légale (143,69 M€) et la recette inscrite au BI/BR1 2026 (139,33 M€) : notification, rapprochement et éventuels actes complémentaires à obtenir.",
+        "Budget et plafond d'emplois applicables au 24 octobre 2026, rectificatifs postérieurs au BR1 et exécution à confirmer ; volet SI RH non documenté."
       ],
       "known_limits": [
-        "Revérification du 13 septembre 2026 faite par corroboration secondaire : Légifrance refuse l'accès automatisé (HTTP 403) aux chemins /loda/ et /jorf/, l'art. 107 de la loi n° 2025-1403 n'a donc pas pu être relu mot à mot à cette date. Ce qui a été établi : le montant de 143,69 M€ est corroboré par le rapport d'examen des articles du Sénat sur le PLFSS 2026, et aucune loi de financement rectificative de la sécurité sociale pour 2026 modifiant cet article n'a été trouvée. Relire l'article en version consolidée avant tout engagement budgétaire."
+        "Article 107 IV et XIII relu sur Légifrance le 24 octobre 2026, version de l'article en vigueur depuis le 31 décembre 2025 : la réserve d'accès de septembre est levée pour la dotation légale seulement. Le XIII autorise des compléments par arrêté ; aucun complément propre à l'ANSM n'a été établi par cette recherche.",
+        "BI 2026 (délibération 2025-25) et BR1 (délibération 2026-02) publics retrouvés et lus. Ils ne prouvent ni l'exécution effective, ni l'absence de rectificatif ultérieur. La branche reste partiellement fiabilisée."
       ]
     },
     "references/qvt-sante-travail.md": {

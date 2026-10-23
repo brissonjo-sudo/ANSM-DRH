@@ -229,6 +229,17 @@ ne pas transformer en menace de principe dans un courrier d'agent.
 
 ### 5.3 Avant la prise de fonction — le filtrage au recrutement
 
+**Tentative de renouvellement du 24 octobre 2026, incomplète** : les
+versions historiques accessibles des articles L. 124-4, L. 124-7 et
+L. 124-8 du CGFP corroborent la distinction entrée/sortie. Les accès aux
+versions courantes et à l'intégralité des articles pénaux 432-12 et
+432-13 ont échoué ou n'ont fourni que des extraits. L'absence de
+modification depuis septembre n'est donc pas établie sur l'ensemble de
+ces fondements. Le `checked_on` du 24 septembre reste inchangé pour
+`distinction-entree-pendant-sortie` ; échéance maintenue au 24 octobre.
+Ne pas déduire de cette tentative une nouvelle validation des procédures
+internes ou des règles pénales détaillées ci-dessous.
+
 C'est le point où DRH et déontologie s'articulent directement.
 
 **Circuit** : la **DRH saisit la direction Réglementation et déontologie

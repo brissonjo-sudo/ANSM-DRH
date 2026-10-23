@@ -19,6 +19,20 @@ Format d'entrée suggéré :
 
 ---
 
+## 2026-10-24 — renouvellement ciblé des sources (issue #19)
+
+**Cas** : deux contrôles expirés et un contrôle déontologique à échéance.
+**Preuves** : portail DGAFP actualisé, article 2 de l'arrêté électoral,
+articles 32 et 47 des décrets ; article 107 IV et XIII de la LFSS ;
+délibérations publiques BI/BR1 ANSM retrouvées.
+**Action** : deux dates renouvelées ; date d'entrée en vigueur du chapitre
+II rectifiée ; recettes votées distinguées du montant légal. L'écart
+budgétaire, l'exécution, le SI RH et les documents courants restent ouverts.
+**Limite** : accès incomplets aux textes déontologiques courants ; aucune
+nouvelle date attribuée à cette affirmation. Les contrôles techniques
+réussis ne valent pas validation juridique de ce point.
+**Traçabilité** : `tests/rapports/RAPPORT-2026-10-24-source-gates-issue-19.md`.
+
 ## 2026-09-04 — formation & développement des compétences (rétractation)
 **Cas** : second point de la vérification disposition par disposition —
 congé de formation professionnelle, VAE, bilan de compétences

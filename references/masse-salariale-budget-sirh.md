@@ -1,22 +1,20 @@
 # Branche — Masse salariale, budget & SI RH
 
-> 🟢 **Partiellement fiabilisée** (v0.6.1, vérification du 13 septembre 2026).
+> 🟢 **Partiellement fiabilisée** (vérification du 24 octobre 2026).
 >
-> La **dotation 2026 de 143,69 M€** est vérifiée dans l'article 107 IV de
-> la LFSS pour 2026. Les autres chiffres détaillés ci-dessous sont issus
-> d'un « Retour d'information » attribué au **conseil d'administration du
-> 27 novembre 2025**, mais son URL officielle directe n'a pas été
-> retrouvée lors de la revue : les confirmer sur le document source avant
-> tout usage assertif.
+> **Dotation légale vérifiée** : 143,69 M€, article 107 IV de la LFSS
+> 2026, relu sur Légifrance (version depuis le 31 décembre 2025).
+> L'ancienne réserve d'accès du 13 septembre est levée pour ce montant.
+> Le XIII prévoit la possibilité de compléments par arrêté.
 >
-> Sources : **LFSS 2026, art. 107 IV** ; retour d'information du CA du
-> 27 novembre 2025 à obtenir (budget initial 2026) ; **décret n° 2012-1246
-> du 7 novembre 2012** (GBCP) ;
-> **art. R. 5322-11 et R. 5322-13 CSP** ; **COP 2024-2028** ; rapport du
-> Sénat n° 22-877 sur les dotations de la sécurité sociale.
+> **Documents publics retrouvés** : BI 2026 (`ANSM-BI-2026`) et BR1
+> du 11 mars 2026 (`ANSM-BR1-2026`). Ils inscrivent une dotation de
+> **139,33 M€**. L'écart avec la loi reste à rapprocher ; ne pas les
+> confondre avec une preuve des sommes versées ou du budget courant.
 >
-> **Reste non documenté** : le volet **SI RH** (outils de gestion
-> administrative et de paie).
+> **Restent à établir** : rectificatifs postérieurs, exécution, notification
+> de dotation et volet SI RH. Les autres sources de la branche, notamment
+> GBCP, CSP et COP, ne sont pas revérifiées par cette revue ciblée.
 
 ## Repérage rapide
 
@@ -90,70 +88,54 @@ l'industrie** qui a motivé la sortie du modèle de 2012. Elle reste le
 fondement commun du modèle de financement et du dispositif
 déontologique.
 
-### 5.1 bis Budget initial 2026 — dotation vérifiée, détail à confirmer
+### 5.1 bis Dotation légale, budget initial et rectificatif : trois lectures
 
-Source vérifiée pour la dotation : `LFSS-DOTATION-2026`. Source à obtenir
-pour les autres montants : retour d'information du CA du 27 novembre
-2025. **Confirmer le document et le budget rectificatif éventuel avant
-usage.**
+La **dotation légale est de 143,69 M€**, selon l'article 107 IV de la
+LFSS 2026 (`LFSS-DOTATION-2026`). Le XIII autorise des compléments par
+arrêté ; aucun acte complémentaire propre à l'ANSM n'a été établi dans
+cette recherche. Ce montant légal ne décrit pas la totalité du budget.
 
-**Recettes**
-| Ressource | Montant 2026 | Évolution |
-|-----------|--------------|-----------|
-| Dotation de l'Assurance Maladie | **143,69 M€** | +1,07 M€ vs BI 2025 |
-| Ressources propres (principalement activité européenne rémunérée) | **19,38 M€** | +0,5 M€ vs 2025 |
+La délibération **2025-25 du 27 novembre 2025**, pages 1-2, approuve le
+**BI 2026** (`ANSM-BI-2026`). La délibération **2026-02 du 11 mars 2026**,
+pages 1-2, porte le **BR1 2026** (`ANSM-BR1-2026`). Montants en euros :
 
-**Dépenses — budget voté sur quatre enveloppes**
-| Enveloppe | AE | CP |
-|-----------|-----|-----|
-| **Personnel** | **97,73 M€** | **97,73 M€** |
-| Fonctionnement | 24,03 M€ | 25,38 M€ |
-| Intervention | 26,62 M€ | 26,254 M€ |
-| Investissement | 11,99 M€ | 14,86 M€ |
+| Indicateur | BI 2026 | BR1 2026 |
+|---|---:|---:|
+| Dotation inscrite en recettes | 139 330 000 | 139 330 000 |
+| Recettes propres | 19 375 000 | 19 375 000 |
+| Total recettes | 158 705 000 | 158 705 000 |
+| Personnel AE = CP | 97 730 688 | 97 730 688 |
+| Fonctionnement AE / CP | 24 025 981 / 25 382 086 | 23 635 312 / 24 991 417 |
+| Intervention AE / CP | 26 617 668 / 26 246 768 | 26 617 668 / 26 246 768 |
+| Investissement AE / CP | 11 991 000 / 14 858 096 | 11 991 000 / 14 858 096 |
+| Total AE / CP | 160 365 337 / 164 217 638 | 159 974 668 / 163 826 969 |
+| Déficit budgétaire prévu | 5 512 638 | 5 121 969 |
 
-**Plafond d'emplois 2026** : **957 ETPT sous plafond** et **77,7 ETPT
-hors plafond**.
+Les deux délibérations indiquent **957 ETPT sous plafond et 77,7 hors
+plafond**. Ces valeurs décrivent ces actes datés, sans établir la capacité
+actuelle de recrutement.
 
-**Répartition par mission** : Surveiller **37 %**, Autoriser **26 %**,
-Support **13 %**, Contrôler **12 %**, Inspecter **8 %**, Informer
-**4 %**.
+**Corrections documentaires** : le montant légal de 143,69 M€ ne doit
+plus figurer comme recette votée du BI ; les CP d'intervention du BI sont
+26 246 768 € (et non 26,254 M€). Le BR1 diminue le fonctionnement et le
+déficit prévu. Le retour d'information du 11 mars
+(`ANSM-CA-MARS-2026`, p. 1) explique la mesure de communication et rapporte
+le vote du CSA du 20 février : une voix pour, une abstention et cinq contre.
+Il ne prouve pas l'exécution finale de 2026.
 
-> ### 🔴 Le budget 2026 est en déficit
->
-> L'agence présente un **budget en déficit pour 2026**, financé par un
-> **prélèvement sur le fonds de roulement de 5,51 M€**.
->
-> - **Dépenses de fonctionnement : −5,40 %**, liées à des mesures
->   d'économie portant sur **le contrôle, l'inspection, la
->   communication, l'informatique et le fonctionnement courant**.
-> - **Dépenses d'investissement : −9,83 %**.
-> - **Dépenses de personnel en légère hausse**, sous l'effet de
->   l'augmentation des effectifs et du **GVT** (glissement vieillesse
->   technicité).
->
-> **Lecture RH** : la masse salariale représente environ **60 % du
-> budget total**. Elle est la seule enveloppe en hausse, dans un budget
-> par ailleurs en contraction et déficitaire. Toute demande de moyens
-> RH s'inscrit donc dans un contexte de tension — l'argumentaire doit
-> l'intégrer, pas l'ignorer.
-
-> ### 🟠 Signal social à connaître
->
-> Lors de sa séance du **13 novembre 2025**, le **comité social
-> d'administration** s'est prononcé sur le budget initial 2026 — comme
-> sur le programme de travail 2026 — par **1 voix pour et
-> 7 abstentions**.
->
-> Une abstention massive n'est pas un rejet, mais ce n'est pas une
-> adhésion. C'est un **indicateur de climat social** à intégrer avant
-> toute négociation ou annonce budgétaire.
+**Limite non résolue** : l'écart de **4,36 M€** entre loi et recettes
+inscrites ne peut être expliqué par les seuls documents lus. Demander
+la notification, le rapprochement et les éventuels budgets rectificatifs
+postérieurs ; ne pas supposer que le BR1 est le dernier budget applicable.
+Les anciennes variations annuelles et lectures de climat social non
+étayées sont retirées de cette section. Le SI RH reste non documenté.
 
 ### 5.2 Une contrainte externe, non maîtrisée par la DRH
 
 Conséquence structurante : la masse salariale de l'ANSM ne dépend pas
-d'une recette propre dynamique mais d'une **dotation votée annuellement
-en loi de finances**. La DRH pilote **à l'intérieur** d'une enveloppe
-qu'elle ne fixe pas.
+d'une recette propre dynamique mais d'une **dotation fixée annuellement
+en loi de financement de la sécurité sociale**. La DRH pilote **à
+l'intérieur** d'une enveloppe qu'elle ne fixe pas.
 
 Illustration du risque, documentée à l'agence : une absence de
 visibilité pluriannuelle sur les moyens a conduit par le passé à un
@@ -287,8 +269,8 @@ séparer connu et estimé, ne jamais produire un montant de mémoire.
 
 ## 9. Données volatiles à vérifier
 
-- Existence d'un **budget rectificatif** postérieur au budget initial
-  2026.
+- Existence d'un **budget rectificatif postérieur au BR1 du 11 mars 2026**
+  et rapprochement entre dotation légale, notification et recettes.
 - Valeur du point d'indice en vigueur.
 - Exécution en cours d'exercice (consommation du plafond d'emplois).
 
@@ -312,11 +294,11 @@ n° 2025-04 pour le BR n° 1 de 2025).
 - **Stable** : régime de financement actuel et dotation 2026 de
   **143,69 M€**, vérifiée dans la LFSS 2026 ; distinction ETP/ETPT et
   sous/hors plafond ; cadre GBCP.
-- **À vérifier** : ressources propres, quatre enveloppes, plafond
-  d'emplois, déficit, prélèvement sur fonds de roulement et vote du CSA,
-  en retrouvant le retour d'information du CA du 27 novembre 2025 ;
-  existence d'un budget rectificatif ; étendue exacte des délégations du
-  CA au DG ; actualité du COP 2024-2028 et du contrôle interne décrit.
+- **Établi pour les actes datés seulement** : valeurs du BI et du BR1
+  au §5.1 bis. Leur publication ne démontre pas le budget courant.
+- **À vérifier** : rapprochement des dotations, rectificatifs ultérieurs,
+  exécution ; étendue des délégations du CA au DG ; actualité du COP
+  2024-2028 et du contrôle interne décrit.
 - **Non documenté** : le volet **SI RH**.
 
 > **Où trouver les données à jour** : le site de l'ANSM publie, pour

@@ -136,7 +136,8 @@
       "sensitivity": "ordinary",
       "criteria": [
         {"id": "distinguer-dotation-budget", "critical": true, "description": "Distingue la dotation légale vérifiée du budget initial et de son exécution."},
-        {"id": "source-datee", "critical": true, "description": "Exige le retour d'information du CA ou le document budgétaire daté pour les autres chiffres."}
+        {"id": "source-datee", "critical": true, "description": "Cite les délibérations datées du BI/BR1 retrouvées et demande le budget courant et l'exécution pour une donnée actuelle."},
+        {"id": "ecart-loi-budget", "critical": true, "description": "Distingue 143,69 M€ dans la LFSS de 139,33 M€ au BI/BR1 ; signale l'écart de 4,36 M€ sans en inventer la cause."}
       ],
       "forbidden_claims": ["143,69 M€ constitue la totalité du budget ANSM"]
     },
